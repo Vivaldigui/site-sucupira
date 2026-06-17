@@ -148,9 +148,9 @@
       border: 1px solid rgba(255,255,255,0.25);
       color: #fff;
       font-family: 'Roboto', sans-serif;
-      font-size: 12px;
-      font-weight: 500;
-      padding: 4px 12px;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 7px 16px;
       border-radius: 20px;
       letter-spacing: 0.4px;
     }
@@ -225,6 +225,14 @@
     .btn-yellow:hover { opacity: 0.92; }
     .btn-yellow:active { transform: scale(0.97); }
     .btn-yellow svg { display: inline; vertical-align: middle; margin-right: 8px; }
+
+    /* Hero CTA — maior (público 60+) + piscando */
+    .hero .btn-yellow { font-size: 23px; font-weight: 800; padding: 21px 42px; }
+    .btn-pulse { animation: btnPulse 1.05s ease-in-out infinite; }
+    @keyframes btnPulse {
+      0%, 100% { transform: scale(1);    box-shadow: 6px 5px 2px 0 rgba(0,0,0,0.57), 0 0 0 0 rgba(255,220,0,0.0); }
+      50%       { transform: scale(1.045); box-shadow: 6px 5px 2px 0 rgba(0,0,0,0.57), 0 0 24px 7px rgba(255,220,0,0.6); }
+    }
 
     /* Green CTA */
     .btn-green {
@@ -545,6 +553,22 @@
       color: var(--muted);
       margin-bottom: 18px;
     }
+    /* Destaque grande: meses de tratamento */
+    .kit-duration {
+      font-family: 'Roboto', sans-serif;
+      font-size: 23px;
+      font-weight: 900;
+      color: var(--green-dark);
+      text-transform: uppercase;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .kit-dose {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--brown);
+      margin-bottom: 14px;
+    }
     .kit-cta { margin-top: auto; }
     .kit-hint {
       font-size: 12px;
@@ -683,6 +707,13 @@
       max-width: 480px;
       margin-left: auto;
       margin-right: auto;
+    }
+    /* Variante dentro do hero */
+    .hero-beneficios {
+      max-width: none;
+      margin: 0 0 22px;
+      background: rgba(61,31,13,0.55);
+      border: 1px solid rgba(255,220,0,0.3);
     }
     .beneficios-sub {
       font-size: 18px;
@@ -1300,23 +1331,26 @@
       <!-- Badges de urgência -->
       <div class="hero-badge-row">
         <span class="hero-badge">💧 Sucupira Líquida Pronta pra Tomar</span>
-        <span class="hero-badge">🌿 Anti-inflamatório Natural</span>
         <span class="hero-badge">✅ Alívio para Dores</span>
       </div>
 
-      <h1>
-        Sucupira Naturale:<br><span>+ Cupom de Desconto!</span>
-      </h1>
-      <h5>
-        GARANTA O SEU COM MENOR PREÇO<br>
-        <b>DIRETO DO PRODUTOR!</b>
-      </h5>
-
-      <!-- Seta animada -->
-      <div class="hero-arrow">↓</div>
+      <!-- Tópicos "Alívio para" (movidos para cá) -->
+      <div class="beneficios-wrap hero-beneficios">
+        <p class="beneficios-sub">Alívio natural para:</p>
+        <ul class="beneficios-list">
+          <li><span class="bchk">✔</span> Dores Crônicas</li>
+          <li><span class="bchk">✔</span> Dores Articulares</li>
+          <li><span class="bchk">✔</span> Dores de Coluna</li>
+          <li><span class="bchk">✔</span> Dores de Joelho</li>
+          <li><span class="bchk">✔</span> Artrite / Artrose</li>
+          <li><span class="bchk">✔</span> Ciático</li>
+          <li><span class="bchk">✔</span> Bursites</li>
+          <li><span class="bchk">✔</span> Tendinites</li>
+        </ul>
+      </div>
 
       <!-- CTA amarelo -->
-      <a href="#comprar" class="btn-yellow">
+      <a href="#comprar" class="btn-yellow btn-pulse">
         <svg width="14" height="14" viewBox="0 0 320 512" fill="#000" aria-hidden="true"><path d="M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z"/></svg>
         COMPRAR COM DESCONTO
       </a>
@@ -1356,72 +1390,6 @@
 </div>
 
 <!-- ============================================================
-     2. ÚLTIMAS UNIDADES — ofertas + checklist + imagem
-============================================================ -->
-<section class="offers-section">
-  <div class="offers-inner">
-
-    <p class="offers-title">⚡ Últimas Unidades Disponíveis!</p>
-
-    <div class="offers-grid">
-
-      <!-- Esquerda: texto + checklist + CTA -->
-      <div class="offers-left">
-        <p class="offers-desc">
-          <b>Sucupira Naturale</b> nas últimas unidades restantes — extrato líquido de semente de sucupira branca, <strong>pronto pra beber</strong>! Faça o pedido do seu kit hoje com cupom e o menor preço.
-        </p>
-
-        <!-- Estrelas -->
-        <div class="stars">
-          <span class="stars-label">Avaliação do Produto:</span>
-          <span class="stars-icons">★★★★★</span>
-        </div>
-
-        <!-- Checklist (desktop: visível; mobile: visível) -->
-        <ul class="checklist">
-          <li>
-            <svg width="18" height="18" viewBox="0 0 512 512"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg>
-            Frete GRÁTIS (DF · MG · RJ · SP)
-          </li>
-          <li>
-            <svg width="18" height="18" viewBox="0 0 512 512"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg>
-            Envio com Código de Rastreio
-          </li>
-          <li>
-            <svg width="18" height="18" viewBox="0 0 512 512"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg>
-            Alívio para Artrite, Artrose, Coluna e Joelho
-          </li>
-          <li>
-            <svg width="18" height="18" viewBox="0 0 512 512"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg>
-            Direto do Produtor com Cupom Exclusivo
-          </li>
-        </ul>
-
-        <!-- CTA verde -->
-        <div class="offers-cta-block">
-          <a href="#comprar" class="btn-green">
-            <svg width="16" height="16" viewBox="0 0 576 512" fill="white" aria-hidden="true"><path d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"/></svg>
-            ESCOLHER OFERTA COM DESCONTO
-          </a>
-          <p class="offers-note">Promoção por tempo limitado — garante enquanto há estoque.</p>
-        </div>
-      </div>
-
-
-      <!-- Direita: imagem do produto -->
-      <div class="offers-right">
-        <img
-          src="assets/produto-sem-fundo.png"
-          alt="Sucupira Naturale 400ml — Extrato Líquido"
-          onerror="this.src='assets/garrafa.jpeg'"
-        >
-      </div>
-
-    </div><!-- /offers-grid -->
-  </div><!-- /offers-inner -->
-</section>
-
-<!-- ============================================================
      3. KITS — seleção com shape dividers
 ============================================================ -->
 <!-- Shape mountains topo -->
@@ -1436,63 +1404,60 @@
 <section class="kits-section" id="comprar">
   <div class="kits-inner">
 
-    <h2 class="kits-title">ESCOLHA O MELHOR KIT DA SUCUPIRA NATURALE!</h2>
-    <p class="kits-sub">Pagamento no cartão, boleto ou Pix!</p>
-    <p class="kits-shipping">🚚 Envio para todo o Brasil · Consulte prazos ao finalizar a compra</p>
+    <h2 class="kits-title">ESCOLHA SEU KIT PELA FASE DE DOR</h2>
+    <p class="kits-sub">Cartão, boleto ou Pix · 🚚 Envio para todo o Brasil</p>
 
     <div class="kits-grid">
 
-      <!-- Kit 1 -->
-      <div class="kit-card" id="kit-leve">
-        <img src="assets/kit1.jpg" alt="Sucupira Naturale — 1 garrafa" class="kit-img" onerror="this.src='assets/garrafa.jpeg'">
-        <p class="kit-phase">Fase 1 — Dor Leve</p>
-        <h3 class="kit-name">Manutenção e Prevenção</h3>
-        <span class="kit-qty">🧴 1 garrafa · 400 ml</span>
-        <div class="kit-price-old">De R$&nbsp;89,99</div>
-        <div class="kit-price">R$&nbsp;74,99</div>
-        <div class="kit-price-per">pagamento único</div>
-        <div class="kit-cta">
-          <a href="#" id="btn-leve" class="btn-green-flat">
-            🛒 COMPRAR AGORA
-          </a>
-          <p class="kit-hint" id="hint-leve">Use o código <strong>CUPOMVIP</strong> na loja</p>
-        </div>
-      </div>
-
-      <!-- Kit 2 -->
-      <div class="kit-card" id="kit-constante">
+      <!-- Kit — Dor Mediana (3 garrafas) -->
+      <div class="kit-card" id="kit-mediana">
         <img src="assets/kit3.jpg" alt="Sucupira Naturale — 3 garrafas" class="kit-img" onerror="this.src='assets/garrafa.jpeg'">
-        <p class="kit-phase">Fase 2 — Dor Constante</p>
-        <h3 class="kit-name">Dor Mediana</h3>
-        <span class="kit-qty">🧴 3 garrafas · 400 ml cada</span>
-        <span class="kit-savings">💰 Economia de R$&nbsp;35,00</span>
-        <div class="kit-price-old">De R$&nbsp;179,99</div>
+        <p class="kit-phase">Dor Mediana</p>
+        <div class="kit-duration">1 mês de tratamento</div>
+        <span class="kit-qty">🧴 3 garrafas · 400 ml</span>
+        <p class="kit-dose">5 tampinhas ao dia</p>
         <div class="kit-price">R$&nbsp;144,99</div>
-        <div class="kit-price-per">R$&nbsp;48,33 por garrafa · 2 a 3 meses</div>
+        <div class="kit-price-per">R$&nbsp;48,00 cada garrafa</div>
         <div class="kit-cta">
-          <a href="#" id="btn-constante" class="btn-green-flat">
+          <a href="#" id="btn-mediana" class="btn-green-flat">
             🛒 COMPRAR AGORA
           </a>
-          <p class="kit-hint" id="hint-constante">Use o código <strong>CUPOMVIP</strong> na loja</p>
+          <p class="kit-hint" id="hint-mediana">Use o código <strong>CUPOMVIP</strong> na loja</p>
         </div>
       </div>
 
-      <!-- Kit 3 — MAIS VENDIDO -->
-      <div class="kit-card featured" id="kit-intensa">
+      <!-- Kit — Dor Aguda / Crônica (6 garrafas) — MAIS VENDIDO -->
+      <div class="kit-card featured" id="kit-aguda">
         <div class="kit-badge-top">⭐ Mais Vendido</div>
         <img src="assets/kit6.jpg" alt="Sucupira Naturale — 6 garrafas" class="kit-img" style="margin-top:12px" onerror="this.src='assets/garrafa.jpeg'">
-        <p class="kit-phase">Fase 3 — Dor Intensa ou Crônica</p>
-        <h3 class="kit-name">Dor Aguda ou Crônica</h3>
-        <span class="kit-qty">🧴 6 garrafas · 400 ml cada</span>
-        <span class="kit-savings">💰 Maior desconto — R$&nbsp;70,00 a menos</span>
-        <div class="kit-price-old">De R$&nbsp;269,99</div>
+        <p class="kit-phase">Dor Aguda ou Crônica</p>
+        <div class="kit-duration">1 mês de tratamento</div>
+        <span class="kit-qty">🧴 6 garrafas · 400 ml</span>
+        <p class="kit-dose">10 tampinhas ao dia</p>
         <div class="kit-price">R$&nbsp;199,99</div>
-        <div class="kit-price-per">R$&nbsp;33,33 por garrafa · tratamento completo</div>
+        <div class="kit-price-per">R$&nbsp;34,00 cada garrafa · maior desconto</div>
         <div class="kit-cta">
-          <a href="#" id="btn-intensa" class="btn-green-flat">
+          <a href="#" id="btn-aguda" class="btn-green-flat">
             🛒 COMPRAR AGORA
           </a>
-          <p class="kit-hint" id="hint-intensa">Use o código <strong>CUPOMVIP</strong> na loja</p>
+          <p class="kit-hint" id="hint-aguda">Use o código <strong>CUPOMVIP</strong> na loja</p>
+        </div>
+      </div>
+
+      <!-- Kit — Prevenção / Manutenção (4 garrafas) -->
+      <div class="kit-card" id="kit-prevencao">
+        <img src="assets/kit3.jpg" alt="Sucupira Naturale — 4 garrafas" class="kit-img" onerror="this.src='assets/garrafa.jpeg'">
+        <p class="kit-phase">Prevenção e Manutenção</p>
+        <div class="kit-duration">2 meses de tratamento</div>
+        <span class="kit-qty">🧴 4 garrafas · 400 ml</span>
+        <p class="kit-dose">3 tampinhas ao dia</p>
+        <div class="kit-price">R$&nbsp;157,99</div>
+        <div class="kit-price-per">R$&nbsp;40,00 cada garrafa</div>
+        <div class="kit-cta">
+          <a href="#" id="btn-prevencao" class="btn-green-flat">
+            🛒 COMPRAR AGORA
+          </a>
+          <p class="kit-hint" id="hint-prevencao">Use o código <strong>CUPOMVIP</strong> na loja</p>
         </div>
       </div>
 
@@ -1536,7 +1501,7 @@
         <div class="depo-stars">★★★★★</div>
         <p class="depo-text">"Recebi bem rápido, com código de rastreio. Já faz 3 semanas e sinto melhora na coluna. Gosto que é líquido — fácil de tomar, sem engolir cápsula. Já indiquei para minha mãe."</p>
         <div class="depo-author">Carlos Eduardo P.</div>
-        <div class="depo-detail">Brasília, DF · Kit 1 garrafa</div>
+        <div class="depo-detail">Brasília, DF · Kit 3 garrafas</div>
       </div>
 
     </div><!-- /depo-grid -->
@@ -1569,22 +1534,7 @@
       <a href="#comprar" class="btn-yellow" style="width:100%;max-width:500px;display:block">
         🛒 COMPRAR NO SITE OFICIAL — APENAS HOJE COM CUPOM!
       </a>
-      <a href="#beneficios" class="btn-yellow-outline">CONHECER TODOS OS BENEFÍCIOS ↓</a>
-    </div>
-
-    <!-- Benefícios em tópicos -->
-    <div class="beneficios-wrap" id="beneficios">
-      <p class="beneficios-sub">Alívio para:</p>
-      <ul class="beneficios-list">
-        <li><span class="bchk">✔</span> Dores Crônicas</li>
-        <li><span class="bchk">✔</span> Dores Articulares</li>
-        <li><span class="bchk">✔</span> Dores de Coluna</li>
-        <li><span class="bchk">✔</span> Dores de Joelho</li>
-        <li><span class="bchk">✔</span> Artrite / Artrose</li>
-        <li><span class="bchk">✔</span> Ciático</li>
-        <li><span class="bchk">✔</span> Bursites</li>
-        <li><span class="bchk">✔</span> Tendinites</li>
-      </ul>
+      <a href="#comprar" class="btn-yellow-outline">VER OS KITS DISPONÍVEIS ↓</a>
     </div>
 
   </div>
@@ -1713,7 +1663,7 @@
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-answer">
-          Depende da intensidade da dor: dor leve → 1 garrafa (manutenção); dor constante → 3 garrafas (2 a 3 meses); dor intensa ou crônica → 6 garrafas (tratamento completo de 5 a 6 meses). O kit de 6 garrafas oferece o maior desconto por unidade.
+          Depende da fase de dor: dor mediana → 3 garrafas (1 mês de tratamento); prevenção e manutenção → 4 garrafas (2 meses); dor aguda ou crônica → 6 garrafas (1 mês de tratamento intensivo). O kit de 6 garrafas oferece o maior desconto por garrafa.
         </div>
       </div>
 
@@ -1867,14 +1817,14 @@
   }
 
   // Wire up kit buttons
-  document.getElementById("btn-leve").href      = lojaURL("kit1-leve");
-  document.getElementById("btn-constante").href  = lojaURL("kit2-constante");
-  document.getElementById("btn-intensa").href    = lojaURL("kit3-intensa");
+  document.getElementById("btn-mediana").href    = lojaURL("kit-mediana-3");
+  document.getElementById("btn-aguda").href      = lojaURL("kit-aguda-6");
+  document.getElementById("btn-prevencao").href  = lojaURL("kit-prevencao-4");
   document.getElementById("sticky-link").href    = lojaURL("sticky-bar");
 
   // Update kit hints with coupon code
   var codeName = CFG.cupom || "";
-  ["hint-leve","hint-constante","hint-intensa"].forEach(function(id) {
+  ["hint-mediana","hint-aguda","hint-prevencao"].forEach(function(id) {
     var el = document.getElementById(id);
     if (el && codeName) {
       el.innerHTML = 'Use o código <strong>' + codeName + '</strong> na loja';
