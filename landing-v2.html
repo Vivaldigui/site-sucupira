@@ -107,21 +107,18 @@
     .hero-inner {
       max-width: 1100px;
       margin: 0 auto;
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(280px, 460px);
-      gap: 28px;
-      align-items: center;
       text-align: left;
     }
-    .hero-copy {
-      grid-column: 1;
-      grid-row: 1;
-      min-width: 0;
+    /* Linha tópicos + garrafa */
+    .hero-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
+      gap: 28px;
+      align-items: center;
+      margin-bottom: 22px;
     }
-    .hero-media {
-      grid-column: 2;
-      grid-row: 1;
-    }
+    .hero-copy { min-width: 0; }
+    .hero-media { min-width: 0; }
 
     /* Garrafa hero (clickable) */
     .hero-img-link {
@@ -130,8 +127,8 @@
       justify-content: center;
     }
     .hero-bottle-img {
-      width: min(100%, 460px);
-      max-height: 620px;
+      width: min(100%, 360px);
+      max-height: 500px;
       margin: 0;
       object-fit: contain;
       filter: drop-shadow(0 26px 34px rgba(0,0,0,0.55));
@@ -164,6 +161,23 @@
       margin-bottom: 10px;
     }
     .hero h1 span { color: var(--gold-dark); }
+
+    /* Headline grande (abaixo do banner de frete) */
+    .hero-headline {
+      font-family: 'Alata', sans-serif;
+      font-size: 38px;
+      font-weight: 600;
+      color: #fff;
+      text-align: center;
+      line-height: 1.15;
+      background: linear-gradient(180deg, #5C2E12 0%, #3D1F0D 100%);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 16px;
+      padding: 16px 30px;
+      margin: 0 auto 28px;
+      max-width: 720px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    }
 
     .hero h5 {
       font-family: 'Roboto', sans-serif;
@@ -713,13 +727,17 @@
       max-width: none;
       margin: 0 0 22px;
       background: rgba(61,31,13,0.55);
-      border: 1px solid rgba(255,220,0,0.3);
+      border: 1px solid rgba(0,206,7,0.35);
     }
     .beneficios-sub {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--gold);
-      margin-bottom: 14px;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      background: linear-gradient(90deg, var(--green) 0%, var(--green-dark) 100%);
+      padding: 7px 20px;
+      border-radius: 10px;
+      margin-bottom: 16px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
@@ -743,8 +761,8 @@
     .bchk {
       width: 28px;
       height: 28px;
-      background: var(--gold);
-      color: var(--brown);
+      background: var(--green);
+      color: #fff;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -1232,25 +1250,46 @@
     ============================================================ */
     @media (max-width: 767px) {
       .hero-inner {
-        display: block;
-        max-width: 520px;
+        max-width: 540px;
         text-align: center;
       }
       .hero h1 { font-size: 24px; }
       .hero h5 { font-size: 16px; }
-      .hero-bottle-img {
-        width: 74%;
-        max-width: 260px;
-        max-height: 345px;
-        margin: 0 auto 12px;
+      .hero-headline { font-size: 26px; padding: 13px 16px; margin-bottom: 18px; }
+
+      /* Garrafa sobreposta na área vazia dos tópicos (aproveita o PNG sem fundo) */
+      .hero-row {
+        display: block;
+        position: relative;
+        margin-bottom: 18px;
       }
-      .hero-badge-row,
+      .hero-beneficios {
+        padding: 16px 14px;
+        padding-right: 38%;        /* reserva o espaço da garrafa sobreposta */
+        min-height: 300px;
+      }
+      .hero-beneficios .beneficios-sub { font-size: 16px; padding: 6px 14px; }
+      .hero-beneficios .beneficios-list { gap: 10px; }
+      .hero-beneficios .beneficios-list li { font-size: 15px; gap: 8px; white-space: nowrap; }
+      .hero-beneficios .bchk { width: 22px; height: 22px; font-size: 12px; }
+      .hero-media {
+        position: absolute;
+        right: -6px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        margin: 0;
+        z-index: 2;
+      }
+      .hero-bottle-img {
+        width: 100%;
+        max-width: 195px;
+        max-height: none;
+        margin: 0;
+        filter: drop-shadow(0 12px 20px rgba(0,0,0,0.55));
+      }
       .hero-trust {
         justify-content: center;
-      }
-      .hero-arrow {
-        margin-left: auto;
-        margin-right: auto;
       }
 
       .btn-yellow { font-size: 16px; padding: 16px 24px; width: 100%; display: block; }
@@ -1315,26 +1354,16 @@
      1. HERO — dark gradient, product + headline + yellow CTA
 ============================================================ -->
 <section class="hero">
+
+  <!-- Headline grande -->
+  <h1 class="hero-headline">Sucupira pronta para tomar</h1>
+
   <div class="hero-inner">
 
-    <!-- Garrafa principal (clicável → comprar) -->
-    <a href="#comprar" class="hero-img-link hero-media">
-      <img
-        src="assets/produto-sem-fundo.png"
-        alt="Sucupira Naturale — Extrato Líquido 400ml"
-        class="hero-bottle-img"
-        onerror="this.src='assets/garrafa.jpeg'"
-      >
-    </a>
+    <!-- Linha: tópicos (esquerda) + garrafa (direita) -->
+    <div class="hero-row">
 
-    <div class="hero-copy">
-      <!-- Badges de urgência -->
-      <div class="hero-badge-row">
-        <span class="hero-badge">💧 Sucupira Líquida Pronta pra Tomar</span>
-        <span class="hero-badge">✅ Alívio para Dores</span>
-      </div>
-
-      <!-- Tópicos "Alívio para" (movidos para cá) -->
+      <!-- Tópicos "Alívio para" -->
       <div class="beneficios-wrap hero-beneficios">
         <p class="beneficios-sub">Alívio natural para:</p>
         <ul class="beneficios-list">
@@ -1349,14 +1378,26 @@
         </ul>
       </div>
 
-      <!-- CTA amarelo -->
-      <a href="#comprar" class="btn-yellow btn-pulse">
-        <svg width="14" height="14" viewBox="0 0 320 512" fill="#000" aria-hidden="true"><path d="M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z"/></svg>
-        COMPRAR COM DESCONTO
+      <!-- Garrafa principal (clicável → comprar) -->
+      <a href="#comprar" class="hero-img-link hero-media">
+        <img
+          src="assets/produto-sem-fundo.png"
+          alt="Sucupira Naturale — Extrato Líquido 400ml"
+          class="hero-bottle-img"
+          onerror="this.src='assets/garrafa.jpeg'"
+        >
       </a>
 
-      <!-- Mini trust bar -->
-      <div class="hero-trust">
+    </div><!-- /hero-row -->
+
+    <!-- CTA amarelo (largura cheia) -->
+    <a href="#comprar" class="btn-yellow btn-pulse">
+      <svg width="14" height="14" viewBox="0 0 320 512" fill="#000" aria-hidden="true"><path d="M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z"/></svg>
+      COMPRAR COM DESCONTO
+    </a>
+
+    <!-- Mini trust bar -->
+    <div class="hero-trust">
         <div class="hero-trust-item">
           <svg width="14" height="14" viewBox="0 0 512 512" fill="currentColor"><path d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3z"/></svg>
           Compra 100% Segura
@@ -1370,7 +1411,6 @@
           Satisfação Garantida
         </div>
       </div>
-    </div>
 
   </div><!-- /hero-inner -->
 
