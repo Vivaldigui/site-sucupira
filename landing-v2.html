@@ -14,7 +14,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300;400;500;700;800;900&family=Montserrat:wght@400;500;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Pacifico&family=Roboto:wght@300;400;500;700;800;900&family=Montserrat:wght@400;500;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
     /* ============================================================
@@ -165,18 +165,29 @@
     /* Headline grande (abaixo do banner de frete) */
     .hero-headline {
       font-family: 'Alata', sans-serif;
-      font-size: 38px;
+      font-size: 30px;
       font-weight: 600;
       color: #fff;
       text-align: center;
-      line-height: 1.15;
+      line-height: 1.2;
       background: linear-gradient(180deg, #5C2E12 0%, #3D1F0D 100%);
       border: 1px solid rgba(255,255,255,0.14);
       border-radius: 16px;
-      padding: 16px 30px;
+      padding: 18px 30px;
       margin: 0 auto 28px;
       max-width: 720px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    }
+    /* "Sucupira" em destaque — fonte e cor diferentes, bem grande */
+    .hl-sucupira {
+      display: block;
+      font-family: 'Pacifico', cursive;
+      font-weight: 400;
+      font-size: 58px;
+      color: var(--gold);
+      line-height: 1.05;
+      margin-bottom: 2px;
+      text-shadow: 0 3px 8px rgba(0,0,0,0.45);
     }
 
     .hero h5 {
@@ -241,12 +252,19 @@
     .btn-yellow svg { display: inline; vertical-align: middle; margin-right: 8px; }
 
     /* Hero CTA — maior (público 60+) + piscando */
-    .hero .btn-yellow { font-size: 23px; font-weight: 800; padding: 21px 42px; }
+    .hero .btn-green { font-size: 23px; font-weight: 800; padding: 21px 42px; }
     .btn-pulse { animation: btnPulse 1.05s ease-in-out infinite; }
     @keyframes btnPulse {
-      0%, 100% { transform: scale(1);    box-shadow: 6px 5px 2px 0 rgba(0,0,0,0.57), 0 0 0 0 rgba(255,220,0,0.0); }
-      50%       { transform: scale(1.045); box-shadow: 6px 5px 2px 0 rgba(0,0,0,0.57), 0 0 24px 7px rgba(255,220,0,0.6); }
+      0%, 100% { transform: scale(1);    box-shadow: 6px 5px 2px 0 rgba(0,0,0,0.57), 0 0 0 0 rgba(0,206,7,0.0); }
+      50%       { transform: scale(1.045); box-shadow: 6px 5px 2px 0 rgba(0,0,0,0.57), 0 0 24px 7px rgba(0,206,7,0.65); }
     }
+    /* Selo Reclame Aqui */
+    .hero-ra-seal {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .hero-ra-seal #ra-verified-seal { max-width: 100%; }
 
     /* Green CTA */
     .btn-green {
@@ -448,8 +466,8 @@
     .kits-title {
       font-family: 'Roboto', sans-serif;
       font-size: 28px;
-      font-weight: 600;
-      color: var(--blue-h);
+      font-weight: 800;
+      color: var(--brown);
       text-align: center;
       text-transform: uppercase;
       text-shadow: 0 1px 0 rgba(0,0,0,0.3);
@@ -730,14 +748,16 @@
       border: 1px solid rgba(0,206,7,0.35);
     }
     .beneficios-sub {
-      display: inline-block;
+      display: block;
+      width: fit-content;
+      margin: 0 auto 16px;
       font-size: 20px;
       font-weight: 800;
       color: #fff;
       background: linear-gradient(90deg, var(--green) 0%, var(--green-dark) 100%);
       padding: 7px 20px;
       border-radius: 10px;
-      margin-bottom: 16px;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
@@ -1255,7 +1275,8 @@
       }
       .hero h1 { font-size: 24px; }
       .hero h5 { font-size: 16px; }
-      .hero-headline { font-size: 26px; padding: 13px 16px; margin-bottom: 18px; }
+      .hero-headline { font-size: 22px; padding: 14px 16px; margin-bottom: 18px; }
+      .hl-sucupira { font-size: 44px; }
 
       /* Garrafa sobreposta na área vazia dos tópicos (aproveita o PNG sem fundo) */
       .hero-row {
@@ -1264,26 +1285,26 @@
         margin-bottom: 18px;
       }
       .hero-beneficios {
-        padding: 16px 14px;
-        padding-right: 38%;        /* reserva o espaço da garrafa sobreposta */
-        min-height: 300px;
+        padding: 14px 11px;
+        padding-right: 56%;        /* reserva o espaço da garrafa (maior) */
+        min-height: 290px;
       }
-      .hero-beneficios .beneficios-sub { font-size: 16px; padding: 6px 14px; }
-      .hero-beneficios .beneficios-list { gap: 10px; }
-      .hero-beneficios .beneficios-list li { font-size: 15px; gap: 8px; white-space: nowrap; }
-      .hero-beneficios .bchk { width: 22px; height: 22px; font-size: 12px; }
+      .hero-beneficios .beneficios-sub { font-size: 13px; padding: 5px 11px; margin-bottom: 11px; }
+      .hero-beneficios .beneficios-list { gap: 9px; }
+      .hero-beneficios .beneficios-list li { font-size: 12px; gap: 6px; white-space: nowrap; }
+      .hero-beneficios .bchk { width: 18px; height: 18px; font-size: 10px; }
       .hero-media {
         position: absolute;
-        right: -6px;
+        right: -14px;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 56%;
         margin: 0;
         z-index: 2;
       }
       .hero-bottle-img {
         width: 100%;
-        max-width: 195px;
+        max-width: 290px;
         max-height: none;
         margin: 0;
         filter: drop-shadow(0 12px 20px rgba(0,0,0,0.55));
@@ -1356,7 +1377,7 @@
 <section class="hero">
 
   <!-- Headline grande -->
-  <h1 class="hero-headline">Sucupira pronta para tomar</h1>
+  <h1 class="hero-headline"><span class="hl-sucupira">Sucupira</span>pronta para tomar</h1>
 
   <div class="hero-inner">
 
@@ -1365,7 +1386,7 @@
 
       <!-- Tópicos "Alívio para" -->
       <div class="beneficios-wrap hero-beneficios">
-        <p class="beneficios-sub">Alívio natural para:</p>
+        <p class="beneficios-sub">Alívio para:</p>
         <ul class="beneficios-list">
           <li><span class="bchk">✔</span> Dores Crônicas</li>
           <li><span class="bchk">✔</span> Dores Articulares</li>
@@ -1390,26 +1411,15 @@
 
     </div><!-- /hero-row -->
 
-    <!-- CTA amarelo (largura cheia) -->
-    <a href="#comprar" class="btn-yellow btn-pulse">
-      <svg width="14" height="14" viewBox="0 0 320 512" fill="#000" aria-hidden="true"><path d="M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z"/></svg>
+    <!-- CTA verde (largura cheia) -->
+    <a href="#comprar" class="btn-green btn-pulse">
+      <svg width="14" height="14" viewBox="0 0 320 512" fill="#fff" aria-hidden="true"><path d="M302.189 329.126H196.105l55.831 135.993c3.889 9.428-.555 19.999-9.444 23.999l-49.165 21.427c-9.165 4-19.443-.571-23.332-9.714l-53.053-129.136-86.664 89.138C18.729 472.71 0 463.554 0 447.977V18.299C0 1.899 19.921-6.096 30.277 5.443l284.412 292.542c11.472 11.179 3.007 31.141-12.5 31.141z"/></svg>
       COMPRAR COM DESCONTO
     </a>
 
-    <!-- Mini trust bar -->
-    <div class="hero-trust">
-        <div class="hero-trust-item">
-          <svg width="14" height="14" viewBox="0 0 512 512" fill="currentColor"><path d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3z"/></svg>
-          Compra 100% Segura
-        </div>
-        <div class="hero-trust-item">
-          <svg width="14" height="14" viewBox="0 0 512 512" fill="currentColor"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
-          Entrega Rastreada
-        </div>
-        <div class="hero-trust-item">
-          <svg width="14" height="14" viewBox="0 0 448 512" fill="currentColor"><path d="M352 128C352 57.308 294.692 0 224 0 153.308 0 96 57.308 96 128c0 70.692 57.308 128 128 128 70.692 0 128-57.308 128-128zM224 256c-88.366 0-160 71.634-160 160v32c0 8.837 7.163 16 16 16h288c8.837 0 16-7.163 16-16v-32c0-88.366-71.634-160-160-160z"/></svg>
-          Satisfação Garantida
-        </div>
+    <!-- Selo Reclame Aqui (empresa verificada) -->
+    <div class="hero-ra-seal">
+      <div id="ra-verified-seal"><script type="text/javascript" id="ra-embed-verified-seal" src="https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js" data-id="WGh5blpwdS14RGZ5M0xNMTpzdWN1cGlyYS1uYXR1cmFsZQ==" data-target="ra-verified-seal" data-model="horizontal_1"></script></div>
       </div>
 
   </div><!-- /hero-inner -->
