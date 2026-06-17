@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Compra protegida">
+  <rect width="48" height="48" rx="12" fill="#fff7e6"/>
+  <path d="M14 21h20v17H14z" fill="#a16207"/>
+  <path d="M18 21v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#a16207" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="24" cy="29" r="3" fill="#fff"/>
+  <path d="M24 31v4" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+</svg>
