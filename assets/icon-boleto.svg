@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" role="img" aria-label="Boleto">
+  <rect width="160" height="48" rx="8" fill="#ffffff"/>
+  <g fill="#202124">
+    <rect x="14" y="12" width="3" height="24"/>
+    <rect x="20" y="12" width="7" height="24"/>
+    <rect x="31" y="12" width="3" height="24"/>
+    <rect x="39" y="12" width="5" height="24"/>
+    <rect x="49" y="12" width="2" height="24"/>
+    <rect x="56" y="12" width="8" height="24"/>
+    <rect x="68" y="12" width="3" height="24"/>
+    <rect x="76" y="12" width="6" height="24"/>
+  </g>
+  <text x="94" y="30" fill="#202124" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Boleto</text>
+</svg>

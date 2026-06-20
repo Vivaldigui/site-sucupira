@@ -1,0 +1,169 @@
+---
+import '../styles/blog.css';
+
+interface Props {
+  title: string;
+  description: string;
+  publishDate: Date;
+  updatedDate?: Date;
+  author: string;
+  authorRole: string;
+  tags: string[];
+  slug: string;
+}
+
+const { title, description, publishDate, updatedDate, author, authorRole, tags, slug } = Astro.props;
+const siteUrl = 'https://seudesconto.sucupiranaturale.com.br';
+const canonicalUrl = `${siteUrl}/blog/${slug}/`;
+const ogImage = `${siteUrl}/assets/produto-sem-fundo.png`;
+
+const dateStr = (d: Date) =>
+  d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description: description,
+  image: ogImage,
+  author: { '@type': 'Person', name: author },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Sucupira Naturale',
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/assets/logo.png` },
+  },
+  datePublished: publishDate.toISOString(),
+  dateModified: (updatedDate ?? publishDate).toISOString(),
+  mainEntityOfPage: canonicalUrl,
+});
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | Blog Sucupira Naturale</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:site_name" content="Sucupira Naturale" />
+  <meta property="article:published_time" content={publishDate.toISOString()} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json" set:html={schema} />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="blog-header">
+    <a href="/" class="logo-wrap">
+      <img class="logo" src="/assets/logo.png" alt="Sucupira Naturale" />
+      <div class="site-name">
+        Sucupira Naturale
+        <span>Blog oficial</span>
+      </div>
+    </a>
+    <a href="/#comprar" class="header-cta">Comprar com cupom →</a>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb" aria-label="Navegação estrutural">
+    <a href="/">Início</a>
+    <span>›</span>
+    <a href="/blog/">Blog</a>
+    <span>›</span>
+    <span>{title}</span>
+  </nav>
+
+  <main class="blog-container">
+
+    <!-- ARTICLE HEADER -->
+    <header class="article-header">
+      {tags.length > 0 && (
+        <div class="tags">
+          {tags.map((t) => <span class="tag">{t}</span>)}
+        </div>
+      )}
+      <h1>{title}</h1>
+      <div class="article-meta">
+        <span class="author-name">{author}</span>
+        <span class="divider">·</span>
+        <time datetime={publishDate.toISOString()}>{dateStr(publishDate)}</time>
+        {updatedDate && (
+          <>
+            <span class="divider">·</span>
+            <span>Atualizado em <time datetime={updatedDate.toISOString()}>{dateStr(updatedDate)}</time></span>
+          </>
+        )}
+      </div>
+      <p class="article-description">{description}</p>
+    </header>
+
+    <!-- DISCLAIMER SAÚDE -->
+    <div class="health-disclaimer" role="note">
+      <span class="disc-icon">⚕️</span>
+      <span>
+        <strong>Aviso:</strong> as informações deste artigo têm caráter exclusivamente educativo e não substituem consulta, diagnóstico ou tratamento médico. Converse sempre com um profissional de saúde antes de iniciar qualquer suplemento.
+      </span>
+    </div>
+
+    <!-- ARTICLE CONTENT -->
+    <article class="article-body">
+      <slot />
+    </article>
+
+    <!-- CTA FINAL -->
+    <div class="product-cta-box">
+      <p class="cta-eyebrow">Produto original desde 2016</p>
+      <h3>Experimente o Extrato de Sucupira Naturale</h3>
+      <p>Extrato líquido pronto para beber, com alta concentração de semente de sucupira branca.</p>
+      <div class="coupon-badge">CUPOM: SEUDESCONTO</div>
+      <br />
+      <a href="/#comprar" class="btn-cta-buy">Ver kits com desconto →</a>
+      <p class="cta-note">Frete grátis para todo o Brasil • Parcelamento disponível</p>
+    </div>
+
+    <!-- AUTHOR BOX -->
+    <aside class="author-box">
+      <div class="author-avatar">🌿</div>
+      <div class="author-info">
+        <h4>{author}</h4>
+        <p class="author-role">{authorRole}</p>
+        <p>Conteúdo produzido pela equipe da Sucupira Naturale, empresa especializada em extratos fitoterápicos desde 2016. Nossas informações são baseadas em literatura científica e na experiência prática com nossos clientes.</p>
+      </div>
+    </aside>
+
+    <!-- DISCLAIMER RODAPÉ -->
+    <footer class="article-footer-note">
+      <strong>Aviso legal:</strong> As informações presentes neste artigo são de caráter informativo e educativo, baseadas em estudos e literatura científica disponíveis. Elas não substituem a consulta, diagnóstico ou prescrição de um médico ou outro profissional de saúde habilitado. O uso de qualquer suplemento deve ser orientado por um profissional. A Sucupira Naturale não se responsabiliza pelo uso inadequado das informações aqui contidas.
+      <br /><br />
+      <a href="/blog/">← Voltar para o blog</a> &nbsp;·&nbsp; <a href="/">Ver produto</a>
+    </footer>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="blog-footer">
+    <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+    <p>CNPJ: informado no site oficial &nbsp;·&nbsp; <a href="/">Acessar a loja</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sucupira-landing",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3456"],
+      "port": 3456
+    },
+    {
+      "name": "astro-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 4321
+    }
+  ]
+}
