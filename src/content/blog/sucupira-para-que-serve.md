@@ -78,13 +78,17 @@ Isso não invalida seu uso — apenas coloca a expectativa no lugar certo: a suc
 
 ## Como usar a sucupira?
 
-A forma mais estudada e com melhor biodisponibilidade é o **extrato líquido** (macerado). A orientação geral é:
+A forma mais estudada e com melhor biodisponibilidade é o **extrato líquido**. O Extrato Sucupira Naturale, por exemplo, é tomado **puro e de uma vez**, sem diluir em água ou suco — a dosagem varia conforme a fase:
 
-- **Extrato líquido:** geralmente 20 a 30 gotas, 2 a 3 vezes ao dia, com água ou suco
-- **Cápsulas:** conforme indicação do fabricante ou profissional de saúde
-- **Tempo de uso:** os efeitos costumam ser percebidos após uso contínuo de **3 a 6 semanas**
+| Fase | Dosagem |
+|---|---|
+| **Dor aguda ou crônica** | 10 tampinhas por dia |
+| **Dor mediana** | 5 tampinhas por dia |
+| **Prevenção / manutenção** | 3 tampinhas por dia |
 
-> Não existe uma dose universalmente padronizada. Siga sempre as instruções do produto que estiver usando e consulte um profissional de saúde.
+Pode ser tomado a **qualquer hora do dia**. Não precisa refrigerar — armazene em temperatura ambiente, mesmo depois de aberto.
+
+> Siga sempre as instruções do produto que estiver usando e consulte um profissional de saúde antes de iniciar.
 
 ---
 
@@ -100,7 +104,7 @@ A forma mais estudada e com melhor biodisponibilidade é o **extrato líquido** 
       <li>Concentração padronizada em cada garrafa</li>
       <li>Semente de sucupira branca do Cerrado, sem aditivos artificiais</li>
       <li>Empresa registrada, produção desde 2016</li>
-      <li>Frete grátis para todo o Brasil</li>
+      <li>Frete GRÁTIS para DF, MG, RJ e SP</li>
     </ul>
     <a href="/#comprar" class="btn-destaque">Ver kits com desconto <span class="cupom-inline">SEUDESCONTO</span></a>
   </div>
@@ -113,18 +117,16 @@ A forma mais estudada e com melhor biodisponibilidade é o **extrato líquido** 
 
 ## Contraindicações e cuidados
 
-A sucupira é considerada segura nas doses usuais para a maioria dos adultos, mas existem situações em que deve ser evitada ou usada com cautela:
+A sucupira é considerada segura nas doses usuais para a maioria dos adultos, mas existem situações em que deve ser evitada. As seguintes pessoas devem **consultar o médico antes de usar**:
 
-| Situação | Recomendação |
+| Grupo | Motivo |
 |---|---|
-| **Gravidez** | Evitar — não há dados de segurança suficientes |
-| **Amamentação** | Evitar por precaução |
-| **Crianças menores de 12 anos** | Não recomendado sem orientação médica |
-| **Uso de anticoagulantes** | Consultar médico — possível interação |
-| **Doenças hepáticas** | Consultar médico antes de usar |
-| **Alergia a plantas do Cerrado** | Atenção aos primeiros usos |
-
-Extratos alcoólicos devem ser evitados por quem não pode consumir álcool (motoristas em horário de trabalho, gestantes, dependentes de álcool, pessoas com certas condições hepáticas).
+| **Grávidas** | Ausência de dados de segurança |
+| **Lactantes** | Precaução por ausência de estudos |
+| **Crianças menores de 14 anos** | Não recomendado sem orientação médica |
+| **Portadores de doenças renais crônicas** | Possível sobrecarga renal |
+| **Portadores de doenças hepáticas crônicas** | Metabolização hepática do extrato |
+| **Usuários de anticoagulantes** | Possível interação medicamentosa |
 
 ---
 
@@ -157,17 +159,29 @@ Para quem tem problemas articulares crônicos e busca uso contínuo, ambos podem
 
 ## Perguntas frequentes
 
-**Posso tomar sucupira junto com anti-inflamatórios?**
-Converse com seu médico antes de combinar. A associação pode ter interações não previstas.
+**A Sucupira Naturale é um medicamento?**
+Não. É um extrato alimentar natural — não substitui tratamento médico. Conforme a RDC 240/2018 da ANVISA, produtos com fórmulas naturais são isentos de registro obrigatório.
 
-**Quanto tempo leva para a sucupira fazer efeito?**
-Geralmente entre 3 e 6 semanas de uso contínuo. Resultados variam de pessoa para pessoa.
+**Quanto tempo para ver efeito?**
+Não há um prazo fixo, pois depende de muitos fatores: peso, idade, existência de doenças de base, alimentação e hábitos de vida. Por ser um produto natural, os bioativos da semente precisam de tempo para agir no organismo. Cada corpo responde de forma diferente.
 
-**Existe sucupira para cães?**
-Há relatos de uso veterinário, mas não existem estudos suficientes em animais domésticos. Consulte um veterinário.
+**Quantas garrafas preciso para o tratamento?**
+Depende da fase de dor: dor mediana → 3 garrafas (1 mês); prevenção e manutenção → 4 garrafas (2 meses); dor aguda ou crônica → 6 garrafas (1 mês de tratamento intensivo). O kit de 6 garrafas oferece o maior desconto por garrafa.
 
-**Sucupira e alcachofra podem ser tomadas juntas?**
-Sim, são plantas com mecanismos diferentes — mas sempre consulte um profissional para orientação personalizada.
+**Como armazenar o extrato?**
+Em temperatura ambiente. Não precisa refrigerar, nem mesmo depois de aberto.
+
+**Qual a validade do produto?**
+2 anos a partir da data de fabricação, expressa na embalagem.
+
+**O produto é vendido em farmácias ou lojas físicas?**
+Não. A Sucupira Naturale é vendida exclusivamente pela internet, pelo site oficial sucupiranaturale.com.br — isso garante que você receba o produto original direto do produtor.
+
+**Qual é o prazo de entrega?**
+O prazo médio é de até 15 dias úteis após a confirmação do pagamento. O código de rastreio é enviado por e-mail. Pagamentos via Pix ou cartão têm aprovação imediata e o produto é expedido em até 48h úteis.
+
+**Frete grátis para todo o Brasil?**
+Frete GRÁTIS para DF, MG, RJ e SP. Para BA, ES, GO, MS e SC o frete é de R$&nbsp;9,99. Demais estados têm frete calculado no checkout.
 
 ---
 
