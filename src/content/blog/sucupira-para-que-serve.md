@@ -58,6 +58,29 @@ Na medicina popular, a sucupira é usada para "fortalecer o organismo" e como su
 
 ---
 
+<div class="produto-destaque">
+  <div class="produto-destaque-texto">
+    <p class="eyebrow">Sucupira Naturale — desde 2016</p>
+    <h2>Pronta pra tomar. Sem fazer chá, sem extrair óleo.</h2>
+    <p class="lead">
+      Fazer o chá de sucupira em casa é trabalhoso e impreciso — a concentração varia toda vez. Extrair o óleo da semente exige equipamento e expertise que a maioria das pessoas não tem. Por isso a Sucupira Naturale existe.
+    </p>
+    <ul class="produto-destaque-lista">
+      <li>Extrato líquido já pronto, é só tomar com água ou suco</li>
+      <li>Concentração padronizada em cada garrafa</li>
+      <li>Semente de sucupira branca do Cerrado, sem aditivos artificiais</li>
+      <li>Empresa registrada, produção desde 2016</li>
+      <li>Frete GRÁTIS para DF, MG, RJ e SP</li>
+    </ul>
+    <a href="/#comprar" class="btn-destaque">Comprar agora</a>
+  </div>
+  <div class="produto-destaque-img">
+    <img src="/assets/garrafa.png" alt="Garrafa do Extrato de Sucupira Naturale — produto pronto para beber" />
+  </div>
+</div>
+
+---
+
 ## O que a ciência diz de fato?
 
 A sucupira tem estudos com resultados promissores, mas é honesto dizer que a maioria dos estudos clínicos (em seres humanos) ainda é de pequena escala. Os estudos mais sólidos são em modelos animais e in vitro (em células).
@@ -89,29 +112,6 @@ A forma mais estudada e com melhor biodisponibilidade é o **extrato líquido**.
 Pode ser tomado a **qualquer hora do dia**. Não precisa refrigerar — armazene em temperatura ambiente, mesmo depois de aberto.
 
 > Siga sempre as instruções do produto que estiver usando e consulte um profissional de saúde antes de iniciar.
-
----
-
-<div class="produto-destaque">
-  <div class="produto-destaque-texto">
-    <p class="eyebrow">Sucupira Naturale — desde 2016</p>
-    <h2>Pronta pra tomar. Sem fazer chá, sem extrair óleo.</h2>
-    <p class="lead">
-      Fazer o chá de sucupira em casa é trabalhoso e impreciso — a concentração varia toda vez. Extrair o óleo da semente exige equipamento e expertise que a maioria das pessoas não tem. Por isso a Sucupira Naturale existe.
-    </p>
-    <ul class="produto-destaque-lista">
-      <li>Extrato líquido já pronto, é só tomar com água ou suco</li>
-      <li>Concentração padronizada em cada garrafa</li>
-      <li>Semente de sucupira branca do Cerrado, sem aditivos artificiais</li>
-      <li>Empresa registrada, produção desde 2016</li>
-      <li>Frete GRÁTIS para DF, MG, RJ e SP</li>
-    </ul>
-    <a href="/#comprar" class="btn-destaque">Ver kits com desconto <span class="cupom-inline">SEUDESCONTO</span></a>
-  </div>
-  <div class="produto-destaque-img">
-    <img src="/assets/garrafa.png" alt="Garrafa do Extrato de Sucupira Naturale — produto pronto para beber" />
-  </div>
-</div>
 
 ---
 

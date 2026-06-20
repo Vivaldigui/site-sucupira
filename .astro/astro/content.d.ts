@@ -141,6 +141,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
+"como-tomar-extrato-de-sucupira.md": {
+	id: "como-tomar-extrato-de-sucupira.md";
+  slug: "como-tomar-extrato-de-sucupira";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-para-que-serve.md": {
 	id: "sucupira-para-que-serve.md";
   slug: "sucupira-para-que-serve";

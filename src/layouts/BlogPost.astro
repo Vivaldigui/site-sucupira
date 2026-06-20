@@ -159,6 +159,37 @@ const schema = JSON.stringify({
 
   </main>
 
+  <!-- STICKY BAR -->
+  <div class="sticky-bar" id="stickyBar">
+    <img class="sticky-bar-img" src="/assets/produto-sem-fundo.png" alt="Extrato de Sucupira Naturale" />
+    <a href="/#comprar" class="sticky-bar-btn">Comprar com desconto</a>
+    <button class="sticky-bar-close" id="stickyClose" aria-label="Fechar">✕</button>
+  </div>
+
+  <script>
+    (function () {
+      const bar = document.getElementById('stickyBar');
+      const btn = document.getElementById('stickyClose');
+      let closed = false;
+
+      function update() {
+        if (closed) return;
+        if (window.scrollY > 320) {
+          bar.classList.add('visible');
+        } else {
+          bar.classList.remove('visible');
+        }
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      btn.addEventListener('click', function () {
+        closed = true;
+        bar.classList.remove('visible');
+        bar.classList.add('hidden');
+      });
+    })();
+  </script>
+
   <!-- FOOTER -->
   <footer class="blog-footer">
     <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
