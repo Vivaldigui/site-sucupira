@@ -148,6 +148,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"quantas-tampinhas-de-sucupira-por-dia-guia-de-doses.md": {
+	id: "quantas-tampinhas-de-sucupira-por-dia-guia-de-doses.md";
+  slug: "quantas-tampinhas-de-sucupira-por-dia-guia-de-doses";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.md": {
 	id: "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.md";
   slug: "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz";
