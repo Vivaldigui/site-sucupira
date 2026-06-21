@@ -53,27 +53,6 @@ Para quem opta pelo chá, a referência mais encontrada em guias de uso e fontes
 
 Na prática, porém, fazer o chá em casa dá muito trabalho. As sementes da sucupira são duras e precisam ser quebradas uma a uma antes da fervura. Depois vem o processo de ferver, esperar, coar — e limpar a panela e o coador, que ficam manchados e com cheiro forte e persistente. Como o chá estraga em 24 horas, você precisa repetir essa rotina praticamente **todos os dias** para manter a regularidade que o tratamento exige. E, mesmo com todo esse esforço, a concentração nunca sai igual de uma vez para outra. No fim, é justamente esse trabalho cansativo e sujo que faz muita gente desistir antes de ver qualquer resultado.
 
-<div class="produto-destaque">
-  <div class="produto-destaque-texto">
-    <p class="eyebrow">Sucupira Naturale — desde 2016</p>
-    <h2>Pule o trabalho do chá: extrato já pronto pra tomar</h2>
-    <p class="lead">
-      Nada de quebrar semente, ferver, coar e lavar panela todo dia. O Extrato de Sucupira Naturale já vem pronto e padronizado — é só tomar.
-    </p>
-    <ul class="produto-destaque-lista">
-      <li>Pronto pra tomar: sem ferver, sem coar, sem sujeira</li>
-      <li>Dose simples, medida em tampinhas conforme a sua fase</li>
-      <li>Concentração padronizada em cada garrafa — sempre a mesma dose</li>
-      <li>Semente de sucupira branca do Cerrado, sem aditivos artificiais</li>
-      <li>Não precisa refrigerar, mesmo depois de aberto</li>
-    </ul>
-    <a href="/#comprar" class="btn-destaque">Comprar agora</a>
-  </div>
-  <div class="produto-destaque-img">
-    <img src="/assets/garrafa.png" alt="Garrafa do Extrato de Sucupira Naturale — produto pronto para beber" />
-  </div>
-</div>
-
 ## Melhor horário para tomar e como criar o hábito de não falhar
 
 A recomendação mais consistente entre fabricantes é tomar o extrato de sucupira após as refeições, conforme indicado nas bulas. Isso reduz o risco de desconforto no estômago, que é o efeito adverso mais relatado com o uso oral. Tomar com o estômago vazio pode irritar a mucosa em pessoas mais sensíveis, especialmente em doses mais altas.

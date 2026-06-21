@@ -56,31 +56,6 @@ Alguns estudos em modelos animais sugeriram atividade analgésica dos extratos d
 
 Na medicina popular, a sucupira é usada para "fortalecer o organismo" e como suporte em casos de infecções de garganta. Há compostos com atividade antimicrobiana identificados em laboratório, mas o uso humano para esse fim ainda carece de estudos clínicos robustos.
 
----
-
-<div class="produto-destaque">
-  <div class="produto-destaque-texto">
-    <p class="eyebrow">Sucupira Naturale — desde 2016</p>
-    <h2>Pronta pra tomar. Sem fazer chá, sem extrair óleo.</h2>
-    <p class="lead">
-      Fazer o chá de sucupira em casa é trabalhoso e impreciso — a concentração varia toda vez. Extrair o óleo da semente exige equipamento e expertise que a maioria das pessoas não tem. Por isso a Sucupira Naturale existe.
-    </p>
-    <ul class="produto-destaque-lista">
-      <li>Extrato líquido já pronto, é só tomar com água ou suco</li>
-      <li>Concentração padronizada em cada garrafa</li>
-      <li>Semente de sucupira branca do Cerrado, sem aditivos artificiais</li>
-      <li>Empresa registrada, produção desde 2016</li>
-      <li>Frete GRÁTIS para DF, MG, RJ e SP</li>
-    </ul>
-    <a href="/#comprar" class="btn-destaque">Comprar agora</a>
-  </div>
-  <div class="produto-destaque-img">
-    <img src="/assets/garrafa.png" alt="Garrafa do Extrato de Sucupira Naturale — produto pronto para beber" />
-  </div>
-</div>
-
----
-
 ## O que a ciência diz de fato?
 
 A sucupira tem estudos com resultados promissores, mas é honesto dizer que a maioria dos estudos clínicos (em seres humanos) ainda é de pequena escala. Os estudos mais sólidos são em modelos animais e in vitro (em células).
