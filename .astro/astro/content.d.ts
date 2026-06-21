@@ -148,6 +148,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.md": {
+	id: "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.md";
+  slug: "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-para-que-serve.md": {
 	id: "sucupira-para-que-serve.md";
   slug: "sucupira-para-que-serve";
