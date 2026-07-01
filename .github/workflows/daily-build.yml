@@ -1,13 +1,16 @@
-name: Daily blog build
+name: Daily blog deploy
 
 on:
   schedule:
     - cron: '20 8 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  build:
-    name: Build Astro blog
+  deploy:
+    name: Build and deploy Astro blog
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,6 +28,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Optional Firebase deploy can be added later with a repository secret.
-      # Suggested secret name: FIREBASE_SERVICE_ACCOUNT_BLOG_SUCUPIRA.
-      # Keep deploy disabled until the secret and project policy are reviewed.
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG_SUCUPIRA }}
+
+      - name: Deploy to Firebase Hosting
+        run: npx firebase-tools@latest deploy --only hosting --project blog-sucupira --non-interactive
