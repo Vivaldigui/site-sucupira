@@ -1,0 +1,29 @@
+---
+import { SALES_CTA_URL } from '../consts';
+---
+
+<section class="blog-hero" aria-labelledby="page-title">
+  <img
+    class="blog-hero-media"
+    src="/assets/sucupira-natural-banner.webp"
+    alt="Frascos da Sucupira Naturale sobre sementes de sucupira"
+    width="1200"
+    height="928"
+    loading="eager"
+    decoding="async"
+    fetchpriority="high"
+  />
+  <div class="blog-hero-shade" aria-hidden="true"></div>
+  <div class="blog-hero-content">
+    <p class="eyebrow">Conteúdo informativo</p>
+    <h1 id="page-title">Centro de Conhecimento da Sucupira</h1>
+    <p>
+      Guias educativos sobre sucupira, uso responsável, evidências disponíveis e cuidados para escolher com mais
+      segurança.
+    </p>
+    <div class="hero-actions">
+      <a href={SALES_CTA_URL} class="hero-cta">Conhecer o produto</a>
+      <span>Conteúdo educativo, sem substituir orientação profissional.</span>
+    </div>
+  </div>
+</section>

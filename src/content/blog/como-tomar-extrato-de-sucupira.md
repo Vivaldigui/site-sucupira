@@ -6,6 +6,7 @@ author: "Equipe Sucupira Naturale"
 authorRole: "Especialistas em Fitoterapia"
 tags: ["Sucupira", "Como tomar", "Dosagem"]
 featured: true
+ogImage: "/assets/como-tomar-extrato-de-sucupira.png"
 ---
 
 Se você se pergunta **como devo tomar o extrato de sucupira para ter resultado**, saiba que a resposta quase sempre está no modo de uso, não no produto. Muitos relatos e orientações de fabricantes mostram que pessoas que não obtiveram resposta tomaram dose insuficiente, no horário errado ou por tempo insuficiente para que o efeito acumulativo se consolidasse.

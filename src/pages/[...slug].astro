@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import BlogPost from '../layouts/BlogPost.astro';
+import { extractFaqItems } from '../utils/faq';
+import { getPublishedPosts, sortByNewestPublishDate } from '../utils/posts';
+
+export async function getStaticPaths() {
+  const posts = getPublishedPosts(await getCollection('blog'));
+
+  return posts.map((post) => {
+    const relatedPosts = posts
+      .filter((candidate) => candidate.slug !== post.slug)
+      .map((candidate) => ({
+        post: candidate,
+        sharedTags: candidate.data.tags.filter((tag) => post.data.tags.includes(tag)).length,
+      }))
+      .filter(({ sharedTags }) => sharedTags > 0)
+      .sort(
+        (a, b) =>
+          b.sharedTags - a.sharedTags ||
+          sortByNewestPublishDate(a.post, b.post)
+      )
+      .slice(0, 3)
+      .map(({ post: related }) => ({
+        slug: related.slug,
+        title: related.data.title,
+        description: related.data.description,
+        tags: related.data.tags,
+      }));
+
+    return {
+      params: { slug: post.slug },
+      props: { post, relatedPosts, faqItems: extractFaqItems(post.body) },
+    };
+  });
+}
+
+const { post, relatedPosts, faqItems } = Astro.props;
+const { Content, headings = [] } = await post.render();
+---
+
+<BlogPost
+  title={post.data.title}
+  description={post.data.description}
+  publishDate={post.data.publishDate}
+  updatedDate={post.data.updatedDate}
+  author={post.data.author}
+  tags={post.data.tags}
+  slug={post.slug}
+  ogImage={post.data.ogImage}
+  headings={headings}
+  relatedPosts={relatedPosts}
+  faqItems={faqItems}
+>
+  <Content />
+</BlogPost>

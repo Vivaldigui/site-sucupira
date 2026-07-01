@@ -1,0 +1,17 @@
+---
+interface Props {
+  variant?: 'summary' | 'disclaimer' | 'transparency';
+  eyebrow?: string;
+  title?: string;
+  labelledBy?: string;
+}
+
+const { variant = 'summary', eyebrow, title, labelledBy } = Astro.props;
+const headingId = labelledBy ?? (title ? title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : undefined);
+---
+
+<aside class={`info-box info-box--${variant}`} role={variant === 'disclaimer' ? 'note' : undefined} aria-labelledby={headingId}>
+  {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+  {title && <h2 id={headingId}>{title}</h2>}
+  <slot />
+</aside>

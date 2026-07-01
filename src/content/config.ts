@@ -8,7 +8,7 @@ const blog = defineCollection({
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     author: z.string().default('Equipe Sucupira Naturale'),
-    authorRole: z.string().default('Especialistas em Fitoterapia'),
+    authorRole: z.string().default('Equipe de conteúdo'),
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     ogImage: z.string().optional(),

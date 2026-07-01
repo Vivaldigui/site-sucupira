@@ -1,0 +1,31 @@
+---
+interface RelatedPost {
+  slug: string;
+  title: string;
+  description: string;
+  tags: string[];
+}
+
+interface Props {
+  posts: RelatedPost[];
+}
+
+const { posts } = Astro.props;
+---
+
+{posts.length > 0 && (
+  <section class="related-posts" aria-labelledby="related-title">
+    <p class="eyebrow">Continue lendo</p>
+    <h2 id="related-title">Leia também</h2>
+    <div class="related-grid">
+      {posts.map((post) => (
+        <a href={`/${post.slug}/`} class="related-card">
+          {post.tags[0] && <span class="tag">{post.tags[0]}</span>}
+          <h3>{post.title}</h3>
+          <p>{post.description}</p>
+          <span class="read-more">Ler artigo</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

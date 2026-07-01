@@ -1,0 +1,38 @@
+---
+import { SALES_CTA_URL } from '../consts';
+
+interface Props {
+  variant?: 'inline' | 'panel';
+  title?: string;
+  text?: string;
+  label?: string;
+  image?: string;
+}
+
+const {
+  variant = 'panel',
+  title = 'Quer conhecer a Sucupira Naturale?',
+  text = 'Consulte informações do produto, opções disponíveis e condições atuais na página oficial. O conteúdo do blog permanece educativo.',
+  label = 'Acessar página oficial',
+  image = '/assets/sucupira-frasco-vertical.webp',
+} = Astro.props;
+---
+
+<aside class={`product-cta product-cta--${variant}`} aria-label="Página oficial do produto">
+  {variant === 'panel' && (
+    <img
+      src={image}
+      alt="Frasco da Sucupira Naturale sobre sementes de sucupira"
+      width="900"
+      height="1349"
+      loading="lazy"
+      decoding="async"
+    />
+  )}
+  <div>
+    {variant === 'panel' && <p class="cta-eyebrow">Produto oficial</p>}
+    <h2>{title}</h2>
+    <p>{text}</p>
+    <a href={SALES_CTA_URL} class="btn-cta-buy">{label}</a>
+  </div>
+</aside>

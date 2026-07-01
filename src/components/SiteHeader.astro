@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import logoImage from '../../assets/favicon-logo-transparent.png';
+import { BLOG_NAME, SALES_CTA_URL } from '../consts';
+---
+
+<header class="blog-header">
+  <a href="/" class="logo-wrap" aria-label={`${BLOG_NAME} - início`}>
+    <Image
+      class="logo"
+      src={logoImage}
+      alt="Sucupira Naturale"
+      width={52}
+      height={52}
+      loading="eager"
+      decoding="async"
+    />
+    <div class="site-name">
+      Sucupira Naturale
+      <span>Centro de Conhecimento</span>
+    </div>
+  </a>
+  <a href={SALES_CTA_URL} class="header-cta">Conhecer o produto</a>
+</header>

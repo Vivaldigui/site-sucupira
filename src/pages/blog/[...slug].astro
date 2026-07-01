@@ -1,28 +1,31 @@
 ---
 import { getCollection } from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro';
+import { blogUrl } from '../../consts';
+import { getPublishedPosts } from '../../utils/posts';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = getPublishedPosts(await getCollection('blog'));
   return posts.map((post) => ({
     params: { slug: post.slug },
-    props: { post },
+    props: { target: blogUrl(`/${post.slug}/`) },
   }));
 }
 
-const { post } = Astro.props;
-const { Content } = await post.render();
+const { target } = Astro.props;
 ---
 
-<BlogPost
-  title={post.data.title}
-  description={post.data.description}
-  publishDate={post.data.publishDate}
-  updatedDate={post.data.updatedDate}
-  author={post.data.author}
-  authorRole={post.data.authorRole}
-  tags={post.data.tags}
-  slug={post.slug}
->
-  <Content />
-</BlogPost>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecionando para o artigo</title>
+    <meta name="robots" content="noindex,follow" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={target} />
+    <script is:inline define:vars={{ target }}>window.location.replace(target);</script>
+  </head>
+  <body>
+    <p>Este artigo mudou de endereço. <a href={target}>Continuar para o conteúdo</a>.</p>
+  </body>
+</html>

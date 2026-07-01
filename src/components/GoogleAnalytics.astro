@@ -1,0 +1,15 @@
+---
+import { GOOGLE_ANALYTICS_ID } from '../consts';
+
+const gtagSrc = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GOOGLE_ANALYTICS_ID)}`;
+const gtagInline = `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '${GOOGLE_ANALYTICS_ID}');
+`;
+---
+
+<script async src={gtagSrc}></script>
+<script is:inline set:html={gtagInline}></script>

@@ -6,6 +6,7 @@ author: "Equipe Sucupira Naturale"
 authorRole: "Especialistas em Fitoterapia"
 tags: ["Sucupira", "Dosagem", "Como tomar"]
 featured: true
+ogImage: "/assets/como-tomar-extrato-de-sucupira.png"
 ---
 
 Você recebeu o frasco, leu a embalagem, pesquisou na internet e ainda ficou sem uma resposta clara. A pergunta parece simples, mas a resposta que a maioria das pessoas encontra é vaga: "siga as orientações do fabricante" ou "consulte um profissional de saúde". Essas respostas não são erradas, mas também não resolvem o problema de quem está com o frasco na mão e dor no joelho.

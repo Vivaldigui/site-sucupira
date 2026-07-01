@@ -1,101 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
-import '../../styles/blog.css';
+import { blogUrl } from '../../consts';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime()
-);
-
-const siteUrl = 'https://seudesconto.sucupiranaturale.com.br';
-const canonicalUrl = `${siteUrl}/blog/`;
-
-const dateStr = (d: Date) =>
-  d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
-
-const schema = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'Blog',
-  name: 'Blog Sucupira Naturale',
-  description: 'Artigos sobre sucupira, saúde das articulações e fitoterapia natural.',
-  url: canonicalUrl,
-  publisher: {
-    '@type': 'Organization',
-    name: 'Sucupira Naturale',
-    logo: { '@type': 'ImageObject', url: `${siteUrl}/assets/logo.png` },
-  },
-});
+const target = blogUrl('/');
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog Sucupira Naturale — Saúde das articulações e fitoterapia</title>
-  <meta name="description" content="Artigos sobre sucupira, artrite, artrose, ciático e saúde das articulações. Informação de qualidade e orientação para o seu bem-estar." />
-  <link rel="canonical" href={canonicalUrl} />
-  <meta property="og:title" content="Blog Sucupira Naturale" />
-  <meta property="og:description" content="Artigos sobre sucupira, artrite, artrose e saúde natural das articulações." />
-  <meta property="og:image" content={`${siteUrl}/assets/produto-sem-fundo.png`} />
-  <meta property="og:url" content={canonicalUrl} />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet" />
-  <script type="application/ld+json" set:html={schema} />
-</head>
-<body>
-
-  <header class="blog-header">
-    <a href="/" class="logo-wrap">
-      <img class="logo" src="/assets/favicon-logo-transparent.png" alt="Sucupira Naturale" />
-      <div class="site-name">
-        Sucupira Naturale
-        <span>Blog oficial</span>
-      </div>
-    </a>
-    <a href="/#comprar" class="header-cta">Comprar com cupom →</a>
-  </header>
-
-  <section class="blog-index-header">
-    <h1>Blog Sucupira Naturale</h1>
-    <p>Informação honesta sobre sucupira, saúde das articulações e fitoterapia natural.</p>
-  </section>
-
-  <main>
-    {posts.length === 0 ? (
-      <p style="text-align:center;padding:60px 20px;color:#888;">Nenhum artigo publicado ainda.</p>
-    ) : (
-      <div class="posts-grid">
-        {posts.map((post) => (
-          <a class="post-card" href={`/blog/${post.slug}/`}>
-            <div class="post-card-body">
-              {post.data.tags.length > 0 && (
-                <div class="post-card-tags">
-                  {post.data.tags.slice(0, 2).map((t) => (
-                    <span class="tag">{t}</span>
-                  ))}
-                </div>
-              )}
-              <h2>{post.data.title}</h2>
-              <p>{post.data.description}</p>
-            </div>
-            <div class="post-card-footer">
-              <time datetime={post.data.publishDate.toISOString()}>
-                {dateStr(post.data.publishDate)}
-              </time>
-              <span class="read-more">Ler artigo →</span>
-            </div>
-          </a>
-        ))}
-      </div>
-    )}
-  </main>
-
-  <footer class="blog-footer">
-    <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
-    <p><a href="/">← Voltar para a loja</a></p>
-  </footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecionando para o Centro de Conhecimento</title>
+    <meta name="robots" content="noindex,follow" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={target} />
+    <script is:inline define:vars={{ target }}>window.location.replace(target);</script>
+  </head>
+  <body>
+    <p>O blog agora está em <a href={target}>{target}</a>.</p>
+  </body>
 </html>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://seudesconto.sucupiranaturale.com.br/sitemap-index.xml
+Sitemap: https://blog.sucupiranaturale.com.br/sitemap-index.xml

@@ -6,6 +6,7 @@ author: "Equipe Sucupira Naturale"
 authorRole: "Especialistas em Fitoterapia"
 tags: ["Sucupira", "Dores crônicas", "Ciência"]
 featured: true
+ogImage: "/assets/sucupira-alivia-dores-cronicas.webp"
 ---
 
 ![Sucupira pode ajudar no manejo de dores crônicas? Ilustração sobre evidências, benefícios potenciais e cuidados](/assets/sucupira-alivia-dores-cronicas.webp)

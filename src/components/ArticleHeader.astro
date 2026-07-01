@@ -1,0 +1,52 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  publishDate: Date;
+  updatedDate?: Date;
+  author: string;
+  tags: string[];
+  heroImage: string;
+}
+
+const { title, description, publishDate, updatedDate, author, tags, heroImage } = Astro.props;
+
+const dateStr = (date: Date) =>
+  date.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+---
+
+<header class="article-hero">
+  <img
+    class="article-hero-media"
+    src={heroImage}
+    alt={`Foto de sucupira relacionada ao artigo: ${title}`}
+    width="1200"
+    height="788"
+    loading="eager"
+    decoding="async"
+    fetchpriority="high"
+  />
+  <div class="article-hero-shade" aria-hidden="true"></div>
+  <div class="article-hero-content">
+    {tags.length > 0 && (
+      <div class="tags" aria-label="Temas do artigo">
+        {tags.map((tag) => <span class="tag">{tag}</span>)}
+      </div>
+    )}
+    <h1>{title}</h1>
+    <p class="article-hero-description">{description}</p>
+    <div class="article-meta">
+      <span class="author-name">Por {author}</span>
+      <span class="divider" aria-hidden="true">·</span>
+      <time datetime={publishDate.toISOString()}>{dateStr(publishDate)}</time>
+      {updatedDate && (
+        <>
+          <span class="divider" aria-hidden="true">·</span>
+          <span>
+            Atualizado em <time datetime={updatedDate.toISOString()}>{dateStr(updatedDate)}</time>
+          </span>
+        </>
+      )}
+    </div>
+  </div>
+</header>

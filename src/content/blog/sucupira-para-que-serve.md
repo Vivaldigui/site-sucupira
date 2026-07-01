@@ -6,6 +6,7 @@ author: "Equipe Sucupira Naturale"
 authorRole: "Especialistas em Fitoterapia"
 tags: ["Sucupira", "Fitoterapia", "Articulações"]
 featured: true
+ogImage: "/assets/semente-sucupira.jpg"
 ---
 
 A sucupira é uma das plantas medicinais mais antigas da medicina popular brasileira — e nas últimas décadas passou a ser estudada com rigor científico. Mas afinal, **para que serve a sucupira de verdade?**

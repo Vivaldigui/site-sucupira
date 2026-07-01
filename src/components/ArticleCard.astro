@@ -1,0 +1,41 @@
+---
+interface Props {
+  slug: string;
+  title: string;
+  description: string;
+  tags: string[];
+  publishDate: Date;
+  image?: string;
+}
+
+const { slug, title, description, tags, publishDate, image = '/assets/sucupira-natural-banner.webp' } =
+  Astro.props;
+
+const dateStr = (date: Date) =>
+  date.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+---
+
+<a class="post-card" href={`/${slug}/`} data-post-card data-slug={slug}>
+  <img
+    class="post-card-img"
+    src={image}
+    alt={`Foto relacionada ao artigo: ${title}`}
+    loading="lazy"
+    decoding="async"
+    width="1200"
+    height="788"
+  />
+  <div class="post-card-body">
+    {tags.length > 0 && (
+      <div class="post-card-tags" aria-label="Temas do artigo">
+        {tags.slice(0, 3).map((tag) => <span class="tag">{tag}</span>)}
+      </div>
+    )}
+    <h2>{title}</h2>
+    <p>{description}</p>
+  </div>
+  <div class="post-card-footer">
+    <time datetime={publishDate.toISOString()}>{dateStr(publishDate)}</time>
+    <span class="read-more">Ler artigo</span>
+  </div>
+</a>
