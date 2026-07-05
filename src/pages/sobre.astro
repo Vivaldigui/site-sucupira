@@ -49,6 +49,7 @@ const schema = JSON.stringify({
       jobTitle: AUTHOR_JOB_TITLE,
       description:
         'Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar de Itanhandu (MG). Escreve os conteúdos educativos do Centro de Conhecimento da Sucupira.',
+      image: blogUrl('/assets/priscila-petrucelli.webp'),
       url: canonicalUrl,
       worksFor: { '@id': ORGANIZATION_ID },
       knowsAbout: ['Sucupira', 'Plantas do cerrado brasileiro', 'Agronomia', 'Extratos vegetais'],
@@ -103,7 +104,7 @@ const schema = JSON.stringify({
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={blogUrl('/assets/sucupira-natural-banner.webp')} />
+    <meta property="og:image" content={blogUrl('/assets/priscila-petrucelli.webp')} />
     <meta property="og:url" content={canonicalUrl} />
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
@@ -135,8 +136,22 @@ const schema = JSON.stringify({
 
           <h2 id="quem-escreve">Quem escreve este blog</h2>
 
+          <figure class="about-figure about-portrait">
+            <img
+              src="/assets/priscila-petrucelli.webp"
+              alt="Priscila Petrucelli, engenheira agrônoma e cofundadora da Sucupira Naturale"
+              width="721"
+              height="873"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Priscila Petrucelli, autora dos conteúdos do blog.</figcaption>
+          </figure>
+
           <aside class="author-box" aria-label="Perfil da autora">
-            <div class="author-avatar" aria-hidden="true">PP</div>
+            <div class="author-avatar" aria-hidden="true">
+              <img src="/assets/priscila-petrucelli-avatar.webp" alt="" loading="lazy" decoding="async" />
+            </div>
             <div class="author-info">
               <h2>Priscila Petrucelli</h2>
               <p>
@@ -163,11 +178,23 @@ const schema = JSON.stringify({
           <h2 id="nossa-historia">Como a Sucupira Naturale nasceu</h2>
 
           <p>
-            Nossa história começou de um jeito difícil. Minha mãe sofreu um grave acidente de carro, que a
-            deixou entre a vida e a morte, com múltiplas fraturas e a amputação de uma perna. Diante de um
+            Nossa história começou de um jeito difícil. Minha mãe, Jane, sofreu um grave acidente de carro, que
+            a deixou entre a vida e a morte, com múltiplas fraturas e a amputação de uma perna. Diante de um
             prognóstico de dores crônicas, eu e meu pai começamos a preparar, de forma caseira, um extrato
             vegetal líquido de sucupira — só para o uso dela, como parte do cuidado da família.
           </p>
+
+          <figure class="about-figure about-family">
+            <img
+              src="/assets/familia-jane-priscila-leonardo.webp"
+              alt="Jane, Priscila e Leonardo, a família fundadora da Sucupira Naturale"
+              width="217"
+              height="168"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Jane, Priscila e Leonardo — a família por trás da Sucupira Naturale.</figcaption>
+          </figure>
 
           <p>
             Foi um período que mudou nossas vidas para sempre. Acompanhamos de perto a recuperação dela e a

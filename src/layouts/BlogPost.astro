@@ -86,6 +86,7 @@ const graph: Record<string, unknown>[] = [
     '@id': AUTHOR_ID,
     name: AUTHOR_NAME,
     jobTitle: AUTHOR_JOB_TITLE,
+    image: blogUrl('/assets/priscila-petrucelli.webp'),
     url: blogUrl(AUTHOR_PAGE_PATH),
     worksFor: { '@id': ORGANIZATION_ID },
   },
@@ -284,7 +285,13 @@ const schema = JSON.stringify({
         />
 
         <aside class="author-box" aria-label="Sobre a autoria">
-          <div class="author-avatar" aria-hidden="true">{authorInitials}</div>
+          <div class="author-avatar" aria-hidden="true">
+            {author === AUTHOR_NAME ? (
+              <img src="/assets/priscila-petrucelli-avatar.webp" alt="" loading="lazy" decoding="async" />
+            ) : (
+              authorInitials
+            )}
+          </div>
           <div class="author-info">
             <h2>{author}</h2>
             <p>

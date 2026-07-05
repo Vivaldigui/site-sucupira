@@ -876,11 +876,45 @@ input {
   height: 48px;
   flex: 0 0 48px;
   place-items: center;
+  overflow: hidden;
   border-radius: 50%;
   background: var(--green);
   color: #fff;
   font-size: 0.8rem;
   font-weight: 900;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 18%;
+}
+
+.about-figure {
+  margin: 1.4rem 0;
+}
+
+.about-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+.about-portrait img {
+  max-width: 340px;
+}
+
+.about-family img {
+  max-width: 240px;
+}
+
+.about-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 .author-info h2 {
