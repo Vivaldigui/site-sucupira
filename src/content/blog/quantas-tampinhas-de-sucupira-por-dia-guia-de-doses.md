@@ -2,8 +2,8 @@
 title: "Quantas tampinhas de sucupira por dia? Guia de doses"
 description: "Veja quantas tampinhas de Sucupira Naturale tomar em cada fase, como usar o extrato corretamente, quais cuidados observar e como escolher o kit adequado."
 publishDate: "2026-06-20T13:00:00-03:00"
-author: "Equipe Sucupira Naturale"
-authorRole: "Especialistas em Fitoterapia"
+author: "Priscila Petrucelli"
+authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dosagem", "Como tomar"]
 featured: true
 ogImage: "/assets/como-tomar-extrato-de-sucupira.png"

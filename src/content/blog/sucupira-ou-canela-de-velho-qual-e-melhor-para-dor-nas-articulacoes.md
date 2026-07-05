@@ -4,8 +4,8 @@ description: Sucupira ou canela de velho para dor nas articulações? Veja a
   comparação completa, o que diz a tradição e a ciência, e descubra qual
   escolher.
 publishDate: 2026-07-04T23:42:00+00:00
-author: Equipe Sucupira Naturale
-authorRole: Equipe de conteúdo
+author: "Priscila Petrucelli"
+authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags:
   - sucupira
   - canela de velho

@@ -7,6 +7,10 @@ import ProductCTA from '../components/ProductCTA.astro';
 import RelatedArticles from '../components/RelatedArticles.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import {
+  AUTHOR_ID,
+  AUTHOR_JOB_TITLE,
+  AUTHOR_NAME,
+  AUTHOR_PAGE_PATH,
   BLOG_NAME,
   ORGANIZATION_ID,
   SALES_CTA_URL,
@@ -65,8 +69,26 @@ const ogImage = blogAssetUrl(ogImagePath);
 const pageTitle = `${title} | ${SITE_NAME}`;
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 const heroImage = ogImagePath || '/assets/sucupira-natural-banner.webp';
+const authorInitials = author
+  .split(/\s+/)
+  .map((word) => word[0])
+  .slice(0, 2)
+  .join('')
+  .toUpperCase();
+const authorSchema =
+  author === AUTHOR_NAME
+    ? { '@id': AUTHOR_ID }
+    : { '@type': 'Person', name: author };
 
 const graph: Record<string, unknown>[] = [
+  {
+    '@type': 'Person',
+    '@id': AUTHOR_ID,
+    name: AUTHOR_NAME,
+    jobTitle: AUTHOR_JOB_TITLE,
+    url: blogUrl(AUTHOR_PAGE_PATH),
+    worksFor: { '@id': ORGANIZATION_ID },
+  },
   {
     '@type': 'Organization',
     '@id': ORGANIZATION_ID,
@@ -95,10 +117,7 @@ const graph: Record<string, unknown>[] = [
       '@type': 'ImageObject',
       url: ogImage,
     },
-    author: {
-      '@type': 'Organization',
-      name: author,
-    },
+    author: authorSchema,
     publisher: { '@id': ORGANIZATION_ID },
     isPartOf: { '@id': WEBSITE_ID },
     mainEntityOfPage: {
@@ -252,7 +271,7 @@ const schema = JSON.stringify({
 
         <InfoBox variant="transparency" title="Transparência editorial" labelledBy="transparency-title">
           <p>
-            Este conteúdo educativo é preparado pela {author} a partir de literatura pública e fontes
+            Este conteúdo educativo é preparado por {author} a partir de literatura pública e fontes
             informativas. Não declaramos revisão médica quando ela não ocorreu e o material não substitui
             orientação individual de um profissional de saúde.
           </p>
@@ -265,13 +284,15 @@ const schema = JSON.stringify({
         />
 
         <aside class="author-box" aria-label="Sobre a autoria">
-          <div class="author-avatar" aria-hidden="true">SN</div>
+          <div class="author-avatar" aria-hidden="true">{authorInitials}</div>
           <div class="author-info">
             <h2>{author}</h2>
             <p>
-              Equipe responsável pela organização dos conteúdos educativos da Sucupira Naturale. Nenhuma
-              credencial médica ou revisão clínica é atribuída sem comprovação.
+              Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar de Itanhandu (MG).
+              Escreve os conteúdos educativos deste blog. Nenhuma credencial médica ou revisão clínica é
+              atribuída sem comprovação.
             </p>
+            <p><a href={AUTHOR_PAGE_PATH}>Conheça a história da Priscila e da Sucupira Naturale →</a></p>
           </div>
         </aside>
 
@@ -289,7 +310,7 @@ const schema = JSON.stringify({
 
     <footer class="blog-footer">
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
-      <p><a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
+      <p><a href={AUTHOR_PAGE_PATH}>Quem somos</a> · <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
     </footer>
 
     <MobileStickyCTA />

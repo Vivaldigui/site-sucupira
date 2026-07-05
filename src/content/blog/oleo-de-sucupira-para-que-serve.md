@@ -2,8 +2,8 @@
 title: "Óleo de sucupira: para que serve, segundo o uso tradicional"
 description: "Entenda o que é o óleo de sucupira, como ele aparece no uso tradicional, a diferença para o extrato e quais cuidados tomar antes de usar."
 publishDate: "2026-07-03T15:00:00-03:00"
-author: "Equipe Sucupira Naturale"
-authorRole: "Equipe de conteúdo"
+author: "Priscila Petrucelli"
+authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Uso Tradicional", "Plantas Medicinais", "Segurança no Uso"]
 featured: false
 ---

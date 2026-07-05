@@ -10,6 +10,12 @@ export const GOOGLE_ANALYTICS_ID = 'G-L27DL7MMTY';
 export const ORGANIZATION_ID = `${SALES_SITE_URL}/#organization`;
 export const WEBSITE_ID = `${BLOG_SITE_URL}/#website`;
 
+export const AUTHOR_NAME = 'Priscila Petrucelli';
+export const AUTHOR_ROLE = 'Engenheira Agrônoma e cofundadora da Sucupira Naturale';
+export const AUTHOR_JOB_TITLE = 'Engenheira Agrônoma';
+export const AUTHOR_PAGE_PATH = '/sobre/';
+export const AUTHOR_ID = `${BLOG_SITE_URL}${AUTHOR_PAGE_PATH}#priscila-petrucelli`;
+
 export function blogUrl(pathname = '/') {
   return new URL(pathname, `${BLOG_SITE_URL}/`).toString();
 }

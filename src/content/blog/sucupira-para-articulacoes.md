@@ -2,8 +2,8 @@
 title: "Sucupira para articulações: o que saber antes de usar"
 description: "Entenda a sucupira para articulações, seu uso tradicional, cuidados importantes e quando buscar orientação profissional."
 publishDate: "2026-07-01T08:00:00-03:00"
-author: "Equipe Sucupira Naturale"
-authorRole: "Equipe de conteúdo"
+author: "Priscila Petrucelli"
+authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Dor nas Articulações", "Uso Tradicional", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-articulacoes.webp"

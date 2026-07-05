@@ -1,0 +1,223 @@
+---
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import InfoBox from '../components/InfoBox.astro';
+import ProductCTA from '../components/ProductCTA.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import {
+  AUTHOR_ID,
+  AUTHOR_JOB_TITLE,
+  AUTHOR_NAME,
+  BLOG_NAME,
+  ORGANIZATION_ID,
+  SALES_CTA_URL,
+  SALES_SITE_URL,
+  SITE_NAME,
+  WEBSITE_ID,
+  blogUrl,
+} from '../consts';
+import '../styles/blog.css';
+
+const canonicalUrl = blogUrl('/sobre/');
+const title = `Quem somos | ${SITE_NAME}`;
+const description =
+  'Conheça Priscila Petrucelli, engenheira agrônoma, e a história da Sucupira Naturale: uma empresa familiar de Itanhandu (MG) que nasceu do cuidado com a própria família.';
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': ORGANIZATION_ID,
+      name: SITE_NAME,
+      url: SALES_SITE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: blogUrl('/assets/logo.png'),
+      },
+      founder: { '@id': AUTHOR_ID },
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Itanhandu',
+        addressRegion: 'MG',
+        addressCountry: 'BR',
+      },
+    },
+    {
+      '@type': 'Person',
+      '@id': AUTHOR_ID,
+      name: AUTHOR_NAME,
+      jobTitle: AUTHOR_JOB_TITLE,
+      description:
+        'Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar de Itanhandu (MG). Escreve os conteúdos educativos do Centro de Conhecimento da Sucupira.',
+      url: canonicalUrl,
+      worksFor: { '@id': ORGANIZATION_ID },
+      knowsAbout: ['Sucupira', 'Plantas do cerrado brasileiro', 'Agronomia', 'Extratos vegetais'],
+    },
+    {
+      '@type': 'AboutPage',
+      '@id': `${canonicalUrl}#about`,
+      name: 'Quem somos',
+      description,
+      url: canonicalUrl,
+      inLanguage: 'pt-BR',
+      isPartOf: { '@id': WEBSITE_ID },
+      mainEntity: { '@id': AUTHOR_ID },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${canonicalUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: BLOG_NAME,
+          item: blogUrl('/'),
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Quem somos',
+          item: canonicalUrl,
+        },
+      ],
+    },
+  ],
+});
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={AUTHOR_NAME} />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="pt-BR" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={blogUrl('/assets/sucupira-natural-banner.webp')} />
+    <meta property="og:url" content={canonicalUrl} />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <GoogleAnalytics />
+    <script type="application/ld+json" set:html={schema}></script>
+  </head>
+  <body>
+    <SiteHeader />
+
+    <nav class="breadcrumb" aria-label="Navegação estrutural">
+      <ol>
+        <li><a href="/">Centro de Conhecimento</a></li>
+        <li aria-hidden="true">›</li>
+        <li aria-current="page">Quem somos</li>
+      </ol>
+    </nav>
+
+    <main class="blog-container">
+      <article>
+        <div class="article-body">
+          <h1>Quem somos</h1>
+
+          <p>
+            A Sucupira Naturale é uma <strong>empresa familiar</strong> do interior de Minas Gerais. Estamos em
+            Itanhandu, na região de serra e alta altitude conhecida como Terras Altas da Mantiqueira — bem na
+            tríplice divisa de Minas Gerais, Rio de Janeiro e São Paulo, a cerca de três horas das duas capitais.
+          </p>
+
+          <h2 id="quem-escreve">Quem escreve este blog</h2>
+
+          <aside class="author-box" aria-label="Perfil da autora">
+            <div class="author-avatar" aria-hidden="true">PP</div>
+            <div class="author-info">
+              <h2>Priscila Petrucelli</h2>
+              <p>
+                Engenheira Agrônoma e sócia-proprietária da Sucupira Naturale, ao lado do pai, Leonardo. É quem
+                escreve os conteúdos deste blog e conversa com a comunidade nas redes sociais e nos vídeos
+                informativos da marca.
+              </p>
+            </div>
+          </aside>
+
+          <p>
+            Oi! Eu sou a Priscila. Sou engenheira agrônoma, casada com o Carlos e tutora da Bell, minha
+            shih-tzu. Junto com o meu pai, Leonardo, cuido da Sucupira Naturale — e sou eu quem escreve os
+            artigos que você lê aqui no Centro de Conhecimento.
+          </p>
+
+          <p>
+            Eu também convivo com uma doença autoimune chamada <strong>Síndrome de Sjögren</strong> e faço uso
+            diário do extrato líquido de sucupira, com acompanhamento profissional. Essa é a minha experiência
+            pessoal — cada organismo responde de um jeito, e o que faz parte da minha rotina não é uma
+            recomendação nem uma promessa de resultado para outras pessoas.
+          </p>
+
+          <h2 id="nossa-historia">Como a Sucupira Naturale nasceu</h2>
+
+          <p>
+            Nossa história começou de um jeito difícil. Minha mãe sofreu um grave acidente de carro, que a
+            deixou entre a vida e a morte, com múltiplas fraturas e a amputação de uma perna. Diante de um
+            prognóstico de dores crônicas, eu e meu pai começamos a preparar, de forma caseira, um extrato
+            vegetal líquido de sucupira — só para o uso dela, como parte do cuidado da família.
+          </p>
+
+          <p>
+            Foi um período que mudou nossas vidas para sempre. Acompanhamos de perto a recuperação dela e a
+            qualidade de vida que conquistou ao longo dos anos, sempre junto do acompanhamento médico que um
+            caso como o dela exige.
+          </p>
+
+          <p>
+            Com o tempo, decidimos levar o extrato para escala comercial, para que mais pessoas tivessem acesso
+            a um produto de sucupira feito com o mesmo cuidado que tivemos dentro de casa. Assim nasceu a
+            Sucupira Naturale.
+          </p>
+
+          <h2 id="compromisso">Nosso compromisso com você</h2>
+
+          <ul>
+            <li>
+              <strong>Conteúdo separado da venda:</strong> este blog é educativo. As informações comerciais
+              ficam na página oficial do produto, sempre identificadas.
+            </li>
+            <li>
+              <strong>Transparência sobre credenciais:</strong> Priscila é engenheira agrônoma, não profissional
+              de saúde. Nenhuma revisão médica é declarada quando ela não ocorreu.
+            </li>
+            <li>
+              <strong>Respeito à sua saúde:</strong> nenhum conteúdo daqui substitui consulta, diagnóstico ou
+              tratamento. Sempre incentivamos a conversa com um profissional de saúde.
+            </li>
+          </ul>
+
+          <InfoBox variant="disclaimer" title="Aviso de conteúdo informativo" labelledBy="about-disclaimer-title">
+            <p>
+              <strong>As experiências relatadas nesta página são pessoais e não substituem consulta,
+              diagnóstico ou tratamento médico.</strong> Gestantes, lactantes, crianças, pessoas com doenças ou
+              em uso de medicamentos devem buscar orientação profissional antes de usar produtos ou suplementos.
+            </p>
+          </InfoBox>
+        </div>
+
+        <ProductCTA
+          title="Quer conhecer a Sucupira Naturale?"
+          text="Consulte opções, condições e informações do produto na página oficial de venda. O conteúdo deste blog permanece exclusivamente informativo."
+          label="Acessar página oficial"
+        />
+      </article>
+    </main>
+
+    <footer class="blog-footer">
+      <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+      <p><a href="/">Voltar ao Centro de Conhecimento</a> · <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
+    </footer>
+  </body>
+</html>

@@ -102,6 +102,29 @@ input {
   text-decoration: none;
 }
 
+.header-links {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.header-link {
+  color: var(--green-dark);
+  font-size: 0.9rem;
+  font-weight: 750;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  .header-link {
+    display: none;
+  }
+}
+
 .logo-wrap {
   display: flex;
   align-items: center;

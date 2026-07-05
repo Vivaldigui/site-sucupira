@@ -2,8 +2,8 @@
 title: "Sucupira faz mal para os rins ou fígado?"
 description: "Sucupira faz mal para os rins? Entenda por que a segurança varia e quando buscar orientação."
 publishDate: "2026-07-04T08:00:00-03:00"
-author: "Equipe Sucupira Naturale"
-authorRole: "Equipe de conteúdo"
+author: "Priscila Petrucelli"
+authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Segurança no Uso", "Rins e Fígado", "Contraindicações", "Ciência da Sucupira"]
 featured: false
 ogImage: "/assets/blog/sucupira-faz-mal-para-os-rins-ou-figado.webp"

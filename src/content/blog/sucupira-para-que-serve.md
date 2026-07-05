@@ -2,11 +2,10 @@
 title: "Sucupira: para que serve? Benefícios, usos e contraindicações"
 description: "Descubra para que serve a sucupira, quais os benefícios comprovados pela ciência, como usar corretamente e quem deve evitar. Informação completa e baseada em evidências."
 publishDate: 2025-06-01
-author: "Equipe Sucupira Naturale"
-authorRole: "Especialistas em Fitoterapia"
+author: "Priscila Petrucelli"
+authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Articulações"]
 featured: true
-ogImage: "/assets/semente-sucupira.jpg"
 ---
 
 A sucupira é uma das plantas medicinais mais antigas da medicina popular brasileira — e nas últimas décadas passou a ser estudada com rigor científico. Mas afinal, **para que serve a sucupira de verdade?**
