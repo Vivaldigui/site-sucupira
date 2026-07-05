@@ -1,0 +1,58 @@
+media:
+  input: public/assets
+  output: /assets
+
+content:
+  - name: blog
+    label: Posts do Blog
+    type: collection
+    path: src/content/blog
+    filename: '{fields.title}.md'
+    view:
+      fields: [title, publishDate, featured]
+      sort: [publishDate, title]
+      default:
+        sort: publishDate
+        order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+        description: Título do post — também define o nome do arquivo e a URL.
+      - name: description
+        label: Descrição (SEO)
+        type: text
+        required: true
+        description: Resumo de 1 a 2 frases que aparece no Google e nos cards do blog.
+      - name: publishDate
+        label: Data de publicação
+        type: date
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd'T'HH:mm:ssxxx"
+        description: Posts com data futura só entram no ar no dia agendado (build diário ~05:20 BRT).
+      - name: author
+        label: Autor
+        type: string
+        default: Equipe Sucupira Naturale
+      - name: authorRole
+        label: Função do autor
+        type: string
+        default: Equipe de conteúdo
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: featured
+        label: Post em destaque
+        type: boolean
+        default: false
+      - name: ogImage
+        label: Imagem de capa (opcional)
+        type: image
+        description: Se ficar vazio, o post usa a capa padrão do blog. Nunca usar o banner comercial de produto como capa.
+      - name: body
+        label: Conteúdo
+        type: rich-text

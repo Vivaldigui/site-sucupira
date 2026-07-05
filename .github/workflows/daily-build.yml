@@ -3,7 +3,14 @@ name: Daily blog deploy
 on:
   schedule:
     - cron: '20 8 * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
+
+concurrency:
+  group: blog-deploy
+  cancel-in-progress: false
 
 permissions:
   contents: read
