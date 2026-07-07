@@ -6,6 +6,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Gota", "Ácido Úrico", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-gota-e-acido-urico.webp"
 ---
 
 **Resposta rápida:** No uso tradicional, a sucupira é associada ao alívio de dores articulares e inflamações, o que leva algumas pessoas a buscá-la também para gota. Não existe comprovação científica de que ela reduza o ácido úrico, e há relatos de que o chá pode até intensificar sintomas em crise. Se você tem gota, o acompanhamento médico não é opcional — é o que define o tratamento com segurança.
