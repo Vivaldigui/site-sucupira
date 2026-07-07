@@ -6,6 +6,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Segurança no Uso"]
 featured: true
+ogImage: "/assets/blog/sucupira-no-vinho.webp"
 ---
 
 **Resposta rápida:** A sucupira no vinho é uma garrafada tradicional feita macerando as sementes em vinho tinto ou branco por cerca de 7 dias. O uso popular associa a bebida ao alívio de dores articulares e reumatismo, mas não há comprovação científica específica sobre esse preparo — e o álcool soma um risco à parte, principalmente para quem usa medicamentos. Existe uma forma com dose mais previsível, sem depender da maceração caseira.
