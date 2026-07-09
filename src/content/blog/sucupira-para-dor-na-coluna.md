@@ -6,6 +6,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor na Coluna", "Mobilidade", "Uso Tradicional"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-dor-na-coluna.webp"
 ---
 
 **Resposta rápida:** No uso tradicional, a sucupira é associada ao alívio de dores musculares e articulares, o que inclui relatos de uso para desconforto na coluna. Ela pode fazer sentido como apoio complementar em dores de origem muscular ou postural, mas não deve ser usada para tentar "aguentar" uma dor que pode ter causa mais séria, como hérnia de disco ou compressão de nervo — nesses casos, a avaliação médica vem antes de qualquer produto natural.
