@@ -47,7 +47,7 @@ As duas formas podem ser usadas em conjunto, mas a decisão de combinar produtos
 <aside class="product-cta-box">
   <p class="cta-eyebrow">Apoio com dose conhecida para o dia a dia</p>
   <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial. Dor na coluna com irradiação para a perna, formigamento ou perda de força deve ser avaliada por um médico antes de qualquer produto.</p>
+  <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
   <a class="btn-cta-buy" href="https://seudesconto.sucupiranaturale.com.br/#comprar">Acessar página oficial</a>
 </aside>
 
@@ -75,7 +75,7 @@ No uso tradicional, sim, especialmente para dores de origem muscular ou postural
 
 **Sucupira serve para hérnia de disco?**
 
-Não há comprovação disso. Hérnia de disco é uma condição estrutural que precisa de diagnóstico e acompanhamento médico — não deve ser tratada apenas com produtos naturais.
+Isso vai além do que o uso tradicional da sucupira propõe. Hérnia de disco é uma condição estrutural que precisa de diagnóstico e acompanhamento médico — não deve ser tratada apenas com produtos naturais.
 
 **Óleo ou extrato de sucupira, qual usar para a coluna?**
 

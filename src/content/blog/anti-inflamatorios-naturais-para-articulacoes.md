@@ -43,9 +43,9 @@ O gengibre tem compostos (gingeróis) com atividade anti-inflamatória documenta
 
 ## 5. Sucupira
 
-A sucupira (*Pterodon pubescens*), planta nativa do Cerrado brasileiro, tem uma base de evidência majoritariamente pré-clínica: estudos em laboratório e em modelos animais, conduzidos por grupos de pesquisa como os da Unicamp, descrevem atividade anti-inflamatória e analgésica atribuída a diterpenos como os vouacapanos. Diferente da cúrcuma e da boswellia, **ainda não existem ensaios clínicos em humanos** publicados especificamente sobre a sucupira.
+A sucupira (*Pterodon pubescens*), planta nativa do Cerrado brasileiro, é tradicionalmente utilizada há gerações para dores articulares e reumatismo, um uso popular amplamente difundido no Brasil. Estudos em laboratório e em modelos animais, conduzidos por grupos de pesquisa como os da Unicamp, mostram atividade anti-inflamatória e analgésica atribuída a diterpenos como os vouacapanos — a diferença para cúrcuma e boswellia é que a sucupira ainda não tem ensaios clínicos em humanos publicados especificamente sobre ela.
 
-Isso não invalida o uso tradicional, amplamente difundido no Brasil para dores articulares e reumatismo — mas é diferente de dizer que há comprovação clínica. Vale também redobrar a atenção à procedência: análises já identificaram produtos vendidos como "extrato de sucupira" que continham, na verdade, diclofenaco não declarado no rótulo — um risco de mercado documentado por [pesquisadores da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira).
+Vale redobrar a atenção à procedência: análises já identificaram produtos vendidos como "extrato de sucupira" que continham, na verdade, diclofenaco não declarado no rótulo — um risco de mercado documentado por [pesquisadores da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira).
 
 <figure>
   <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">

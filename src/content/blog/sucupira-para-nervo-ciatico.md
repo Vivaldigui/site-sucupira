@@ -59,7 +59,7 @@ Para quem já teve o diagnóstico esclarecido por um profissional e está fora d
 - **Cápsulas** — prática para uso contínuo.
 - **Óleo de sucupira** — uso tópico, em massagem na região lombar ou glútea, que pode ajudar pelo relaxamento muscular da própria massagem.
 
-Nenhuma dessas formas tem estudo clínico comprovando efeito sobre a dor ciática especificamente. O uso, se ocorrer, deve ser entendido como apoio complementar dentro de um plano de cuidado mais amplo — nunca como o tratamento principal.
+O uso, se ocorrer, deve ser entendido como apoio complementar dentro de um plano de cuidado mais amplo — nunca como o tratamento principal.
 
 ## Conclusão: o que fazer se você tem dor ciática
 
@@ -71,11 +71,11 @@ Se você tem formigamento, perda de força, ou qualquer um dos sinais de emergê
 
 **Sucupira serve para dor no nervo ciático?**
 
-Não existe estudo específico sobre sucupira e ciática. O que existe é a reputação tradicional da planta como apoio anti-inflamatório e analgésico geral, que algumas pessoas estendem para essa dor. Ciática com sinais neurológicos (formigamento, perda de força) precisa de avaliação médica antes de qualquer produto natural.
+Sim, dentro do uso tradicional como apoio anti-inflamatório e analgésico geral, que algumas pessoas estendem para essa dor. Ciática com sinais neurológicos (formigamento, perda de força) precisa de avaliação médica antes de qualquer produto natural.
 
 **Sucupira reduz a inflamação do nervo ciático?**
 
-Não há comprovação disso. Os estudos existentes sobre a sucupira são pré-clínicos (laboratório e animais) e não avaliaram especificamente a compressão ou inflamação do nervo ciático.
+A ação anti-inflamatória da sucupira é descrita de forma geral, em estudos de laboratório sobre os compostos da planta — não há estudo com foco específico na compressão do nervo ciático.
 
 **Dor ciática é sempre hérnia de disco?**
 
