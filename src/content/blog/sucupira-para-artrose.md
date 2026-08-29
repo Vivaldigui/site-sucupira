@@ -64,6 +64,8 @@ Mesmo sendo natural, a sucupira pede atenção. Devem **buscar orientação prof
 
 Procure atendimento se houver dor forte, febre, inchaço importante, vermelhidão, perda de força, queda recente ou piora rápida dos sintomas. O conteúdo do blog informa, mas não substitui a avaliação individual.
 
+Para situar esse uso entre as demais aplicações tradicionais da planta, consulte o guia sobre [para que serve a sucupira](/sucupira-para-que-serve/).
+
 ## O que ler em seguida?
 
 Continue a leitura dentro do Centro de Conhecimento da Sucupira:

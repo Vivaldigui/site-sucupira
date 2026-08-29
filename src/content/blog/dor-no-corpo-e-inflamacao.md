@@ -4,7 +4,7 @@ description: "Dor no corpo generalizada: o que costuma indicar inflamação, cau
 publishDate: "2026-09-24T08:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Inflamação", "Dores Crônicas", "Plantas Medicinais", "Saúde 45+", "Segurança no Uso"]
+tags: ["Inflamação", "Dores crônicas", "Plantas Medicinais", "Saúde 45+", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/dor-no-corpo-e-inflamacao.webp"
 ---

@@ -4,7 +4,7 @@ description: "Veja quantas tampinhas de Sucupira Naturale tomar em cada fase, co
 publishDate: "2026-06-20T13:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Dosagem", "Como tomar"]
+tags: ["Sucupira", "Dosagem", "Como Tomar"]
 featured: true
 ogImage: "/assets/como-tomar-extrato-de-sucupira.png"
 ---

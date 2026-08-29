@@ -4,7 +4,7 @@ description: "Sucupira para fibromialgia: o que diz o uso tradicional, por que o
 publishDate: "2026-08-26T08:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Fibromialgia", "Dores Crônicas", "Uso Tradicional", "Segurança no Uso"]
+tags: ["Sucupira", "Fibromialgia", "Dores crônicas", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ---
 
@@ -28,6 +28,8 @@ Muitas pessoas com fibromialgia convivem também com dores musculares e articula
 ## O tratamento de fibromialgia é multidisciplinar
 
 O manejo da fibromialgia costuma envolver várias frentes: acompanhamento médico (geralmente reumatologista), atividade física orientada (especialmente exercícios de baixo impacto), cuidado com o sono, e às vezes acompanhamento psicológico, já que a condição tem forte ligação com estresse e qualidade do sono. Nenhum produto natural isolado resolve esse conjunto.
+
+Para conhecer os usos gerais da planta sem confundir apoio complementar com tratamento, veja [para que serve a sucupira](/sucupira-para-que-serve/).
 
 ## Perguntas frequentes
 

@@ -2,6 +2,7 @@
 title: "Sucupira: para que serve? Benefícios, usos e contraindicações"
 description: "Descubra para que serve a sucupira, quais os benefícios comprovados pela ciência, como usar corretamente e quem deve evitar. Informação completa e baseada em evidências."
 publishDate: 2025-06-01
+updatedDate: "2026-08-29T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Articulações"]
@@ -129,6 +130,24 @@ Se surgir qualquer sintoma incomum após o início do uso, suspenda e consulte u
 O extrato líquido tende a ter **absorção mais rápida** e permite ajustar a dose com mais facilidade. As cápsulas são mais práticas para rotina e têm sabor neutro.
 
 Para quem tem problemas articulares crônicos e busca uso contínuo, ambos podem funcionar — o mais importante é a **concentração e qualidade da matéria-prima**.
+
+---
+
+## Conteúdos por condição e tipo de dor
+
+Os usos pesquisados para a sucupira variam conforme a região do corpo e a causa do desconforto. Estes guias ajudam a entender cada contexto, seus limites e quando procurar avaliação profissional:
+
+- [Sucupira para articulações: uso e cuidados](/sucupira-para-articulacoes/)
+- [Sucupira para artrose](/sucupira-para-artrose/)
+- [Sucupira para artrite](/sucupira-para-artrite/)
+- [Sucupira para dor no joelho](/sucupira-para-dor-no-joelho/)
+- [Sucupira para dor na coluna](/sucupira-para-dor-na-coluna/)
+- [Sucupira para dor no calcanhar](/sucupira-para-dor-no-calcanhar/)
+- [Sucupira para o nervo ciático](/sucupira-para-nervo-ciatico/)
+- [Sucupira para bursite e tendinite](/sucupira-para-bursite-e-tendinite/)
+- [Sucupira para fibromialgia](/sucupira-para-fibromialgia/)
+- [Sucupira para gota e ácido úrico](/sucupira-para-gota-e-acido-urico/)
+- [Sucupira para dores musculares](/sucupira-para-dores-musculares/)
 
 ---
 

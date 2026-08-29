@@ -35,6 +35,8 @@ Muita gente combina as duas formas: uso oral contínuo e óleo nos dias de mais 
 
 Fortalecer a musculatura ao redor do joelho (especialmente o quadríceps), manter um peso saudável, evitar impacto excessivo e alongar regularmente são medidas que fazem diferença real e sustentada — a sucupira pode complementar essa rotina, não substituí-la.
 
+Se você quer compreender onde esse uso se encaixa entre as aplicações tradicionais da planta, veja [para que serve a sucupira](/sucupira-para-que-serve/).
+
 ## Quando o joelho pede avaliação ortopédica
 
 Inchaço importante, vermelhidão, calor local, incapacidade de apoiar o peso, estalos com dor aguda ou trava no movimento são sinais que merecem avaliação de um ortopedista antes de qualquer apoio natural — podem indicar lesão estrutural que precisa de diagnóstico por imagem.

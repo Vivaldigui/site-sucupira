@@ -29,6 +29,8 @@ O óleo de sucupira, em massagem local na sola do pé e no calcanhar, é a forma
 
 Alongamento da fáscia plantar e da panturrilha, calçados com bom amortecimento, evitar ficar descalço em piso duro por muito tempo, e reduzir o impacto repetitivo (como corrida em excesso sem preparo adequado) costumam ser as medidas de maior efeito prático. Um apoio natural pode somar a essa rotina, não substituí-la.
 
+Para conhecer os demais usos tradicionais e os cuidados gerais, leia [para que serve a sucupira](/sucupira-para-que-serve/).
+
 ## Perguntas frequentes
 
 **Sucupira ajuda na dor no calcanhar?**

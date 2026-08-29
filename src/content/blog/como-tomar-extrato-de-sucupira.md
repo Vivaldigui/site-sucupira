@@ -4,7 +4,7 @@ description: "Como tomar o extrato de sucupira para ter resultado: dose certa, m
 publishDate: 2026-06-20
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Como tomar", "Dosagem"]
+tags: ["Sucupira", "Como Tomar", "Dosagem"]
 featured: true
 ogImage: "/assets/como-tomar-extrato-de-sucupira.png"
 ---

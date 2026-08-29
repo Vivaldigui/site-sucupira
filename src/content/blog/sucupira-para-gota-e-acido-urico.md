@@ -4,7 +4,7 @@ description: "Sucupira para gota: o que diz o uso tradicional sobre ácido úric
 publishDate: "2026-07-07T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Gota", "Ácido Úrico", "Segurança no Uso"]
+tags: ["Sucupira", "Articulações", "Inflamação", "Gota", "Ácido Úrico", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-gota-e-acido-urico.webp"
 ---
@@ -53,6 +53,8 @@ Se, mesmo assim, você e seu médico decidirem que faz sentido experimentar a su
   <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
   <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
 </aside>
+
+Para conhecer os usos gerais da planta e as principais precauções, consulte o guia [para que serve a sucupira](/sucupira-para-que-serve/).
 
 ## Quando procurar atendimento médico
 

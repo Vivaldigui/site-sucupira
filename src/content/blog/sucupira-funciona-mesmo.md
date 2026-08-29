@@ -4,7 +4,7 @@ description: "Sucupira funciona mesmo? Entenda o que esperar de forma realista, 
 publishDate: "2026-09-10T08:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Ciência da Sucupira", "Uso Tradicional", "Dores Crônicas", "Segurança no Uso"]
+tags: ["Sucupira", "Ciência da Sucupira", "Uso Tradicional", "Dores crônicas", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-funciona-mesmo.webp"
 ---

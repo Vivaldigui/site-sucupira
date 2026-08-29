@@ -4,7 +4,7 @@ description: "Sucupira líquida ou cápsula para dor? Entenda diferenças, prati
 publishDate: "2026-06-29T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Dores crônicas", "Como tomar"]
+tags: ["Sucupira", "Dores crônicas", "Como Tomar"]
 featured: false
 ogImage: "/assets/sucupira-liquida-capsula-cover.webp"
 ---

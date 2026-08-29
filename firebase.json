@@ -7,6 +7,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "regex": "^/sucupira-para-articulacoes-dor-nas-juntas/?$",
+        "destination": "/sucupira-para-articulacoes/",
+        "type": 301
+      }
+    ],
     "headers": [
       {
         "source": "/_astro/**",

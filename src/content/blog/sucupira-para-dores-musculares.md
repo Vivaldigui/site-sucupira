@@ -29,6 +29,8 @@ O óleo de sucupira, em massagem local nos músculos doloridos, é a forma mais 
 
 Alongamento leve, hidratação adequada, sono de qualidade e uma progressão gradual na intensidade dos treinos (evitando saltos bruscos de carga) são as medidas mais eficazes para reduzir a intensidade dessa dor ao longo do tempo.
 
+Para diferenciar esse uso de outras aplicações tradicionais da planta, leia [para que serve a sucupira](/sucupira-para-que-serve/).
+
 ## Perguntas frequentes
 
 **Sucupira ajuda na dor muscular pós-treino?**

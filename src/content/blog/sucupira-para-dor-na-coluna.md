@@ -4,7 +4,7 @@ description: "Sucupira para dor na coluna: o que diz o uso tradicional, diferen�
 publishDate: "2026-07-07T10:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Dor na Coluna", "Mobilidade", "Uso Tradicional"]
+tags: ["Sucupira", "Articulações", "Dor na Coluna", "Mobilidade", "Saúde 45+", "Dores crônicas"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dor-na-coluna.webp"
 ---
@@ -62,6 +62,8 @@ Dor na coluna raramente se resolve com um único cuidado isolado. Medidas que co
 - Controle de peso, quando aplicável
 
 A sucupira pode entrar como apoio dentro desse conjunto, nunca como a única medida — principalmente se a dor já é recorrente.
+
+Uma visão geral dos usos, evidências e cuidados está no guia [para que serve a sucupira](/sucupira-para-que-serve/).
 
 ## Quando procurar um médico
 

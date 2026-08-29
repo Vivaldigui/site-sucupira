@@ -29,6 +29,8 @@ A ação anti-inflamatória e analgésica tradicionalmente atribuída à sucupir
 
 Repouso relativo da região afetada, gelo nas primeiras 48 horas de uma crise aguda, e depois calor e alongamento leve, costumam ser as medidas de maior impacto. O uso tópico do óleo de sucupira em massagem, ou o uso oral do extrato como apoio geral, pode entrar como complemento dentro desse cuidado — nunca isolado.
 
+O guia [para que serve a sucupira](/sucupira-para-que-serve/) reúne os usos mais pesquisados da planta e as precauções comuns a todos eles.
+
 ## Quando procurar um médico
 
 Se a dor não melhora depois de uma a duas semanas de repouso e cuidados básicos, se há perda de força, ou se o movimento fica muito limitado, vale procurar um ortopedista ou fisioterapeuta — bursite e tendinite que se tornam crônicas costumam precisar de tratamento direcionado, como fisioterapia específica.

@@ -26,6 +26,8 @@ Existem vários tipos de artrite: reumatoide (autoimune), gotosa (por acúmulo d
 
 A sucupira é tradicionalmente utilizada há gerações como apoio para dores e inflamações articulares em geral, com estudos de laboratório mostrando atividade anti-inflamatória e analgésica atribuída a compostos como os diterpenos da semente. Esse uso é amplo e não distingue entre os diferentes tipos de artrite — é um apoio complementar geral, não um tratamento específico para uma condição autoimune.
 
+Para entender outros usos estudados e os limites das evidências, leia o guia completo sobre [para que serve a sucupira](/sucupira-para-que-serve/).
+
 ## Por que artrite autoimune exige acompanhamento médico
 
 Artrites autoimunes, como a reumatoide, envolvem o próprio sistema imunológico atacando as articulações, e sem tratamento adequado (geralmente com medicação específica prescrita por reumatologista) podem causar dano articular progressivo e irreversível. Um apoio natural nunca deve substituir esse acompanhamento nesse tipo de quadro.

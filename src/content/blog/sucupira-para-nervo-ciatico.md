@@ -65,6 +65,8 @@ O uso, se ocorrer, deve ser entendido como apoio complementar dentro de um plano
 
 Se a sua dor ciática é recente, leve e sem os sinais de alerta listados acima, cuidados gerais como repouso relativo, alongamento orientado e acompanhamento com um fisioterapeuta costumam ser o primeiro passo — e é dentro desse contexto que um apoio natural como a sucupira pode, para algumas pessoas, entrar como complemento, nunca como substituto.
 
+Para comparar esse contexto com outras aplicações da planta, consulte o conteúdo sobre [para que serve a sucupira](/sucupira-para-que-serve/).
+
 Se você tem formigamento, perda de força, ou qualquer um dos sinais de emergência descritos, o passo certo é procurar atendimento médico antes de qualquer outra coisa. A honestidade aqui vale mais do que a venda: nenhuma planta, por mais estudada que seja, resolve uma compressão de nervo que precisa de diagnóstico e, às vezes, de tratamento específico.
 
 ## Perguntas frequentes
