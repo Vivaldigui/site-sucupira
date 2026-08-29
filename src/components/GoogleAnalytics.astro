@@ -1,5 +1,5 @@
 ---
-import { GOOGLE_ANALYTICS_ID } from '../consts';
+import { GOOGLE_ANALYTICS_ID, STORE_ANALYTICS_ID } from '../consts';
 
 const gtagSrc = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GOOGLE_ANALYTICS_ID)}`;
 const gtagInline = `
@@ -8,6 +8,7 @@ const gtagInline = `
   gtag('js', new Date());
 
   gtag('config', '${GOOGLE_ANALYTICS_ID}');
+  gtag('config', '${STORE_ANALYTICS_ID}');
 `;
 ---
 
