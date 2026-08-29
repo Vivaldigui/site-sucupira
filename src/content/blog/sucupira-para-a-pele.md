@@ -1,7 +1,7 @@
 ---
 title: "Sucupira na pele: uso tradicional e cuidados"
 description: "Sucupira na pele: o que diz o uso tradicional do óleo, cuidados antes de aplicar e quando procurar um dermatologista."
-publishDate: "2026-09-23T08:00:00-03:00"
+publishDate: "2026-08-29T08:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Uso Tradicional", "Segurança no Uso"]
@@ -15,7 +15,7 @@ Além do uso mais conhecido para dores articulares, o óleo de sucupira também 
 Na medicina popular, o óleo extraído da semente de sucupira é usado topicamente, associado a propriedades hidratantes e à ação anti-inflamatória geral atribuída aos compostos da planta. É um uso cultural, cosmético e de cuidado geral com a pele — não um tratamento dermatológico validado clinicamente.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -45,4 +45,4 @@ Não. Essas condições exigem avaliação e tratamento com um dermatologista �
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

@@ -19,7 +19,7 @@ A sucupira (*Pterodon pubescens*) é uma árvore do Cerrado brasileiro, com uso 
 A cúrcuma, através da curcumina, tem hoje a base de evidência clínica mais robusta entre os dois: revisões de ensaios clínicos em humanos com osteoartrite mostram redução de dor e melhora de função. A sucupira tem uma base de evidência majoritariamente pré-clínica — estudos de laboratório e em modelos animais, conduzidos por grupos como os da Unicamp, mostram atividade anti-inflamatória e analgésica, mas ainda sem ensaios clínicos em humanos publicados especificamente sobre ela.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -49,4 +49,4 @@ Sim, hoje a cúrcuma tem mais ensaios clínicos em humanos publicados. A sucupir
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

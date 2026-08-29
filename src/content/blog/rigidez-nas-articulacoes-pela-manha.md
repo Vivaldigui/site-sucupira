@@ -1,7 +1,7 @@
 ---
 title: "Rigidez nas articulações pela manhã: o que pode ser?"
 description: "Rigidez nas articulações ao acordar: causas mais comuns, quando é apenas desgaste e quando pode indicar algo que exige avaliação."
-publishDate: "2026-09-20T08:00:00-03:00"
+publishDate: "2026-08-29T07:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Mobilidade", "Artrose", "Artrite", "Saúde 45+"]
@@ -16,7 +16,7 @@ Acordar com as articulações "duras", precisando de alguns minutos para "soltar
 Durante o sono, a circulação nas articulações diminui e o líquido sinovial (que lubrifica as juntas) fica menos distribuído, o que causa uma sensação de rigidez ao acordar. Em pessoas com artrose, essa rigidez costuma durar poucos minutos e melhorar rápido com o movimento. Já em condições inflamatórias, como a artrite reumatoide, a rigidez matinal tende a durar mais de 30 minutos, às vezes horas.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -46,4 +46,4 @@ Pode ajudar como apoio complementar ao desconforto articular associado, dentro d
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

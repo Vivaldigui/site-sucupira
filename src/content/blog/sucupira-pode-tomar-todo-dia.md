@@ -15,7 +15,7 @@ Diferente da dúvida sobre "quantas tampinhas tomar", uma outra pergunta comum �
 No uso tradicional e na orientação da maioria dos fabricantes, a sucupira é pensada para uso diário e contínuo, especialmente em quadros de dor crônica, já que o efeito costuma ser cumulativo e gradual, não algo pontual. Interromper e retomar constantemente tende a dificultar perceber o benefício, já que os bioativos precisam de tempo de uso constante para agir.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -45,4 +45,4 @@ Reavalie com um profissional de saúde, em vez de aumentar a dose por conta pró
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

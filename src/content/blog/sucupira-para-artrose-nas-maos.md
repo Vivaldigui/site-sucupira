@@ -15,7 +15,7 @@ Artrose nas mãos costuma aparecer com rigidez matinal, dor ao segurar objetos e
 As mãos têm muitas articulações pequenas, usadas repetidamente ao longo da vida. Com o tempo, a cartilagem que protege essas articulações vai se desgastando, causando a dor e a rigidez características da artrose. É diferente da artrite reumatoide, que também afeta as mãos, mas por um mecanismo inflamatório autoimune — a diferenciação costuma exigir avaliação de um reumatologista.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -45,4 +45,4 @@ Se há inchaço importante, vermelhidão, calor local ou perda progressiva de fo
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

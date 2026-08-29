@@ -63,7 +63,6 @@ Procure atendimento se houver dor forte, febre, inchaço importante, vermelhidã
 Continue a leitura dentro do Centro de Conhecimento da Sucupira:
 
 - [Como fazer chá de sucupira](/como-fazer-cha-de-sucupira/)
-- [Sucupira e álcool: pode misturar?](/sucupira-e-alcool/)
 - [Como escolher um produto de sucupira](/como-escolher-produto-de-sucupira/)
 
 ## Perguntas frequentes

@@ -50,7 +50,6 @@ Procure atendimento se houver dor forte, febre, inchaço importante, vermelhidã
 Continue a leitura dentro do Centro de Conhecimento da Sucupira:
 
 - [Efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/)
-- [Sucupira e álcool](/sucupira-e-alcool/)
 - [Produto natural também precisa de cuidado](/produto-natural-tambem-precisa-de-cuidado/)
 
 ## Perguntas frequentes

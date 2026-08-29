@@ -74,14 +74,14 @@ Um apoio natural só faz sentido se couber na sua rotina. Pessoas mais velhas mu
 Se você toma remédios, tem doença crônica, histórico de alergias ou dor sem diagnóstico, converse com um profissional antes. Essa cautela evita misturas inadequadas e decisões baseadas apenas em tentativa.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">
+  <a href="https://www.sucupiranaturale.com.br/combos">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Banner da Sucupira Naturale pronta para tomar" />
   </a>
   <figcaption>Informações comerciais ficam separadas do conteúdo educativo. Clique na imagem para conhecer a página oficial do produto.</figcaption>
 </figure>
 
 <p style="text-align:center">
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Conhecer a Sucupira Naturale</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Conhecer a Sucupira Naturale</a>
 </p>
 
 ## O que ajuda junto com o cuidado natural das articulações?
@@ -141,7 +141,7 @@ A sucupira não substitui exercícios orientados, fisioterapia ou acompanhamento
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/combos).
 
 ---
 

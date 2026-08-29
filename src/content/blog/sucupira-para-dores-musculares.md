@@ -1,7 +1,7 @@
 ---
 title: "Sucupira para dores musculares e pós-treino"
 description: "Sucupira para dores musculares e pós-treino: o que diz o uso tradicional e como usar como apoio na recuperação."
-publishDate: "2026-09-29T08:00:00-03:00"
+publishDate: "2026-08-29T11:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Uso Tradicional", "Mobilidade", "Segurança no Uso"]
@@ -15,7 +15,7 @@ Dor muscular depois de um treino mais puxado, popularmente chamada de "dor no di
 Essa dor, conhecida tecnicamente como dor muscular de início tardio, surge de microlesões nas fibras musculares causadas pelo esforço, especialmente em exercícios novos ou mais intensos que o habitual. É um processo inflamatório natural e temporário, geralmente pico entre 24 e 72 horas depois do treino.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -45,4 +45,4 @@ Progredir a intensidade gradualmente, sem saltos bruscos de carga, e manter boa 
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

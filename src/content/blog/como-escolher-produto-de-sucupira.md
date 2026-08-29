@@ -1,7 +1,7 @@
 ---
 title: "Como escolher um produto de sucupira com segurança?"
 description: "Como escolher um produto de sucupira: o que verificar no rótulo, sinais de procedência confiável e o que evitar na hora de comprar."
-publishDate: "2026-09-28T08:00:00-03:00"
+publishDate: "2026-08-29T10:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Extrato de Sucupira", "Segurança no Uso", "Qualidade", "Plantas Medicinais"]
@@ -16,7 +16,7 @@ Com a popularidade da sucupira crescendo, também cresceu o número de produtos 
 Confira se o produto especifica o nome científico da espécie (*Pterodon pubescens*, para a sucupira branca), a concentração ou forma de apresentação, o modo de uso recomendado, e os dados do fabricante (endereço, CNPJ). Rótulos vagos, sem essas informações, são um sinal de alerta.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -50,4 +50,4 @@ Sim, já foram identificados casos de produtos com substâncias farmacêuticas n
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

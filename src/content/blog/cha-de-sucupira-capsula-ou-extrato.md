@@ -20,7 +20,7 @@ O chá é a forma mais antiga e caseira, feita fervendo a semente triturada em �
 As cápsulas concentram a semente moída ou seu extrato seco, sendo uma opção prática para quem não gosta do sabor vegetal ou precisa levar o produto para fora de casa. A concentração varia bastante entre marcas — uma cápsula de 500 mg de uma marca não corresponde necessariamente à mesma quantidade de princípio ativo de outra com o mesmo rótulo.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Extrato de Sucupira Naturale pronto para tomar" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -55,4 +55,4 @@ Tem valor no uso tradicional e cultural, mas quem busca uma dose mais consistent
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

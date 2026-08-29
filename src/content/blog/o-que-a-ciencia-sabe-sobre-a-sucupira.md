@@ -20,7 +20,7 @@ A semente da sucupira branca (*Pterodon pubescens*) concentra diterpenos e furan
 Pesquisas em modelos animais e ensaios in vitro descrevem três ações principais para os extratos de *Pterodon*: atividade anti-inflamatória (modulação de mediadores da inflamação), atividade analgésica (redução da percepção de dor) e atividade antioxidante (combate a radicais livres). Esses achados sustentam, do ponto de vista biológico, a reputação tradicional da planta para dores articulares e musculares.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -50,4 +50,4 @@ Grupos de pesquisa de universidades brasileiras, incluindo a Unicamp, têm publi
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

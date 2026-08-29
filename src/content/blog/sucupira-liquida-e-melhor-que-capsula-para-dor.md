@@ -18,14 +18,14 @@ A resposta honesta é: depende. A forma líquida tem vantagens práticas claras,
 O mais importante é escolher com informação. Produto natural também precisa de procedência, uso responsável e conversa com profissional de saúde quando há doenças, medicamentos ou dor persistente.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">
+  <a href="https://www.sucupiranaturale.com.br/combos">
     <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Sucupira Naturale pronta para tomar em formato líquido" />
   </a>
   <figcaption>Conheça a página oficial da Sucupira Naturale. O conteúdo deste artigo permanece informativo e não substitui orientação profissional.</figcaption>
 </figure>
 
 <p style="text-align:center">
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Conhecer a Sucupira Naturale</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Conhecer a Sucupira Naturale</a>
 </p>
 
 ## O que muda entre sucupira líquida e cápsula?
@@ -69,7 +69,7 @@ As cápsulas podem ser práticas em viagens, no trabalho ou para quem não gosta
   <p class="cta-eyebrow">Formato líquido e compra oficial</p>
   <h2>Quer ver como é a Sucupira Naturale?</h2>
   <p>Veja detalhes do extrato líquido, apresentação do produto e condições atuais na página oficial. A decisão de uso deve respeitar seu histórico de saúde.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Acessar página oficial</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
 </aside>
 
 ## Sucupira líquida funciona mais rápido para dor?
@@ -96,14 +96,14 @@ Antes de escolher, observe:
 Produtos naturais vendidos sem procedência, com promessas exageradas ou com linguagem de "resultado certo" merecem cautela. Em saúde, promessa forte demais costuma ser sinal para olhar duas vezes.
 
 <figure>
-  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">
+  <a href="https://www.sucupiranaturale.com.br/combos">
     <img src="/assets/produto-sem-fundo.png" alt="Frasco do extrato de sucupira Sucupira Naturale" />
   </a>
   <figcaption>O extrato líquido pode ser uma escolha prática para quem prefere evitar cápsulas. Consulte a página oficial para conhecer a apresentação do produto.</figcaption>
 </figure>
 
 <p style="text-align:center">
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Ver o extrato líquido</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Ver o extrato líquido</a>
 </p>
 
 ## Quem deve ter cuidado antes de usar sucupira?
@@ -146,7 +146,7 @@ Vale considerar sucupira líquida quando você busca um apoio natural, tem prefe
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato líquido de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
+Quer conhecer o extrato líquido de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/combos).
 
 ---
 
