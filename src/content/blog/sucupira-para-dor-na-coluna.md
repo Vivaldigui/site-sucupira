@@ -20,7 +20,7 @@ No uso tradicional, a sucupira é associada a ações anti-inflamatória e analg
 Isso não significa que ela resolva qualquer dor na coluna. A coluna é uma estrutura complexa, e a dor pode vir de causas bem diferentes: tensão muscular, má postura, esforço repentino, desgaste articular ou, em casos mais sérios, compressão de nervo e hérnia de disco. O apoio tradicional da sucupira faz mais sentido no primeiro grupo — dores musculares e posturais — do que nos quadros que exigem diagnóstico e tratamento específico.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -48,7 +48,7 @@ As duas formas podem ser usadas em conjunto, mas a decisão de combinar produtos
   <p class="cta-eyebrow">Apoio com dose conhecida para o dia a dia</p>
   <h2>Quer ver como é a Sucupira Naturale?</h2>
   <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://seudesconto.sucupiranaturale.com.br/#comprar">Acessar página oficial</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Acessar página oficial</a>
 </aside>
 
 ## O que mais ajuda além da sucupira
@@ -87,4 +87,4 @@ Quando irradia para a perna, vem com formigamento, dormência ou perda de força
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

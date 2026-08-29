@@ -16,7 +16,7 @@ O Brasil tem uma tradição rica de plantas medicinais usadas popularmente para 
 Além da sucupira, unha-de-gato, barbatimão, jatobá e a garra do diabo (de origem africana, mas amplamente incorporada à fitoterapia brasileira) são algumas das plantas mais citadas no uso popular para dores articulares e inflamações. Cada uma tem uma história de uso e uma composição química própria, com diferentes níveis de estudo científico.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -46,4 +46,4 @@ Entre as plantas brasileiras desse grupo, é uma das que tem mais pesquisa acad�
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

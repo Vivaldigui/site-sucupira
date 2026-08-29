@@ -16,7 +16,7 @@ Sim, a sucupira é tradicionalmente classificada como um anti-inflamatório natu
 A semente da sucupira concentra diterpenos e furanoditerpenos, como os vouacapanos, além do geranilgeraniol. Estudos de laboratório conduzidos por grupos de pesquisa como os da Unicamp descrevem que esses compostos atuam modulando mediadores da inflamação no organismo, de forma parecida — em menor grau — a alguns anti-inflamatórios farmacêuticos, mas de origem vegetal.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -46,4 +46,4 @@ Os diterpenos e furanoditerpenos, como os vouacapanos, são os compostos mais as
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

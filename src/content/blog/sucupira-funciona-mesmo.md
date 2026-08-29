@@ -16,7 +16,7 @@ ogImage: "/assets/blog/sucupira-funciona-mesmo.webp"
 A sucupira é tradicionalmente utilizada há gerações no Brasil para dores articulares e musculares, com estudos de laboratório mostrando atividade anti-inflamatória e analgésica atribuída a compostos como os diterpenos da semente. A Sucupira Naturale atua nesse segmento desde 2016 e acumula relatos recorrentes de clientes que descrevem melhora percebida após o uso contínuo do extrato líquido.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -46,4 +46,4 @@ Não necessariamente. A resposta varia conforme o quadro de saúde, a causa da d
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

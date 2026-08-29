@@ -27,7 +27,7 @@ Em **doses usuais** e em pessoas **saudáveis**, a sucupira costuma ser **bem to
 Rins e fígado são responsáveis por **eliminar e metabolizar** os compostos. Quando já existe uma doença nesses órgãos, ou quando se somam muitos medicamentos, essa carga de trabalho aumenta — e é isso que pede cautela.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -69,4 +69,4 @@ Respeite a dose do produto, escolha procedência confiável, evite excessos e bu
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/).

@@ -19,7 +19,7 @@ A sucupira é uma árvore do Cerrado brasileiro, cuja semente concentra os compo
 A garra do diabo tem alguns ensaios clínicos em humanos mostrando redução de dor lombar e melhora funcional em osteoartrite, com efeito comparável a anti-inflamatórios convencionais em dor leve a moderada em parte dos estudos. A sucupira tem evidência majoritariamente pré-clínica, de laboratório e modelos animais, sem ensaios clínicos em humanos publicados até o momento especificamente sobre ela.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -45,4 +45,4 @@ Para dor lombar especificamente, sim — há mais ensaios clínicos em humanos p
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

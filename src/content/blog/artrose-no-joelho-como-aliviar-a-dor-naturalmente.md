@@ -18,14 +18,14 @@ O ponto mais importante é entender que "natural" não significa abandonar cuida
 Neste guia, você vai encontrar medidas naturais que fazem sentido para quem convive com dor no joelho, além de uma explicação honesta sobre onde a sucupira entra nessa conversa.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">
     <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Conheça a Sucupira Naturale pronta para tomar" />
   </a>
   <figcaption>Informações comerciais ficam separadas do conteúdo educativo. Clique na imagem para conhecer o produto oficial.</figcaption>
 </figure>
 
 <p style="text-align:center">
-  <a class="btn-cta-buy" href="https://seudesconto.sucupiranaturale.com.br/#comprar">Conhecer a Sucupira Naturale</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Conhecer a Sucupira Naturale</a>
 </p>
 
 ## O que é artrose no joelho?
@@ -82,7 +82,7 @@ O uso responsável da sucupira deve ser complementar. Ela não substitui fisiote
   <p class="cta-eyebrow">Apoio natural com compra separada</p>
   <h2>Sucupira Naturale pronta para tomar</h2>
   <p>Conheça o extrato de sucupira da Sucupira Naturale na página oficial de venda. O conteúdo deste artigo continua sendo educativo e não substitui orientação profissional.</p>
-  <a class="btn-cta-buy" href="https://seudesconto.sucupiranaturale.com.br/#comprar">Ver opções do produto</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Ver opções do produto</a>
 </aside>
 
 ## O que evitar quando o joelho está doendo?
@@ -133,4 +133,4 @@ A forma mais segura de cuidar da artrose no joelho é combinar diagnóstico corr
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

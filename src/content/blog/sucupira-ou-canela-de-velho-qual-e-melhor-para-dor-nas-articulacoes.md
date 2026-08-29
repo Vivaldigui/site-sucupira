@@ -146,7 +146,7 @@ ogImage: /assets/ChatGPT Image 4 de jul. de 2026, 23_46_55.png
 
 <p>Não é à toa que quem entende do assunto não escolhe: soma. E, entre as duas, a base de tudo continua sendo a <strong>sucupira</strong> — a semente com mais tradição e mais estudo.</p>
 
-<a href="https://seudesconto.sucupiranaturale.com.br/#comprar" target="_blank" rel="noopener">
+<a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" target="_blank" rel="noopener">
   <img src="/images/banner-sucupira.png" alt="Sucupira Naturale pronta para tomar — alívio para dores articulares, dores de coluna e dores de joelho. Compre agora!" style="width:100%; height:auto; border-radius:8px; margin:24px 0;" />
 </a>
 
@@ -201,12 +201,12 @@ ogImage: /assets/ChatGPT Image 4 de jul. de 2026, 23_46_55.png
   <li>✅ <strong>Praticidade total:</strong> é só dosar pela tampa e manter a constância.</li>
 </ul>
 
-<a href="https://seudesconto.sucupiranaturale.com.br/#comprar" target="_blank" rel="noopener">
+<a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" target="_blank" rel="noopener">
   <img src="/images/banner-sucupira.png" alt="Sucupira Naturale pronta para tomar — alívio para dores articulares, dores de coluna e dores de joelho. Compre agora!" style="width:100%; height:auto; border-radius:8px; margin:24px 0;" />
 </a>
 
 <p style="text-align:center;">
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" target="_blank" rel="noopener" style="display:inline-block; background-color:#4a8f3c; color:#ffffff; font-size:20px; font-weight:bold; padding:16px 40px; border-radius:8px; text-decoration:none;">🛒 QUERO MEU DESCONTO AGORA →</a>
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" target="_blank" rel="noopener" style="display:inline-block; background-color:#4a8f3c; color:#ffffff; font-size:20px; font-weight:bold; padding:16px 40px; border-radius:8px; text-decoration:none;">🛒 QUERO MEU DESCONTO AGORA →</a>
 </p>
 
 <p style="text-align:center;"><em>Oferta com desconto por tempo limitado. Garanta a sua garrafa e comece hoje o seu cuidado natural.</em></p>

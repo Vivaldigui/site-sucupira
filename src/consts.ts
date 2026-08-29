@@ -1,10 +1,10 @@
 export const BLOG_SITE_URL = 'https://blog.sucupiranaturale.com.br';
-export const SALES_SITE_URL = 'https://seudesconto.sucupiranaturale.com.br';
+export const SALES_SITE_URL = 'https://www.sucupiranaturale.com.br';
 
 export const SITE_NAME = 'Sucupira Naturale';
 export const BLOG_NAME = 'Centro de Conhecimento da Sucupira';
 export const DEFAULT_OG_IMAGE = `${BLOG_SITE_URL}/assets/sucupira-natural-banner.webp`;
-export const SALES_CTA_URL = `${SALES_SITE_URL}/#comprar`;
+export const SALES_CTA_URL = `${SALES_SITE_URL}/sucupira-naturale-liquida`;
 export const GOOGLE_ANALYTICS_ID = 'G-L27DL7MMTY';
 
 export const ORGANIZATION_ID = `${SALES_SITE_URL}/#organization`;

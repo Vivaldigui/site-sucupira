@@ -20,7 +20,7 @@ A reputação da sucupira vem da sua ação anti-inflamatória e analgésica tra
 A gota, porém, não é uma inflamação articular qualquer: ela acontece quando cristais de ácido úrico se acumulam nas articulações, geralmente o dedão do pé, causando uma dor aguda e uma inflamação muito intensa. O tratamento eficaz de gota depende de controlar os níveis de ácido úrico no sangue — algo que envolve exames, acompanhamento médico e, na maioria dos casos, medicação específica.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -51,7 +51,7 @@ Se, mesmo assim, você e seu médico decidirem que faz sentido experimentar a su
   <p class="cta-eyebrow">Dose conhecida, para usar com mais previsibilidade</p>
   <h2>Quer ver como é a Sucupira Naturale?</h2>
   <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://seudesconto.sucupiranaturale.com.br/#comprar">Acessar página oficial</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Acessar página oficial</a>
 </aside>
 
 ## Quando procurar atendimento médico
@@ -78,4 +78,4 @@ Não sem orientação médica. A sucupira pode interagir com outros medicamentos
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

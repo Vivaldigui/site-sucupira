@@ -20,7 +20,7 @@ No uso tradicional, a garrafada de sucupira no vinho é preparada com a expectat
 É um costume popular consolidado, repetido de geração em geração — vale a honestidade de que é a tradição, e não um estudo clínico específico sobre a garrafada no vinho, que sustenta essa prática.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Extrato de Sucupira Naturale pronto para tomar" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -73,7 +73,7 @@ Isso não elimina os cuidados: a moderação com álcool e a atenção a intera�
   <p class="cta-eyebrow">Dose conhecida, sem depender de maceração</p>
   <h2>Quer ver como é a Sucupira Naturale?</h2>
   <p>Veja detalhes do extrato líquido e condições atuais na página oficial. A decisão de uso deve respeitar seu histórico de saúde.</p>
-  <a class="btn-cta-buy" href="https://seudesconto.sucupiranaturale.com.br/#comprar">Acessar página oficial</a>
+  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida">Acessar página oficial</a>
 </aside>
 
 ## Perguntas frequentes
@@ -96,4 +96,4 @@ Sim. Extratos e cápsulas padronizados oferecem dose definida e não dependem de
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).

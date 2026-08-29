@@ -82,7 +82,7 @@ São formas diferentes de uso, com concentrações diferentes. Nenhuma delas sub
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://seudesconto.sucupiranaturale.com.br/).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://www.sucupiranaturale.com.br/).
 
 <!--
 Revisão necessária antes de publicar:

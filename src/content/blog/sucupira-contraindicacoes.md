@@ -35,7 +35,7 @@ A sucupira aparece na tradição popular brasileira ligada ao cuidado natural, p
 O uso tradicional pode orientar perguntas, não substituir respostas profissionais. Quando existe dor persistente ou doença diagnosticada, o ideal é entender a causa antes de escolher qualquer produto.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Banner comercial da Sucupira Naturale" width="900" height="900" />
   </a>
   <figcaption>Informações comerciais ficam separadas do conteúdo educativo. Clique na imagem para conhecer a página oficial.</figcaption>
@@ -103,7 +103,7 @@ Não. A sucupira não substitui consulta, diagnóstico, fisioterapia, exercício
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://seudesconto.sucupiranaturale.com.br/).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://www.sucupiranaturale.com.br/).
 
 <!--
 Revisão necessária antes de publicar:

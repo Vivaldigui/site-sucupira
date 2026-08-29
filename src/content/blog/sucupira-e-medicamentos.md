@@ -16,7 +16,7 @@ ogImage: "/assets/blog/sucupira-e-medicamentos.webp"
 É comum pensar que "natural" significa "sem risco de interação", mas não é bem assim. Plantas medicinais têm compostos bioativos reais, que podem interferir na forma como o corpo absorve, metaboliza ou elimina um medicamento. Com a sucupira não é diferente: os mesmos compostos responsáveis pela ação anti-inflamatória e analgésica também podem interagir com certas classes de medicamentos.
 
 <figure>
-  <a href="https://seudesconto.sucupiranaturale.com.br/#comprar" aria-label="Conhecer a página oficial da Sucupira Naturale">
+  <a href="https://www.sucupiranaturale.com.br/sucupira-naturale-liquida" aria-label="Conhecer a página oficial da Sucupira Naturale">
     <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
   </a>
   <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
@@ -51,4 +51,4 @@ Sinais incomuns como sangramento diferente do usual, tontura, alteração de pre
 
 > Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
 
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://seudesconto.sucupiranaturale.com.br/#comprar).
+Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida).
