@@ -4,7 +4,7 @@ description: "Produto natural também precisa de cuidado: entenda por que 'natur
 publishDate: "2026-08-29T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Plantas Medicinais", "Segurança no Uso", "Contraindicações", "Saúde 45+", "Fitoterapia Segura"]
+tags: ["Plantas Medicinais", "Segurança no Uso", "Contraindicações", "Saúde 45+", "Fitoterapia"]
 featured: false
 ogImage: "/assets/blog/produto-natural-tambem-precisa-de-cuidado.webp"
 ---

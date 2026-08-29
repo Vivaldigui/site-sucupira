@@ -4,7 +4,7 @@ description: "Sucupira para dor no calcanhar e esporão de calcâneo: o que diz 
 publishDate: "2026-08-28T08:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Dor no Calcanhar", "Fitoterapia Segura", "Uso Tradicional", "Segurança no Uso"]
+tags: ["Sucupira", "Dor no Calcanhar", "Fitoterapia", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ---
 

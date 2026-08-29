@@ -43,8 +43,46 @@ content:
         default: Engenheira Agrônoma e cofundadora da Sucupira Naturale
       - name: tags
         label: Tags
-        type: string
-        list: true
+        type: select
+        description: Lista fechada; para adicionar uma nova tag, edite o arquivo .pages.yml.
+        options:
+          multiple: true
+          values:
+            - "Ácido Úrico"
+            - "Articulações"
+            - "Artrite"
+            - "Artrose"
+            - "Bursite e Tendinite"
+            - "Cápsulas de Sucupira"
+            - "Cerrado"
+            - "Chá de Sucupira"
+            - "Ciência da Sucupira"
+            - "Como Tomar"
+            - "Contraindicações"
+            - "Dor na Coluna"
+            - "Dor no Calcanhar"
+            - "Dor no Joelho"
+            - "Dores crônicas"
+            - "Dosagem"
+            - "Efeitos Colaterais"
+            - "Extrato de Sucupira"
+            - "Fibromialgia"
+            - "Fitoterapia"
+            - "Garrafada"
+            - "Gota"
+            - "Inflamação"
+            - "Medicamentos Contínuos"
+            - "Mobilidade"
+            - "Óleo de Sucupira"
+            - "Plantas Medicinais"
+            - "Pressão Alta"
+            - "Qualidade"
+            - "Rins e Fígado"
+            - "Saúde 45+"
+            - "Segurança no Uso"
+            - "Sucupira"
+            - "Sucupira Branca"
+            - "Uso Tradicional"
       - name: featured
         label: Post em destaque
         type: boolean

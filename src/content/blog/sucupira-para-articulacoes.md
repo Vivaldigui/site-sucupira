@@ -4,7 +4,7 @@ description: "Entenda a sucupira para articulações, seu uso tradicional, cuida
 publishDate: "2026-07-01T08:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Articulações", "Dor nas Articulações", "Uso Tradicional", "Saúde 45+"]
+tags: ["Sucupira", "Articulações", "Uso Tradicional", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-articulacoes.webp"
 ---

@@ -4,7 +4,7 @@ description: "Entenda o que os estudos revelam sobre sucupira e dores crônicas,
 publishDate: "2026-06-20T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Dores crônicas", "Ciência"]
+tags: ["Sucupira", "Dores crônicas", "Ciência da Sucupira"]
 featured: true
 ogImage: "/assets/sucupira-alivia-dores-cronicas.webp"
 ---
