@@ -1,7 +1,7 @@
 ---
 title: "Sucupira é confiável? Como verificar antes de comprar"
 description: "Sucupira é confiável? Separe a planta, o mercado, o produto e a empresa — e veja como verificar cada um antes de gastar dinheiro."
-publishDate: 2026-09-02T08:00:00-03:00
+publishDate: 2026-08-31T15:00:00-03:00
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Segurança no Uso", "Ciência da Sucupira", "Extrato de Sucupira"]
@@ -32,11 +32,11 @@ Tem base — mas não a base que costumam anunciar.
 
 A sucupira, principalmente as espécies *Pterodon emarginatus* e *Pterodon pubescens* (conhecidas como [sucupira-branca](/o-que-e-sucupira-branca/)), é usada há décadas no Brasil como apoio para desconforto articular. Esse uso tradicional é real e documentado.
 
-A pesquisa também é real. Uma revisão publicada em 2015 na revista *Arthritis* identificou os **vouacapanos** — diterpenos presentes nas sementes — como os principais responsáveis pela atividade farmacológica observada, ao lado do geranilgeraniol e do beta-cariofileno. Em modelos animais, extratos de sucupira reduziram a gravidade da artrite induzida, inibiram a migração de neutrófilos e diminuíram a formação de edema.
+A pesquisa também é real. Uma [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) identificou os **vouacapanos** — diterpenos presentes nas sementes — como os principais responsáveis pela atividade farmacológica observada, ao lado do geranilgeraniol e do beta-cariofileno. Em modelos animais, extratos de sucupira reduziram a gravidade da artrite induzida, inibiram a migração de neutrófilos e diminuíram a formação de edema.
 
 **E aqui está o ponto que quase nenhuma página diz:** essa mesma revisão registra que **nenhum ensaio clínico em humanos foi incluído**. Toda a evidência vem de etnomedicina, estudos de laboratório e modelos animais.
 
-Existe um ensaio clínico brasileiro registrado — conduzido pela Universidade Federal do Tocantins, duplo-cego, randomizado e controlado por placebo, com 92 participantes, avaliando extrato de *Pterodon* na dor de osteoartrite de joelho. Ele foi registrado em 2023 e, até agora, **está em recrutamento e não publicou resultados**.
+Existe um [ensaio clínico brasileiro registrado](https://ensaiosclinicos.gov.br/rg/RBR-7yk5zmx) — conduzido pela Universidade Federal do Tocantins, duplo-cego, randomizado e controlado por placebo, com 92 participantes, avaliando extrato de *Pterodon* na dor de osteoartrite de joelho. Ele foi registrado em 2023 e, até agora, **está em recrutamento e não publicou resultados**.
 
 Vale uma ressalva que também costuma faltar: esse ensaio testa **cápsulas de 500 mg de extrato, duas vezes ao dia**. Mesmo quando os resultados saírem, eles valerão para aquele formato e aquela dose — não automaticamente para chá caseiro, garrafada ou qualquer outra preparação.
 
@@ -48,7 +48,7 @@ Se quiser o detalhamento dos estudos, veja [o que a ciência sabe sobre a sucupi
 
 Aqui a resposta é mais desconfortável: **não de forma uniforme.**
 
-Em abril de 2026, a ANVISA determinou a apreensão e proibiu a comercialização, distribuição, fabricação, importação, propaganda, transporte e uso de diversos produtos à base de plantas vendidos pela internet. Entre os produtos listados estavam itens com sucupira, como "Canela de Velho com Sucupira e Cloreto de Magnésio P.A. Natuviva" e "Canela de Velho com sucupira 100% Natural Fonte Verde".
+Em abril de 2026, [a ANVISA determinou a apreensão](https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-diversos-medicamentos-sem-registro-produzidos-a-base-de-plantas) e proibiu a comercialização, distribuição, fabricação, importação, propaganda, transporte e uso de diversos produtos à base de plantas vendidos pela internet. Entre os produtos listados estavam itens com sucupira, como "Canela de Velho com Sucupira e Cloreto de Magnésio P.A. Natuviva" e "Canela de Velho com sucupira 100% Natural Fonte Verde".
 
 O motivo não foi a planta. Foi que esses produtos eram **fabricados por empresas desconhecidas e vendidos sem registro, notificação ou cadastro** — ou seja, nenhum órgão público verificou se o conteúdo da embalagem corresponde ao rótulo.
 
@@ -58,7 +58,7 @@ Em julho de 2026, uma nova resolução proibiu produtos de outras cinco empresas
 
 Há um achado ainda mais direto, e vem da universidade.
 
-Em uma tese de doutorado defendida na Faculdade de Odontologia de Piracicaba da Unicamp, a pesquisadora Vanessa Helena da Silva Souza, sob orientação da professora Mary Ann Foglio, analisou produtos comerciais vendidos como sucupira. As análises laboratoriais revelaram que **vários deles continham diclofenaco** — o princípio ativo de medicamentos como Voltaren e Cataflam — em vez do extrato vegetal anunciado no rótulo.
+Em uma [tese de doutorado defendida na Faculdade de Odontologia de Piracicaba da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira), a pesquisadora Vanessa Helena da Silva Souza, sob orientação da professora Mary Ann Foglio, analisou produtos comerciais vendidos como sucupira. As análises laboratoriais revelaram que **vários deles continham diclofenaco** — o princípio ativo de medicamentos como Voltaren e Cataflam — em vez do extrato vegetal anunciado no rótulo.
 
 Pare um segundo nisso. Significa que havia pessoas tomando um anti-inflamatório farmacêutico sem saber, sem prescrição, sem controle de dose e sem acompanhamento — acreditando estar tomando um produto natural. O diclofenaco costuma ser usado por períodos curtos e com acompanhamento profissional, justamente porque o uso prolongado pode comprometer a função renal.
 
@@ -99,7 +99,7 @@ Como o número de registro nem sempre existe, o que se avalia é a **coerência 
 | **Lote e validade** | rastreabilidade básica de fabricação |
 | **Certificado de Análise (CoA) do lote** | documento com os testes daquele lote específico; fabricantes sérios fornecem quando solicitado |
 
-Para o passo a passo de leitura de rótulo, vale [conferir o rótulo item por item](/como-escolher-produto-de-sucupira/).
+Quando o produto tiver número de registro, notificação ou cadastro impresso no rótulo, dá para conferi-lo no [portal de consulta da ANVISA](https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/como-saber-se-um-suplemento-alimentar-e-autorizado). Para o passo a passo de leitura de rótulo, vale [conferir o rótulo item por item](/como-escolher-produto-de-sucupira/).
 
 Uma observação sobre formato: chá, cápsula, óleo, garrafada e extrato líquido **não são o mesmo produto** nem entregam a mesma quantidade de composto. O chá caseiro varia com a massa de semente, o tempo de infusão e a qualidade do lote — dois preparos da mesma semente podem resultar em doses bem diferentes. Se isso é relevante para você, veja a [diferença entre os formatos](/cha-de-sucupira-capsula-ou-extrato/).
 
