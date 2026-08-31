@@ -4,6 +4,7 @@ description: Sucupira ou canela de velho para dor nas articulações? Veja a
   comparação completa, o que diz a tradição e a ciência, e descubra qual
   escolher.
 publishDate: 2026-07-04T23:42:00+00:00
+updatedDate: "2026-08-31T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Plantas Medicinais", "Articulações", "Artrose", "Dor no Joelho", "Inflamação"]
@@ -205,22 +206,28 @@ ogImage: /assets/ChatGPT Image 4 de jul. de 2026, 23_46_55.png
 
 <p style="text-align:center;"><em>Oferta com desconto por tempo limitado. Garanta a sua garrafa e comece hoje o seu cuidado natural.</em></p>
 
-<h2>Perguntas Frequentes (FAQ)</h2>
+## Perguntas frequentes
 
-<p><strong>Posso tomar sucupira e canela de velho juntas?</strong><br />
-Sim, o uso combinado é muito comum, pois as plantas têm compostos diferentes que se complementam. Em caso de medicamentos de uso contínuo, converse antes com seu médico.</p>
+**Posso tomar sucupira e canela de velho juntas?**
 
-<p><strong>Qual é melhor para artrose: sucupira ou canela de velho?</strong><br />
-As duas são usadas tradicionalmente para artrose. A sucupira tem mais histórico de pesquisa — incluindo estudo universitário sobre dor na artrose de joelho — enquanto a canela de velho tem forte fama popular para rigidez articular.</p>
+Sim, o uso combinado é muito comum, pois as plantas têm compostos diferentes que se complementam. Em caso de medicamentos de uso contínuo, converse antes com seu médico.
 
-<p><strong>Quanto tempo a sucupira leva para fazer efeito?</strong><br />
-Relatos de uso popular indicam que os primeiros sinais de bem-estar costumam aparecer entre 2 e 4 semanas de uso regular. A constância é essencial.</p>
+**Qual é melhor para artrose: sucupira ou canela de velho?**
 
-<p><strong>Sucupira tem contraindicação?</strong><br />
-Sim. Grávidas, lactantes e crianças menores de 12 anos não devem usar. Pessoas com problemas renais, hepáticos ou que usam medicamentos contínuos devem consultar um profissional de saúde antes.</p>
+As duas são usadas tradicionalmente para artrose. A sucupira tem mais histórico de pesquisa — incluindo estudo universitário sobre dor na artrose de joelho — enquanto a canela de velho tem forte fama popular para rigidez articular.
 
-<p><strong>Chá ou extrato pronto: qual a melhor forma de tomar?</strong><br />
-O chá é o modo tradicional, mas exige preparo diário, panela separada e tem sabor forte. O extrato pronto para tomar é a opção mais prática para quem busca constância no uso — é só dosar e tomar.</p>
+**Quanto tempo a sucupira leva para fazer efeito?**
 
-<p><strong>Sucupira substitui remédio para dor?</strong><br />
-Não. A sucupira é um aliado natural para o bem-estar das articulações, mas não substitui diagnóstico nem tratamento médico. Dores persistentes devem sempre ser investigadas.</p>
+Relatos de uso popular indicam que os primeiros sinais de bem-estar costumam aparecer entre 2 e 4 semanas de uso regular. A constância é essencial.
+
+**Sucupira tem contraindicação?**
+
+Sim. Grávidas, lactantes e crianças menores de 12 anos não devem usar. Pessoas com problemas renais, hepáticos ou que usam medicamentos contínuos devem consultar um profissional de saúde antes.
+
+**Chá ou extrato pronto: qual a melhor forma de tomar?**
+
+O chá é o modo tradicional, mas exige preparo diário, panela separada e tem sabor forte. O extrato pronto para tomar é a opção mais prática para quem busca constância no uso — é só dosar e tomar.
+
+**Sucupira substitui remédio para dor?**
+
+Não. A sucupira é um aliado natural para o bem-estar das articulações, mas não substitui diagnóstico nem tratamento médico. Dores persistentes devem sempre ser investigadas.

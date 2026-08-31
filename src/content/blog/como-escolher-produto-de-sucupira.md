@@ -2,6 +2,7 @@
 title: "Como escolher um produto de sucupira com segurança?"
 description: "Como escolher um produto de sucupira: o que verificar no rótulo, sinais de procedência confiável e o que evitar na hora de comprar."
 publishDate: "2026-08-29T10:00:00-03:00"
+updatedDate: "2026-08-31T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Extrato de Sucupira", "Segurança no Uso", "Qualidade", "Plantas Medicinais"]
@@ -28,7 +29,9 @@ Empresas com site oficial, histórico de mercado, canal de atendimento ao client
 
 ## O risco real da adulteração
 
-Já foram identificados no mercado brasileiro produtos vendidos como "extrato de sucupira" que continham, na verdade, diclofenaco (um anti-inflamatório farmacêutico) não declarado no rótulo — um risco duplo, já que o consumidor ingere uma substância desconhecida sem saber. Comprar de fontes rastreáveis é a proteção mais eficaz contra esse tipo de risco.
+Em uma tese de doutorado defendida na Faculdade de Odontologia de Piracicaba da Unicamp, a pesquisadora Vanessa Helena da Silva Souza analisou produtos comerciais vendidos como sucupira e [encontrou vários que continham diclofenaco](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira), um anti-inflamatório farmacêutico não declarado no rótulo. O risco é duplo, já que o consumidor ingere uma substância desconhecida sem saber.
+
+O achado se refere às amostras analisadas naquele trabalho, não a todos os produtos de sucupira do mercado. Ainda assim, ele mostra que esse tipo de adulteração não é hipótese: já foi documentado. Como não há como detectá-la pelo sabor ou pela aparência, comprar de fontes rastreáveis é a proteção mais eficaz.
 
 ## O que evitar
 
