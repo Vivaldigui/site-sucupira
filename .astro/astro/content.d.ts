@@ -141,9 +141,9 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"alimentacao-anti-inflamatoria-e-sucupira.md": {
-	id: "alimentacao-anti-inflamatoria-e-sucupira.md";
-  slug: "alimentacao-anti-inflamatoria-e-sucupira";
+"anti-inflamatorios-naturais-para-articulacoes.md": {
+	id: "anti-inflamatorios-naturais-para-articulacoes.md";
+  slug: "anti-inflamatorios-naturais-para-articulacoes";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -183,23 +183,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"dor-nas-juntas-depois-dos-50.md": {
-	id: "dor-nas-juntas-depois-dos-50.md";
-  slug: "dor-nas-juntas-depois-dos-50";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"dor-no-corpo-e-inflamacao.md": {
-	id: "dor-no-corpo-e-inflamacao.md";
-  slug: "dor-no-corpo-e-inflamacao";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"dor-no-joelho-ao-subir-escada.md": {
-	id: "dor-no-joelho-ao-subir-escada.md";
-  slug: "dor-no-joelho-ao-subir-escada";
+"dor-lombar-o-que-fazer.md": {
+	id: "dor-lombar-o-que-fazer.md";
+  slug: "dor-lombar-o-que-fazer";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -218,23 +204,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"melhor-horario-para-tomar-sucupira.md": {
-	id: "melhor-horario-para-tomar-sucupira.md";
-  slug: "melhor-horario-para-tomar-sucupira";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"mitos-e-verdades-sobre-a-sucupira.md": {
-	id: "mitos-e-verdades-sobre-a-sucupira.md";
-  slug: "mitos-e-verdades-sobre-a-sucupira";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"o-que-a-ciencia-sabe-sobre-a-sucupira.md": {
-	id: "o-que-a-ciencia-sabe-sobre-a-sucupira.md";
-  slug: "o-que-a-ciencia-sabe-sobre-a-sucupira";
+"nervo-ciatico-inflamado-o-que-fazer.md": {
+	id: "nervo-ciatico-inflamado-o-que-fazer.md";
+  slug: "nervo-ciatico-inflamado-o-que-fazer";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -246,6 +218,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"o-que-tomar-para-dor-na-lombar.md": {
+	id: "o-que-tomar-para-dor-na-lombar.md";
+  slug: "o-que-tomar-para-dor-na-lombar";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "oleo-de-sucupira-para-que-serve.md": {
 	id: "oleo-de-sucupira-para-que-serve.md";
   slug: "oleo-de-sucupira-para-que-serve";
@@ -253,30 +232,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"onde-a-sucupira-e-encontrada.md": {
-	id: "onde-a-sucupira-e-encontrada.md";
-  slug: "onde-a-sucupira-e-encontrada";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"plantas-medicinais-para-articulacoes.md": {
-	id: "plantas-medicinais-para-articulacoes.md";
-  slug: "plantas-medicinais-para-articulacoes";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "produto-natural-tambem-precisa-de-cuidado.md": {
 	id: "produto-natural-tambem-precisa-de-cuidado.md";
   slug: "produto-natural-tambem-precisa-de-cuidado";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"quando-a-dor-nas-juntas-precisa-de-medico.md": {
-	id: "quando-a-dor-nas-juntas-precisa-de-medico.md";
-  slug: "quando-a-dor-nas-juntas-precisa-de-medico";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -302,13 +260,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"semente-de-sucupira.md": {
-	id: "semente-de-sucupira.md";
-  slug: "semente-de-sucupira";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.md": {
 	id: "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.md";
   slug: "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz";
@@ -316,30 +267,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-anti-inflamatorio-natural.md": {
-	id: "sucupira-anti-inflamatorio-natural.md";
-  slug: "sucupira-anti-inflamatorio-natural";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-barbatimao-e-angico.md": {
-	id: "sucupira-barbatimao-e-angico.md";
-  slug: "sucupira-barbatimao-e-angico";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-branca-e-sucupira-preta.md": {
-	id: "sucupira-branca-e-sucupira-preta.md";
-  slug: "sucupira-branca-e-sucupira-preta";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-com-gengibre.md": {
-	id: "sucupira-com-gengibre.md";
-  slug: "sucupira-com-gengibre";
+"sucupira-com-remedio-para-pressao-e-seguro-tomar-junto.md": {
+	id: "sucupira-com-remedio-para-pressao-e-seguro-tomar-junto.md";
+  slug: "sucupira-com-remedio-para-pressao-e-seguro-tomar-junto";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -351,30 +281,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-e-alcool.md": {
-	id: "sucupira-e-alcool.md";
-  slug: "sucupira-e-alcool";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-e-anticoagulantes.md": {
-	id: "sucupira-e-anticoagulantes.md";
-  slug: "sucupira-e-anticoagulantes";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-e-colesterol.md": {
-	id: "sucupira-e-colesterol.md";
-  slug: "sucupira-e-colesterol";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-e-diabetes.md": {
-	id: "sucupira-e-diabetes.md";
-  slug: "sucupira-e-diabetes";
+"sucupira-e-confiavel.md": {
+	id: "sucupira-e-confiavel.md";
+  slug: "sucupira-e-confiavel";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -393,20 +302,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-e-saude-do-homem.md": {
-	id: "sucupira-e-saude-do-homem.md";
-  slug: "sucupira-e-saude-do-homem";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-emagrece.md": {
-	id: "sucupira-emagrece.md";
-  slug: "sucupira-emagrece";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "sucupira-faz-mal-para-os-rins-ou-figado.md": {
 	id: "sucupira-faz-mal-para-os-rins-ou-figado.md";
   slug: "sucupira-faz-mal-para-os-rins-ou-figado";
@@ -414,9 +309,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-funciona-mesmo.md": {
-	id: "sucupira-funciona-mesmo.md";
-  slug: "sucupira-funciona-mesmo";
+"sucupira-faz-mal-para-quem-toma-anticoagulante.md": {
+	id: "sucupira-faz-mal-para-quem-toma-anticoagulante.md";
+  slug: "sucupira-faz-mal-para-quem-toma-anticoagulante";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -428,30 +323,16 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-liquida-ou-capsula.md": {
-	id: "sucupira-liquida-ou-capsula.md";
-  slug: "sucupira-liquida-ou-capsula";
+"sucupira-no-vinho-para-que-serve-e-cuidados-importantes.md": {
+	id: "sucupira-no-vinho-para-que-serve-e-cuidados-importantes.md";
+  slug: "sucupira-no-vinho-para-que-serve-e-cuidados-importantes";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-na-menopausa.md": {
-	id: "sucupira-na-menopausa.md";
-  slug: "sucupira-na-menopausa";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-ou-curcuma.md": {
-	id: "sucupira-ou-curcuma.md";
-  slug: "sucupira-ou-curcuma";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-ou-garra-do-diabo.md": {
-	id: "sucupira-ou-garra-do-diabo.md";
-  slug: "sucupira-ou-garra-do-diabo";
+"sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes.md": {
+	id: "sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes.md";
+  slug: "sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -459,13 +340,6 @@ declare module 'astro:content' {
 "sucupira-para-a-pele.md": {
 	id: "sucupira-para-a-pele.md";
   slug: "sucupira-para-a-pele";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-para-articulacoes-dor-nas-juntas.md": {
-	id: "sucupira-para-articulacoes-dor-nas-juntas.md";
-  slug: "sucupira-para-articulacoes-dor-nas-juntas";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -484,13 +358,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-para-artrose-nas-maos.md": {
-	id: "sucupira-para-artrose-nas-maos.md";
-  slug: "sucupira-para-artrose-nas-maos";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "sucupira-para-artrose.md": {
 	id: "sucupira-para-artrose.md";
   slug: "sucupira-para-artrose";
@@ -501,13 +368,6 @@ declare module 'astro:content' {
 "sucupira-para-bursite-e-tendinite.md": {
 	id: "sucupira-para-bursite-e-tendinite.md";
   slug: "sucupira-para-bursite-e-tendinite";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-para-dor-de-garganta.md": {
-	id: "sucupira-para-dor-de-garganta.md";
-  slug: "sucupira-para-dor-de-garganta";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -533,20 +393,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-para-dor-no-ombro.md": {
-	id: "sucupira-para-dor-no-ombro.md";
-  slug: "sucupira-para-dor-no-ombro";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-para-dor-no-quadril.md": {
-	id: "sucupira-para-dor-no-quadril.md";
-  slug: "sucupira-para-dor-no-quadril";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "sucupira-para-dores-musculares.md": {
 	id: "sucupira-para-dores-musculares.md";
   slug: "sucupira-para-dores-musculares";
@@ -561,23 +407,16 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-para-gastrite-e-ulcera.md": {
-	id: "sucupira-para-gastrite-e-ulcera.md";
-  slug: "sucupira-para-gastrite-e-ulcera";
+"sucupira-para-gota-e-acido-urico.md": {
+	id: "sucupira-para-gota-e-acido-urico.md";
+  slug: "sucupira-para-gota-e-acido-urico";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-para-gota.md": {
-	id: "sucupira-para-gota.md";
-  slug: "sucupira-para-gota";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-para-idosos.md": {
-	id: "sucupira-para-idosos.md";
-  slug: "sucupira-para-idosos";
+"sucupira-para-nervo-ciatico.md": {
+	id: "sucupira-para-nervo-ciatico.md";
+  slug: "sucupira-para-nervo-ciatico";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -589,23 +428,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-para-reumatismo.md": {
-	id: "sucupira-para-reumatismo.md";
-  slug: "sucupira-para-reumatismo";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-pode-tomar-todo-dia.md": {
-	id: "sucupira-pode-tomar-todo-dia.md";
-  slug: "sucupira-pode-tomar-todo-dia";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"sucupira-tira-o-sono.md": {
-	id: "sucupira-tira-o-sono.md";
-  slug: "sucupira-tira-o-sono";
+"vitaminas-para-articulacoes.md": {
+	id: "vitaminas-para-articulacoes.md";
+  slug: "vitaminas-para-articulacoes";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
