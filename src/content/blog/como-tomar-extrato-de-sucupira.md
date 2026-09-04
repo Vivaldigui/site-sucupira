@@ -2,7 +2,7 @@
 title: "Como tomar o extrato de sucupira e ter resultado real"
 description: "Como tomar o extrato de sucupira: dose certa, melhor horário, o que esperar nas primeiras semanas e quem deve ter cautela antes de começar."
 publishDate: 2026-06-20
-updatedDate: "2026-08-31T12:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Como Tomar", "Dosagem"]
@@ -37,7 +37,7 @@ Com o extrato, a posologia é expressa de forma padronizada, o que facilita repe
 
 A dosagem de extrato fluido de sucupira para adultos varia conforme a concentração e a formulação de cada fabricante. Por isso, **a regra mais importante é seguir a posologia impressa na embalagem do produto específico que você comprou** — não existe uma dose única que sirva para todas as marcas.
 
-Tomar com o estômago muito sensível em jejum pode causar desconforto gástrico, que é um dos efeitos adversos mais relatados com o uso oral. Se você perceber esse incômodo, ajuste o horário para depois das refeições.
+Tomar em jejum com o estômago sensível pode causar desconforto gástrico. Se você perceber esse incômodo, ajuste o horário para depois das refeições.
 
 > **Como funciona na prática com a Sucupira Naturale:** nosso extrato é medido em **tampinhas** e pode ser tomado **puro, a qualquer hora do dia** — sem precisar diluir. A quantidade varia conforme a sua fase de dor:
 >
@@ -87,7 +87,9 @@ O extrato de sucupira é contraindicado para gestantes, mulheres em amamentaçã
 
 Pessoas com histórico de doença hepática ou renal também devem evitar o uso sem acompanhamento, pois o uso prolongado pode sobrecarregar essas funções. Quem usa anticoagulantes, anti-inflamatórios prescritos ou medicamentos para hipertensão deve consultar um profissional antes de iniciar, pois há possibilidade de interação, ainda que não completamente documentada em estudos clínicos. Pessoas com alergia a plantas da família Fabaceae também se enquadram no grupo de cautela.
 
-Os efeitos adversos mais relatados com o uso oral são náuseas, desconforto estomacal e diarreia, especialmente quando tomado com o estômago vazio ou em dose acima da indicada. Reações como coceira, inchaço ou erupções na pele podem indicar hipersensibilidade ao *Pterodon pubescens*. Se qualquer um desses sinais aparecer, suspenda o uso e procure orientação médica antes de retomar.
+Não existe perfil de efeito adverso da sucupira em pessoas documentado na literatura: a [revisão de 2015 sobre o gênero *Pterodon*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) não reporta dado humano de segurança, e os estudos de toxicidade em animais não acharam sinal de toxicidade nas doses testadas. Isso é ausência de estudo, não prova de segurança.
+
+Na prática, vale a regra que serve para qualquer coisa nova que se ingere: desconforto gástrico persistente, ou reações como coceira, inchaço ou erupções na pele, pedem suspender o uso e procurar orientação médica antes de retomar.
 
 **Não aumente a dose por conta própria pensando que "mais é melhor".** Com o extrato fluido, a concentração já é elevada. Exceder a posologia recomendada aumenta o risco de toxicidade sem ampliar o benefício. O uso contínuo sem pausa também é desaconselhado além dos limites indicados pelo fabricante: orientações variam entre 15 dias e um mês, e faltam estudos sobre segurança a longo prazo.
 
@@ -131,4 +133,4 @@ Para consumo oral, o extrato fluido é a forma mais concentrada, mais padronizá
 
 **Posso aumentar a dose para acelerar o resultado?**
 
-Não. Com o extrato fluido, a concentração já é elevada, e exceder a posologia recomendada aumenta o risco de toxicidade sem ampliar o benefício. Náuseas, desconforto estomacal e diarreia são os efeitos adversos mais relatados, especialmente em dose acima da indicada.
+Não. Não há estudo sobre o que acontece acima da dose indicada pelo fabricante, e ultrapassá-la troca uma dose conhecida por uma situação sobre a qual não existe informação. Não há benefício documentado em aumentar a quantidade.
