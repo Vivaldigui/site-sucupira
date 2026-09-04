@@ -36,13 +36,6 @@ A sucupira aparece na tradição popular brasileira ligada ao cuidado natural, p
 
 O uso tradicional pode orientar perguntas, não substituir respostas profissionais. Quando existe dor persistente ou doença diagnosticada, o ideal é entender a causa antes de escolher qualquer produto.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Banner comercial da Sucupira Naturale" width="900" height="900" />
-  </a>
-  <figcaption>Informações comerciais ficam separadas do conteúdo educativo. Clique na imagem para conhecer a página oficial.</figcaption>
-</figure>
-
 ## Por que a sucupira é tão associada às juntas doloridas?
 
 Essa associação vem do uso popular das sementes e de produtos à base de sucupira em conversas sobre conforto articular. Dor nas juntas, rigidez e limitação de movimento podem ter muitas causas, por isso o contexto de saúde sempre importa.
@@ -126,11 +119,6 @@ Procure avaliação quando a dor é persistente, intensa, vem com inchaço, febr
 **A sucupira substitui tratamento médico?**
 
 Não. A sucupira não substitui consulta, diagnóstico, fisioterapia, exercícios orientados ou medicamentos prescritos. Ela pode ser pesquisada como possível apoio dentro de uma decisão responsável.
-
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://www.sucupiranaturale.com.br/).
 
 <!--
 Revisão necessária antes de publicar:

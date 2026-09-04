@@ -44,13 +44,6 @@ Feitos sem forçar, sem dor, respirando normalmente. Se algum aumentar a dor, pa
 
 **Gato e camelo.** De quatro, alterne entre arquear as costas para cima e deixar a barriga descer, num movimento lento. Ajuda a devolver mobilidade à coluna.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Os erros que prolongam a dor
 
 **Ficar de cama.** O erro mais comum e o mais custoso. Um dia mais tranquilo é razoável; três dias deitado atrasam a recuperação.
@@ -99,7 +92,3 @@ A maioria dos episódios melhora em poucos dias e se resolve em até quatro sema
 **Alongamento ajuda ou piora a dor lombar?**
 
 Alongamento suave costuma ajudar. Alongamento forçado, que provoca dor durante o movimento, tende a piorar. A regra prática é: se dói ao fazer, não é o momento.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

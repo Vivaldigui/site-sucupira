@@ -24,13 +24,6 @@ Não. Até onde a literatura pública permite verificar, não existe estudo clí
 
 É essa reputação geral — não um estudo específico sobre ciática — que leva o tema a aparecer nas buscas e nos relatos de uso popular. Vale a honestidade: extrapolação de "ajuda em dor articular e muscular" para "ajuda em compressão de nervo" é uma inferência do usuário, não uma conclusão científica.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Por que esse cuidado extra com a ciática
 
 A sucupira já tem, inclusive para outros tipos de dor, uma lacuna de segurança que vale conhecer: não há estudo de toxicidade concluído para uso humano prolongado. [Pesquisadores da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira) descreveram, em modelos animais, sinais de dano hepático, dano renal discreto, gastrite e edema em doses elevadas e prolongadas. Isso não significa que o uso popular nas doses usuais seja necessariamente perigoso — significa que a margem de segurança em uso contínuo ainda não está bem estabelecida cientificamente, o que pede prudência redobrada em quadros de dor intensa, quando a tentação de aumentar a dose por conta própria é maior.
@@ -86,7 +79,3 @@ Não necessariamente. Pode ser tensão muscular no piriforme, má postura ou esf
 **Quando a dor ciática é emergência médica?**
 
 Perda de força na perna, dificuldade para controlar xixi ou fezes, ou dormência na virilha são sinais de alerta que exigem atendimento médico imediato — não devem esperar por nenhum tipo de tratamento em casa.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

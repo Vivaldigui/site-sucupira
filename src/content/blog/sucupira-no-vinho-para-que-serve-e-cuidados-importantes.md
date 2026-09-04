@@ -19,13 +19,6 @@ No uso tradicional, a garrafada de sucupira no vinho é preparada com a expectat
 
 É um costume popular consolidado, repetido de geração em geração — vale a honestidade de que é a tradição, e não um estudo clínico específico sobre a garrafada no vinho, que sustenta essa prática.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Extrato de Sucupira Naturale pronto para tomar" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Como fazer sucupira no vinho: passo a passo
 
 A receita popular mais replicada segue, em geral, este caminho:
@@ -93,7 +86,3 @@ A sucupira pode interagir com anticoagulantes, anti-inflamatórios e analgésico
 **Existe uma forma mais segura de tomar sucupira?**
 
 Sim. Extratos e cápsulas padronizados oferecem dose definida e não dependem de álcool, o que reduz variáveis de risco em relação à garrafada caseira.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

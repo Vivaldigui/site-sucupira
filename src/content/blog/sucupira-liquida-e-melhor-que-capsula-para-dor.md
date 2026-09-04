@@ -17,17 +17,6 @@ A resposta honesta é: depende. A forma líquida tem vantagens práticas claras,
 
 O mais importante é escolher com informação. Produto natural também precisa de procedência, uso responsável e conversa com profissional de saúde quando há doenças, medicamentos ou dor persistente.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos">
-    <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Sucupira Naturale pronta para tomar em formato líquido" />
-  </a>
-  <figcaption>Conheça a página oficial da Sucupira Naturale. O conteúdo deste artigo permanece informativo e não substitui orientação profissional.</figcaption>
-</figure>
-
-<p style="text-align:center">
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Conhecer a Sucupira Naturale</a>
-</p>
-
 ## O que muda entre sucupira líquida e cápsula?
 
 A principal diferença entre sucupira líquida e cápsula está na forma de apresentação, na praticidade e no modo como o produto é incorporado à rotina. A sucupira líquida costuma vir pronta para consumo, enquanto a cápsula concentra o ingrediente em uma unidade seca e fácil de transportar.
@@ -95,17 +84,6 @@ Antes de escolher, observe:
 
 Produtos naturais vendidos sem procedência, com promessas exageradas ou com linguagem de "resultado certo" merecem cautela. Em saúde, promessa forte demais costuma ser sinal para olhar duas vezes.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos">
-    <img src="/assets/produto-sem-fundo.png" alt="Frasco do extrato de sucupira Sucupira Naturale" />
-  </a>
-  <figcaption>O extrato líquido pode ser uma escolha prática para quem prefere evitar cápsulas. Consulte a página oficial para conhecer a apresentação do produto.</figcaption>
-</figure>
-
-<p style="text-align:center">
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Ver o extrato líquido</a>
-</p>
-
 ## Quem deve ter cuidado antes de usar sucupira?
 
 Gestantes, lactantes, crianças, pessoas com doenças crônicas e pessoas em uso de medicamentos devem buscar orientação profissional antes de usar sucupira. Essa recomendação vale tanto para sucupira líquida quanto para cápsulas.
@@ -143,10 +121,6 @@ Cápsulas e extratos líquidos podem ter composições e concentrações diferen
 **Como saber se vale a pena testar sucupira líquida?**
 
 Vale considerar sucupira líquida quando você busca um apoio natural, tem preferência por produto pronto para tomar e não possui contraindicações conhecidas. Ainda assim, a decisão deve ser cautelosa se você tem doença crônica, usa medicamentos ou sente dor sem diagnóstico. Produtos com página oficial e informações claras oferecem mais segurança de compra.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato líquido de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/combos).
 
 ---
 

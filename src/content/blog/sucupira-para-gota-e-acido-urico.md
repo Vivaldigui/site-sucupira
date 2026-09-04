@@ -19,13 +19,6 @@ A reputação da sucupira vem da sua ação anti-inflamatória e analgésica tra
 
 A gota, porém, não é uma inflamação articular qualquer: ela acontece quando cristais de ácido úrico se acumulam nas articulações, geralmente o dedão do pé, causando uma dor aguda e uma inflamação muito intensa. O tratamento eficaz de gota depende de controlar os níveis de ácido úrico no sangue — algo que envolve exames, acompanhamento médico e, na maioria dos casos, medicação específica.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## A sucupira baixa o ácido úrico?
 
 A reputação da sucupira está ligada ao alívio da dor e da inflamação articular em geral, uso tradicional consolidado há gerações — não a um mecanismo de controle do ácido úrico, que é a causa raiz da gota.
@@ -77,7 +70,3 @@ Existem relatos de que o chá de sucupira pode intensificar sintomas em algumas 
 **Posso tomar sucupira junto com remédio para gota?**
 
 Não sem orientação médica. A sucupira pode interagir com outros medicamentos, e a gota é uma condição que exige acompanhamento contínuo — nunca substitua a medicação prescrita por conta própria.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

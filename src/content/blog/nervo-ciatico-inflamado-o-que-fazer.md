@@ -49,13 +49,6 @@ Se nenhum dos sinais acima se aplica, essas medidas costumam ser as mais úteis.
 
 **Cuidado ao pegar peso.** Enquanto durar, evite. E quando for inevitável, dobre os joelhos e mantenha a carga perto do corpo.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Alongamentos que costumam aliviar
 
 Feitos devagar, sem forçar, respirando. **Se o alongamento aumentar a dor ou fizer descer mais pela perna, pare** — isso é sinal de que está aumentando a compressão, não aliviando.
@@ -110,7 +103,3 @@ No uso tradicional, a sucupira é associada ao alívio de dores musculares e art
 **Dor ciática pode ser hérnia de disco?**
 
 Pode. Hérnia de disco é uma das causas mais comuns de compressão do nervo ciático. É uma das razões pelas quais dor ciática persistente merece avaliação médica em vez de tratamento apenas caseiro.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

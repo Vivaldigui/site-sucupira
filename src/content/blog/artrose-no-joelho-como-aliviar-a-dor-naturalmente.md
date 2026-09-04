@@ -17,17 +17,6 @@ O ponto mais importante é entender que "natural" não significa abandonar cuida
 
 Neste guia, você vai encontrar medidas naturais que fazem sentido para quem convive com dor no joelho, além de uma explicação honesta sobre onde a sucupira entra nessa conversa.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos">
-    <img src="/assets/banner-sucupira-pronta-para-tomar.png" alt="Conheça a Sucupira Naturale pronta para tomar" />
-  </a>
-  <figcaption>Informações comerciais ficam separadas do conteúdo educativo. Clique na imagem para conhecer o produto oficial.</figcaption>
-</figure>
-
-<p style="text-align:center">
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Conhecer a Sucupira Naturale</a>
-</p>
-
 ## O que é artrose no joelho?
 
 A artrose no joelho é um desgaste progressivo da articulação que pode causar dor, rigidez, inchaço e limitação de movimento. Ela envolve principalmente a cartilagem, que é o tecido que ajuda os ossos a deslizarem com menos atrito durante o movimento.
@@ -130,7 +119,3 @@ Sucupira não deve ser usada como único cuidado para artrose nem como motivo pa
 **Qual é a forma mais segura de cuidar da artrose no joelho?**
 
 A forma mais segura de cuidar da artrose no joelho é combinar diagnóstico correto, exercícios orientados, controle de peso, manejo da dor e acompanhamento profissional. Produtos naturais podem entrar como complemento, mas não devem ser o único cuidado. O melhor plano é individualizado.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página oficial](https://www.sucupiranaturale.com.br/combos).

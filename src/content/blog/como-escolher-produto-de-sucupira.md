@@ -16,13 +16,6 @@ Com a popularidade da sucupira crescendo, também cresceu o número de produtos 
 
 Confira se o produto especifica o nome científico da espécie (*Pterodon pubescens*, para a sucupira branca), a concentração ou forma de apresentação, o modo de uso recomendado, e os dados do fabricante (endereço, CNPJ). Rótulos vagos, sem essas informações, são um sinal de alerta.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Sinais de procedência confiável
 
 Empresas com site oficial, histórico de mercado, canal de atendimento ao cliente e informações claras sobre origem da matéria-prima tendem a ser mais confiáveis do que vendedores anônimos em marketplaces ou redes sociais, sem rastreabilidade nenhuma.
@@ -50,7 +43,3 @@ Site oficial, histórico de mercado, atendimento ao cliente e informações clar
 **Existe risco de adulteração em produtos de sucupira?**
 
 Sim, já foram identificados casos de produtos com substâncias farmacêuticas não declaradas. Comprar de fontes rastreáveis reduz esse risco.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

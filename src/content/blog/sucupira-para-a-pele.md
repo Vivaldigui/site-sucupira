@@ -14,13 +14,6 @@ Além do uso mais conhecido para dores articulares, o óleo de sucupira também 
 
 Na medicina popular, o óleo extraído da semente de sucupira é usado topicamente, associado a propriedades hidratantes e à ação anti-inflamatória geral atribuída aos compostos da planta. É um uso cultural, cosmético e de cuidado geral com a pele — não um tratamento dermatológico validado clinicamente.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Como testar antes de usar na pele
 
 Como com qualquer óleo vegetal novo, é recomendável fazer um teste em uma pequena área da pele (como o antebraço) antes de aplicar em áreas maiores, observando por 24 a 48 horas se há qualquer vermelhidão, coceira ou irritação — sinal de possível sensibilidade individual ao produto.
@@ -42,7 +35,3 @@ Como qualquer óleo vegetal, pode causar sensibilidade em algumas pessoas. Faça
 **Sucupira trata problemas de pele como dermatite ou psoríase?**
 
 Não. Essas condições exigem avaliação e tratamento com um dermatologista — o uso tradicional do óleo é apenas para cuidado geral e cosmético.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

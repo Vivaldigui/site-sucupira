@@ -28,13 +28,6 @@ São esses compostos que explicam a reputação da planta. Estudos laboratoriais
 
 Ainda assim, vale a leitura honesta: boa parte dessas evidências vem de estudos pré-clínicos. Por isso a sucupira deve ser entendida como **apoio complementar**, e não como substituto de tratamento médico.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Os riscos das misturas caseiras
 
 O problema da garrafada é a **falta de controle**: não se sabe a concentração real, a dose fica imprecisa e muitas receitas levam **álcool**, que não combina com vários medicamentos nem com quem tem problemas de fígado. Misturar várias plantas na mesma garrafa aumenta ainda mais o risco.
@@ -78,7 +71,3 @@ Não sem orientação. O álcool interage com vários medicamentos e sobrecarreg
 **Garrafada ou extrato pronto?**
 
 O extrato pronto oferece dose padronizada e procedência clara, sendo em geral a opção mais previsível e segura.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/).

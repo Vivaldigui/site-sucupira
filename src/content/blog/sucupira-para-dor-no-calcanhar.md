@@ -14,13 +14,6 @@ Dor no calcanhar, especialmente aquela pontada forte nos primeiros passos do dia
 
 A fascite plantar é a inflamação da fáscia plantar, o tecido que liga o calcanhar aos dedos do pé. O esporão de calcâneo é uma calcificação óssea que pode se formar como consequência de uma fascite plantar não tratada — nem todo esporão causa dor, e nem toda dor no calcanhar significa esporão. Um exame de imagem é o que confirma a causa exata.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Onde a sucupira pode entrar
 
 O óleo de sucupira, em massagem local na sola do pé e no calcanhar, é a forma mais associada ao uso tradicional nesse tipo de dor, pela ação anti-inflamatória atribuída aos seus compostos e pelo próprio efeito da massagem na região. O uso oral do extrato pode complementar como apoio geral.
@@ -44,7 +37,3 @@ O esporão em si costuma ser uma calcificação estável; o alívio da dor geral
 **Quando a dor no calcanhar precisa de médico?**
 
 Se a dor persiste por várias semanas apesar de repouso e alongamento, ou se piora progressivamente, vale procurar um ortopedista para avaliação e exame de imagem, se necessário.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

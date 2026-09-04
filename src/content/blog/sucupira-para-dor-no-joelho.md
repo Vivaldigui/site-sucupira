@@ -17,13 +17,6 @@ A reputação da sucupira vem de compostos como os diterpenos e vouacapanos pres
 
 Dor no joelho pode ter causas bem diferentes: desgaste da cartilagem (artrose), sobrecarga por atividade física, lesão de menisco ou ligamento, ou simplesmente inflamação temporária depois de um esforço maior. O apoio tradicional da sucupira costuma fazer mais sentido nos quadros de desconforto crônico e desgaste, do que em lesões agudas recentes.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Como costuma ser usada para o joelho
 
 - **Extrato líquido ou cápsulas** — uso oral, para um apoio mais geral, com dose conhecida em produtos padronizados.
@@ -54,7 +47,3 @@ O óleo é para uso tópico, em massagem local. O extrato é de uso oral, com a�
 **Quando a dor no joelho é grave?**
 
 Inchaço importante, vermelhidão, calor local ou incapacidade de apoiar o peso merecem avaliação ortopédica antes de qualquer produto natural.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

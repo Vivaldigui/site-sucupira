@@ -14,13 +14,6 @@ Todo produto que tem efeito real no corpo — natural ou farmacêutico — pode 
 
 Os relatos mais comuns associados ao uso da sucupira incluem desconforto gástrico leve (principalmente com o estômago vazio), reações alérgicas em pessoas sensíveis, e, em doses elevadas ou uso prolongado, sinais que estudos em modelos animais associaram a sobrecarga hepática e renal. A maioria dos relatos de desconforto é leve e reversível ao suspender o uso.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Por que a dose importa tanto
 
 Estudos em animais com doses elevadas e uso prolongado (300 mg/kg por 14 dias) registraram sinais de dano hepático, dano renal discreto, gastrite e edema. Em doses ainda maiores, observou-se acúmulo de gordura no fígado. Isso reforça a importância de seguir as doses tradicionalmente indicadas pelo fabricante, sem tentar acelerar resultados aumentando a quantidade por conta própria.
@@ -42,7 +35,3 @@ Nas doses tradicionalmente indicadas, não há evidência de dano hepático gene
 **O que fazer se eu tiver uma reação após tomar sucupira?**
 
 Suspenda o uso imediatamente e procure orientação médica, especialmente se houver sinais de reação alérgica ou desconforto que não passa.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

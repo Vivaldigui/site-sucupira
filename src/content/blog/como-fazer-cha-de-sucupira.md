@@ -80,10 +80,6 @@ Muitos relatos descrevem um sabor amargo e marcante. Algumas pessoas adicionam g
 
 São formas diferentes de uso, com concentrações diferentes. Nenhuma delas substitui orientação profissional, e a escolha depende do seu caso e do que você conversar com quem acompanha sua saúde.
 
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://www.sucupiranaturale.com.br/).
-
 <!--
 Revisão necessária antes de publicar:
 - Verificar afirmações gerais sobre uso tradicional do chá.

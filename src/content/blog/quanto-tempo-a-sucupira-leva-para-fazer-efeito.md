@@ -86,10 +86,6 @@ As formas de uso têm concentrações diferentes, mas isso não cria uma regra d
 
 Não sozinho. Muitos fatores influenciam a sensação de melhora. Por isso, evite conclusões apressadas e observe o conjunto da sua saúde.
 
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja mais em [nossa página](https://www.sucupiranaturale.com.br/).
-
 <!--
 Revisão necessária antes de publicar:
 - Confirmar que nenhum prazo foi apresentado como promessa.

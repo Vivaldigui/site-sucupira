@@ -47,13 +47,6 @@ A sucupira (*Pterodon pubescens*), planta nativa do Cerrado brasileiro, é tradi
 
 Vale redobrar a atenção à procedência: análises já identificaram produtos vendidos como "extrato de sucupira" que continham, na verdade, diclofenaco não declarado no rótulo — um risco de mercado documentado por [pesquisadores da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira).
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 **Cuidado:** sem estudo de toxicidade humana de longo prazo concluído; pode interagir com anticoagulantes, medicamentos para pressão e diabetes.
 
 ## 6. Garra-do-diabo (Harpagophytum)
@@ -110,7 +103,3 @@ Sim, podem ter. Cúrcuma em dose alta pode causar desconforto gástrico; ômega-
 **Quanto tempo leva para um anti-inflamatório natural fazer efeito?**
 
 Normalmente semanas de uso contínuo, não dias. Diferente de um anti-inflamatório farmacêutico de ação rápida, os compostos naturais tendem a agir de forma cumulativa e gradual.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

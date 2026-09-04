@@ -46,13 +46,6 @@ O primeiro é que **eles tratam o sintoma, não a causa**. Aliviar a dor para co
 
 O segundo é que **anti-inflamatório não é item de uso livre e prolongado**. O uso continuado tem efeitos conhecidos sobre estômago e rins, e interage com outros medicamentos — especialmente relevante para quem já toma remédio para pressão, anticoagulante ou tem doença crônica. Qual usar, em que dose e por quanto tempo é decisão de um profissional que conhece seu histórico, não de um artigo.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Onde entram as opções naturais
 
 Plantas com uso tradicional associado a dor e inflamação aparecem muito nessa busca, e faz sentido conhecê-las — desde que com expectativa calibrada.
@@ -107,7 +100,3 @@ A dor lombar mecânica costuma melhorar em alguns dias e se resolver em até qua
 **Calor ou gelo para dor na lombar?**
 
 Calor costuma ajudar mais na contratura muscular, que é a causa mais comum. Gelo tende a fazer mais sentido nas primeiras horas após uma lesão com inchaço. Na dúvida, calor é a escolha mais frequente para dor lombar do dia a dia.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

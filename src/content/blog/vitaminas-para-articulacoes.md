@@ -40,13 +40,6 @@ O mais vendido e o mais mal explicado. O colágeno que você ingere não vai dir
 
 Existem estudos sugerindo melhora de desconforto articular com colágeno tipo II não desnaturado e com peptídeos de colágeno, mas o corpo de evidência ainda é heterogêneo. Se for testar, vale saber que o efeito relatado costuma ser modesto e levar semanas.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Ômega-3
 
 Ácidos graxos com ação anti-inflamatória reconhecida. A evidência é mais consistente em quadros inflamatórios como a artrite reumatoide do que na artrose por desgaste. Para quem come pouco peixe, é uma lacuna alimentar razoável de cobrir. Atenção para quem usa anticoagulante: doses altas exigem conversa com o médico.
@@ -117,7 +110,3 @@ Não. Suplementos e fitoterápicos são apoio complementar. Quem tem diagnóstic
 **Vitamina para joelho existe?**
 
 Não no sentido de uma vitamina específica para o joelho. O que existe são nutrientes ligados a osso e músculo, como vitamina D e cálcio, e suplementos estudados para conforto articular. Nenhum age exclusivamente sobre uma articulação.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

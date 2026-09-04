@@ -19,13 +19,6 @@ No uso tradicional, a sucupira é associada a ações anti-inflamatória e analg
 
 Isso não significa que ela resolva qualquer dor na coluna. A coluna é uma estrutura complexa, e a dor pode vir de causas bem diferentes: tensão muscular, má postura, esforço repentino, desgaste articular ou, em casos mais sérios, compressão de nervo e hérnia de disco. O apoio tradicional da sucupira faz mais sentido no primeiro grupo — dores musculares e posturais — do que nos quadros que exigem diagnóstico e tratamento específico.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Dor muscular ou hérnia de disco? Como diferenciar
 
 Essa diferença importa porque muda completamente a conduta. Alguns sinais ajudam a entender o que pode estar acontecendo — mas nenhum deles substitui uma avaliação profissional:
@@ -86,7 +79,3 @@ O óleo é usado topicamente, em massagem local, e pode ajudar pelo relaxamento 
 **Quando a dor na coluna é motivo de preocupação?**
 
 Quando irradia para a perna, vem com formigamento, dormência ou perda de força, surge após queda ou impacto, ou não melhora com repouso. Nesses casos, procure um médico.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

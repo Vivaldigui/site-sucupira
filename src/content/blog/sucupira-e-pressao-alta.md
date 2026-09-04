@@ -17,13 +17,6 @@ Não há um mecanismo bem estabelecido que associe o uso da sucupira, nas doses 
 
 Ainda assim, o corpo de cada pessoa reage de um jeito, e quem já tem pressão alta diagnosticada lida com um sistema mais sensível a qualquer substância nova na rotina — natural ou não. É por isso que observar a resposta do próprio corpo nas primeiras semanas de uso faz sentido, especialmente para quem já tem a condição.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## Sucupira faz mal para o coração?
 
 Não há indicação de que a sucupira, usada nas doses tradicionalmente recomendadas, cause dano direto ao coração. O ponto de atenção real para quem tem hipertensão ou outra condição cardiovascular não é a sucupira isoladamente, mas a combinação com os medicamentos que essa pessoa já usa no dia a dia.
@@ -58,7 +51,3 @@ Isso deve ser avaliado por um médico, caso a caso. A sucupira pode interagir co
 **Sucupira faz mal para o coração?**
 
 Não há indicação disso nas doses tradicionalmente usadas. O ponto de atenção real é a interação medicamentosa em quem já tem alguma condição cardiovascular diagnosticada.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

@@ -18,13 +18,6 @@ A bursite é a inflamação da bursa, uma pequena bolsa cheia de líquido que am
 
 A ação anti-inflamatória e analgésica tradicionalmente atribuída à sucupira, ligada a compostos como os diterpenos presentes na semente, é a mesma razão pela qual ela aparece associada a outras inflamações articulares e de partes moles, como bursite e tendinite. É um uso tradicional consolidado, que se estende por analogia a esses quadros.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## O que costuma ajudar de verdade
 
 Repouso relativo da região afetada, gelo nas primeiras 48 horas de uma crise aguda, e depois calor e alongamento leve, costumam ser as medidas de maior impacto. O uso tópico do óleo de sucupira em massagem, ou o uso oral do extrato como apoio geral, pode entrar como complemento dentro desse cuidado — nunca isolado.
@@ -48,7 +41,3 @@ Da mesma forma, é usada tradicionalmente como apoio complementar — repouso e 
 **Bursite e tendinite têm cura?**
 
 Muitos casos melhoram bem com repouso, fisioterapia e cuidados adequados. Casos crônicos ou recorrentes merecem avaliação para identificar a causa (postura, sobrecarga repetitiva) e evitar que voltem.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).

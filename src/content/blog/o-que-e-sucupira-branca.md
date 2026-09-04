@@ -17,13 +17,6 @@ A sucupira branca é o nome popular da *Pterodon pubescens*, uma árvore nativa 
 
 O nome "sucupira" vem do tupi-guarani e é usado, na prática popular, para mais de uma espécie do gênero *Pterodon* e também para a *Bowdichia virgilioides* (conhecida como sucupira-preta), o que gera alguma confusão entre consumidores. A sucupira branca é a mais estudada e a mais usada em extratos e cápsulas vendidos no Brasil.
 
-<figure>
-  <a href="https://www.sucupiranaturale.com.br/combos" aria-label="Conhecer a página oficial da Sucupira Naturale">
-    <img src="/assets/banner-sucupira-articulacoes.webp" alt="Extrato de Sucupira Naturale — apoio natural para o conforto das articulações" width="900" height="900" loading="lazy" decoding="async" />
-  </a>
-  <figcaption>Conheça o Extrato de Sucupira Naturale na página oficial. Informação comercial mantida separada do conteúdo educativo.</figcaption>
-</figure>
-
 ## O que tem na semente que explica a fama da planta
 
 A semente da sucupira branca concentra diterpenos e furanoditerpenos — como os vouacapanos e o geranilgeraniol —, além de flavonoides e ácidos graxos. São esses compostos, estudados por grupos de pesquisa como os da Unicamp, que sustentam a atividade anti-inflamatória, analgésica e antioxidante tradicionalmente atribuída à planta.
@@ -62,7 +55,3 @@ A semente é a parte mais aproveitada, tanto no uso tradicional (chá, garrafada
 **A sucupira branca tem comprovação científica?**
 
 Estudos de laboratório conduzidos por grupos de pesquisa brasileiros, como os da Unicamp, mostram atividade anti-inflamatória e analgésica nos compostos da semente. É importante ter uma orientação profissional antes de usar produtos derivados, especialmente para gestantes, lactantes ou quem toma medicação contínua.
-
-> Conteúdo exclusivamente informativo, baseado em literatura pública e em relatos de uso tradicional. Não substitui consulta, diagnóstico ou tratamento médico. Em caso de dúvidas sobre sua saúde, procure um profissional qualificado.
-
-Quer conhecer o extrato de sucupira da Sucupira Naturale? Veja condições, apresentações e detalhes na [página oficial](https://www.sucupiranaturale.com.br/combos).
