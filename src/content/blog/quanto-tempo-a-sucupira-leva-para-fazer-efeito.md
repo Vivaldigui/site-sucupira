@@ -14,6 +14,8 @@ featured: false
 
 Qualquer promessa de resultado em "X dias" é sinal de alerta, não de confiança.
 
+Para o panorama geral da planta, ver [para que serve a sucupira](/sucupira-para-que-serve/).
+
 ## Por que não existe um número
 
 A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) reuniu a literatura sobre o gênero *Pterodon* e registra que **nenhum ensaio clínico em humanos foi incluído**. Toda a evidência vem de etnomedicina, laboratório e modelos animais.

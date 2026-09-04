@@ -55,6 +55,12 @@ Além disso, o preparo caseiro tem variações difíceis de controlar: origem da
 
 Produtos com procedência clara e informação de rótulo ajudam a reduzir parte dessas incertezas, mas não eliminam a necessidade de orientação.
 
+## O chá de sucupira faz mal?
+
+Não há como responder com um "sim" ou um "não" apoiado em estudo. Nunca foi publicado ensaio clínico em pessoas sobre a sucupira, para nenhum desfecho, e isso vale também para o chá. Os estudos de toxicidade disponíveis são em animais: a [revisão de 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) registra que a fração oleosa das sementes não induziu efeito tóxico agudo a 8 g/kg de peso corporal, e que um extrato usado por 28 dias não alterou exames anatômicos, bioquímicos nem hematológicos. Ausência de dano documentado não é o mesmo que segurança comprovada, é ausência de estudo em pessoas.
+
+O que muda o risco não é a planta isolada, é o preparo e quem está tomando. O chá caseiro tem concentração que varia a cada fervura, então a mesma pessoa pode tomar quantidades bem diferentes sem perceber. E há situações com motivo concreto para cautela: quem tem [doença nos rins ou no fígado](/sucupira-faz-mal-para-os-rins-ou-figado/), quem tem [pressão alta](/sucupira-e-pressao-alta/), quem usa anticoagulante ou anti-inflamatório com frequência, e gestantes, lactantes e crianças. A lista completa está em [contraindicações da sucupira](/sucupira-contraindicacoes/), e o que se sabe sobre reações relatadas está em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/).
+
 ## Quais cuidados e contraindicações considerar?
 
 Gestantes, lactantes, crianças, idosos frágeis, pessoas com doenças crônicas e pessoas em uso de medicamentos devem buscar orientação profissional antes de usar sucupira, inclusive na forma de chá. Essa recomendação vale mesmo sendo um produto natural.
@@ -80,3 +86,7 @@ Muitos relatos descrevem um sabor amargo e marcante. Algumas pessoas adicionam g
 **Chá caseiro substitui o extrato ou a cápsula?**
 
 São formas diferentes de uso, com concentrações diferentes. Nenhuma delas substitui orientação profissional, e a escolha depende do seu caso e do que você conversar com quem acompanha sua saúde.
+
+**O chá de sucupira faz mal?**
+
+Não há estudo em pessoas que responda isso, nem a favor nem contra. Os estudos de toxicidade são em animais e não acharam sinal nas doses testadas. O cuidado maior é com a dose imprevisível do preparo caseiro e com quem já tem doença crônica, usa medicamento contínuo, está grávida ou amamenta.

@@ -40,7 +40,7 @@ Não há indicação de dano cardíaco nas doses tradicionalmente usadas, e não
 
 Sobre segurança em geral, o que os estudos de toxicidade mostram vai no sentido tranquilizador: a fração oleosa das sementes não induziu efeito tóxico agudo, mutagenicidade ou citotoxicidade a 8 g/kg de peso corporal, dose muito acima da usada por pessoas, e o extrato hidroetanólico a 5 mg/kg por dia durante 28 dias não produziu alteração anatômica, histológica, bioquímica ou hematológica em animais.
 
-O que não existe é dado humano. Ausência de efeito adverso documentado não é o mesmo que segurança comprovada — é ausência de estudo. Mais sobre isso em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/).
+O que não existe é dado humano. Ausência de efeito adverso documentado não é o mesmo que segurança comprovada — é ausência de estudo. Mais sobre isso em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/) e [sucupira faz mal para os rins ou fígado](/sucupira-faz-mal-para-os-rins-ou-figado/).
 
 ## Quem tem pressão alta pode tomar sucupira?
 

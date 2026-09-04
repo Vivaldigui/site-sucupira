@@ -65,7 +65,7 @@ Quem tem alteração hepática — inclusive gordura no fígado, que é comum e 
 - **Histórico de reação a produtos naturais**
 - Gestantes, lactantes e crianças menores de 13 anos, que não devem usar
 
-Ver [contraindicações](/sucupira-contraindicacoes/) e [sucupira e medicamentos](/sucupira-e-medicamentos/).
+Ver [contraindicações](/sucupira-contraindicacoes/), [sucupira e pressão alta](/sucupira-e-pressao-alta/) e [sucupira e medicamentos](/sucupira-e-medicamentos/).
 
 ## Sinais que pedem avaliação
 
