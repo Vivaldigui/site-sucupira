@@ -2,6 +2,7 @@
 title: "Sucupira líquida é melhor que cápsula para dor?"
 description: "Sucupira líquida ou cápsula para dor? Entenda diferenças, praticidade, absorção e cuidados antes de escolher."
 publishDate: "2026-06-29T12:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dores crônicas", "Como Tomar"]
@@ -53,13 +54,6 @@ As cápsulas podem ser práticas em viagens, no trabalho ou para quem não gosta
 | Transporte | Pode exigir mais cuidado | Costuma ser fácil de carregar |
 | Rotina em casa | Simples para quem prefere produto pronto | Simples para quem já usa cápsulas |
 | Evidência de superioridade para dor | Não comprovada como superior para todos | Não comprovada como superior para todos |
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Formato líquido e compra oficial</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido, apresentação do produto e condições atuais na página oficial. A decisão de uso deve respeitar seu histórico de saúde.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
 
 ## Sucupira líquida funciona mais rápido para dor?
 

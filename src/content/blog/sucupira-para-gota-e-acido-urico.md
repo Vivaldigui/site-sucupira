@@ -2,6 +2,7 @@
 title: "Sucupira para gota: ajuda com o ácido úrico? O que saber"
 description: "Sucupira para gota: o que diz o uso tradicional sobre ácido úrico, cuidados importantes e quando ela pode até piorar a crise."
 publishDate: "2026-07-07T09:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Inflamação", "Gota", "Ácido Úrico", "Saúde 45+"]
@@ -39,13 +40,6 @@ Se, mesmo assim, você e seu médico decidirem que faz sentido experimentar a su
 - **Prefira apresentações com dose conhecida**, como extrato padronizado, em vez de chás ou garrafadas caseiras com concentração imprevisível.
 - **Observe a resposta do corpo** nos primeiros dias e suspenda ao menor sinal de piora.
 - **Evite álcool** se optar por qualquer preparo — garrafadas em vinho, por exemplo, somam um fator de risco a mais durante uma crise inflamatória.
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Dose conhecida, para usar com mais previsibilidade</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
 
 Para conhecer os usos gerais da planta e as principais precauções, consulte o guia [para que serve a sucupira](/sucupira-para-que-serve/).
 

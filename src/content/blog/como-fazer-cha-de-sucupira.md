@@ -2,6 +2,7 @@
 title: "Como fazer chá de sucupira em casa: passo a passo"
 description: "Veja como o chá de sucupira é preparado no uso tradicional, os cuidados importantes e por que a orientação profissional continua essencial."
 publishDate: "2026-07-01T15:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Como Tomar", "Uso Tradicional", "Segurança no Uso"]

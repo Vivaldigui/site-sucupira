@@ -2,6 +2,7 @@
 title: "Garrafada de sucupira: o que é e cuidados importantes"
 description: "Entenda o que é a garrafada de sucupira, por que ela é popular, os riscos das misturas caseiras e quando buscar orientação profissional."
 publishDate: "2026-07-04T15:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Uso Tradicional", "Plantas Medicinais", "Segurança no Uso", "Contraindicações"]

@@ -2,6 +2,7 @@
 title: "Sucupira para artrose: ajuda mesmo?"
 description: "Entenda a sucupira para artrose com expectativas realistas, uso tradicional e cuidados antes de usar."
 publishDate: "2026-07-03T08:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Artrose", "Dor no Joelho", "Mobilidade", "Ciência da Sucupira"]

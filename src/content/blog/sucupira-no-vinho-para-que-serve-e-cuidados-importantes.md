@@ -67,13 +67,6 @@ Para quem tem o hábito da garrafada e quer manter alguma continuidade, o ponto 
 
 O que não muda é o resto. A atenção a interações medicamentosas continua valendo, e trocar o formato não é motivo para relaxar com nada disso.
 
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Dose conhecida, sem depender de maceração</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial. A decisão de uso deve respeitar seu histórico de saúde.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
-
 ## Perguntas frequentes
 
 **Sucupira no vinho funciona mesmo?**

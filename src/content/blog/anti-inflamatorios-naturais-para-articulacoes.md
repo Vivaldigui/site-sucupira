@@ -3,6 +3,7 @@ title: "7 anti-inflamatórios naturais para articulações (guia honesto)"
 seoTitle: "7 anti-inflamatórios naturais para articulações"
 description: "Conheça 7 anti-inflamatórios naturais estudados para dores articulares, o que a ciência confirma sobre cada um, e como usá-los com segurança."
 publishDate: "2026-07-13T09:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Fitoterapia", "Ciência da Sucupira"]

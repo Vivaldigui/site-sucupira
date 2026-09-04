@@ -2,6 +2,7 @@
 title: "Dor lombar: o que fazer para aliviar hoje"
 description: "Dor lombar o que fazer? Veja o que ajuda nas primeiras horas, os erros que pioram o quadro, alongamentos simples e os sinais que pedem médico."
 publishDate: "2026-08-31T10:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Mobilidade", "Dores crônicas"]
@@ -63,13 +64,6 @@ O que decide se a dor volta não é o que você faz na crise — é o que muda d
 Fortalecimento da musculatura do core com orientação profissional, ajuste de postura ao sentar e dormir, atenção à forma de pegar peso, colchão e travesseiro adequados, e movimento regular. Nenhuma dessas coisas alivia hoje. Todas reduzem a chance de você repetir isso daqui a dois meses.
 
 É também onde apoios complementares fazem mais sentido do que na crise. Plantas com uso tradicional associado a dor e inflamação — entre elas a sucupira — costumam ser usadas de forma contínua, com efeito gradual, e não como alívio imediato. Se for esse o seu caso, vale entender antes o que se sabe sobre [sucupira para dor na coluna](/sucupira-para-dor-na-coluna/) e conferir as [contraindicações](/sucupira-contraindicacoes/), especialmente se você toma medicação contínua.
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Apoio com dose conhecida para o dia a dia</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
 
 ## Perguntas frequentes
 

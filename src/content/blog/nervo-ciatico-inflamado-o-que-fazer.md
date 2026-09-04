@@ -2,6 +2,7 @@
 title: "Nervo ciático inflamado: o que fazer para aliviar"
 description: "Nervo ciático inflamado: entenda os sintomas, o que ajuda a aliviar, alongamentos seguros, o que evitar e quais sinais pedem avaliação médica urgente."
 publishDate: "2026-08-31T12:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Dores crônicas", "Inflamação", "Mobilidade"]
@@ -70,13 +71,6 @@ Fortalecimento do core e do glúteo com orientação profissional, cuidado com a
 Apoios complementares fazem mais sentido nessa fase de manutenção do que na crise aguda. Plantas com uso tradicional associado a dor e inflamação — entre elas a sucupira — são usadas de forma contínua, com efeito gradual. Se quiser entender o que se sabe sobre esse uso específico, vale ler [sucupira para nervo ciático](/sucupira-para-nervo-ciatico/), e também [sucupira para dor na coluna](/sucupira-para-dor-na-coluna/), já que a origem do problema costuma estar ali.
 
 Vale um alerta direto: **apoio natural não é caminho para adiar diagnóstico**. Dor ciática persistente ou com perda de força precisa ser investigada, e nenhum produto substitui isso.
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Apoio com dose conhecida para o dia a dia</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
 
 ## Perguntas frequentes
 

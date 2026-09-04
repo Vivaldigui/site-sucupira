@@ -3,6 +3,7 @@ title: "O que tomar para dor na lombar: o que ajuda e o que não resolve"
 seoTitle: "O que tomar para dor na lombar: o que ajuda mesmo"
 description: "O que tomar para dor na lombar? Veja as opções mais usadas, o que costuma funcionar, o que só mascara o problema e quando a dor pede avaliação médica."
 publishDate: "2026-08-31T09:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Dores crônicas", "Inflamação", "Mobilidade"]
@@ -56,13 +57,6 @@ As mais citadas no Brasil para desconforto muscular e articular incluem a **cúr
 No caso da **sucupira**, a semente é tradicionalmente associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos presentes nela e identificadas na [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) — em laboratório e em modelos animais, sem ensaio clínico em pessoas. Esse uso tradicional se estende a dores musculares e articulares em geral, o que inclui a região lombar. É apoio complementar, dentro de um conjunto de cuidados — não substituto de tratamento nem solução isolada.
 
 Se quiser entender melhor essa parte, vale ler sobre [sucupira para dor na coluna](/sucupira-para-dor-na-coluna/), que trata especificamente do assunto, e a visão geral em [para que serve a sucupira](/sucupira-para-que-serve/). E se você usa medicação contínua, o texto sobre [sucupira e medicamentos](/sucupira-e-medicamentos/) é leitura obrigatória antes de combinar qualquer coisa.
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Apoio com dose conhecida para o dia a dia</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
 
 ## O que não resolve
 

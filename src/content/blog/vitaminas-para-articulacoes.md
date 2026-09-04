@@ -3,6 +3,7 @@ title: "Vitaminas e suplementos para articulações: o que realmente ajuda"
 seoTitle: "Vitaminas e suplementos para articulações: o que ajuda"
 description: "Vitaminas para articulações funcionam? Veja o que se sabe sobre colágeno, vitamina D, ômega-3, glucosamina e fitoterápicos — e o que esperar de cada um."
 publishDate: "2026-08-31T11:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Saúde 45+", "Plantas Medicinais", "Mobilidade", "Ciência da Sucupira", "Inflamação"]
@@ -62,13 +63,6 @@ Plantas com uso tradicional associado a dor e inflamação ocupam um espaço pr�
 O grau de estudo varia bastante entre elas, e é honesto dizer que a maior parte se apoia mais em uso tradicional do que em ensaios clínicos amplos. No caso da **sucupira**, a semente é tradicionalmente associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos presentes nela — atividade documentada na [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) em laboratório e em modelos animais, sem ensaio clínico em pessoas.
 
 Como qualquer apoio dessa categoria, o efeito relatado é gradual e complementar, não imediato nem substitutivo de tratamento. Se você quer entender melhor o que se sabe, vale ler [o que a ciência diz sobre a sucupira e dores crônicas](/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/) e a comparação [sucupira ou canela-de-velho](/sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes/).
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Apoio com dose conhecida para o dia a dia</p>
-  <h2>Quer ver como é a Sucupira Naturale?</h2>
-  <p>Veja detalhes do extrato líquido e condições atuais na página oficial.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Acessar página oficial</a>
-</aside>
 
 ## O que pesa mais do que qualquer suplemento
 

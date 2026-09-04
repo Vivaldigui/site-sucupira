@@ -2,6 +2,7 @@
 title: "O que é sucupira branca?"
 description: "Sucupira branca: a planta do Cerrado por trás do extrato — origem, composição, uso tradicional e como a semente vira produto."
 publishDate: "2026-07-14T08:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira Branca", "Sucupira", "Ciência da Sucupira", "Plantas Medicinais", "Cerrado"]

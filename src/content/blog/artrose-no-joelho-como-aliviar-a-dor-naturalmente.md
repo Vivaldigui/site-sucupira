@@ -2,6 +2,7 @@
 title: "Artrose no joelho: como aliviar a dor naturalmente"
 description: "Entenda como aliviar a dor da artrose no joelho com hábitos naturais, cuidados seguros e o papel da sucupira como apoio complementar."
 publishDate: "2026-06-27T12:00:00-03:00"
+updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Dores crônicas"]
@@ -66,13 +67,6 @@ A sucupira é tradicionalmente usada no Brasil como apoio para dores articulares
 Na literatura pública, a sucupira aparece relacionada a compostos de interesse para processos inflamatórios, especialmente em estudos pré-clínicos. Uma [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) identificou os vouacapanos das sementes como principais responsáveis pela atividade observada, e registra que nenhum ensaio clínico em humanos foi incluído. Isso não permite afirmar que ela trata ou resolve artrose em humanos, mas ajuda a explicar por que a planta desperta interesse quando o assunto é dor nas articulações.
 
 O uso responsável da sucupira deve ser complementar. Ela não substitui fisioterapia, diagnóstico médico, controle de peso, medicamentos prescritos ou outras orientações individualizadas.
-
-<aside class="product-cta-box">
-  <p class="cta-eyebrow">Apoio natural com compra separada</p>
-  <h2>Sucupira Naturale pronta para tomar</h2>
-  <p>Conheça o extrato de sucupira da Sucupira Naturale na página oficial de venda. O conteúdo deste artigo continua sendo educativo e não substitui orientação profissional.</p>
-  <a class="btn-cta-buy" href="https://www.sucupiranaturale.com.br/combos">Ver opções do produto</a>
-</aside>
 
 ## O que evitar quando o joelho está doendo?
 
