@@ -32,8 +32,6 @@ featured: false
 ---
 ![image.png](/assets/image.png)
 
-# Sucupira com remédio para pressão: é seguro tomar junto?
-
 Quem usa remédio para pressão e se interessa por produtos naturais pode se perguntar se a sucupira combina com medicamentos como losartana, enalapril ou outros anti-hipertensivos. A resposta precisa ser equilibrada: até o momento, não existem estudos clínicos em humanos que demonstrem diretamente uma interação relevante entre sucupira e esses medicamentos.
 
 Isso também não significa que todos os efeitos possíveis já estejam conhecidos. A sucupira contém compostos bioativos estudados principalmente em pesquisas experimentais, e alguns deles podem atuar em mecanismos relacionados à circulação e ao metabolismo. Por isso, vale entender o que a ciência já observou sem transformar hipóteses de laboratório em certezas sobre o uso cotidiano.
