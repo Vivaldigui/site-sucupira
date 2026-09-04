@@ -6,14 +6,7 @@ description: Quem usa anticoagulante pode tomar sucupira? Entenda os possíveis
 publishDate: 2026-09-03T20:00:00+00:00
 author: Priscila Petrucelli
 authorRole: Engenheira Agrônoma e cofundadora da Sucupira Naturale
-tags:
-  - Ciência da Sucupira
-  - Efeitos Colaterais
-  - Saúde 45+
-  - Sucupira
-  - Segurança no Uso
-  - Sucupira Branca
-  - Uso Tradicional
+tags: ["Sucupira", "Medicamentos Contínuos", "Contraindicações", "Segurança no Uso", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-e-anticoagulante.webp"
 ---

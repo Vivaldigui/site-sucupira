@@ -6,31 +6,9 @@ publishDate: 2026-08-30T08:24:00+00:00
 updatedDate: "2026-08-31T12:00:00-03:00"
 author: Priscila Petrucelli
 authorRole: Engenheira Agrônoma e cofundadora da Sucupira Naturale
-tags:
-  - Articulações
-  - Artrite
-  - Artrose
-  - Bursite e Tendinite
-  - Ciência da Sucupira
-  - Como Tomar
-  - Contraindicações
-  - Dor na Coluna
-  - Dor no Calcanhar
-  - Dor no Joelho
-  - Dores crônicas
-  - Dosagem
-  - Efeitos Colaterais
-  - Extrato de Sucupira
-  - Medicamentos Contínuos
-  - Pressão Alta
-  - Saúde 45+
-  - Segurança no Uso
-  - Sucupira
-  - Sucupira Branca
-  - Uso Tradicional
+tags: ["Sucupira", "Pressão Alta", "Medicamentos Contínuos", "Contraindicações", "Segurança no Uso"]
 featured: false
 ---
-![image.png](/assets/image.png)
 
 Quem usa remédio para pressão e se interessa por produtos naturais pode se perguntar se a sucupira combina com medicamentos como losartana, enalapril ou outros anti-hipertensivos. A resposta precisa ser equilibrada: até o momento, não existem estudos clínicos em humanos que demonstrem diretamente uma interação relevante entre sucupira e esses medicamentos.
 
