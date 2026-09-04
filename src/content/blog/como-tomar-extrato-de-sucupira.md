@@ -1,6 +1,6 @@
 ---
 title: "Como tomar o extrato de sucupira e ter resultado real"
-description: "Como tomar o extrato de sucupira para ter resultado: dose certa, melhor horário, o que esperar nas primeiras semanas e quem deve ter cautela antes de começar."
+description: "Como tomar o extrato de sucupira: dose certa, melhor horário, o que esperar nas primeiras semanas e quem deve ter cautela antes de começar."
 publishDate: 2026-06-20
 updatedDate: "2026-08-31T12:00:00-03:00"
 author: "Priscila Petrucelli"

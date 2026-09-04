@@ -1,6 +1,7 @@
 ---
 title: "Sucupira: para que serve? Benefícios, usos e contraindicações"
-description: "Descubra para que serve a sucupira, quais os benefícios comprovados pela ciência, como usar corretamente e quem deve evitar. Informação completa e baseada em evidências."
+seoTitle: "Sucupira: para que serve? Benefícios e contraindicações"
+description: "Para que serve a sucupira, o que a ciência já mostra sobre os benefícios, como usar com segurança e quem deve evitar o uso."
 publishDate: 2025-06-01
 updatedDate: "2026-08-29T12:00:00-03:00"
 author: "Priscila Petrucelli"

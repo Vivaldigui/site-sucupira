@@ -1,6 +1,7 @@
 ---
 title: "Sucupira para nervo ciático: alivia a dor ciática? O que saber"
-description: "Sucupira para nervo ciático: o que a ciência e o uso tradicional dizem sobre dor ciática, quando é dor muscular ou compressão de nervo, e cuidados antes de usar."
+seoTitle: "Sucupira para nervo ciático: alivia a dor ciática?"
+description: "Sucupira para nervo ciático: o que dizem a ciência e o uso tradicional, como saber se é dor muscular ou do nervo, e cuidados antes de usar."
 publishDate: "2026-07-12T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"

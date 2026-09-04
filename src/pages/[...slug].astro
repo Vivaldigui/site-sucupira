@@ -42,6 +42,7 @@ const { Content, headings = [] } = await post.render();
 
 <BlogPost
   title={post.data.title}
+  seoTitle={post.data.seoTitle}
   description={post.data.description}
   publishDate={post.data.publishDate}
   updatedDate={post.data.updatedDate}

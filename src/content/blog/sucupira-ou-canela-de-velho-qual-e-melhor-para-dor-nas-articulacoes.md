@@ -1,5 +1,6 @@
 ---
 title: "Sucupira ou Canela de Velho: Qual é Melhor Para Dor nas Articulações?"
+seoTitle: "Sucupira ou canela de velho para dor nas articulações"
 description: "Sucupira ou canela de velho para dor nas articulações? Comparação de espécie, parte usada, tradição e pesquisa — e o que a evidência ainda não mostra."
 publishDate: 2026-07-04T23:42:00+00:00
 updatedDate: "2026-09-03T09:00:00-03:00"

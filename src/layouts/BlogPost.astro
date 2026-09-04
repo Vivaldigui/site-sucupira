@@ -38,6 +38,7 @@ interface RelatedPost {
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   publishDate: Date;
   updatedDate?: Date;
@@ -52,6 +53,7 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
   publishDate,
   updatedDate,
@@ -66,7 +68,11 @@ const {
 
 const canonicalUrl = blogUrl(`/${slug}/`);
 const ogImage = blogAssetUrl(ogImagePath);
-const pageTitle = `${title} | ${SITE_NAME}`;
+// Keep the browser/search title under ~60 characters. Use the optional
+// `seoTitle` override when set, and only append the site name while it still fits.
+const titleBase = seoTitle ?? title;
+const titleWithBrand = `${titleBase} | ${SITE_NAME}`;
+const pageTitle = titleWithBrand.length <= 60 ? titleWithBrand : titleBase;
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 const heroImage = ogImagePath || '/assets/sucupira-natural-banner.webp';
 const authorInitials = author

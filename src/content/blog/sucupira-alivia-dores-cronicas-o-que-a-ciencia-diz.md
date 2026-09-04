@@ -1,6 +1,6 @@
 ---
 title: "Sucupira alivia dores crônicas? O que a ciência diz"
-description: "Entenda o que os estudos revelam sobre sucupira e dores crônicas, os limites das evidências, os cuidados necessários e as diferenças entre chá, cápsulas e extrato líquido."
+description: "O que os estudos mostram sobre sucupira e dores crônicas, os limites das evidências e as diferenças entre chá, cápsula e extrato líquido."
 publishDate: "2026-06-20T12:00:00-03:00"
 updatedDate: "2026-09-03T12:00:00-03:00"
 author: "Priscila Petrucelli"

@@ -30,7 +30,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
 const canonicalUrl = blogUrl('/');
 const title = `${BLOG_NAME} | ${SITE_NAME}`;
 const description =
-  'Conteúdo educativo sobre sucupira, formas de uso, evidências disponíveis e cuidados, escrito por Priscila Petrucelli, engenheira agrônoma e cofundadora da Sucupira Naturale.';
+  'Conteúdo educativo sobre sucupira: formas de uso, evidências disponíveis e cuidados, por Priscila Petrucelli, cofundadora da Sucupira Naturale.';
 
 const searchIndex = posts.map((post) => ({
   title: post.data.title,

@@ -1,5 +1,6 @@
 ---
 title: "O que tomar para dor na lombar: o que ajuda e o que não resolve"
+seoTitle: "O que tomar para dor na lombar: o que ajuda mesmo"
 description: "O que tomar para dor na lombar? Veja as opções mais usadas, o que costuma funcionar, o que só mascara o problema e quando a dor pede avaliação médica."
 publishDate: "2026-08-31T09:00:00-03:00"
 author: "Priscila Petrucelli"
