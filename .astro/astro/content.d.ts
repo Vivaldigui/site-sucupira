@@ -302,6 +302,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sucupira-engorda-ou-emagrece.md": {
+	id: "sucupira-engorda-ou-emagrece.md";
+  slug: "sucupira-engorda-ou-emagrece";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-faz-mal-para-os-rins-ou-figado.md": {
 	id: "sucupira-faz-mal-para-os-rins-ou-figado.md";
   slug: "sucupira-faz-mal-para-os-rins-ou-figado";

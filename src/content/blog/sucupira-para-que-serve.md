@@ -69,7 +69,7 @@ Três páginas tratam disso em detalhe: [efeitos colaterais](/efeitos-colaterais
 
 Não há estudo mostrando efeito da sucupira sobre o peso corporal, em nenhuma das duas direções. Ela não é termogênico nem supressor de apetite, e não é usada tradicionalmente para isso.
 
-Variação de peso durante o uso costuma vir de outros fatores da rotina.
+Variação de peso durante o uso costuma vir de outros fatores da rotina — inclusive do formato usado e da quantidade de movimento. O detalhe está em [sucupira engorda ou emagrece](/sucupira-engorda-ou-emagrece/).
 
 ## Como escolher um produto
 
