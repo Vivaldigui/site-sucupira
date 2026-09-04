@@ -28,7 +28,7 @@ No uso tradicional, a sucupira é buscada justamente para os pontos mais afetado
 
 ## Por que a sucupira é associada ao alívio de dores e inflamações?
 
-O interesse pela sucupira não é por acaso. As sementes da **sucupira branca (*Pterodon pubescens*)**, árvore nativa do Cerrado brasileiro, concentram compostos bioativos que vêm sendo estudados: principalmente **diterpenos e furanoditerpenos** — como os vouacapanos e o **geranilgeraniol** —, além de ácidos graxos (linoleico, oleico e palmítico) e flavonoides.
+O interesse pela sucupira não é por acaso. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) identificou nas sementes de *Pterodon* os **vouacapanos** como principais responsáveis pela atividade farmacológica observada, ao lado do geranilgeraniol e do beta-cariofileno — em laboratório e em modelos animais, sem nenhum ensaio clínico em humanos incluído. As sementes da **sucupira branca**, árvore nativa do Cerrado brasileiro, concentram esses compostos: **diterpenos e furanoditerpenos** — como os vouacapanos e o **geranilgeraniol** —, além de ácidos graxos (linoleico, oleico e palmítico) e flavonoides.
 
 São esses compostos que explicam a reputação da planta. Estudos laboratoriais e em modelos animais descrevem para os extratos de *Pterodon* três ações principais: **anti-inflamatória** (modulação dos mediadores da inflamação), **analgésica** (redução da percepção da dor) e **antioxidante** (combate aos radicais livres ligados ao desgaste das articulações). É por esse conjunto que a sucupira aparece, há gerações, ligada ao conforto das juntas.
 

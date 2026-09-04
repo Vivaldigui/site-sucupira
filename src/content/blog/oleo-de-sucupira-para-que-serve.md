@@ -16,7 +16,7 @@ Aqui você entende para que o óleo de sucupira é usado, o que o diferencia do 
 
 ## Para que serve o óleo de sucupira
 
-No uso tradicional, o óleo de sucupira é associado a **conforto articular e muscular** (em massagens sobre joelhos, ombros, coluna e músculos tensos) e a **cuidados com a pele**. Essa reputação vem dos compostos concentrados na semente e na casca — diterpenos, ácidos graxos e antioxidantes —, ligados a ações anti-inflamatória, analgésica e antioxidante.
+No uso tradicional, o óleo de sucupira é associado a **conforto articular e muscular** (em massagens sobre joelhos, ombros, coluna e músculos tensos) e a **cuidados com a pele**. Essa reputação vem dos compostos concentrados na semente — diterpenos e ácidos graxos —, ligados a ação anti-inflamatória. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) documenta essa atividade em laboratório e em modelos animais, e registra que nenhum ensaio clínico em humanos foi incluído.
 
 Como é uma base oleosa, ele penetra e 'desliza' bem na massagem, o que explica seu uso local. Ainda assim, uso tradicional não é o mesmo que comprovação para todos os fins.
 

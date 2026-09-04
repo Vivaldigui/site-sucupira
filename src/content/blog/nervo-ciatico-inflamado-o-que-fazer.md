@@ -39,7 +39,7 @@ O primeiro e o terceiro item, em especial, não são para observar em casa.
 
 Se nenhum dos sinais acima se aplica, essas medidas costumam ser as mais úteis.
 
-**Não fique parado.** É o ponto mais importante e o mais contraintuitivo. Repouso prolongado piora a dor ciática. Caminhadas curtas e frequentes, dentro do que a dor permite, ajudam mais do que a cama.
+**Não fique parado.** É o ponto mais importante e o mais contraintuitivo. Repouso prolongado piora a dor ciática. Caminhadas curtas e frequentes, dentro do que a dor permite, ajudam mais do que a cama. As [Diretrizes brasileiras para diagnóstico e tratamento das lombalgias e lombociatalgias](https://www.scielo.br/j/rbr/a/33bmVkrT4rXNw6TRTBKDtPm/?lang=pt) registram com **nível de evidência A** que o repouso deve ser encurtado assim que a deambulação for possível, porque a inatividade prolongada tem efeito deletério sobre o aparelho locomotor.
 
 **Levante-se com frequência.** Ficar sentado aumenta a pressão sobre os discos lombares. Se você trabalha sentado, levante a cada vinte ou trinta minutos, nem que seja por um minuto.
 

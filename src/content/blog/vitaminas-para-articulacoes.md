@@ -59,7 +59,7 @@ Envolvido na função muscular e na qualidade do sono. Não age sobre a cartilag
 
 Plantas com uso tradicional associado a dor e inflamação ocupam um espaço próprio nessa conversa. As mais presentes no Brasil são a **cúrcuma**, o **gengibre**, a **garra-do-diabo**, a **canela-de-velho** e a **sucupira**.
 
-O grau de estudo varia bastante entre elas, e é honesto dizer que a maior parte se apoia mais em uso tradicional do que em ensaios clínicos amplos. No caso da **sucupira**, a semente é tradicionalmente associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos e flavonoides presentes nela — com uso popular consolidado para desconforto articular e muscular.
+O grau de estudo varia bastante entre elas, e é honesto dizer que a maior parte se apoia mais em uso tradicional do que em ensaios clínicos amplos. No caso da **sucupira**, a semente é tradicionalmente associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos presentes nela — atividade documentada na [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) em laboratório e em modelos animais, sem ensaio clínico em pessoas.
 
 Como qualquer apoio dessa categoria, o efeito relatado é gradual e complementar, não imediato nem substitutivo de tratamento. Se você quer entender melhor o que se sabe, vale ler [o que a ciência diz sobre a sucupira e dores crônicas](/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/) e a comparação [sucupira ou canela-de-velho](/sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes/).
 

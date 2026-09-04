@@ -28,7 +28,7 @@ Esse é o retrato de um costume popular, e não uma orientação de saúde. As q
 
 A parte mais associada ao chá é a semente, considerada a mais conhecida da planta na tradição popular. A casca e o fruto também aparecem em alguns relatos.
 
-A semente concentra os compostos que despertaram interesse de estudos ao longo do tempo. Ainda assim, "ser estudada" é diferente de "ter uso comprovado para todos os fins".
+A semente concentra os compostos que despertaram interesse de estudos: a [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) aponta os vouacapanos como principais responsáveis pela atividade observada em laboratório e em modelos animais, sem nenhum ensaio clínico em humanos incluído. Ainda assim, "ser estudada" é diferente de "ter uso comprovado para todos os fins".
 
 ## O chá de sucupira serve para quê, segundo a tradição?
 
@@ -79,10 +79,3 @@ Muitos relatos descrevem um sabor amargo e marcante. Algumas pessoas adicionam g
 **Chá caseiro substitui o extrato ou a cápsula?**
 
 São formas diferentes de uso, com concentrações diferentes. Nenhuma delas substitui orientação profissional, e a escolha depende do seu caso e do que você conversar com quem acompanha sua saúde.
-
-<!--
-Revisão necessária antes de publicar:
-- Verificar afirmações gerais sobre uso tradicional do chá.
-- Confirmar que nenhuma dose ou frequência específica foi sugerida.
-- Verificar avisos de segurança para grupos sensíveis.
--->

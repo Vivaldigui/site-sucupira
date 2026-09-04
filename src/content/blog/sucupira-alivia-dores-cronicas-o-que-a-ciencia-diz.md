@@ -52,7 +52,7 @@ A origem do produto importa tanto quanto o produto em si. Comprar de fontes sem 
 
 ## Chá, cápsulas e extrato líquido: qual a diferença na prática
 
-O chá de sucupira é a forma mais popular de uso, mas também a menos eficiente do ponto de vista farmacológico. Como os compostos mais ativos têm baixa solubilidade em água, a infusão pode resultar em pouco ou nenhum princípio ativo absorvido. O uso tradicional tem valor cultural e simbólico, mas não é a forma que os estudos pré-clínicos investigaram. Para informações práticas sobre preparo e uso tradicional, veja orientações gerais sobre o [chá de sucupira](https://www.tuasaude.com/sucupira/).
+O chá de sucupira é a forma mais popular de uso, mas também a menos eficiente do ponto de vista farmacológico. Como os compostos mais ativos têm baixa solubilidade em água, a infusão pode resultar em pouco ou nenhum princípio ativo absorvido. O uso tradicional tem valor cultural e simbólico, mas não é a forma que os estudos pré-clínicos investigaram. Para o preparo e o uso tradicional, veja [como fazer chá de sucupira](/como-fazer-cha-de-sucupira/) e [a comparação entre os formatos](/cha-de-sucupira-capsula-ou-extrato/).
 
 As cápsulas de sucupira são a forma mais comum de suplementação no mercado. A qualidade varia muito conforme o tipo de extrato utilizado como base, e não há equivalência universal entre diferentes produtos. Uma cápsula de 500 mg de extrato seco de uma marca não corresponde necessariamente à mesma quantidade de princípio ativo de outra marca com o mesmo rótulo.
 

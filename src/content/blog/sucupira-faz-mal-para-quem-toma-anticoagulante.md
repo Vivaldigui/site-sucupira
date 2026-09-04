@@ -19,7 +19,7 @@ A sucupira tem longa tradição de uso popular no Brasil e continua despertando 
 
 ## O que a ciência sabe sobre sucupira e anticoagulantes
 
-As pesquisas disponíveis sobre espécies de sucupira, como *Pterodon emarginatus*, *Pterodon pubescens* e *Bowdichia virgilioides*, são predominantemente experimentais. Isso significa que boa parte do conhecimento disponível vem de análises de laboratório, estudos fitoquímicos e modelos animais, e não de ensaios clínicos desenhados especificamente para avaliar pessoas que usam anticoagulantes.
+As pesquisas disponíveis sobre espécies de sucupira, como *Pterodon emarginatus*, *Pterodon pubescens* e *Bowdichia virgilioides*, são predominantemente experimentais. Isso significa que boa parte do conhecimento disponível vem de análises de laboratório, estudos fitoquímicos e modelos animais, e não de ensaios clínicos desenhados especificamente para avaliar pessoas que usam anticoagulantes. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) registra que nenhum ensaio clínico em humanos foi incluído para nenhum desfecho.
 
 Essa diferença é importante porque um efeito observado em laboratório não significa automaticamente que o mesmo efeito acontecerá no uso cotidiano. Dose, forma de preparo, concentração, frequência de consumo e características individuais podem mudar bastante a resposta.
 

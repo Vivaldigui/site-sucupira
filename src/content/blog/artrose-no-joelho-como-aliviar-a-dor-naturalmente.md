@@ -63,7 +63,7 @@ Nenhum alimento isolado trata artrose. O que costuma ajudar é o conjunto: alime
 
 A sucupira é tradicionalmente usada no Brasil como apoio para dores articulares, incluindo desconfortos associados à artrose no joelho. Esse uso vem da medicina popular e de relatos de pessoas que buscam suporte natural para articulações.
 
-Na literatura pública, a sucupira aparece relacionada a compostos de interesse para processos inflamatórios, especialmente em estudos pré-clínicos. Isso não permite afirmar que ela trata ou resolve artrose em humanos, mas ajuda a explicar por que a planta desperta interesse quando o assunto é dor nas articulações.
+Na literatura pública, a sucupira aparece relacionada a compostos de interesse para processos inflamatórios, especialmente em estudos pré-clínicos. Uma [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) identificou os vouacapanos das sementes como principais responsáveis pela atividade observada, e registra que nenhum ensaio clínico em humanos foi incluído. Isso não permite afirmar que ela trata ou resolve artrose em humanos, mas ajuda a explicar por que a planta desperta interesse quando o assunto é dor nas articulações.
 
 O uso responsável da sucupira deve ser complementar. Ela não substitui fisioterapia, diagnóstico médico, controle de peso, medicamentos prescritos ou outras orientações individualizadas.
 

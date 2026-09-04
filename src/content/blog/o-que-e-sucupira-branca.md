@@ -54,4 +54,4 @@ A semente é a parte mais aproveitada, tanto no uso tradicional (chá, garrafada
 
 **A sucupira branca tem comprovação científica?**
 
-Estudos de laboratório conduzidos por grupos de pesquisa brasileiros, como os da Unicamp, mostram atividade anti-inflamatória e analgésica nos compostos da semente. É importante ter uma orientação profissional antes de usar produtos derivados, especialmente para gestantes, lactantes ou quem toma medicação contínua.
+A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) reúne os estudos de laboratório e em modelos animais que mostram atividade anti-inflamatória nos compostos da semente, e registra que nenhum ensaio clínico em humanos foi incluído. É importante ter uma orientação profissional antes de usar produtos derivados, especialmente para gestantes, lactantes ou quem toma medicação contínua.

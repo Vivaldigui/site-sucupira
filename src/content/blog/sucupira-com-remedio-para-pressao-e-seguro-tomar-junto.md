@@ -18,7 +18,7 @@ Isso também não significa que todos os efeitos possíveis já estejam conhecid
 
 ## O que a sucupira faz no organismo?
 
-A sucupira, especialmente espécies do gênero *Pterodon*, apresenta compostos como vouacapanos, geranilgeraniol, flavonoides e sesquiterpenos. Essas substâncias aparecem em pesquisas relacionadas a processos inflamatórios, desconforto e outros mecanismos biológicos.
+A sucupira, especialmente espécies do gênero *Pterodon*, apresenta compostos como vouacapanos, geranilgeraniol, flavonoides e sesquiterpenos, identificados na [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/). Essas substâncias aparecem em pesquisas relacionadas a processos inflamatórios, desconforto e outros mecanismos biológicos.
 
 Grande parte dessas evidências vem de estudos laboratoriais ou com animais. Isso é importante porque um efeito observado em laboratório não significa automaticamente que a mesma resposta aparecerá em uma pessoa utilizando a sucupira de forma habitual.
 

@@ -79,7 +79,7 @@ Calor local, movimento leve e evitar as posições que disparam a dor. Antes dis
 
 **Devo ficar de repouso na dor lombar?**
 
-Repouso absoluto piora. A recomendação atual é manter atividade leve dentro do que a dor permite. Descansar em uma posição confortável por períodos curtos é diferente de passar o dia deitado.
+Repouso absoluto piora. A recomendação atual é manter atividade leve dentro do que a dor permite. As [Diretrizes brasileiras para diagnóstico e tratamento das lombalgias e lombociatalgias](https://www.scielo.br/j/rbr/a/33bmVkrT4rXNw6TRTBKDtPm/?lang=pt), da Sociedade Brasileira de Reumatologia, registram isso com **nível de evidência A**: assim que a deambulação for possível, o repouso deve ser encurtado e a pessoa estimulada a retomar as atividades habituais o mais rápido possível — o que se associa a retorno mais rápido ao trabalho, menor limitação funcional a longo prazo e menor taxa de recorrência. A inatividade prolongada tem ação deletéria sobre o aparelho locomotor. Descansar em uma posição confortável por períodos curtos é diferente de passar o dia deitado.
 
 **Calor ou gelo na dor lombar?**
 

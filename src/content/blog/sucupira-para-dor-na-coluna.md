@@ -15,7 +15,7 @@ Dor na coluna é um dos incômodos mais comuns do dia a dia — depois de uma no
 
 ## Sucupira ajuda na dor na coluna?
 
-No uso tradicional, a sucupira é associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos e flavonoides presentes na semente. Essa reputação se estende, na prática popular, para dores musculares e articulares em geral — incluindo a região lombar e as costas como um todo, não só joelhos e mãos.
+No uso tradicional, a sucupira é associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos da semente. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) documenta essa atividade em laboratório e em modelos animais, e registra a ausência de ensaio clínico em humanos. Essa reputação se estende, na prática popular, para dores musculares e articulares em geral — incluindo a região lombar e as costas como um todo, não só joelhos e mãos.
 
 Isso não significa que ela resolva qualquer dor na coluna. A coluna é uma estrutura complexa, e a dor pode vir de causas bem diferentes: tensão muscular, má postura, esforço repentino, desgaste articular ou, em casos mais sérios, compressão de nervo e hérnia de disco. O apoio tradicional da sucupira faz mais sentido no primeiro grupo — dores musculares e posturais — do que nos quadros que exigem diagnóstico e tratamento específico.
 

@@ -15,7 +15,7 @@ Gota é uma das dores mais intensas que existem: uma crise pode deixar até o pe
 
 ## Por que a sucupira é associada a dores articulares (e por que gota é diferente)
 
-A reputação da sucupira vem da sua ação anti-inflamatória e analgésica tradicionalmente descrita, ligada a compostos como os diterpenos e furanoditerpenos presentes na semente. É por isso que ela aparece associada a artrite, artrose e reumatismo no uso popular.
+A reputação da sucupira vem da ação anti-inflamatória tradicionalmente descrita, ligada aos diterpenos da semente. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) documenta essa atividade em laboratório e em modelos animais de artrite e edema — nenhum deles de gota, e nenhum em pessoas. É por isso que ela aparece associada a artrite, artrose e reumatismo no uso popular.
 
 A gota, porém, não é uma inflamação articular qualquer: ela acontece quando cristais de ácido úrico se acumulam nas articulações, geralmente o dedão do pé, causando uma dor aguda e uma inflamação muito intensa. O tratamento eficaz de gota depende de controlar os níveis de ácido úrico no sangue — algo que envolve exames, acompanhamento médico e, na maioria dos casos, medicação específica.
 

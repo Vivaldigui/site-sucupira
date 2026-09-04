@@ -51,7 +51,7 @@ Tomar em jejum com o estômago sensível pode causar desconforto gástrico. Se v
 
 ### Preparo do chá de sucupira
 
-Para quem opta pelo chá, a referência mais encontrada em guias de uso e fontes etnobotânicas é 4 sementes quebradas para 1 litro de água, fervidas por cerca de 10 minutos, coadas e consumidas ao longo do dia. As sementes precisam ser quebradas antes do preparo para liberar os compostos aromáticos. O chá preparado deve ser consumido em até 24 horas e pode ser mantido na geladeira nesse período. Para quem prefere seguir uma orientação prática de preparo, há uma [receita do chá de sucupira](https://receitas.globo.com/receitas-da-tv/mais-voce/cha-de-sucupira-4d51360552e0b252bc00d513.ghtml) disponível online.
+Para quem opta pelo chá, a referência mais encontrada em guias de uso e fontes etnobotânicas é 4 sementes quebradas para 1 litro de água, fervidas por cerca de 10 minutos, coadas e consumidas ao longo do dia. As sementes precisam ser quebradas antes do preparo para liberar os compostos aromáticos. O chá preparado deve ser consumido em até 24 horas e pode ser mantido na geladeira nesse período. Para quem prefere seguir uma orientação prática de preparo, o passo a passo está em [como fazer chá de sucupira](/como-fazer-cha-de-sucupira/).
 
 Na prática, porém, fazer o chá em casa dá muito trabalho. As sementes da sucupira são duras e precisam ser quebradas uma a uma antes da fervura. Depois vem o processo de ferver, esperar, coar — e limpar a panela e o coador, que ficam manchados e com cheiro forte e persistente. Como o chá estraga em 24 horas, você precisa repetir essa rotina praticamente **todos os dias** para manter a regularidade que o tratamento exige. E, mesmo com todo esse esforço, a concentração nunca sai igual de uma vez para outra. No fim, é justamente esse trabalho cansativo e sujo que faz muita gente desistir antes de ver qualquer resultado.
 
@@ -83,7 +83,7 @@ Além da fase de dor, o tempo disponível de tratamento importa. Um frasco peque
 
 ## Efeitos adversos, contraindicações e quando consultar um profissional
 
-O extrato de sucupira é contraindicado para gestantes, mulheres em amamentação e crianças menores de 14 anos, conforme indicado nas bulas e orientações de fabricantes. Essas restrições refletem a ausência de estudos de segurança para esses grupos. Para informações gerais sobre a planta e suas contraindicações, consulte a [página da TuaSaúde sobre sucupira](https://www.tuasaude.com/sucupira/) como referência complementar.
+O extrato de sucupira é contraindicado para gestantes, mulheres em amamentação e crianças menores de 14 anos, conforme indicado nas bulas e orientações de fabricantes. Essas restrições refletem a ausência de estudos de segurança para esses grupos. As restrições declaradas e o motivo de cada uma estão em [contraindicações da sucupira](/sucupira-contraindicacoes/).
 
 Pessoas com histórico de doença hepática ou renal também devem evitar o uso sem acompanhamento, pois o uso prolongado pode sobrecarregar essas funções. Quem usa anticoagulantes, anti-inflamatórios prescritos ou medicamentos para hipertensão deve consultar um profissional antes de iniciar, pois há possibilidade de interação, ainda que não completamente documentada em estudos clínicos. Pessoas com alergia a plantas da família Fabaceae também se enquadram no grupo de cautela.
 

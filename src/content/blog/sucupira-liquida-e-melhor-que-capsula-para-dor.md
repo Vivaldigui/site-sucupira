@@ -9,7 +9,7 @@ featured: false
 ogImage: "/assets/sucupira-liquida-capsula-cover.webp"
 ---
 
-**Resposta rápida:** A sucupira líquida pode ser mais prática do que a cápsula para quem tem dificuldade de engolir comprimidos ou prefere um produto pronto para tomar. Não há comprovação clínica suficiente para afirmar que a sucupira líquida alivia dor melhor do que cápsulas em todas as pessoas. A melhor escolha depende da qualidade do produto, da orientação profissional, da rotina de uso e da segurança para o seu caso.
+**Resposta rápida:** A sucupira líquida pode ser mais prática do que a cápsula para quem tem dificuldade de engolir comprimidos ou prefere um produto pronto para tomar. Não há comprovação clínica para afirmar isso — nem para um formato nem para o outro. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) registra que nenhum ensaio clínico em humanos foi incluído para a sucupira, o que significa que não existe estudo comparando formatos porque não existe estudo de eficácia em pessoas para começar. A melhor escolha depende da qualidade do produto, da orientação profissional, da rotina de uso e da segurança para o seu caso.
 
 Se você chegou até aqui, provavelmente está comparando sucupira líquida e cápsula porque busca um apoio natural para dores no corpo, nas articulações ou no joelho. A dúvida é comum: será que o líquido "pega mais rápido"? Será que a cápsula é mais concentrada? Será que uma forma é mais segura que a outra?
 

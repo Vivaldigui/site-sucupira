@@ -32,7 +32,7 @@ Para conhecer os usos da planta em um contexto mais amplo, veja também [para qu
 
 ## Como a sucupira aparece no uso tradicional?
 
-A sucupira aparece na tradição popular brasileira ligada ao cuidado natural, principalmente em conversas sobre articulações, dores e bem-estar. Esse histórico explica o interesse, mas não deve ser confundido com comprovação clínica para todos os usos.
+A sucupira aparece na tradição popular brasileira ligada ao cuidado natural, principalmente em conversas sobre articulações, dores e bem-estar. Esse histórico explica o interesse, mas não é comprovação. A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) reúne a literatura sobre o gênero *Pterodon*: os vouacapanos das sementes respondem pela atividade anti-inflamatória observada em laboratório e em modelos animais, e **nenhum ensaio clínico em humanos foi incluído**.
 
 O uso tradicional pode orientar perguntas, não substituir respostas profissionais. Quando existe dor persistente ou doença diagnosticada, o ideal é entender a causa antes de escolher qualquer produto.
 
@@ -119,11 +119,3 @@ Procure avaliação quando a dor é persistente, intensa, vem com inchaço, febr
 **A sucupira substitui tratamento médico?**
 
 Não. A sucupira não substitui consulta, diagnóstico, fisioterapia, exercícios orientados ou medicamentos prescritos. Ela pode ser pesquisada como possível apoio dentro de uma decisão responsável.
-
-<!--
-Revisão necessária antes de publicar:
-- Verificar afirmações gerais sobre evidências em articulações.
-- Verificar orientações de segurança para pessoas com doenças crônicas.
-- Verificar afirmações sobre interações medicamentosas.
-- Verificar afirmações sobre evidências científicas em humanos.
--->

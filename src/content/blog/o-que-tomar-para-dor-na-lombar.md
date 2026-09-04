@@ -53,7 +53,7 @@ Plantas com uso tradicional associado a dor e inflamação aparecem muito nessa 
 
 As mais citadas no Brasil para desconforto muscular e articular incluem a **cúrcuma**, o **gengibre**, a **garra-do-diabo**, a **canela-de-velho** e a **sucupira**. Cada uma tem um grau diferente de estudo por trás, e nenhuma delas age como um analgésico de farmácia — o efeito, quando aparece, tende a ser gradual e de apoio.
 
-No caso da **sucupira**, a semente é tradicionalmente associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos e flavonoides presentes nela. Esse uso tradicional se estende a dores musculares e articulares em geral, o que inclui a região lombar. É apoio complementar, dentro de um conjunto de cuidados — não substituto de tratamento nem solução isolada.
+No caso da **sucupira**, a semente é tradicionalmente associada a ações anti-inflamatória e analgésica, atribuídas aos diterpenos presentes nela e identificadas na [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) — em laboratório e em modelos animais, sem ensaio clínico em pessoas. Esse uso tradicional se estende a dores musculares e articulares em geral, o que inclui a região lombar. É apoio complementar, dentro de um conjunto de cuidados — não substituto de tratamento nem solução isolada.
 
 Se quiser entender melhor essa parte, vale ler sobre [sucupira para dor na coluna](/sucupira-para-dor-na-coluna/), que trata especificamente do assunto, e a visão geral em [para que serve a sucupira](/sucupira-para-que-serve/). E se você usa medicação contínua, o texto sobre [sucupira e medicamentos](/sucupira-e-medicamentos/) é leitura obrigatória antes de combinar qualquer coisa.
 
