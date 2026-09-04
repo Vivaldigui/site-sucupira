@@ -316,13 +316,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-liquida-e-melhor-que-capsula-para-dor.md": {
-	id: "sucupira-liquida-e-melhor-que-capsula-para-dor.md";
-  slug: "sucupira-liquida-e-melhor-que-capsula-para-dor";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "sucupira-no-vinho-para-que-serve-e-cuidados-importantes.md": {
 	id: "sucupira-no-vinho-para-que-serve-e-cuidados-importantes.md";
   slug: "sucupira-no-vinho-para-que-serve-e-cuidados-importantes";

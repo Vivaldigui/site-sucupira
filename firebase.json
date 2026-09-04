@@ -17,6 +17,11 @@
         "regex": "^/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/?$",
         "destination": "/sucupira-e-pressao-alta/",
         "type": 301
+      },
+      {
+        "regex": "^/sucupira-liquida-e-melhor-que-capsula-para-dor/?$",
+        "destination": "/cha-de-sucupira-capsula-ou-extrato/",
+        "type": 301
       }
     ],
     "rewrites": [

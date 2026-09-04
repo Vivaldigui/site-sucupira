@@ -6,13 +6,13 @@ publishDate: "2026-08-27T14:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
-tags: ["Sucupira", "Chá de Sucupira", "Cápsulas de Sucupira", "Extrato de Sucupira", "Como Tomar"]
+tags: ["Sucupira", "Chá de Sucupira", "Cápsulas de Sucupira", "Extrato de Sucupira", "Como Tomar", "Dores crônicas"]
 featured: false
 ---
 
 **Resposta rápida:** os cinco formatos de sucupira diferem em previsibilidade de dose, presença de álcool, praticidade e via de uso — e não em eficácia comprovada, porque nenhum foi testado em pessoas. O que dá para comparar de forma honesta é o quanto você sabe do que está tomando. Nesse critério, produto com composição declarada em percentual ganha de preparo caseiro; nos demais, a escolha depende da sua rotina.
 
-Esta página é o mapa completo dos formatos. Para o confronto direto entre líquido e cápsula, veja [sucupira líquida é melhor que cápsula](/sucupira-liquida-e-melhor-que-capsula-para-dor/).
+Esta página é o mapa completo dos formatos, incluindo o confronto direto entre líquido e cápsula para quem busca alívio de dor.
 
 ## O que não dá para comparar
 
@@ -112,3 +112,7 @@ Não é para isso que ele é feito. O óleo é o formato de uso externo, e o ext
 **Garrafada é mais forte que extrato?**
 
 O álcool extrai melhor os compostos lipofílicos, então há uma diferença química real. Em compensação, a garrafada é o formato com dose menos previsível e o único que adiciona álcool à rotina diária.
+
+**Sucupira líquida é melhor que cápsula para dor?**
+
+Não há estudo comparando os dois formatos para alívio de dor em pessoas, porque não há estudo de eficácia da sucupira em pessoas para nenhum dos dois. O que muda entre eles é o que a tabela acima mostra: previsibilidade de dose e composição verificável, não potência. Quem tem dificuldade para engolir cápsula tende a preferir o líquido; quem quer transportar sem preparo tende a preferir a cápsula.
