@@ -12,6 +12,11 @@
         "regex": "^/sucupira-para-articulacoes-dor-nas-juntas/?$",
         "destination": "/sucupira-para-articulacoes/",
         "type": 301
+      },
+      {
+        "regex": "^/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/?$",
+        "destination": "/sucupira-e-pressao-alta/",
+        "type": 301
       }
     ],
     "rewrites": [

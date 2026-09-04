@@ -267,13 +267,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"sucupira-com-remedio-para-pressao-e-seguro-tomar-junto.md": {
-	id: "sucupira-com-remedio-para-pressao-e-seguro-tomar-junto.md";
-  slug: "sucupira-com-remedio-para-pressao-e-seguro-tomar-junto";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "sucupira-contraindicacoes.md": {
 	id: "sucupira-contraindicacoes.md";
   slug: "sucupira-contraindicacoes";

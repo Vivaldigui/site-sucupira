@@ -34,7 +34,7 @@ Cada item abaixo é **hipótese baseada em mecanismo**, não interação demonst
 
 **Anticoagulantes e antiagregantes.** É a preocupação mais citada, porque compostos de plantas frequentemente têm alguma influência sobre agregação plaquetária. Quem usa varfarina ou similar convive com uma janela terapêutica estreita, onde pequenas alterações importam. [Mais sobre isso aqui](/sucupira-faz-mal-para-quem-toma-anticoagulante/).
 
-**Anti-hipertensivos.** A hipótese é de efeito somado ou reduzido sobre a pressão. O detalhe está em [sucupira com remédio para pressão](/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/) e em [sucupira e pressão alta](/sucupira-e-pressao-alta/).
+**Anti-hipertensivos.** A hipótese é de efeito somado ou reduzido sobre a pressão. O detalhe, incluindo losartana e enalapril, está em [sucupira e pressão alta](/sucupira-e-pressao-alta/).
 
 **Anti-inflamatórios e analgésicos prescritos.** Somar duas coisas com a mesma proposta sem orientação faz a pessoa perder a referência do que está fazendo efeito.
 

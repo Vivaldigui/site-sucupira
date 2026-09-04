@@ -46,7 +46,7 @@ O que não existe é dado humano. Ausência de efeito adverso documentado não �
 
 Depende menos da planta e mais de três coisas concretas.
 
-**A medicação que você já usa.** É o ponto principal, e tem página própria: [sucupira com remédio para pressão](/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/) trata de losartana, enalapril e outros anti-hipertensivos em detalhe. Resumindo o essencial: não existem estudos de interação em humanos, o que significa que a resposta não é conhecida — nem em um sentido nem no outro. Quem toma medicação contínua deve conversar com quem acompanha o tratamento antes de somar qualquer coisa.
+**A medicação que você já usa.** É o ponto principal. Não existem estudos de interação em humanos entre sucupira e anti-hipertensivos como losartana, enalapril ou outros — o que significa que a resposta não é conhecida, nem em um sentido nem no outro. Quem toma medicação contínua deve conversar com quem acompanha o tratamento antes de somar qualquer coisa.
 
 **A forma de preparo.** É a variável mais subestimada, e a próxima seção é sobre ela.
 
@@ -123,3 +123,11 @@ Não há indicação disso nas doses tradicionalmente usadas, e também não há
 **Posso tomar sucupira com remédio de pressão?**
 
 Isso precisa ser avaliado caso a caso por quem acompanha seu tratamento. Não existem estudos de interação entre sucupira e anti-hipertensivos em humanos, o que significa que a resposta é desconhecida, não que seja segura ou perigosa.
+
+**Posso tomar sucupira junto com losartana?**
+
+Não existe estudo clínico em humanos avaliando essa combinação especificamente, o mesmo cenário de qualquer anti-hipertensivo. Quem usa losartana e quer incluir a sucupira deve conversar antes com quem acompanha o tratamento e observar a pressão nas primeiras semanas.
+
+**Quem toma enalapril pode consumir sucupira?**
+
+Vale a mesma resposta: não há estudo de interação em humanos entre sucupira e enalapril. Ausência de estudo não é sinônimo de segurança nem de risco — é ausência de dado, e pede a mesma cautela de observação e conversa prévia com quem acompanha o tratamento.
