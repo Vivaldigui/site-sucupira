@@ -2,7 +2,7 @@
 title: "Sucupira alivia dores crônicas? O que a ciência diz"
 description: "Entenda o que os estudos revelam sobre sucupira e dores crônicas, os limites das evidências, os cuidados necessários e as diferenças entre chá, cápsulas e extrato líquido."
 publishDate: "2026-06-20T12:00:00-03:00"
-updatedDate: "2026-08-31T12:00:00-03:00"
+updatedDate: "2026-09-03T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dores crônicas", "Ciência da Sucupira"]
@@ -14,7 +14,9 @@ ogImage: "/assets/sucupira-alivia-dores-cronicas.webp"
 
 A sucupira realmente alivia dores crônicas? Essa pergunta circula há gerações na medicina popular brasileira, e a planta aparece em receitas passadas de avó para neto, em feiras de plantas medicinais e, mais recentemente, em prateleiras virtuais de suplementos. O uso popular para artrite, reumatismo e dores crônicas é antigo e difundido. O que a ciência diz sobre isso, porém, ainda surpreende muita gente, inclusive quem já usa o produto há anos.
 
-Há uma tensão central que vale colocar na mesa desde o início: os relatos de uso da sucupira para dores crônicas são numerosos e, na medicina popular, bastante repetidos. Ao mesmo tempo, ensaios clínicos em humanos simplesmente não existem. Toda a evidência científica formal é pré-clínica, feita em laboratório ou em modelos animais. Essas duas realidades convivem, e ignorar qualquer uma delas não ajuda ninguém.
+Há uma tensão central que vale colocar na mesa desde o início: os relatos de uso da sucupira para dores crônicas são numerosos e, na medicina popular, bastante repetidos. Ao mesmo tempo, nenhum ensaio clínico em humanos publicou resultados até agora. Existe um estudo brasileiro registrado, ainda sem dados divulgados (voltamos a ele adiante); todo o resto da evidência formal é pré-clínico, feito em laboratório ou em modelos animais. Essas duas realidades convivem, e ignorar qualquer uma delas não ajuda ninguém.
+
+Vale também uma distinção que atravessa o texto: dor crônica como sintoma — o peso, a rigidez, a ardência que persistem — não é a mesma coisa que um diagnóstico como artrose, artrite ou fibromialgia, que têm causa, estágio e conduta próprios. A sucupira entra na conversa sobre o sintoma, não sobre o tratamento dessas doenças.
 
 Este artigo traz as evidências disponíveis, os riscos que quase nunca são mencionados, uma comparação honesta entre as formas de uso e um guia prático para quem quer usar a sucupira com consciência. Sem exagero nas promessas, sem alarme desnecessário.
 
@@ -22,7 +24,9 @@ Este artigo traz as evidências disponíveis, os riscos que quase nunca são men
 
 Toda a base científica disponível sobre a *Pterodon pubescens*, nome botânico da sucupira branca, vem de estudos pré-clínicos. Uma revisão sistemática, publicada no periódico *Journal of Ethnopharmacology*, identificou 129 artigos sobre o tema e incluiu 19 para análise aprofundada. A conclusão dos pesquisadores foi clara: o potencial terapêutico existe, mas estudos em humanos são necessários antes de qualquer afirmação definitiva sobre eficácia clínica.
 
-Grupos de pesquisa da Unicamp conduziram investigações relevantes sobre a atividade analgésica e anti-inflamatória da planta. Os resultados em roedores foram positivos. Os próprios pesquisadores, no entanto, foram explícitos ao afirmar que estudos clínicos em humanos ainda não foram iniciados e que essa etapa é indispensável para confirmar eficácia e segurança, posição documentada em trabalhos e teses do grupo.
+Grupos de pesquisa da Unicamp conduziram investigações relevantes sobre a atividade analgésica e anti-inflamatória da planta. Os resultados em roedores foram positivos. Os próprios pesquisadores, no entanto, foram explícitos ao afirmar que essa etapa em humanos é indispensável para confirmar eficácia e segurança, posição documentada em trabalhos e teses do grupo.
+
+Desde 2023, esse quadro começou a mudar num ponto específico. Há um ensaio clínico brasileiro registrado no ReBEC, o [RBR-7yk5zmx](https://ensaiosclinicos.gov.br/rg/RBR-7yk5zmx), conduzido pela Universidade Federal do Tocantins, que compara cápsulas de 500 mg de extrato de *Pterodon* (1.000 mg ao dia, por oito semanas) a placebo em 92 pessoas com [osteoartrite de joelho](/sucupira-para-artrose/). Até o momento ele não divulgou resultados, e registro de ensaio não é o mesmo que evidência de eficácia. Um detalhe que costuma passar batido: o que está sendo testado é uma cápsula de extrato padronizado, numa dose definida. Mesmo quando os resultados saírem, não se transferem automaticamente para o chá caseiro, a garrafada, o óleo ou o extrato líquido, que são matrizes e doses diferentes.
 
 A diferença entre efeito observado em animais e efeito comprovado em pessoas é maior do que parece. Muitas plantas com resultados promissores em roedores não chegam ao mesmo desempenho em humanos, por razões que vão desde metabolismo diferente até biodisponibilidade dos compostos. Isso não invalida o uso popular da sucupira para dores crônicas, mas exige honestidade sobre o que realmente se sabe.
 
@@ -32,7 +36,7 @@ O uso tradicional e os relatos acumulados de pacientes não constituem prova cie
 
 Os principais compostos identificados na sucupira branca são os vouacapanos (ésteres e furanditerpenos), o geranilgeraniol, o α-humuleno e outros diterpenos furânicos. São esses compostos, especialmente os vouacapanos e diterpenos, que respondem pela atividade antinociceptiva e anti-inflamatória documentada em modelos animais.
 
-Estudos conduzidos com suporte de grupos da Unicamp investigaram especificamente a atividade antinociceptiva de isômeros de vouacapano, com resultados positivos em ensaios de contorções abdominais e no modelo da formalina. Além dos diterpenos, a sucupira contém flavonoides, cumarinas e triterpenos com atividade antioxidante documentada em ensaios in vitro. Esse conjunto de compostos sustenta a hipótese de que a planta tem potencial para condições inflamatórias crônicas. A confirmação clínica, porém, permanece ausente, ainda que a base biológica para investigação seja sólida. Estudos com foco em análises fitoquímicas detalhadas ajudam a mapear esses constituintes e sua distribuição nos diferentes extratos da planta: [análises fitoquímicas da sucupira](https://www.scielo.br/j/jbchs/a/SnqPBYfJ3g7YnGHvmsdVxdM/abstract/?lang=pt).
+Estudos conduzidos com suporte de grupos da Unicamp investigaram especificamente a atividade antinociceptiva de isômeros de vouacapano, com resultados positivos em ensaios de contorções abdominais e no modelo da formalina. Um estudo in vitro com queratinócitos humanos ([Oliveira et al., 2023, *Advanced Pharmaceutical Bulletin*](https://pmc.ncbi.nlm.nih.gov/articles/PMC9871284/)) chegou a medir esse efeito: dois vouacapanos isolados reduziram a expressão da enzima COX-2 em cerca de 28% e 33%. O mesmo trabalho traz um contraponto honesto — a oleorresina bruta, que contém esses mesmos compostos, não produziu a inibição, o que indica que resultado de composto isolado no laboratório não equivale ao que faz o extrato inteiro que a pessoa consome. Além dos diterpenos, a sucupira contém flavonoides, cumarinas e triterpenos com atividade antioxidante documentada em ensaios in vitro. Esse conjunto de compostos sustenta a hipótese de que a planta tem potencial para condições inflamatórias crônicas. A confirmação clínica, porém, permanece ausente, ainda que a base biológica para investigação seja sólida. Estudos com foco em análises fitoquímicas detalhadas ajudam a mapear esses constituintes e sua distribuição nos diferentes extratos da planta: [análises fitoquímicas da sucupira](https://www.scielo.br/j/jbchs/a/SnqPBYfJ3g7YnGHvmsdVxdM/abstract/?lang=pt).
 
 Um detalhe técnico com consequência prática: os compostos mais ativos da sucupira são predominantemente lipofílicos, ou seja, têm baixa solubilidade em água. Isso significa que a infusão aquosa tradicional, o chá de sucupira, pode extrair pouco ou nenhum princípio ativo relevante. O efeito terapêutico documentado nos estudos está associado a frações hexânicas e extratos que concentram os compostos apolares, não à infusão simples da semente em água quente.
 
@@ -76,7 +80,7 @@ Muitas pessoas relatam alívio de dores crônicas com o uso da sucupira, e o mec
 
 **Existe estudo clínico em humanos comprovando que a sucupira alivia dores crônicas?**
 
-Não. Toda a base científica disponível sobre a *Pterodon pubescens* vem de estudos pré-clínicos, feitos em laboratório ou em modelos animais. Uma revisão sistemática publicada no *Journal of Ethnopharmacology* identificou 129 artigos e incluiu 19 para análise aprofundada, concluindo que o potencial terapêutico existe, mas que estudos em humanos são necessários antes de qualquer afirmação sobre eficácia clínica.
+Não, nenhum com resultado publicado. Desde 2023 existe um ensaio clínico brasileiro registrado no ReBEC (RBR-7yk5zmx), da Universidade Federal do Tocantins, que testa cápsulas de extrato de *Pterodon* (1.000 mg ao dia, por oito semanas) contra placebo em 92 pessoas com osteoartrite de joelho — mas ele ainda não divulgou dados, e registro de ensaio não é o mesmo que prova de eficácia. Fora esse estudo em andamento, toda a base científica disponível sobre a *Pterodon pubescens* vem de estudos pré-clínicos, feitos em laboratório ou em modelos animais. Uma revisão sistemática publicada no *Journal of Ethnopharmacology* identificou 129 artigos e incluiu 19 para análise aprofundada, concluindo que o potencial terapêutico existe, mas que estudos em humanos são necessários antes de qualquer afirmação sobre eficácia clínica.
 
 **Quais são os compostos ativos da sucupira?**
 
