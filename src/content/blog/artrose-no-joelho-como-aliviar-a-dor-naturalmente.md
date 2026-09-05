@@ -68,6 +68,8 @@ Na literatura pública, a sucupira aparece relacionada a compostos de interesse 
 
 O uso responsável da sucupira deve ser complementar. Ela não substitui fisioterapia, diagnóstico médico, controle de peso, medicamentos prescritos ou outras orientações individualizadas.
 
+Para o uso tradicional da sucupira em detalhe — formas de uso, expectativa realista, contraindicações — veja [sucupira para artrose](/sucupira-para-artrose/). Se a dor no joelho ainda não tem diagnóstico confirmado, [sucupira para dor no joelho](/sucupira-para-dor-no-joelho/) mapeia as causas mais comuns antes de chegar à artrose.
+
 ## O que evitar quando o joelho está doendo?
 
 Quando o joelho está doendo por artrose, vale evitar sobrecargas repetidas, automedicação e exercícios feitos no impulso. A dor é um sinal de que o corpo precisa de ajuste, não de abandono completo do movimento.
