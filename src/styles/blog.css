@@ -344,6 +344,56 @@ input {
   gap: 1.15rem;
 }
 
+.pagination-header {
+  width: min(100% - 2rem, var(--wide));
+  margin: 0 auto;
+  padding: 2rem 0 0;
+}
+
+.pagination-header h1 {
+  margin: 0 0 0.5rem;
+}
+
+.pagination-header > p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+}
+
+.knowledge-main--flush {
+  margin-top: 1.5rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.pagination-status {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pagination-link {
+  font-weight: 800;
+  color: var(--green-dark);
+  text-decoration: none;
+}
+
+.pagination-link:hover,
+.pagination-link:focus-visible {
+  text-decoration: underline;
+}
+
+.pagination-link--disabled {
+  color: var(--muted);
+  opacity: 0.5;
+}
+
 .post-card {
   display: flex;
   min-height: 100%;

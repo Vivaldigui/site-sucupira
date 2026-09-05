@@ -1,0 +1,38 @@
+---
+interface Props {
+  currentPage: number;
+  totalPages: number;
+}
+
+const { currentPage, totalPages } = Astro.props;
+
+const pageUrl = (page: number) => (page <= 1 ? '/' : `/pagina/${page}/`);
+---
+
+{
+  totalPages > 1 && (
+    <nav class="pagination" id="pagination-nav" aria-label="Paginação de artigos">
+      {currentPage > 1 ? (
+        <a href={pageUrl(currentPage - 1)} rel="prev" class="pagination-link">
+          « Anteriores
+        </a>
+      ) : (
+        <span class="pagination-link pagination-link--disabled" aria-hidden="true">
+          « Anteriores
+        </span>
+      )}
+      <span class="pagination-status">
+        Página {currentPage} de {totalPages}
+      </span>
+      {currentPage < totalPages ? (
+        <a href={pageUrl(currentPage + 1)} rel="next" class="pagination-link">
+          Próximos »
+        </a>
+      ) : (
+        <span class="pagination-link pagination-link--disabled" aria-hidden="true">
+          Próximos »
+        </span>
+      )}
+    </nav>
+  )
+}

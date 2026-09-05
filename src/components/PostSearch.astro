@@ -1,0 +1,165 @@
+---
+interface SearchEntry {
+  title: string;
+  description: string;
+  tags: string[];
+  slug: string;
+  image: string;
+  publishDate: string;
+}
+
+interface Props {
+  posts: SearchEntry[];
+  totalCount: number;
+}
+
+const { posts, totalCount } = Astro.props;
+const serializedSearchIndex = JSON.stringify(posts).replace(/</g, '\\u003c');
+---
+
+<section class="knowledge-tools" aria-label="Buscar artigos">
+  <form class="knowledge-search" role="search" action="/" method="get">
+    <label for="knowledge-search" class="visually-hidden">Buscar nos artigos</label>
+    <div class="search-row">
+      <input
+        id="knowledge-search"
+        name="q"
+        type="search"
+        placeholder="Busque por tema, título ou palavra-chave"
+        autocomplete="off"
+      />
+      <button type="submit">Buscar</button>
+    </div>
+  </form>
+
+  <p id="search-status" class="search-status visually-hidden" aria-live="polite">
+    {totalCount} {totalCount === 1 ? 'artigo encontrado' : 'artigos encontrados'}
+  </p>
+</section>
+
+<div class="posts-grid" id="search-results-grid" data-search-grid hidden></div>
+<p id="no-results" class="empty-state" hidden>Nenhum artigo corresponde à busca.</p>
+
+<script id="search-index" type="application/json" set:html={serializedSearchIndex}></script>
+<script>
+  const searchDataElement = document.querySelector('#search-index');
+  const searchInput = document.querySelector('#knowledge-search');
+  const searchForm = document.querySelector('.knowledge-search');
+  const status = document.querySelector('#search-status');
+  const noResults = document.querySelector('#no-results');
+  const staticGrid = document.querySelector('#posts-grid');
+  const searchGrid = document.querySelector('#search-results-grid');
+  const paginationNav = document.querySelector('#pagination-nav');
+
+  interface SearchEntry {
+    title: string;
+    description: string;
+    tags: string[];
+    slug: string;
+    image: string;
+    publishDate: string;
+  }
+
+  const dateStr = (iso: string) =>
+    new Date(iso).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+
+  const escapeHtml = (value: string) =>
+    value.replace(/[&<>"']/g, (char) => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;',
+    }[char] as string));
+
+  const renderCard = (post: SearchEntry) => {
+    const tags = post.tags
+      .slice(0, 3)
+      .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
+      .join('');
+
+    return `
+      <a class="post-card" href="/${post.slug}/" data-post-card data-slug="${post.slug}">
+        <img
+          class="post-card-img"
+          src="${post.image}"
+          alt="Foto relacionada ao artigo: ${escapeHtml(post.title)}"
+          loading="lazy"
+          decoding="async"
+          width="1200"
+          height="788"
+        />
+        <div class="post-card-body">
+          ${tags ? `<div class="post-card-tags" aria-label="Temas do artigo">${tags}</div>` : ''}
+          <h2>${escapeHtml(post.title)}</h2>
+          <p>${escapeHtml(post.description)}</p>
+        </div>
+        <div class="post-card-footer">
+          <time datetime="${post.publishDate}">${dateStr(post.publishDate)}</time>
+          <span class="read-more">Ler artigo</span>
+        </div>
+      </a>
+    `;
+  };
+
+  if (searchDataElement && searchInput instanceof HTMLInputElement && searchGrid instanceof HTMLElement) {
+    const posts: SearchEntry[] = JSON.parse(searchDataElement.textContent || '[]');
+    const params = new URLSearchParams(window.location.search);
+    searchInput.value = params.get('q') || '';
+
+    const normalize = (value: string) =>
+      value
+        .normalize('NFD')
+        .replace(/[̀-ͯ]/g, '')
+        .toLocaleLowerCase('pt-BR');
+
+    const syncUrl = () => {
+      const nextParams = new URLSearchParams();
+      const query = searchInput.value.trim();
+      if (query) nextParams.set('q', query);
+      const queryString = nextParams.toString();
+      window.history.replaceState({}, '', queryString ? `/?${queryString}` : window.location.pathname);
+    };
+
+    const applyFilters = () => {
+      const query = normalize(searchInput.value.trim());
+
+      if (!query) {
+        searchGrid.hidden = true;
+        searchGrid.innerHTML = '';
+        if (staticGrid instanceof HTMLElement) staticGrid.hidden = false;
+        if (paginationNav instanceof HTMLElement) paginationNav.hidden = false;
+        if (noResults) noResults.toggleAttribute('hidden', true);
+        if (status) {
+          status.textContent = `${posts.length} ${posts.length === 1 ? 'artigo encontrado' : 'artigos encontrados'}`;
+        }
+        syncUrl();
+        return;
+      }
+
+      const matches = posts.filter((post) => {
+        const searchable = normalize([post.title, post.description, post.slug, ...post.tags].join(' '));
+        return searchable.includes(query);
+      });
+
+      if (staticGrid instanceof HTMLElement) staticGrid.hidden = true;
+      if (paginationNav instanceof HTMLElement) paginationNav.hidden = true;
+      searchGrid.hidden = false;
+      searchGrid.innerHTML = matches.map(renderCard).join('');
+
+      if (status) {
+        status.textContent = `${matches.length} ${matches.length === 1 ? 'artigo encontrado' : 'artigos encontrados'}`;
+      }
+      if (noResults) noResults.toggleAttribute('hidden', matches.length !== 0);
+      syncUrl();
+    };
+
+    searchInput.addEventListener('input', applyFilters);
+    searchForm?.addEventListener('submit', (event) => {
+      event.preventDefault();
+      applyFilters();
+    });
+
+    applyFilters();
+  }
+</script>

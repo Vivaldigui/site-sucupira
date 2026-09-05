@@ -46,3 +46,28 @@ export function sortByNewestPublishDate(a: BlogPost, b: BlogPost) {
 export function getPublishedPosts(posts: BlogPost[], now = getPublicationNow()) {
   return posts.filter((post) => isPublishedPost(post, now)).sort(sortByNewestPublishDate);
 }
+
+export const POSTS_PER_PAGE = 12;
+
+export function paginatePosts<T>(posts: T[], page: number, pageSize = POSTS_PER_PAGE) {
+  const totalPages = Math.max(1, Math.ceil(posts.length / pageSize));
+  const currentPage = Math.min(Math.max(1, page), totalPages);
+  const start = (currentPage - 1) * pageSize;
+
+  return {
+    items: posts.slice(start, start + pageSize),
+    currentPage,
+    totalPages,
+  };
+}
+
+export function toSearchIndexEntry(post: BlogPost, defaultImage: string) {
+  return {
+    title: post.data.title,
+    description: post.data.description,
+    tags: post.data.tags,
+    slug: post.slug,
+    image: post.data.ogImage || defaultImage,
+    publishDate: post.data.publishDate.toISOString(),
+  };
+}

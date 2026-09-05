@@ -1,0 +1,108 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleCard from '../../components/ArticleCard.astro';
+import GoogleAnalytics from '../../components/GoogleAnalytics.astro';
+import Pagination from '../../components/Pagination.astro';
+import PostSearch from '../../components/PostSearch.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import { BLOG_NAME, DEFAULT_OG_IMAGE, SALES_CTA_URL, SITE_NAME, blogUrl } from '../../consts';
+import '../../styles/blog.css';
+import { getPublishedPosts, paginatePosts, POSTS_PER_PAGE, toSearchIndexEntry } from '../../utils/posts';
+
+export async function getStaticPaths() {
+  const posts = getPublishedPosts(await getCollection('blog'));
+  const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE));
+
+  // Page 1 lives at "/" (src/pages/index.astro) — this route only covers page 2 onward.
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => ({
+    params: { page: String(index + 2) },
+  }));
+}
+
+const defaultCardImage = '/assets/sucupira-natural-banner.webp';
+
+const requestedPage = Number(Astro.params.page);
+const posts = getPublishedPosts(await getCollection('blog'));
+const { items: pagePosts, currentPage, totalPages } = paginatePosts(posts, requestedPage);
+const searchIndex = posts.map((post) => toSearchIndexEntry(post, defaultCardImage));
+
+const canonicalUrl = blogUrl(`/pagina/${currentPage}/`);
+const title = `${BLOG_NAME} — página ${currentPage} | ${SITE_NAME}`;
+const description = `Artigos do Centro de Conhecimento da Sucupira, página ${currentPage} de ${totalPages}.`;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href={canonicalUrl} />
+    {currentPage > 1 && <link rel="prev" href={currentPage === 2 ? blogUrl('/') : blogUrl(`/pagina/${currentPage - 1}/`)} />}
+    {currentPage < totalPages && <link rel="next" href={blogUrl(`/pagina/${currentPage + 1}/`)} />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={DEFAULT_OG_IMAGE} />
+    <meta property="og:image:alt" content="Extrato de sucupira da Sucupira Naturale" />
+    <meta property="og:url" content={canonicalUrl} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
+    <meta name="twitter:image:alt" content="Extrato de sucupira da Sucupira Naturale" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <GoogleAnalytics />
+  </head>
+  <body>
+    <SiteHeader />
+
+    <nav class="breadcrumb" aria-label="Navegação estrutural">
+      <ol>
+        <li><a href="/">Centro de Conhecimento</a></li>
+        <li aria-hidden="true">›</li>
+        <li aria-current="page">Página {currentPage}</li>
+      </ol>
+    </nav>
+
+    <header class="pagination-header">
+      <p class="eyebrow">Conteúdo informativo</p>
+      <h1>Centro de Conhecimento da Sucupira</h1>
+      <p>Página {currentPage} de {totalPages}.</p>
+    </header>
+
+    <main class="knowledge-main knowledge-main--flush">
+      <PostSearch posts={searchIndex} totalCount={posts.length} />
+
+      <section aria-labelledby="articles-title">
+        <h2 id="articles-title" class="visually-hidden">Artigos publicados</h2>
+        <div class="posts-grid" id="posts-grid">
+          {pagePosts.map((post) => (
+            <ArticleCard
+              slug={post.slug}
+              title={post.data.title}
+              description={post.data.description}
+              tags={post.data.tags}
+              publishDate={post.data.publishDate}
+              image={post.data.ogImage || defaultCardImage}
+            />
+          ))}
+        </div>
+        <Pagination currentPage={currentPage} totalPages={totalPages} />
+      </section>
+    </main>
+
+    <footer class="blog-footer">
+      <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+      <p><a href="/sobre/">Quem somos</a> · <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
+    </footer>
+  </body>
+</html>
