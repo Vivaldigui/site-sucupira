@@ -7,6 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor no Quadril", "Articulações", "Uso Tradicional", "Saúde 45+"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-dor-no-quadril.webp"
 ---
 
 **Resposta rápida:** dor no quadril raramente tem uma causa só, e a mais comum depois dos 45 não é a articulação em si — é a bursite trocantérica, inflamação na lateral do quadril que costuma ser confundida com "artrose no quadril". O óleo de sucupira em massagem local entra no mesmo uso tradicional já associado a outras dores articulares, sem estudo em pessoas que confirme o efeito. O que muda mais o quadro no dia a dia é fortalecer o glúteo médio e ajustar alguns hábitos, não o produto.
