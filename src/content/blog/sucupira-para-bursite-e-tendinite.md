@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Bursite e Tendinite", "Inflamação", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-bursite-e-tendinite.webp"
 ---
 
 **Resposta rápida:** o uso tradicional da sucupira se estende a bursite e tendinite por analogia com outras dores articulares, principalmente na forma de óleo em massagem local. Não há estudo em pessoas para esses quadros. O que costuma decidir a recuperação é outra coisa: identificar e corrigir o gesto repetitivo que causou a inflamação, porque tratar a dor sem tirar a causa faz o problema voltar.

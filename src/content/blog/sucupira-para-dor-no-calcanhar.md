@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor no Calcanhar", "Óleo de Sucupira", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-dor-no-calcanhar.webp"
 ---
 
 **Resposta rápida:** no uso tradicional, o óleo de sucupira em massagem no calcanhar e na sola do pé é a forma associada a esse tipo de dor. Não há estudo em pessoas que confirme o efeito. E há uma confusão que atrapalha mais que a falta de estudo: fascite plantar e esporão de calcâneo não são a mesma coisa, e quem trata o esporão achando que é a causa costuma tratar a coisa errada.

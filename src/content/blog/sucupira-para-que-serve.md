@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Uso Tradicional"]
 featured: true
+ogImage: "/assets/blog/sucupira-para-que-serve.webp"
 ---
 
 **Resposta rápida:** a sucupira é usada tradicionalmente no Brasil como apoio para desconforto articular — juntas, joelho, coluna. Os compostos das sementes têm atividade anti-inflamatória observada em laboratório e em animais. Nenhum ensaio clínico em pessoas foi publicado até hoje, então não existe eficácia comprovada em humanos para nenhum desses usos.

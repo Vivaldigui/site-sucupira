@@ -7,7 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dores crônicas", "Ciência da Sucupira"]
 featured: true
-ogImage: "/assets/sucupira-alivia-dores-cronicas.webp"
+ogImage: "/assets/blog/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.webp"
 ---
 
 ![Sucupira pode ajudar no manejo de dores crônicas? Ilustração sobre evidências, benefícios potenciais e cuidados](/assets/sucupira-alivia-dores-cronicas.webp)

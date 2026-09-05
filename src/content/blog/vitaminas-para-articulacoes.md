@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Saúde 45+", "Plantas Medicinais", "Mobilidade", "Ciência da Sucupira", "Inflamação"]
 featured: false
+ogImage: "/assets/blog/vitaminas-para-articulacoes.webp"
 ---
 
 **Resposta rápida:** Nenhuma vitamina ou suplemento reconstrói cartilagem desgastada. O que alguns deles fazem, com graus diferentes de evidência, é apoiar o conforto articular e corrigir deficiências que pioram dor e fraqueza — a vitamina D é o exemplo mais claro. Suplemento funciona como apoio dentro de um conjunto que inclui movimento, força muscular e peso adequado, e faz mais diferença quando há uma carência real a corrigir.

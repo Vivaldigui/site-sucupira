@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Como Tomar", "Dosagem", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/quanto-tempo-a-sucupira-leva-para-fazer-efeito.webp"
 ---
 
 **Resposta rápida:** não existe prazo estabelecido, e o motivo é concreto: nenhum ensaio clínico em pessoas foi publicado sobre a sucupira, para nenhum desfecho. Os números que circulam — "7 dias", "15 dias", "1 mês" — vêm de relato, não de medição. O único prazo desenhado por um estudo é o do ensaio brasileiro em andamento, que testa **8 semanas** de uso e ainda não divulgou resultados.

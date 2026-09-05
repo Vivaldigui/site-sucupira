@@ -7,6 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Como Tomar", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/como-fazer-cha-de-sucupira.webp"
 ---
 
 **Resposta rápida:** O chá de sucupira é preparado tradicionalmente com as sementes da planta e água, em fervura por alguns minutos. Esse preparo faz parte da cultura popular brasileira e não é uma recomendação de dose nem substitui orientação de saúde. A quantidade, a frequência e a duração do uso variam de pessoa para pessoa e devem ser conversadas com um profissional. Se você usa medicamentos, está grávida, amamenta ou tem doença crônica, procure orientação antes de preparar qualquer chá.

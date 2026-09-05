@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor no Joelho", "Articulações", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-dor-no-joelho.webp"
 ---
 
 **Resposta rápida:** dor no joelho não é um diagnóstico, é um sintoma com pelo menos meia dúzia de causas comuns — e qual delas é a sua muda completamente se um apoio tradicional faz algum sentido. Para desconforto crônico de desgaste, a sucupira entra no repertório de uso tradicional. Para lesão de menisco, ligamento ou quadro inflamatório agudo, ela não tem papel nenhum, e insistir nela atrasa o que resolve.

@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Extrato de Sucupira", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/como-escolher-produto-de-sucupira.webp"
 ---
 
 **Resposta rápida:** o que separa um produto de sucupira de outro é verificável antes da compra — espécie no rótulo, parte da planta, composição declarada, lote, validade, CNPJ e responsável técnico. O conselho mais repetido na internet, "confira o registro na ANVISA", está errado para várias categorias: elas são dispensadas de registro, e o número que você procura não deveria existir.

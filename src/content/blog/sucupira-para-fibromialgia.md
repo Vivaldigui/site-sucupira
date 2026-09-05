@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fibromialgia", "Dores crônicas", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-fibromialgia.webp"
 ---
 
 **Resposta rápida:** a sucupira não age no mecanismo da fibromialgia. A dor da fibromialgia vem do processamento alterado da dor pelo sistema nervoso central, e o que se observou da sucupira em laboratório e em animais foi atividade anti-inflamatória em modelos de artrite e edema — inflamação local, que é outra coisa. Onde ela pode ter algum papel complementar é nos desconfortos musculares e articulares que costumam acompanhar o quadro. E há um cuidado específico: boa parte do tratamento da fibromialgia é feito com medicamentos de ação central.

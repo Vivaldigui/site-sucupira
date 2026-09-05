@@ -7,6 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Mobilidade", "Dores crônicas"]
 featured: false
+ogImage: "/assets/blog/dor-lombar-o-que-fazer.webp"
 ---
 
 **Resposta rápida:** Na dor lombar comum, o que mais ajuda nas primeiras horas é calor local, movimento leve e evitar as posições que disparam a dor — nessa ordem. Repouso absoluto piora. Se a dor irradiar para a perna, vier com formigamento, dormência ou perda de força, ou surgir após queda, o passo é procurar avaliação médica antes de qualquer outra coisa.

@@ -7,6 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Dores crônicas", "Inflamação", "Mobilidade"]
 featured: false
+ogImage: "/assets/blog/nervo-ciatico-inflamado-o-que-fazer.webp"
 ---
 
 **Resposta rápida:** A dor ciática costuma vir de uma compressão do nervo na saída da coluna, não de um problema no nervo em si. Nas primeiras horas, o que ajuda é manter movimento leve, evitar ficar sentado por muito tempo e usar calor na musculatura do glúteo e lombar. Alongamentos suaves ajudam a maioria dos casos. Mas dor ciática merece avaliação médica quando vem com perda de força, dormência que aumenta, ou dificuldade para controlar bexiga ou intestino — esses sinais são urgentes.

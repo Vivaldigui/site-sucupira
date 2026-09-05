@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-a-pele.webp"
 ---
 
 **Resposta rápida:** sim, o óleo de sucupira é usado topicamente no costume popular brasileiro, principalmente em massagem para desconforto muscular e articular, e como óleo de cuidado geral com a pele. Não há estudo clínico que confirme efeito dermatológico. E há uma confusão prática a resolver antes: óleo de sucupira e extrato líquido de sucupira são produtos diferentes, com finalidades diferentes.

@@ -7,6 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Uso Tradicional", "Plantas Medicinais", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/oleo-de-sucupira-para-que-serve.webp"
 ---
 
 **Resposta rápida:** O óleo de sucupira é extraído das sementes e da casca e, no uso tradicional, é associado ao conforto articular, muscular e a cuidados com a pele, graças à ação anti-inflamatória, analgésica e antioxidante atribuída aos seus compostos. Costuma ser de uso externo, em massagens — diferente do extrato e das cápsulas, que são orais.

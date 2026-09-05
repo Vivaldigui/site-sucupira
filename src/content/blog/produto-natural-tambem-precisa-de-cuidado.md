@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Fitoterapia", "Segurança no Uso", "Contraindicações", "Qualidade"]
 featured: false
+ogImage: "/assets/blog/produto-natural-tambem-precisa-de-cuidado.webp"
 ---
 
 **Resposta rápida:** sim, e por um motivo simples de entender: se uma planta tem efeito no corpo, ela tem compostos ativos — e composto ativo é exatamente o que também produz interação e reação. "Natural" descreve a origem, não o risco. Nem por isso a resposta oposta serve: tratar todo produto natural como perigoso ignora séculos de uso e não ajuda ninguém a decidir.

@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Dores crônicas", "Inflamação", "Mobilidade"]
 featured: false
+ogImage: "/assets/blog/o-que-tomar-para-dor-na-lombar.webp"
 ---
 
 **Resposta rápida:** Não existe uma única coisa a tomar que resolva toda dor lombar, porque as causas são diferentes. Para a dor muscular comum — a mais frequente — o que mais ajuda nos primeiros dias costuma ser calor local, movimento leve e, quando necessário, analgésico ou anti-inflamatório orientado por um profissional. Apoios naturais podem entrar como complemento. Mas se a dor irradia para a perna, vem com formigamento, dormência ou perda de força, nenhum desses caminhos é o primeiro: a avaliação médica é.

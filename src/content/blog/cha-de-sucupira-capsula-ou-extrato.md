@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Cápsulas de Sucupira", "Extrato de Sucupira", "Como Tomar", "Dores crônicas"]
 featured: false
+ogImage: "/assets/blog/cha-de-sucupira-capsula-ou-extrato.webp"
 ---
 
 **Resposta rápida:** os cinco formatos de sucupira diferem em previsibilidade de dose, presença de álcool, praticidade e via de uso — e não em eficácia comprovada, porque nenhum foi testado em pessoas. O que dá para comparar de forma honesta é o quanto você sabe do que está tomando. Nesse critério, produto com composição declarada em percentual ganha de preparo caseiro; nos demais, a escolha depende da sua rotina.

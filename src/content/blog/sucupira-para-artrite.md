@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Artrite", "Inflamação", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-artrite.webp"
 ---
 
 **Resposta rápida:** "artrite" é um guarda-chuva para várias condições com mecanismos e tratamentos diferentes, e isso muda a resposta. Nas artrites autoimunes, como a reumatoide, o tratamento precoce com medicação específica é o que impede dano articular permanente — e adiar por conta de um apoio natural tem custo que não se recupera. A sucupira tem uso tradicional para desconforto articular em geral, como complemento, nunca no lugar do acompanhamento.

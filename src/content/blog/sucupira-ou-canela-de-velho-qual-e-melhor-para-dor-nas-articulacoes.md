@@ -8,7 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Plantas Medicinais", "Articulações", "Artrose", "Dor no Joelho", "Inflamação"]
 featured: true
-ogImage: "/assets/blog/sucupira-ou-canela-de-velho.webp"
+ogImage: "/assets/blog/sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes.webp"
 ---
 
 **Resposta rápida:** nenhuma das duas tem eficácia comprovada em pessoas. Sucupira e canela de velho têm uso tradicional documentado para desconforto articular e compostos estudados em laboratório e em animais, mas nenhum ensaio clínico publicado sustenta a escolha de uma sobre a outra. A sucupira tem mais volume de pesquisa acumulada; a canela de velho tem estudo mais recente e mais escasso. A decisão prática acaba sendo menos sobre qual planta e mais sobre a procedência do produto.

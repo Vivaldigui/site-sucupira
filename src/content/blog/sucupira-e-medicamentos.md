@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Medicamentos Contínuos", "Contraindicações", "Segurança no Uso", "Saúde 45+"]
 featured: false
+ogImage: "/assets/blog/sucupira-e-medicamentos.webp"
 ---
 
 **Resposta rápida:** não existem estudos de interação entre sucupira e medicamentos em humanos. Nenhum. Isso significa que a resposta é desconhecida, não que seja segura nem que seja perigosa — e é justamente a ausência de dado que torna a conversa com quem prescreve a sua medicação o passo certo antes de somar a sucupira à rotina.

@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor na Coluna", "Segurança no Uso", "Uso Tradicional"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-nervo-ciatico.webp"
 ---
 
 Quem já sentiu uma dor ciática sabe que ela é diferente de qualquer outra dor nas costas. Ela começa na lombar, na região dos glúteos, e desce pela perna — às vezes até o pé — muitas vezes com queimação, formigamento ou fisgadas que pioram ao sentar ou ficar muito tempo em pé. Não é à toa que, além de remédios convencionais, muita gente procura também apoios naturais, e a sucupira aparece com frequência nessa busca, por já ser conhecida no uso tradicional para dores articulares e musculares.

@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Articulações", "Artrite", "Artrose", "Mobilidade", "Saúde 45+"]
 featured: false
+ogImage: "/assets/blog/rigidez-nas-articulacoes-pela-manha.webp"
 ---
 
 **Resposta rápida:** o dado mais útil sobre rigidez matinal não é o quanto ela incomoda, é **quanto tempo ela dura**. As diretrizes brasileiras para o diagnóstico da artrite reumatoide registram 5 a 10 minutos como típico da osteoartrite e mais de uma hora nos quadros inflamatórios. Cronometrar é de graça e vale mais que qualquer suposição.

@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Efeitos Colaterais", "Contraindicações", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/efeitos-colaterais-da-sucupira.webp"
 ---
 
 **Resposta rápida:** não existe perfil de efeito adverso da sucupira em pessoas documentado na literatura. A lista que se repete na internet — náusea, diarreia, tontura, sonolência — não tem fonte primária localizável. O que existe é toxicidade testada em animais, que não encontrou sinal nas doses avaliadas. Ausência de efeito documentado não é prova de segurança: é ausência de estudo, e as duas coisas se parecem por fora.

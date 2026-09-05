@@ -7,6 +7,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Uso Tradicional", "Plantas Medicinais", "Segurança no Uso", "Contraindicações"]
 featured: false
+ogImage: "/assets/blog/garrafada-de-sucupira-o-que-e.webp"
 ---
 
 **Resposta rápida:** A garrafada de sucupira é um preparo tradicional em que as sementes ficam maceradas em vinho ou álcool por semanas. É usada popularmente como apoio para dores e inflamações, pela ação atribuída aos diterpenos da semente — documentada na [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) em laboratório e em animais, nunca em pessoas. O ponto de atenção são as misturas caseiras sem controle de dose e a presença de álcool.

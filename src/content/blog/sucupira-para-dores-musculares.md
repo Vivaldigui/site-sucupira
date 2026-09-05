@@ -8,6 +8,7 @@ author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Mobilidade", "Uso Tradicional", "Segurança no Uso"]
 featured: false
+ogImage: "/assets/blog/sucupira-para-dores-musculares.webp"
 ---
 
 **Resposta rápida:** no uso tradicional, o óleo de sucupira em massagem local é a forma associada a desconforto muscular, e a massagem em si já responde por parte do alívio. Não há estudo em pessoas. E há um detalhe que quase muda a conduta: a dor muscular pós-treino faz parte do processo de adaptação, e abafá-la com anti-inflamatório pode atrapalhar justamente o ganho que você foi buscar.
