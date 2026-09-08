@@ -1,11 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
+import AdSense from '../../components/AdSense.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import GoogleAnalytics from '../../components/GoogleAnalytics.astro';
 import Pagination from '../../components/Pagination.astro';
 import PostSearch from '../../components/PostSearch.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
-import { BLOG_NAME, DEFAULT_OG_IMAGE, SALES_CTA_URL, SITE_NAME, blogUrl } from '../../consts';
+import {
+  BLOG_NAME,
+  CONTACT_PAGE_PATH,
+  DEFAULT_OG_IMAGE,
+  PRIVACY_PAGE_PATH,
+  SALES_CTA_URL,
+  SITE_NAME,
+  blogUrl,
+} from '../../consts';
 import '../../styles/blog.css';
 import { getPublishedPosts, paginatePosts, POSTS_PER_PAGE, toSearchIndexEntry } from '../../utils/posts';
 
@@ -60,6 +69,7 @@ const description = `Artigos do Centro de Conhecimento da Sucupira, página ${cu
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <AdSense />
     <GoogleAnalytics />
   </head>
   <body>
@@ -102,7 +112,11 @@ const description = `Artigos do Centro de Conhecimento da Sucupira, página ${cu
 
     <footer class="blog-footer">
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
-      <p><a href="/sobre/">Quem somos</a> · <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
+      <p>
+        <a href="/sobre/">Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
+        <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
+      </p>
     </footer>
   </body>
 </html>

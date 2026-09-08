@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import ArticleCard from '../components/ArticleCard.astro';
 import BlogHero from '../components/BlogHero.astro';
+import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import Pagination from '../components/Pagination.astro';
 import PostSearch from '../components/PostSearch.astro';
@@ -11,6 +12,8 @@ import {
   BLOG_SITE_URL,
   DEFAULT_OG_IMAGE,
   ORGANIZATION_ID,
+  CONTACT_PAGE_PATH,
+  PRIVACY_PAGE_PATH,
   SALES_CTA_URL,
   SALES_SITE_URL,
   SITE_NAME,
@@ -121,6 +124,7 @@ const schema = JSON.stringify({
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <AdSense />
     <GoogleAnalytics />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
@@ -155,7 +159,11 @@ const schema = JSON.stringify({
 
     <footer class="blog-footer">
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
-      <p><a href="/sobre/">Quem somos</a> · <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
+      <p>
+        <a href="/sobre/">Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
+        <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
+      </p>
     </footer>
   </body>
 </html>

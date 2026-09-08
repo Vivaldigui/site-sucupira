@@ -1,0 +1,481 @@
+---
+import AdSense from '../components/AdSense.astro';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import InfoBox from '../components/InfoBox.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import {
+  AUTHOR_NAME,
+  AUTHOR_PAGE_PATH,
+  BLOG_NAME,
+  COMPANY_CITY,
+  COMPANY_CNPJ,
+  COMPANY_LEGAL_NAME,
+  COMPANY_STATE,
+  CONTACT_EMAIL,
+  CONTACT_PAGE_PATH,
+  CONTACT_PHONE_DISPLAY,
+  GOOGLE_ANALYTICS_ID,
+  ORGANIZATION_ID,
+  PRIVACY_PAGE_PATH,
+  PRIVACY_POLICY_UPDATED_AT,
+  SALES_CTA_URL,
+  SERVES_THIRD_PARTY_ADS,
+  SITE_NAME,
+  WEBSITE_ID,
+  blogUrl,
+} from '../consts';
+import '../styles/blog.css';
+
+const canonicalUrl = blogUrl(PRIVACY_PAGE_PATH);
+const title = `Política de Privacidade | ${SITE_NAME}`;
+const description =
+  'Como o Centro de Conhecimento da Sucupira trata dados pessoais: cookies de análise e de publicidade, base legal, compartilhamento e como exercer seus direitos previstos na LGPD.';
+
+const updatedAtLabel = new Intl.DateTimeFormat('pt-BR', {
+  day: '2-digit',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'America/Sao_Paulo',
+}).format(new Date(`${PRIVACY_POLICY_UPDATED_AT}T12:00:00-03:00`));
+
+const schema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebPage',
+      '@id': `${canonicalUrl}#privacy`,
+      name: 'Política de Privacidade',
+      description,
+      url: canonicalUrl,
+      inLanguage: 'pt-BR',
+      isPartOf: { '@id': WEBSITE_ID },
+      publisher: { '@id': ORGANIZATION_ID },
+      dateModified: PRIVACY_POLICY_UPDATED_AT,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${canonicalUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: BLOG_NAME,
+          item: blogUrl('/'),
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Política de Privacidade',
+          item: canonicalUrl,
+        },
+      ],
+    },
+  ],
+});
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={AUTHOR_NAME} />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="pt-BR" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <AdSense />
+    <GoogleAnalytics />
+    <script type="application/ld+json" set:html={schema}></script>
+  </head>
+  <body>
+    <SiteHeader />
+
+    <nav class="breadcrumb" aria-label="Navegação estrutural">
+      <ol>
+        <li><a href="/">Centro de Conhecimento</a></li>
+        <li aria-hidden="true">›</li>
+        <li aria-current="page">Política de Privacidade</li>
+      </ol>
+    </nav>
+
+    <main class="blog-container">
+      <article>
+        <div class="article-body">
+          <h1>Política de Privacidade</h1>
+
+          <p><strong>Última atualização:</strong> {updatedAtLabel}.</p>
+
+          <InfoBox variant="summary" title="Em resumo" labelledBy="privacy-summary-title">
+            <p>
+              Este blog não pede cadastro, não tem formulário e não vende dados de ninguém. O que existe são
+              <strong> cookies</strong>: uns para medir quantas pessoas leem cada artigo, outros para exibir os
+              anúncios que mantêm o site. Você pode desativar os dois, e explicamos como. Para pedir acesso ou
+              exclusão dos seus dados, escreva para <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+            </p>
+          </InfoBox>
+
+          <h2 id="controlador">1. Quem trata os seus dados</h2>
+
+          <p>
+            O responsável por este site — o <strong>controlador</strong>, no vocabulário da Lei Geral de
+            Proteção de Dados (Lei nº 13.709/2018) — é:
+          </p>
+
+          <table>
+            <tbody>
+              <tr>
+                <th scope="row">Marca</th>
+                <td>{SITE_NAME}</td>
+              </tr>
+              <tr>
+                <th scope="row">Razão social</th>
+                <td>{COMPANY_LEGAL_NAME}</td>
+              </tr>
+              <tr>
+                <th scope="row">CNPJ</th>
+                <td>{COMPANY_CNPJ}</td>
+              </tr>
+              <tr>
+                <th scope="row">Sede</th>
+                <td>{COMPANY_CITY} ({COMPANY_STATE}), Brasil</td>
+              </tr>
+              <tr>
+                <th scope="row">Canal para assuntos de privacidade</th>
+                <td>
+                  <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> · {CONTACT_PHONE_DISPLAY}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>
+            Esta política vale para o <strong>{BLOG_NAME}</strong>, publicado em
+            <code>blog.sucupiranaturale.com.br</code>. A loja oficial fica em outro endereço e tem política
+            própria — se você comprou ou vai comprar, consulte a política de lá também.
+          </p>
+
+          <h2 id="dados">2. Que dados coletamos</h2>
+
+          <p>
+            Este blog é um site de leitura. <strong>Não existe cadastro, login, comentário nem formulário</strong>,
+            então não pedimos nome, e-mail, CPF, telefone nem qualquer dado de saúde. Nunca digite informação
+            sobre a sua saúde em um campo deste site — não há onde fazer isso, e não queremos esse dado.
+          </p>
+
+          <p>O que é coletado automaticamente enquanto você navega:</p>
+
+          <ul>
+            <li>
+              <strong>Dados de navegação:</strong> páginas visitadas, tempo de permanência, origem da visita
+              (por exemplo, uma busca no Google), tipo de dispositivo, navegador, sistema operacional,
+              região aproximada e idioma.
+            </li>
+            <li>
+              <strong>Identificadores de cookie:</strong> códigos aleatórios gravados no seu navegador, usados
+              para reconhecer visitas repetidas sem saber quem você é.
+            </li>
+            <li>
+              <strong>Endereço IP:</strong> tratado pelos serviços descritos abaixo, que o usam para estimar
+              localização aproximada e prevenir fraude.
+            </li>
+          </ul>
+
+          <p>
+            Se você nos escrever por e-mail ou WhatsApp, aí sim vamos ter os dados que você mesmo enviar — e
+            eles são usados só para responder você.
+          </p>
+
+          <h2 id="finalidades">3. Para que usamos</h2>
+
+          <ul>
+            <li>Entender quais artigos são lidos, para decidir o que escrever e o que corrigir.</li>
+            <li>Medir se o site funciona bem em cada tipo de aparelho e conexão.</li>
+            <li>Exibir anúncios, que são o que custeia a manutenção do blog.</li>
+            <li>Responder às mensagens que você nos manda.</li>
+            <li>Cumprir obrigações legais e defender direitos, se for necessário.</li>
+          </ul>
+
+          <p>
+            Não fazemos decisão automatizada sobre você, não montamos perfil de saúde e não usamos os dados
+            deste blog para tratar ninguém de forma diferente por causa de uma condição médica.
+          </p>
+
+          <h2 id="cookies">4. Cookies e serviços de terceiros</h2>
+
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Serviço</th>
+                <th scope="col">Para que serve</th>
+                <th scope="col">Quem opera</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Google Analytics 4 ({GOOGLE_ANALYTICS_ID})</td>
+                <td>Estatística de audiência: quantas visitas, quais páginas, de onde vêm.</td>
+                <td>Google LLC</td>
+              </tr>
+              {
+                SERVES_THIRD_PARTY_ADS && (
+                  <tr>
+                    <td>Google AdSense</td>
+                    <td>Exibição dos anúncios e medição de desempenho deles.</td>
+                    <td>Google LLC e parceiros de publicidade</td>
+                  </tr>
+                )
+              }
+            </tbody>
+          </table>
+
+          {
+            SERVES_THIRD_PARTY_ADS && (
+              <>
+                <h3 id="publicidade">4.1. Publicidade</h3>
+
+                <p>
+                  Este site exibe anúncios e, por exigência do Google, precisamos dizer isto com todas as
+                  letras:
+                </p>
+
+                <ul>
+                  <li>
+                    Fornecedores terceirizados, incluindo o Google, usam cookies para veicular anúncios com
+                    base em visitas anteriores do usuário ao nosso site ou a outros sites.
+                  </li>
+                  <li>
+                    O uso de cookies de publicidade pelo Google permite que ele e seus parceiros veiculem
+                    anúncios para os nossos usuários com base na visita deles aos nossos sites e/ou a outros
+                    sites na Internet.
+                  </li>
+                  <li>
+                    Os usuários podem desativar a publicidade personalizada visitando as
+                    <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">
+                      Configurações de anúncios do Google
+                    </a>
+                    . Também é possível desativar cookies de publicidade de outros fornecedores em
+                    <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">
+                      optout.aboutads.info
+                    </a>
+                    .
+                  </li>
+                </ul>
+
+                <p>
+                  Desativar a personalização não faz os anúncios sumirem — eles passam a ser genéricos, sem
+                  relação com o seu histórico de navegação.
+                </p>
+
+                <p>
+                  Como o Google trata os dados de quem usa sites parceiros está descrito na
+                  <a
+                    href="https://policies.google.com/technologies/partner-sites"
+                    rel="nofollow noopener"
+                    target="_blank"
+                  >
+                    política de parceiros do Google
+                  </a>
+                  .
+                </p>
+
+                <InfoBox
+                  variant="transparency"
+                  title="Anúncio não é recomendação nossa"
+                  labelledBy="privacy-ads-title"
+                >
+                  <p>
+                    Os anúncios exibidos aqui são escolhidos automaticamente pelo Google, não por nós.
+                    <strong>
+                      A presença de um anúncio neste site não significa que a Sucupira Naturale indica,
+                      aprova ou se responsabiliza pelo produto ou serviço anunciado
+                    </strong>
+                    — inclusive quando o anúncio for de saúde, suplemento ou tratamento. Desconfie de qualquer
+                    anúncio que prometa cura.
+                  </p>
+                </InfoBox>
+              </>
+            )
+          }
+
+          <h2 id="base-legal">5. Base legal</h2>
+
+          <p>
+            Tratamos dados de navegação com fundamento no <strong>legítimo interesse</strong> (art. 7º, IX, da
+            LGPD): manter o site no ar, entender a audiência e sustentar o blog com publicidade. Avaliamos que
+            esse tratamento não é excessivo — não coletamos dado sensível, não identificamos você pelo nome e
+            você pode se opor a qualquer momento pelos caminhos da seção 8.
+          </p>
+
+          <p>
+            As mensagens que você nos envia são tratadas para atender a sua própria solicitação (art. 7º, V e
+            IX). Quando houver obrigação legal ou necessidade de defesa em processo, valem os incisos II e VI.
+          </p>
+
+          <h2 id="compartilhamento">6. Com quem compartilhamos</h2>
+
+          <p>
+            Não vendemos, alugamos nem cedemos dados pessoais. O compartilhamento se limita aos operadores
+            necessários para o site funcionar:
+          </p>
+
+          <ul>
+            <li><strong>Google LLC</strong> — análise de audiência e publicidade, conforme a seção 4.</li>
+            <li>
+              <strong>Google Firebase Hosting</strong> — hospedagem do site, que registra requisições em logs
+              de servidor.
+            </li>
+            <li>Autoridades públicas, quando houver determinação legal ou judicial.</li>
+          </ul>
+
+          <p>
+            <strong>Transferência internacional:</strong> esses serviços são operados por empresa sediada nos
+            Estados Unidos, com processamento em servidores fora do Brasil. A transferência se apoia nas
+            cláusulas contratuais e nas garantias oferecidas pelo fornecedor, nos termos do art. 33 da LGPD.
+          </p>
+
+          <h2 id="retencao">7. Por quanto tempo guardamos</h2>
+
+          <ul>
+            <li>
+              <strong>Dados de audiência do Google Analytics:</strong> retidos pelo prazo configurado na
+              ferramenta, hoje de 14 meses, após o qual são apagados ou agregados.
+            </li>
+            <li>
+              <strong>Cookies:</strong> cada um tem prazo próprio, de alguns minutos a alguns meses. Você pode
+              apagar todos a qualquer momento pelo navegador.
+            </li>
+            <li>
+              <strong>Mensagens de atendimento:</strong> mantidas enquanto forem úteis ao histórico do
+              atendimento e pelos prazos legais aplicáveis.
+            </li>
+          </ul>
+
+          <h2 id="direitos">8. Seus direitos e como exercê-los</h2>
+
+          <p>O art. 18 da LGPD garante a você o direito de:</p>
+
+          <ul>
+            <li>confirmar se tratamos dados seus e acessar esses dados;</li>
+            <li>corrigir dados incompletos, inexatos ou desatualizados;</li>
+            <li>pedir anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos;</li>
+            <li>pedir a portabilidade a outro fornecedor;</li>
+            <li>ser informado com quem compartilhamos os dados;</li>
+            <li>revogar consentimento, quando o tratamento se apoiar nele;</li>
+            <li>
+              <strong>opor-se ao tratamento</strong> feito com base em legítimo interesse — é o seu caso aqui.
+            </li>
+          </ul>
+
+          <p>
+            Para exercer qualquer um deles, escreva para
+            <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> com o assunto <em>"LGPD"</em>. Respondemos
+            em até 15 dias. Podemos pedir informações que confirmem a sua identidade — é para proteger você de
+            um pedido feito por outra pessoa.
+          </p>
+
+          <h3 id="como-desativar">8.1. Como desativar o rastreamento por conta própria</h3>
+
+          <ul>
+            <li>
+              <strong>No navegador:</strong> bloqueie ou apague cookies nas configurações de privacidade. Isso
+              vale para qualquer site, não só para este.
+            </li>
+            <li>
+              <strong>Google Analytics:</strong> instale o
+              <a
+                href="https://tools.google.com/dlpage/gaoptout"
+                rel="nofollow noopener"
+                target="_blank"
+              >
+                complemento oficial de desativação
+              </a>
+              .
+            </li>
+            {
+              SERVES_THIRD_PARTY_ADS && (
+                <li>
+                  <strong>Anúncios personalizados:</strong>
+                  <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">
+                    Configurações de anúncios do Google
+                  </a>
+                  e
+                  <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">
+                    optout.aboutads.info
+                  </a>
+                  .
+                </li>
+              )
+            }
+          </ul>
+
+          <p>
+            Bloquear cookies não impede a leitura de nenhum artigo. O site é estático e funciona igual sem
+            eles.
+          </p>
+
+          <h2 id="criancas">9. Crianças e adolescentes</h2>
+
+          <p>
+            Este conteúdo é escrito para pessoas adultas e não se destina a menores de 18 anos. Não coletamos
+            dados de crianças e adolescentes de forma consciente. Se você é responsável e acredita que isso
+            aconteceu, escreva para nós e apagaremos.
+          </p>
+
+          <h2 id="seguranca">10. Segurança</h2>
+
+          <p>
+            O site é servido apenas por conexão criptografada (HTTPS) e é estático: não há banco de dados de
+            leitores, área logada nem armazenamento de dados pessoais em servidor nosso. Ainda assim, nenhum
+            sistema é infalível — se acontecer um incidente relevante, comunicaremos os titulares e a ANPD nos
+            termos do art. 48 da LGPD.
+          </p>
+
+          <h2 id="links">11. Links para outros sites</h2>
+
+          <p>
+            Nossos artigos citam fontes externas (Anvisa, artigos científicos, órgãos públicos) e apontam para
+            a loja oficial. <strong>Não somos responsáveis pela privacidade desses sites</strong> — cada um tem
+            a política dele. O mesmo vale para os destinos dos anúncios.
+          </p>
+
+          <h2 id="alteracoes">12. Mudanças nesta política</h2>
+
+          <p>
+            Se mudarmos algo relevante — uma ferramenta nova, uma finalidade nova — atualizamos esta página e a
+            data no topo. Vale a pena reler de vez em quando.
+          </p>
+
+          <h2 id="duvidas">13. Dúvidas</h2>
+
+          <p>
+            Fale com a gente por <a href={CONTACT_PAGE_PATH}>qualquer canal da página de contato</a> ou
+            diretamente em <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Você também pode
+            apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD).
+          </p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="blog-footer">
+      <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+      <p>
+        <a href="/">Centro de Conhecimento</a> · <a href={AUTHOR_PAGE_PATH}>Quem somos</a> ·
+        <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
+      </p>
+    </footer>
+  </body>
+</html>

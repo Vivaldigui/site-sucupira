@@ -1,4 +1,5 @@
 ---
+import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import InfoBox from '../components/InfoBox.astro';
 import ProductCTA from '../components/ProductCTA.astro';
@@ -9,6 +10,8 @@ import {
   AUTHOR_NAME,
   BLOG_NAME,
   ORGANIZATION_ID,
+  CONTACT_PAGE_PATH,
+  PRIVACY_PAGE_PATH,
   SALES_CTA_URL,
   SALES_SITE_URL,
   SITE_NAME,
@@ -109,6 +112,7 @@ const schema = JSON.stringify({
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <AdSense />
     <GoogleAnalytics />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
@@ -244,7 +248,11 @@ const schema = JSON.stringify({
 
     <footer class="blog-footer">
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
-      <p><a href="/">Voltar ao Centro de Conhecimento</a> · <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a></p>
+      <p>
+        <a href="/">Centro de Conhecimento</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
+        <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
+      </p>
     </footer>
   </body>
 </html>

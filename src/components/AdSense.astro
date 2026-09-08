@@ -1,0 +1,11 @@
+---
+import { ADSENSE_CLIENT, SERVES_THIRD_PARTY_ADS } from '../consts';
+
+const adsenseSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${encodeURIComponent(ADSENSE_CLIENT)}`;
+---
+
+{
+  SERVES_THIRD_PARTY_ADS && (
+    <script async src={adsenseSrc} crossorigin="anonymous"></script>
+  )
+}
