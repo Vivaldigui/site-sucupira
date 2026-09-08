@@ -1,6 +1,7 @@
 ---
 import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import StoreClickTracking from '../components/StoreClickTracking.astro';
 import InfoBox from '../components/InfoBox.astro';
 import ProductCTA from '../components/ProductCTA.astro';
 import SiteHeader from '../components/SiteHeader.astro';
@@ -114,6 +115,7 @@ const schema = JSON.stringify({
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <AdSense />
     <GoogleAnalytics />
+    <StoreClickTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
   <body>
