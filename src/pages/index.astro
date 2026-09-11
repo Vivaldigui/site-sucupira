@@ -4,7 +4,9 @@ import ArticleCard from '../components/ArticleCard.astro';
 import BlogHero from '../components/BlogHero.astro';
 import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
-import StoreClickTracking from '../components/StoreClickTracking.astro';
+import LinkTracking from '../components/LinkTracking.astro';
+import SearchTracking from '../components/SearchTracking.astro';
+import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import Pagination from '../components/Pagination.astro';
 import PostSearch from '../components/PostSearch.astro';
 import SiteHeader from '../components/SiteHeader.astro';
@@ -126,8 +128,9 @@ const schema = JSON.stringify({
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <AdSense />
-    <GoogleAnalytics />
-    <StoreClickTracking />
+    <GoogleAnalytics contentGroup="listagem" />
+    <LinkTracking />
+    <WebVitalsTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
   <body>
@@ -167,5 +170,6 @@ const schema = JSON.stringify({
         <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
       </p>
     </footer>
+    <SearchTracking />
   </body>
 </html>

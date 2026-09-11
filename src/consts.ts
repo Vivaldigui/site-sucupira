@@ -51,4 +51,4 @@ export const ADSENSE_CLIENT = 'ca-pub-5232696023072099';
 export const SERVES_THIRD_PARTY_ADS = true;
 
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-09-07';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-09-10';

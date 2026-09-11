@@ -38,6 +38,8 @@ export async function getStaticPaths() {
 
 const { post, relatedPosts, faqItems } = Astro.props;
 const { Content, headings = [] } = await post.render();
+// Aproximado: conta marcação de Markdown junto. Serve para faixa de tamanho, não para contagem exata.
+const wordCount = (post.body.match(/\S+/g) ?? []).length;
 ---
 
 <BlogPost
@@ -53,6 +55,7 @@ const { Content, headings = [] } = await post.render();
   headings={headings}
   relatedPosts={relatedPosts}
   faqItems={faqItems}
+  wordCount={wordCount}
 >
   <Content />
 </BlogPost>

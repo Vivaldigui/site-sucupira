@@ -1,16 +1,57 @@
 ---
-import { GOOGLE_ANALYTICS_ID, STORE_ANALYTICS_ID } from '../consts';
+import { BLOG_SITE_URL, GOOGLE_ANALYTICS_ID, STORE_ANALYTICS_ID } from '../consts';
 
-const gtagSrc = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GOOGLE_ANALYTICS_ID)}`;
+interface Props {
+  // Vira a dimensão "Grupo de conteúdo" do GA4 (Páginas e telas, explorações).
+  contentGroup?: 'artigo' | 'listagem' | 'institucional';
+  // Parâmetros que seguem com todos os eventos da página, como os dados do artigo.
+  // Para aparecerem em relatório, cada um precisa virar dimensão personalizada.
+  pageParams?: Record<string, string>;
+}
+
+const { contentGroup = 'institucional', pageParams = {} } = Astro.props;
+const productionHost = new URL(BLOG_SITE_URL).hostname;
+
+// Limites de coleta do GA4: nome de parâmetro até 40 caracteres, valor até 100.
+const configParams = {
+  content_group: contentGroup,
+  ...Object.fromEntries(
+    Object.entries(pageParams).map(([name, value]) => [name.slice(0, 40), String(value).slice(0, 100)])
+  ),
+};
+
+// O GA4 só carrega no domínio de produção. Fora dele (localhost, preview, o
+// domínio padrão do Firebase), `gtag` só escreve no console: os eventos seguem
+// testáveis e nenhum hit entra nos relatórios.
+//
+// As duas propriedades recebem tudo: a do blog e a da loja. A da loja precisa
+// das visitas ao blog para ligar o artigo de entrada à compra — o cookie `_ga`
+// é o mesmo nos dois subdomínios.
 const gtagInline = `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+(function () {
+  var TAG_IDS = ${JSON.stringify([GOOGLE_ANALYTICS_ID, STORE_ANALYTICS_ID])};
+  var CONFIG_PARAMS = ${JSON.stringify(configParams).replace(/</g, '\\u003c')};
 
-  gtag('config', '${GOOGLE_ANALYTICS_ID}');
-  gtag('config', '${STORE_ANALYTICS_ID}');
+  if (window.location.hostname !== ${JSON.stringify(productionHost)}) {
+    window.gtag = function () {
+      console.info('[GA4 desligado fora de produção]', Array.prototype.slice.call(arguments));
+    };
+    return;
+  }
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  for (var i = 0; i < TAG_IDS.length; i++) {
+    window.gtag('config', TAG_IDS[i], CONFIG_PARAMS);
+  }
+
+  var loader = document.createElement('script');
+  loader.async = true;
+  loader.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(TAG_IDS[0]);
+  document.head.appendChild(loader);
+})();
 `;
 ---
 
-<script async src={gtagSrc}></script>
 <script is:inline set:html={gtagInline}></script>

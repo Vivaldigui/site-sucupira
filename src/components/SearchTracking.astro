@@ -1,0 +1,50 @@
+---
+// Mede a busca do blog com o evento recomendado do GA4, `search` { search_term,
+// resultados }. O termo aparece sozinho na dimensão "Termo de pesquisa"; a
+// contagem de resultados mostra o que os leitores procuram e não encontram.
+//
+// A busca filtra enquanto a pessoa digita, sem recarregar a página. O evento sai
+// 1,5 s depois da última tecla, com pelo menos 3 caracteres, e só uma vez por
+// termo. Termo com "@" ou com 5 dígitos seguidos (e-mail, telefone, CPF) é
+// trocado por "(removido)" antes do envio. Precisa ficar no fim do <body>,
+// depois do campo de busca.
+const trackingScript = `
+(function () {
+  var input = document.getElementById('knowledge-search');
+  if (!input) return;
+
+  var DELAY_MS = 1500;
+  var MIN_LENGTH = 3;
+  var timer = null;
+  var lastTerm = '';
+
+  function resultsCount() {
+    var status = document.getElementById('search-status');
+    var match = status ? (status.textContent || '').match(/\\d+/) : null;
+    return match ? match[0] : 'desconhecido';
+  }
+
+  function safeTerm(term) {
+    var digitsOnly = term.replace(/[\\s.\\-()\\/]/g, '');
+    if (term.indexOf('@') !== -1 || /\\d{5,}/.test(digitsOnly)) return '(removido)';
+    return term.toLowerCase().slice(0, 60);
+  }
+
+  function report() {
+    var term = input.value.replace(/\\s+/g, ' ').trim();
+    if (term.length < MIN_LENGTH || term.toLowerCase() === lastTerm) return;
+    lastTerm = term.toLowerCase();
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'search', { search_term: safeTerm(term), resultados: resultsCount() });
+    }
+  }
+
+  input.addEventListener('input', function () {
+    if (timer !== null) window.clearTimeout(timer);
+    timer = window.setTimeout(report, DELAY_MS);
+  });
+})();
+`;
+---
+
+<script is:inline set:html={trackingScript}></script>

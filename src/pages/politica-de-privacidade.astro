@@ -1,7 +1,8 @@
 ---
 import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
-import StoreClickTracking from '../components/StoreClickTracking.astro';
+import LinkTracking from '../components/LinkTracking.astro';
+import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import InfoBox from '../components/InfoBox.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import {
@@ -22,6 +23,7 @@ import {
   SALES_CTA_URL,
   SERVES_THIRD_PARTY_ADS,
   SITE_NAME,
+  STORE_ANALYTICS_ID,
   WEBSITE_ID,
   blogUrl,
 } from '../consts';
@@ -98,8 +100,9 @@ const schema = JSON.stringify({
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <AdSense />
-    <GoogleAnalytics />
-    <StoreClickTracking />
+    <GoogleAnalytics contentGroup="institucional" />
+    <LinkTracking />
+    <WebVitalsTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
   <body>
@@ -173,8 +176,10 @@ const schema = JSON.stringify({
 
           <p>
             Este blog é um site de leitura. <strong>Não existe cadastro, login, comentário nem formulário</strong>,
-            então não pedimos nome, e-mail, CPF, telefone nem qualquer dado de saúde. Nunca digite informação
-            sobre a sua saúde em um campo deste site — não há onde fazer isso, e não queremos esse dado.
+            então não pedimos nome, e-mail, CPF, telefone nem qualquer dado de saúde. A única caixa de texto é a
+            busca de artigos: o termo buscado é registrado sem identificar quem buscou, para sabermos o que os
+            leitores procuram e não encontram. Não digite dados pessoais na busca — termos com e-mail ou com
+            sequência longa de números são descartados antes do registro.
           </p>
 
           <p>O que é coletado automaticamente enquanto você navega:</p>
@@ -183,7 +188,8 @@ const schema = JSON.stringify({
             <li>
               <strong>Dados de navegação:</strong> páginas visitadas, tempo de permanência, origem da visita
               (por exemplo, uma busca no Google), tipo de dispositivo, navegador, sistema operacional,
-              região aproximada e idioma.
+              região aproximada, idioma, quanto de cada artigo foi lido, em quais links se clicou e quanto tempo as
+              páginas levaram para carregar.
             </li>
             <li>
               <strong>Identificadores de cookie:</strong> códigos aleatórios gravados no seu navegador, usados
@@ -227,9 +233,20 @@ const schema = JSON.stringify({
             </thead>
             <tbody>
               <tr>
-                <td>Google Analytics 4 ({GOOGLE_ANALYTICS_ID})</td>
-                <td>Estatística de audiência: quantas visitas, quais páginas, de onde vêm.</td>
+                <td>Google Analytics 4 ({GOOGLE_ANALYTICS_ID} e {STORE_ANALYTICS_ID})</td>
+                <td>
+                  Estatística de audiência do blog e da loja oficial: quantas visitas, quais páginas, de onde vêm,
+                  quanto foi lido e se a visita seguiu para a loja.
+                </td>
                 <td>Google LLC</td>
+              </tr>
+              <tr>
+                <td>Cookie <code>sn_blog_origem</code></td>
+                <td>
+                  Registra, por 30 dias, que a visita à loja oficial saiu do blog e de qual artigo. Guarda só o
+                  endereço do artigo.
+                </td>
+                <td>Sucupira Naturale</td>
               </tr>
               {
                 SERVES_THIRD_PARTY_ADS && (
@@ -352,8 +369,9 @@ const schema = JSON.stringify({
 
           <ul>
             <li>
-              <strong>Dados de audiência do Google Analytics:</strong> retidos pelo prazo configurado na
-              ferramenta, hoje de 14 meses, após o qual são apagados ou agregados.
+              <strong>Dados de audiência do Google Analytics:</strong> os dados de cada visita ficam disponíveis
+              pelo prazo de retenção configurado na ferramenta (2 ou 14 meses); relatórios agregados podem ser
+              mantidos por mais tempo.
             </li>
             <li>
               <strong>Cookies:</strong> cada um tem prazo próprio, de alguns minutos a alguns meses. Você pode

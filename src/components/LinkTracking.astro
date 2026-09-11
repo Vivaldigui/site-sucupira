@@ -1,0 +1,119 @@
+---
+// Rastreia, com um listener só, os cliques que servem a decisões futuras:
+//
+// - `clique_para_loja` { destino_path, posicao_link, texto_link }: link para a
+//   loja oficial. Grava também o cookie `sn_blog_origem` (30 dias, domínio raiz)
+//   com o caminho do artigo, para a loja poder ligar uma compra ao blog. O nome é
+//   próprio de propósito: o GTM da loja já usa `sn_origem` para outra coisa.
+// - `clique_interno` { destino_path, posicao_link, texto_link }: navegação entre
+//   páginas do blog — mostra quais links internos, cards e "Leia também" funcionam.
+// - `clique_indice` { secao }: clique no índice "Neste artigo".
+// - `clique_contato` { canal, posicao_link }: WhatsApp, telefone ou e-mail.
+//
+// Link externo comum não entra: a medição otimizada do GA4 já registra clique de
+// saída. O artigo de origem também não vai como parâmetro: todo evento do GA4 já
+// leva o caminho da página.
+//
+// A loja é reconhecida pelo host exato (sem "www."), nunca por sufixo: o blog
+// também termina em ".sucupiranaturale.com.br" e seria contado como loja.
+import { SALES_SITE_URL } from '../consts';
+
+const storeRootHost = new URL(SALES_SITE_URL).hostname.replace(/^www\./, '');
+const ORIGIN_COOKIE_MAX_AGE = 30 * 24 * 60 * 60;
+
+const trackingScript = `
+(function () {
+  var STORE_ROOT_HOST = ${JSON.stringify(storeRootHost)};
+  var ORIGIN_COOKIE_MAX_AGE = ${ORIGIN_COOKIE_MAX_AGE};
+
+  function send(name, params) {
+    if (typeof window.gtag === 'function') window.gtag('event', name, params);
+  }
+
+  function linkPosition(anchor) {
+    if (anchor.closest('.article-toc')) return 'indice';
+    if (anchor.closest('.blog-header')) return 'cabecalho';
+    if (anchor.closest('.blog-footer')) return 'rodape';
+    if (anchor.closest('.breadcrumb')) return 'breadcrumb';
+    if (anchor.closest('.mobile-sticky-cta')) return 'barra-fixa';
+    if (anchor.closest('.product-cta')) return 'bloco-cta';
+    if (anchor.closest('.related-posts')) return 'leia-tambem';
+    if (anchor.closest('.pagination')) return 'paginacao';
+    if (anchor.closest('.post-card, [data-search-grid]')) return 'listagem';
+    if (anchor.closest('.article-body')) return 'corpo-do-texto';
+    return 'outro';
+  }
+
+  // Card inteiro clicável (listagem, "Leia também") junta tag, título e descrição
+  // sem espaço entre eles. Quando o link tem título dentro, usa só o título.
+  function linkText(anchor) {
+    var heading = anchor.querySelector ? anchor.querySelector('h2, h3, h4') : null;
+    var source = heading || anchor;
+    return (source.textContent || '').replace(/\\s+/g, ' ').trim().slice(0, 100);
+  }
+
+  function rememberBlogOrigin() {
+    var value = encodeURIComponent(window.location.pathname).slice(0, 200);
+    document.cookie = 'sn_blog_origem=' + value + '; domain=.' + STORE_ROOT_HOST +
+      '; path=/; max-age=' + ORIGIN_COOKIE_MAX_AGE + '; SameSite=Lax; Secure';
+  }
+
+  function handle(event) {
+    if (event.type === 'auxclick' && event.button !== 1) return;
+    var anchor = event.target && event.target.closest ? event.target.closest('a[href]') : null;
+    if (!anchor) return;
+
+    var href = anchor.getAttribute('href') || '';
+    var position = linkPosition(anchor);
+
+    if (/^tel:/i.test(href)) {
+      send('clique_contato', { canal: 'telefone', posicao_link: position });
+      return;
+    }
+    if (/^mailto:/i.test(href)) {
+      send('clique_contato', { canal: 'email', posicao_link: position });
+      return;
+    }
+
+    var url;
+    try {
+      url = new URL(anchor.href, window.location.href);
+    } catch (error) {
+      return;
+    }
+    var host = url.hostname.replace(/^www\\./, '');
+
+    if (host === 'wa.me' || host === 'api.whatsapp.com') {
+      send('clique_contato', { canal: 'whatsapp', posicao_link: position });
+      return;
+    }
+
+    if (host === STORE_ROOT_HOST) {
+      rememberBlogOrigin();
+      send('clique_para_loja', { destino_path: url.pathname, posicao_link: position, texto_link: linkText(anchor) });
+      return;
+    }
+
+    if (url.hostname !== window.location.hostname) return;
+
+    if (url.pathname === window.location.pathname) {
+      if (url.hash && position === 'indice') {
+        var section = url.hash.slice(1);
+        try {
+          section = decodeURIComponent(section);
+        } catch (error) {}
+        send('clique_indice', { secao: section.slice(0, 100) });
+      }
+      return;
+    }
+
+    send('clique_interno', { destino_path: url.pathname, posicao_link: position, texto_link: linkText(anchor) });
+  }
+
+  document.addEventListener('click', handle, true);
+  document.addEventListener('auxclick', handle, true);
+})();
+`;
+---
+
+<script is:inline set:html={trackingScript}></script>

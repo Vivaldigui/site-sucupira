@@ -1,7 +1,8 @@
 ---
 import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
-import StoreClickTracking from '../components/StoreClickTracking.astro';
+import LinkTracking from '../components/LinkTracking.astro';
+import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import InfoBox from '../components/InfoBox.astro';
 import ProductCTA from '../components/ProductCTA.astro';
 import SiteHeader from '../components/SiteHeader.astro';
@@ -114,8 +115,9 @@ const schema = JSON.stringify({
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <AdSense />
-    <GoogleAnalytics />
-    <StoreClickTracking />
+    <GoogleAnalytics contentGroup="institucional" />
+    <LinkTracking />
+    <WebVitalsTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
   <body>

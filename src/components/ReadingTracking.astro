@@ -1,0 +1,101 @@
+---
+// Mede se o artigo foi lido, além do tempo de engajamento que o GA4 já registra.
+//
+// - `leitura_artigo` { percentual }: o leitor passou de 25, 50, 75 ou 100% do
+//   corpo do texto. O scroll automático do GA4 só registra 90% da página inteira,
+//   que inclui CTAs e "Leia também".
+// - `artigo_lido` { chegou_em, segundos_visiveis }: chegou em "Perguntas
+//   frequentes" (ou ao fim do texto, se não houver FAQ) com a página visível por
+//   pelo menos MIN_SECONDS. Chegar lá rolando em poucos segundos não conta.
+//
+// O artigo de origem não vai como parâmetro: todo evento do GA4 já leva o
+// caminho da página. Precisa ficar no fim do <body>, depois do .article-body.
+const MIN_SECONDS = 30;
+
+const trackingScript = `
+(function () {
+  var body = document.querySelector('.article-body');
+  if (!body) return;
+
+  var MIN_SECONDS = ${MIN_SECONDS};
+  var THRESHOLDS = [25, 50, 75, 100];
+  var sentDepth = {};
+
+  function send(name, params) {
+    if (typeof window.gtag === 'function') window.gtag('event', name, params);
+  }
+
+  // Profundidade: fração do corpo do texto que já passou pela base da tela.
+  var ticking = false;
+  function measureDepth() {
+    ticking = false;
+    var rect = body.getBoundingClientRect();
+    if (rect.height <= 0) return;
+    var percent = Math.max(0, Math.min(100, Math.floor(((window.innerHeight - rect.top) / rect.height) * 100)));
+    for (var i = 0; i < THRESHOLDS.length; i++) {
+      var threshold = THRESHOLDS[i];
+      if (percent >= threshold && !sentDepth[threshold]) {
+        sentDepth[threshold] = true;
+        send('leitura_artigo', { percentual: String(threshold) });
+      }
+    }
+    if (sentDepth[100]) window.removeEventListener('scroll', onScroll);
+  }
+  function onScroll() {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(measureDepth);
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  measureDepth();
+
+  // Tempo com a página visível: aba em segundo plano não conta.
+  var visibleMs = 0;
+  var visibleSince = document.visibilityState === 'visible' ? Date.now() : null;
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') {
+      visibleSince = Date.now();
+    } else if (visibleSince !== null) {
+      visibleMs += Date.now() - visibleSince;
+      visibleSince = null;
+    }
+  });
+  function visibleSeconds() {
+    return Math.round((visibleMs + (visibleSince !== null ? Date.now() - visibleSince : 0)) / 1000);
+  }
+
+  var faq = document.getElementById('perguntas-frequentes');
+  var hasFaq = Boolean(faq && body.contains(faq));
+  var target = hasFaq ? faq : body.lastElementChild;
+  if (!target || !('IntersectionObserver' in window)) return;
+
+  var readSent = false;
+  var waitTimer = null;
+  function tryMarkRead() {
+    if (readSent) return;
+    var seconds = visibleSeconds();
+    if (seconds >= MIN_SECONDS) {
+      readSent = true;
+      if (waitTimer !== null) window.clearInterval(waitTimer);
+      send('artigo_lido', { chegou_em: hasFaq ? 'faq' : 'fim_do_texto', segundos_visiveis: seconds });
+    } else if (waitTimer === null) {
+      waitTimer = window.setInterval(tryMarkRead, 5000);
+    }
+  }
+
+  var observer = new IntersectionObserver(function (entries) {
+    for (var i = 0; i < entries.length; i++) {
+      if (entries[i].isIntersecting) {
+        observer.disconnect();
+        tryMarkRead();
+        return;
+      }
+    }
+  });
+  observer.observe(target);
+})();
+`;
+---
+
+<script is:inline set:html={trackingScript}></script>

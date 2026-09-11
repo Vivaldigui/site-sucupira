@@ -2,7 +2,9 @@
 import ArticleHeader from '../components/ArticleHeader.astro';
 import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
-import StoreClickTracking from '../components/StoreClickTracking.astro';
+import ReadingTracking from '../components/ReadingTracking.astro';
+import LinkTracking from '../components/LinkTracking.astro';
+import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import InfoBox from '../components/InfoBox.astro';
 import MobileStickyCTA from '../components/MobileStickyCTA.astro';
 import ProductCTA from '../components/ProductCTA.astro';
@@ -53,6 +55,7 @@ interface Props {
   headings?: Heading[];
   relatedPosts?: RelatedPost[];
   faqItems?: FaqItem[];
+  wordCount?: number;
 }
 
 const {
@@ -68,9 +71,32 @@ const {
   headings = [],
   relatedPosts = [],
   faqItems = [],
+  wordCount,
 } = Astro.props;
 
 const canonicalUrl = blogUrl(`/${slug}/`);
+
+// Dados do artigo que seguem com todos os eventos do GA4 desta página.
+// `artigo_tipo` separa os artigos que falam da marca dos que falam da condição.
+const articleWordBand =
+  wordCount === undefined
+    ? 'desconhecido'
+    : wordCount < 800
+      ? 'ate-799'
+      : wordCount < 1500
+        ? '800-1499'
+        : wordCount < 2500
+          ? '1500-2499'
+          : '2500-ou-mais';
+const articleAnalytics = {
+  artigo_tipo: /sucupira/i.test(title) ? 'marca' : 'condicao',
+  artigo_tag_principal: tags.find((tag) => tag !== 'Sucupira') ?? tags[0] ?? 'sem-tag',
+  artigo_tags: tags.join(' | '),
+  artigo_publicado_em: publishDate.toISOString().slice(0, 7),
+  artigo_atualizado: updatedDate ? 'sim' : 'nao',
+  artigo_faq: faqItems.length > 0 ? 'sim' : 'nao',
+  artigo_palavras: articleWordBand,
+};
 const ogImage = blogAssetUrl(ogImagePath);
 // Keep the browser/search title under ~60 characters. Use the optional
 // `seoTitle` override when set, and only append the site name while it still fits.
@@ -216,8 +242,9 @@ const schema = JSON.stringify({
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <AdSense />
-    <GoogleAnalytics />
-    <StoreClickTracking />
+    <GoogleAnalytics contentGroup="artigo" pageParams={articleAnalytics} />
+    <LinkTracking />
+    <WebVitalsTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>
   <body>
@@ -337,5 +364,6 @@ const schema = JSON.stringify({
     </footer>
 
     <MobileStickyCTA />
+    <ReadingTracking />
   </body>
 </html>
