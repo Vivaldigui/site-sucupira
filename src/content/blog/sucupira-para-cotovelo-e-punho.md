@@ -2,7 +2,7 @@
 title: "Sucupira para dor no cotovelo e no punho: causas e cuidados"
 seoTitle: "Sucupira para cotovelo e punho"
 description: "Sucupira serve para dor no cotovelo ou no punho? Epicondilite, túnel do carpo e tendinite de De Quervain têm causas diferentes — e pedem cuidados diferentes."
-publishDate: "2026-09-28T09:00:00-03:00"
+publishDate: "2026-10-03T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Cotovelo e Punho", "Articulações", "Uso Tradicional", "Saúde 45+"]

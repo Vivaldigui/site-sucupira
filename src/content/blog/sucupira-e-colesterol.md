@@ -2,7 +2,7 @@
 title: "Sucupira e colesterol: pode usar junto?"
 seoTitle: "Sucupira e colesterol"
 description: "Sucupira interfere no colesterol? Não há estudo em pessoas — o que pesa de verdade é a medicação para colesterol já em uso e o álcool de preparos caseiros."
-publishDate: "2026-09-14T09:00:00-03:00"
+publishDate: "2026-09-12T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Colesterol", "Medicamentos Contínuos", "Segurança no Uso", "Saúde 45+"]

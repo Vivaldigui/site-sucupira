@@ -2,7 +2,7 @@
 title: "Sucupira para dor no pescoço e torcicolo: causas e cuidados"
 seoTitle: "Sucupira para dor no pescoço e torcicolo"
 description: "Sucupira serve para dor no pescoço? Torcicolo, cervicalgia postural e hérnia cervical têm causas diferentes — e cada uma pede uma resposta diferente."
-publishDate: "2026-09-25T09:00:00-03:00"
+publishDate: "2026-09-29T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor no Pescoço", "Articulações", "Uso Tradicional", "Saúde 45+"]

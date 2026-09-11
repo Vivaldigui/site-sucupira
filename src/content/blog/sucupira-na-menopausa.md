@@ -2,7 +2,7 @@
 title: "Sucupira na menopausa: por que a dor articular piora nessa fase"
 seoTitle: "Sucupira na menopausa"
 description: "Dor articular piora na menopausa? A queda de estrogênio explica boa parte disso. Onde o uso tradicional da sucupira entra, e o que ajuda mais nessa fase."
-publishDate: "2026-09-18T09:00:00-03:00"
+publishDate: "2026-09-19T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Menopausa", "Articulações", "Uso Tradicional", "Saúde 45+"]

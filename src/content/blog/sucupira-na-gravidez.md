@@ -2,7 +2,7 @@
 title: "Sucupira na gravidez: pode usar?"
 seoTitle: "Sucupira na gravidez"
 description: "Sucupira na gravidez: pode usar? Não. Entenda por que gestantes e lactantes devem evitar, mesmo sem dano documentado — e o que fazer com a dor articular."
-publishDate: "2026-09-23T09:00:00-03:00"
+publishDate: "2026-09-26T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Contraindicações", "Segurança no Uso", "Uso Tradicional"]

@@ -2,7 +2,7 @@
 title: "Sucupira para dor no ombro: causas e cuidados"
 seoTitle: "Sucupira para dor no ombro"
 description: "Sucupira serve para dor no ombro? Tendinite, bursite, capsulite adesiva e dor que vem da coluna cervical têm causas diferentes — cada uma pede um cuidado."
-publishDate: "2026-09-16T09:00:00-03:00"
+publishDate: "2026-09-15T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dor no Ombro", "Articulações", "Uso Tradicional", "Saúde 45+"]

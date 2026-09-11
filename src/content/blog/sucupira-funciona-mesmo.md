@@ -2,7 +2,7 @@
 title: "Sucupira funciona mesmo?"
 seoTitle: "Sucupira funciona mesmo?"
 description: "Sucupira funciona mesmo ou é só reputação popular? O que o uso tradicional sustenta, o que a ciência já mostrou, e o que ainda não foi provado em pessoas."
-publishDate: "2026-09-21T09:00:00-03:00"
+publishDate: "2026-09-22T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Ciência da Sucupira", "Uso Tradicional", "Segurança no Uso"]
