@@ -2,7 +2,7 @@
 title: "Sucupira é confiável? Como verificar antes de comprar"
 description: "Sucupira é confiável? Separe a planta, o mercado, o produto e a empresa — e veja como verificar cada um antes de gastar dinheiro."
 publishDate: 2026-08-31T15:00:00-03:00
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-10T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Segurança no Uso", "Ciência da Sucupira", "Extrato de Sucupira"]
@@ -69,19 +69,19 @@ O que isso significa para você: o risco existe, é documentado e é sério, e e
 
 ## 3. Como verificar se um produto específico é confiável
 
-### O que "dispensado de registro" realmente significa
+### "Não tem registro na ANVISA" não quer dizer irregular
 
 Quase todo artigo sobre o tema diz: "verifique se o produto tem registro na ANVISA". O conselho parece sensato e, para várias categorias, **está errado**.
 
-Existem categorias de produtos dispensadas de registro — a RDC 27/2010 da ANVISA, ainda vigente e atualizada pela RDC 240/2018, define quais são. Um produto legitimamente enquadrado nessas categorias **não tem número de registro para você consultar**. Procurar por um número que não deveria existir e concluir que o produto é irregular é um erro.
+Desde setembro de 2024, a regularização de alimentos segue a RDC 843/2024 da ANVISA, que revogou a antiga RDC 27/2010, e a IN 281/2024, que lista as categorias. Conforme a categoria, o produto é **registrado** na ANVISA, **notificado** na ANVISA ou **comunicado** à vigilância sanitária do estado ou do município, e algumas categorias são dispensadas de regularização. Número de registro só existe no primeiro caso: o alimento notificado traz no rótulo a frase "Alimento notificado na Anvisa:" seguida do número do processo, e o produto comunicado à vigilância local **não tem número na ANVISA para você consultar**. Procurar por um número de registro que não deveria existir e concluir que o produto é irregular é um erro.
 
 Ao mesmo tempo — e isto é igualmente importante:
 
-> **Dispensado de registro não é o mesmo que aprovado pela ANVISA.**
+> **Nenhum desses caminhos é o mesmo que "aprovado pela ANVISA".**
 
-Dispensa significa que a categoria não exige avaliação prévia da agência. Não é aval. Qualquer produto que se anuncie como "aprovado pela ANVISA" está usando um argumento que a própria agência classifica como enganoso. **Essa frase, sozinha, já é motivo para desconfiar.**
+A notificação é automática, sem avaliação prévia da agência, e a própria RDC 843/2024 diz que o comunicado de início de fabricação não torna o produto aprovado pela autoridade sanitária. Qualquer produto que se anuncie como "aprovado pela ANVISA" está usando um argumento que a própria agência classifica como enganoso. **Essa frase, sozinha, já é motivo para desconfiar.**
 
-A dispensa de registro **não desobriga** a empresa de cumprir os regulamentos técnicos de fabricação, rotulagem e controle de contaminantes.
+Nenhuma dessas formas **desobriga** a empresa de cumprir os regulamentos técnicos de fabricação, rotulagem e controle de contaminantes: quem regulariza o produto responde pela composição, pela qualidade, pela segurança e pela rotulagem.
 
 ### O que verificar de fato
 
@@ -149,9 +149,9 @@ Vale ler [quem não deve usar](/sucupira-contraindicacoes/) e [o que se sabe sob
 
 Seria incoerente publicar uma lista de critérios e não aplicá-la ao próprio produto. Então, com a mesma régua:
 
-**O que está documentado:** a Sucupira Naturale é extrato líquido de sucupira em frasco de 400 ml, pronto para tomar. A composição declarada é 49,75% de semente graúda branca de sucupira moída, 49,75% de água mineral e 0,5% de álcool de cereais. A validade informada é de 2 anos a partir da fabricação. A empresa — Indústria e Comércio de Resina de Sementes de Sucupira em Conserva, CNPJ 10.230.957/0001-88, sediada em Itanhandu (MG) — declara responsável técnica com registro no conselho de farmácia e mantém atendimento por telefone e WhatsApp. O enquadramento declarado é de produto dispensado de registro, com base na RDC 27/2010.
+**O que está documentado:** a Sucupira Naturale é extrato líquido de sucupira em frasco de 400 ml, pronto para tomar. A composição declarada é 49,75% de semente graúda branca de sucupira moída, 49,75% de água mineral e 0,5% de álcool de cereais. A validade informada é de 2 anos a partir da fabricação. A empresa — Indústria e Comércio de Resina de Sementes de Sucupira em Conserva, CNPJ 10.230.957/0001-88, sediada em Itanhandu (MG) — declara responsável técnica com registro no conselho de farmácia e mantém atendimento por telefone e WhatsApp.
 
-**O que a régua deste artigo cobra e ainda não está público:** a razão de extração e a identificação botânica da espécie no rótulo não estão informadas na página do produto. Se esses dados importam para a sua decisão — e, pelos critérios acima, eles importam — o caminho é perguntar antes de comprar. É exatamente o que este artigo recomenda fazer com qualquer marca, inclusive esta.
+**O que a régua deste artigo cobra e ainda não está público:** a razão de extração, a identificação botânica da espécie no rótulo e a forma de regularização do produto pelas regras da ANVISA em vigor desde 2024 não estão informadas na página do produto. Se esses dados importam para a sua decisão — e, pelos critérios acima, eles importam — o caminho é perguntar antes de comprar. É exatamente o que este artigo recomenda fazer com qualquer marca, inclusive esta.
 
 A sucupira não é medicamento, e a Sucupira Naturale não é apresentada como tratamento, prevenção ou cura de doença.
 
@@ -177,7 +177,7 @@ A planta tem uso tradicional consolidado no Brasil e compostos estudados em labo
 
 **A sucupira tem registro na ANVISA?**
 
-Depende da categoria do produto. Algumas categorias são dispensadas de registro pela RDC 27/2010 e, nesses casos, não existe número de registro para consultar. Dispensa de registro não significa aprovação — nenhum produto pode se anunciar como "aprovado pela ANVISA".
+Depende da categoria do produto. Pelas regras em vigor desde setembro de 2024 (RDC 843/2024), um alimento pode ser registrado ou notificado na ANVISA, comunicado à vigilância sanitária local ou, em algumas categorias, dispensado. Número de registro só existe no primeiro caso; o alimento notificado traz no rótulo o número do processo de notificação. Nenhum desses caminhos significa aprovação — nenhum produto pode se anunciar como "aprovado pela ANVISA".
 
 **Existe estudo comprovando que a sucupira funciona?**
 
@@ -205,4 +205,4 @@ Sim, e está documentado. Uma tese de doutorado da Unicamp analisou produtos com
 
 **O que significa "dispensado de registro"?**
 
-Significa que a categoria do produto não exige avaliação prévia da ANVISA antes de ser comercializada. É uma desobrigação de registro, não um aval. A empresa continua obrigada a cumprir as regras de fabricação, rotulagem e controle de qualidade.
+Era a expressão usada pela RDC 27/2010, norma revogada em setembro de 2024. As regras atuais, da RDC 843/2024, falam em registro, notificação, comunicado de início de fabricação e, para algumas categorias, dispensa de regularização. Nenhuma dessas formas é aval da agência, e a empresa continua obrigada a cumprir as regras de fabricação, rotulagem e controle de qualidade.

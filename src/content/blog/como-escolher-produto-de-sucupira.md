@@ -3,7 +3,7 @@ title: "Como escolher um produto de sucupira com segurança?"
 seoTitle: "Como escolher um produto de sucupira"
 description: "O checklist para ler o rótulo de um produto de sucupira antes de comprar, e o que a adulteração documentada pela Unicamp ensina sobre procedência."
 publishDate: "2026-08-28T11:00:00-03:00"
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-10T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Extrato de Sucupira", "Segurança no Uso"]
@@ -11,17 +11,17 @@ featured: false
 ogImage: "/assets/blog/como-escolher-produto-de-sucupira.webp"
 ---
 
-**Resposta rápida:** o que separa um produto de sucupira de outro é verificável antes da compra — espécie no rótulo, parte da planta, composição declarada, lote, validade, CNPJ e responsável técnico. O conselho mais repetido na internet, "confira o registro na ANVISA", está errado para várias categorias: elas são dispensadas de registro, e o número que você procura não deveria existir.
+**Resposta rápida:** o que separa um produto de sucupira de outro é verificável antes da compra — espécie no rótulo, parte da planta, composição declarada, lote, validade, CNPJ e responsável técnico. O conselho mais repetido na internet, "confira o registro na ANVISA", está errado para várias categorias: elas são notificadas na ANVISA ou comunicadas à vigilância sanitária local, e não registradas, então o número de registro que você procura não deveria existir.
 
 Esta é a página do checklist prático. Para a pergunta mais ampla — se a planta tem base, se o mercado é sério, se a empresa existe — veja [sucupira é confiável](/sucupira-e-confiavel/).
 
 ## Por que o conselho do registro na ANVISA não serve
 
-A RDC 27/2010 da ANVISA, ainda vigente e atualizada pela RDC 240/2018, define categorias de produto **dispensadas de registro**. Um produto legitimamente enquadrado nelas não tem número de registro para você consultar.
+Desde setembro de 2024, a RDC 843/2024 da ANVISA, que revogou a RDC 27/2010, e a IN 281/2024 definem como cada categoria de alimento é regularizada: **registro** ou **notificação** na ANVISA, **comunicado de início de fabricação** à vigilância sanitária local ou, para algumas categorias, dispensa. Número de registro só existe no primeiro caso. O alimento notificado traz no rótulo "Alimento notificado na Anvisa:" com o número do processo, e o produto comunicado não tem número na ANVISA.
 
-Procurar um número que não deveria existir e concluir que o produto é irregular é um erro. E o oposto também: **dispensa de registro não é aprovação**. Nenhum produto pode se anunciar como "aprovado pela ANVISA" — a própria agência classifica esse argumento como enganoso.
+Procurar um número que não deveria existir e concluir que o produto é irregular é um erro. E o oposto também: **nenhuma dessas formas é aprovação**. A notificação é automática, sem avaliação prévia, e a própria norma diz que o comunicado de início de fabricação não torna o produto aprovado. Nenhum produto pode se anunciar como "aprovado pela ANVISA" — a própria agência classifica esse argumento como enganoso.
 
-Dispensa também não desobriga a empresa de cumprir os regulamentos de fabricação, rotulagem e controle. Ela dispensa o registro, e só.
+Nenhuma delas desobriga a empresa de cumprir os regulamentos de fabricação, rotulagem e controle: quem regulariza o produto responde pela composição, pela qualidade, pela segurança e pela rotulagem.
 
 ## O checklist do rótulo
 
@@ -89,7 +89,7 @@ Nome científico da espécie, parte da planta usada, composição declarada em p
 
 **Preciso conferir o registro na ANVISA?**
 
-Depende da categoria. Várias são dispensadas de registro pela RDC 27/2010, e nesses casos não existe número para consultar. Dispensa de registro também não significa aprovação — nenhum produto pode se anunciar como "aprovado pela ANVISA".
+Depende da categoria. Pelas regras em vigor desde setembro de 2024, várias categorias de alimento são notificadas na ANVISA ou comunicadas à vigilância sanitária local, e não registradas; nesses casos, não existe número de registro para consultar. Nenhuma dessas formas significa aprovação — nenhum produto pode se anunciar como "aprovado pela ANVISA".
 
 **Existe risco de adulteração em produtos de sucupira?**
 

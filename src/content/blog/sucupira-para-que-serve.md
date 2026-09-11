@@ -3,7 +3,7 @@ title: "Sucupira: para que serve? Benefícios, usos e contraindicações"
 seoTitle: "Sucupira: para que serve? Benefícios e contraindicações"
 description: "Para que serve a sucupira, o que a evidência mostra e o que ainda não foi testado em pessoas — e por onde continuar, tema por tema."
 publishDate: 2025-06-01
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-10T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Uso Tradicional"]
@@ -123,4 +123,4 @@ Gestantes, lactantes e crianças menores de 13 anos. Quem tem doença renal ou h
 
 **A sucupira é medicamento?**
 
-Não. Não é medicamento e não se destina a diagnosticar, tratar, prevenir ou curar doenças. Algumas categorias de produto são dispensadas de registro pela RDC 27/2010 da ANVISA, e dispensa de registro não significa aprovação.
+Não. Não é medicamento e não se destina a diagnosticar, tratar, prevenir ou curar doenças. Alimentos seguem as regras de regularização da RDC 843/2024 da ANVISA (registro, notificação ou comunicado à vigilância sanitária local), e nenhuma dessas formas significa aprovação.
