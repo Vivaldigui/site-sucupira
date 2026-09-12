@@ -22,6 +22,31 @@
         "regex": "^/sucupira-liquida-e-melhor-que-capsula-para-dor/?$",
         "destination": "/cha-de-sucupira-capsula-ou-extrato/",
         "type": 301
+      },
+      {
+        "regex": "^/blog/sucupira-para-articulacoes-dor-nas-juntas/?$",
+        "destination": "/sucupira-para-articulacoes/",
+        "type": 301
+      },
+      {
+        "regex": "^/blog/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/?$",
+        "destination": "/sucupira-e-pressao-alta/",
+        "type": 301
+      },
+      {
+        "regex": "^/blog/sucupira-liquida-e-melhor-que-capsula-para-dor/?$",
+        "destination": "/cha-de-sucupira-capsula-ou-extrato/",
+        "type": 301
+      },
+      {
+        "regex": "^/blog/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/blog/(?P<slug>.+)$",
+        "destination": "/:slug",
+        "type": 301
       }
     ],
     "rewrites": [
