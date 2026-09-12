@@ -2,7 +2,7 @@
 title: "Sucupira para dor na coluna: pode ajudar? Veja como usar"
 description: "Sucupira para dor na coluna: o que diz o uso tradicional, diferença entre dor muscular e hérnia de disco, e cuidados antes de usar."
 publishDate: "2026-07-07T10:00:00-03:00"
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-12T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Dor na Coluna", "Mobilidade", "Saúde 45+", "Dores crônicas"]
@@ -33,7 +33,7 @@ Se você se encaixa no segundo grupo, o passo certo é procurar um médico antes
 
 Para quem está no primeiro grupo — desconforto muscular e postural — o uso tradicional da sucupira aparece de duas formas principais:
 
-- **Uso oral (extrato ou cápsulas):** busca um efeito mais geral de apoio anti-inflamatório, com dose conhecida quando se opta por um extrato padronizado.
+- **Uso oral (extrato ou cápsulas):** busca um efeito mais geral de apoio anti-inflamatório, com dose conhecida quando se opta por um extrato com composição declarada.
 - **Uso tópico (óleo de sucupira):** aplicado em massagem local na região lombar ou nas costas, associado ao alívio da tensão muscular pelo contato direto e pela massagem em si, que já ajuda a relaxar a musculatura.
 
 As duas formas podem ser usadas em conjunto, mas a decisão de combinar produtos deve considerar seu histórico de saúde e, principalmente, se você já tem diagnóstico de algum problema estrutural na coluna.

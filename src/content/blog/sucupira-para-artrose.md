@@ -2,7 +2,7 @@
 title: "Sucupira para artrose: ajuda mesmo?"
 description: "Entenda a sucupira para artrose com expectativas realistas, uso tradicional e cuidados antes de usar."
 publishDate: "2026-07-03T08:00:00-03:00"
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-12T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Artrose", "Dor no Joelho", "Mobilidade", "Ciência da Sucupira"]
@@ -45,12 +45,12 @@ Desconfie de qualquer promessa de resultado garantido ou cura rápida. A expecta
 
 A parte mais aproveitada é a **semente**, de onde saem as diferentes apresentações:
 
-- **Extrato líquido** — macerado da semente; é a forma de absorção mais rápida e dose fácil de ajustar;
+- **Extrato líquido** — macerado da semente; dose fácil de medir e de repetir;
 - **Cápsulas** — práticas para o uso contínuo e de sabor neutro;
 - **Óleo de sucupira** — em geral de uso externo, em massagens;
 - **Chá e garrafada** — preparos caseiros da tradição popular.
 
-No caso do **Extrato Sucupira Naturale**, a orientação é tomar **puro, sem diluir em água ou suco**, ajustando conforme a fase: cerca de 3 tampinhas por dia para manutenção, 5 para dor mediana e até 10 em fases de dor mais intensa. Pode ser tomado a qualquer hora do dia e não precisa de geladeira.
+No caso do **Extrato Sucupira Naturale**, a orientação é tomar **puro, sem diluir em água ou suco**, seguindo as faixas que o fabricante declara no rótulo: 3 tampinhas por dia para manutenção, 5 para dor mediana e 10 para dor aguda ou crônica. São faixas declaradas pelo fabricante, não dose calibrada pela intensidade da dor. Pode ser tomado a qualquer hora do dia e não precisa de geladeira.
 
 ## Cuidados e contraindicações
 
@@ -80,4 +80,4 @@ Não. Ela pode ser usada como apoio, mas não substitui medicamentos prescritos,
 
 **Qual a melhor forma de sucupira para artrose?**
 
-O extrato líquido tende a ter absorção mais rápida e dose fácil de ajustar; as cápsulas são práticas para o uso contínuo. O mais importante é a qualidade e a procedência do produto.
+O extrato líquido tem dose fácil de medir e de repetir; as cápsulas são práticas para o uso contínuo. Não há estudo comparando a absorção das duas formas. O mais importante é a qualidade e a procedência do produto.

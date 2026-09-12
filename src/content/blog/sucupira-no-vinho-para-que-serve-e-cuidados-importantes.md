@@ -2,7 +2,7 @@
 title: "Sucupira no vinho: como preparar e o cuidado com o álcool"
 description: "A receita tradicional da sucupira no vinho passo a passo, para que o uso popular associa a bebida e por que o álcool do preparo é o principal ponto de atenção."
 publishDate: "2026-07-06T18:00:00-03:00"
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-12T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Segurança no Uso"]
@@ -33,10 +33,10 @@ O consumo popular costuma ser em doses pequenas — um cálice de aproximadament
 
 ### Comparação rápida: garrafada no vinho x extrato pronto
 
-| Critério | Garrafada no vinho | Extrato padronizado |
+| Critério | Garrafada no vinho | Extrato pronto |
 |---|---|---|
 | Controle da dose | Imprevisível, varia por preparo | Dose definida a cada uso |
-| Presença de álcool | Sim | Não |
+| Presença de álcool | Sim, em quantidade que muda a cada preparo | Declarada no rótulo: o extrato da Sucupira Naturale traz 0,5% de álcool de cereais |
 | Tempo até poder usar | Cerca de 7 dias de maceração | Uso imediato |
 | Validade | Curta, cerca de 30 dias | Maior, sem depender de conservação caseira |
 | Praticidade no dia a dia | Exige preparo e conservação | Pronto para tomar |
@@ -53,7 +53,7 @@ Para quem tem problema no fígado, está gestante ou prefere evitar álcool na r
 
 **Interação com medicamentos.** A possibilidade de a sucupira interferir em anticoagulantes, anti-inflamatórios e analgésicos é hipótese baseada em mecanismo: não existem estudos de interação em humanos, então a resposta é desconhecida, não medida. Já a interação do álcool com diversos remédios é documentada. Somando as duas coisas, quem usa medicação contínua tem motivo concreto para cautela com esta preparação especificamente. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/).
 
-**Dose imprevisível.** Diferente de um extrato padronizado, a garrafada caseira não tem controle de concentração. Duas pessoas podem seguir a "mesma" receita e obter líquidos com quantidades bem diferentes de compostos ativos.
+**Dose imprevisível.** Diferente de um extrato com composição declarada, a garrafada caseira não tem controle de concentração. Duas pessoas podem seguir a "mesma" receita e obter líquidos com quantidades bem diferentes de compostos ativos.
 
 **Validade e conservação.** Preparos caseiros com plantas maceradas têm vida útil curta e podem se deteriorar sem sinais visíveis óbvios, o que é outro ponto de atenção para quem guarda a garrafa por muito tempo.
 
@@ -61,7 +61,7 @@ Quem usa medicamentos contínuos, tem doença renal ou hepática, está gestante
 
 ## Existe uma forma mais prática, com dose conhecida?
 
-Sim. É por causa dessa imprevisibilidade que muita gente tem optado pelo extrato de sucupira padronizado, como o **Sucupira Naturale**, que entrega uma dose definida a cada uso, sem depender de álcool nem de tempo de maceração caseira.
+Sim. É por causa dessa imprevisibilidade que muita gente tem optado pelo extrato pronto, como o **Sucupira Naturale**, que traz composição declarada em percentual e dose definida a cada uso, sem depender do tempo de maceração caseira.
 
 Para quem tem o hábito da garrafada e quer manter alguma continuidade, o ponto que muda é a previsibilidade: o extrato dispensa a maceração e a dose sai definida na fabricação, em vez de variar com o tamanho da semente e o tempo de repouso.
 
@@ -83,4 +83,4 @@ A possibilidade de interação da sucupira com anticoagulantes, anti-inflamatór
 
 **Existe uma forma mais segura de tomar sucupira?**
 
-Sim. Extratos e cápsulas padronizados oferecem dose definida e não dependem de álcool, o que reduz variáveis de risco em relação à garrafada caseira.
+Mais previsível, sim. Extratos e cápsulas prontos trazem dose definida e composição declarada no rótulo, enquanto a garrafada caseira muda a cada preparo. Previsibilidade não é o mesmo que segurança comprovada, e o álcool não desaparece: o que muda é que a quantidade passa a ser declarada.

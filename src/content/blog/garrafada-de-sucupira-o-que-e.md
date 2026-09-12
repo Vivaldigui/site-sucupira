@@ -2,7 +2,7 @@
 title: "Garrafada de sucupira: o que é e cuidados importantes"
 description: "Entenda o que é a garrafada de sucupira, por que ela é popular, os riscos das misturas caseiras e quando buscar orientação profissional."
 publishDate: "2026-07-04T15:00:00-03:00"
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-12T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Uso Tradicional", "Plantas Medicinais", "Segurança no Uso", "Contraindicações"]
@@ -34,18 +34,18 @@ Ainda assim, vale a leitura honesta: boa parte dessas evidências vem de estudos
 
 O problema da garrafada é a **falta de controle**: não se sabe a concentração real, a dose fica imprecisa e muitas receitas levam **álcool**, que não combina com vários medicamentos nem com quem tem problemas de fígado. Misturar várias plantas na mesma garrafa aumenta ainda mais o risco.
 
-Por isso, apresentações padronizadas — como o extrato pronto — oferecem dose conhecida e procedência clara. Quem usa medicamentos deve conversar com um profissional antes de qualquer garrafada.
+Por isso, apresentações prontas oferecem dose declarada no rótulo e procedência clara. Quem usa medicamentos deve conversar com um profissional antes de qualquer garrafada.
 
 ## Como a sucupira é usada?
 
 A parte mais aproveitada é a **semente**, de onde saem as diferentes apresentações:
 
-- **Extrato líquido** — macerado da semente; é a forma de absorção mais rápida e dose fácil de ajustar;
+- **Extrato líquido** — macerado da semente; dose fácil de medir e de repetir;
 - **Cápsulas** — práticas para o uso contínuo e de sabor neutro;
 - **Óleo de sucupira** — em geral de uso externo, em massagens;
 - **Chá e garrafada** — preparos caseiros da tradição popular.
 
-No caso do **Extrato Sucupira Naturale**, a orientação é tomar **puro, sem diluir em água ou suco**, ajustando conforme a fase: cerca de 3 tampinhas por dia para manutenção, 5 para dor mediana e até 10 em fases de dor mais intensa. Pode ser tomado a qualquer hora do dia e não precisa de geladeira.
+No caso do **Extrato Sucupira Naturale**, a orientação é tomar **puro, sem diluir em água ou suco**, seguindo as faixas que o fabricante declara no rótulo: 3 tampinhas por dia para manutenção, 5 para dor mediana e 10 para dor aguda ou crônica. São faixas declaradas pelo fabricante, não dose calibrada pela intensidade da dor. Pode ser tomado a qualquer hora do dia e não precisa de geladeira.
 
 ## Cuidados e contraindicações
 
@@ -72,4 +72,4 @@ Não sem orientação. O álcool interage com vários medicamentos e sobrecarreg
 
 **Garrafada ou extrato pronto?**
 
-O extrato pronto oferece dose padronizada e procedência clara, sendo em geral a opção mais previsível e segura.
+O extrato pronto oferece dose declarada e procedência clara, sendo em geral a opção mais previsível.
