@@ -647,10 +647,6 @@ input {
   background: var(--green-soft);
 }
 
-.summary-topics {
-  color: var(--muted);
-  font-size: 0.86rem;
-}
 
 .article-toc {
   margin: 1.35rem 0;
