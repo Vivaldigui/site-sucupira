@@ -49,7 +49,7 @@ No caso do **Extrato Sucupira Naturale**, a orientação é tomar **puro, sem di
 
 ## Cuidados e contraindicações
 
-Mesmo sendo natural, a sucupira pede atenção. Devem **buscar orientação profissional antes de usar**: gestantes, lactantes, crianças, idosos frágeis, pessoas com doença renal ou hepática, com gastrite ou úlcera, e quem usa medicamentos contínuos — em especial **anticoagulantes**, remédios de **pressão**, **diabetes** e **anti-inflamatórios**, pela possibilidade de interação. Nunca interrompa um medicamento prescrito por conta própria.
+Mesmo sendo natural, a sucupira pede atenção. Devem **buscar orientação profissional antes de usar**: gestantes, lactantes, crianças, [idosos frágeis](/sucupira-para-idosos/), pessoas com doença renal ou hepática, com gastrite ou úlcera, e quem usa medicamentos contínuos — em especial **anticoagulantes**, remédios de **pressão**, **diabetes** e **anti-inflamatórios**, pela possibilidade de interação. Nunca interrompa um medicamento prescrito por conta própria.
 
 Procure atendimento se houver dor forte, febre, inchaço importante, vermelhidão, perda de força, queda recente ou piora rápida dos sintomas. O conteúdo do blog informa, mas não substitui a avaliação individual.
 

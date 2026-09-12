@@ -33,7 +33,7 @@ O uso tradicional brasileiro da sucupira é desconforto articular. Nunca foi fib
 
 ## Onde um apoio complementar pode caber
 
-Quem tem fibromialgia raramente tem só fibromialgia. Dor cervical, dor lombar, rigidez ao acordar, tensão muscular e quadros articulares associados são frequentes no mesmo corpo — e esses, sim, são o território de uso tradicional da planta.
+Quem tem fibromialgia raramente tem só fibromialgia. Dor cervical, [dor lombar](/dor-lombar-o-que-fazer/), rigidez ao acordar, tensão muscular e quadros articulares associados são frequentes no mesmo corpo — e esses, sim, são o território de uso tradicional da planta.
 
 A distinção prática: usar sucupira esperando que ela resolva a fibromialgia leva à frustração. Usá-la como apoio para o desconforto musculoesquelético que convive com o quadro é uma expectativa proporcional ao que se sabe.
 

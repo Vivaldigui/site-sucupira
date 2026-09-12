@@ -53,7 +53,7 @@ Vale redobrar a atenção à procedência: análises já identificaram produtos 
 
 ## 6. Garra-do-diabo (Harpagophytum)
 
-Planta africana com alguns ensaios clínicos mostrando redução de dor lombar e melhora funcional em osteoartrite, com efeito relatado como comparável a anti-inflamatórios convencionais em dor leve a moderada em parte dos estudos disponíveis.
+Planta africana com alguns ensaios clínicos mostrando redução de [dor lombar](/dor-lombar-o-que-fazer/) e melhora funcional em osteoartrite, com efeito relatado como comparável a anti-inflamatórios convencionais em dor leve a moderada em parte dos estudos disponíveis.
 
 **Cuidado:** contraindicada para quem tem úlcera péptica ou gastrite, e pode interagir com medicamentos para diabetes e coração.
 

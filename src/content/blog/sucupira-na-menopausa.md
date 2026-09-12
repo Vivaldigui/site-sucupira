@@ -16,7 +16,7 @@ Muita mulher que nunca teve dor de joelho ou de mão percebe o desconforto apare
 
 ## Por que a menopausa muda a percepção da dor articular
 
-O estrogênio tem papel na manutenção da cartilagem e no controle de processos inflamatórios nas articulações. Quando os níveis caem na transição menopáusica, é comum aparecer ou se intensificar rigidez matinal, dor em mãos, joelhos e ombros, e sensação geral de "articulação mais sensível" — um quadro que a literatura médica chama de artralgia da menopausa.
+O estrogênio tem papel na manutenção da cartilagem e no controle de processos inflamatórios nas articulações. Quando os níveis caem na transição menopáusica, é comum aparecer ou se intensificar rigidez matinal, dor em mãos, joelhos e [ombros](/sucupira-para-dor-no-ombro/), e sensação geral de "articulação mais sensível" — um quadro que a literatura médica chama de artralgia da menopausa.
 
 Isso não significa que toda dor articular depois dos 45 seja "coisa da menopausa" — artrose, artrite e outras causas continuam existindo e precisam ser consideradas. Mas, quando a dor aparece ou piora junto com outros sinais da transição (ciclos irregulares, ondas de calor, alterações de sono), a queda hormonal é uma explicação plausível a considerar. Ver [rigidez nas articulações pela manhã](/rigidez-nas-articulacoes-pela-manha/) e [dor nas juntas depois dos 50](/dor-nas-juntas-depois-dos-50/) para o quadro mais amplo do envelhecimento articular.
 

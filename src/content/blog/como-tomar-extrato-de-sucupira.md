@@ -83,7 +83,7 @@ Além da fase de dor, o tempo disponível de tratamento importa. Um frasco peque
 
 ## Efeitos adversos, contraindicações e quando consultar um profissional
 
-O extrato de sucupira é contraindicado para gestantes, mulheres em amamentação e crianças menores de 14 anos, conforme indicado nas bulas e orientações de fabricantes. Essas restrições refletem a ausência de estudos de segurança para esses grupos. As restrições declaradas e o motivo de cada uma estão em [contraindicações da sucupira](/sucupira-contraindicacoes/).
+O extrato de sucupira é contraindicado para [gestantes](/sucupira-na-gravidez/), mulheres em amamentação e crianças menores de 14 anos, conforme indicado nas bulas e orientações de fabricantes. Essas restrições refletem a ausência de estudos de segurança para esses grupos. As restrições declaradas e o motivo de cada uma estão em [contraindicações da sucupira](/sucupira-contraindicacoes/).
 
 Pessoas com histórico de doença hepática ou renal também devem evitar o uso sem acompanhamento, pois o uso prolongado pode sobrecarregar essas funções. Quem usa anticoagulantes, anti-inflamatórios prescritos ou medicamentos para hipertensão deve consultar um profissional antes de iniciar, pois há possibilidade de interação, ainda que não completamente documentada em estudos clínicos. Pessoas com alergia a plantas da família Fabaceae também se enquadram no grupo de cautela.
 

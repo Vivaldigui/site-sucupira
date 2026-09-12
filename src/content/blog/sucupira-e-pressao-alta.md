@@ -50,7 +50,7 @@ Depende menos da planta e mais de três coisas concretas.
 
 **A forma de preparo.** É a variável mais subestimada, e a próxima seção é sobre ela.
 
-**As condições que costumam vir junto.** Depois dos 45, hipertensão raramente vem sozinha. Diabetes, colesterol alto e uso de anticoagulante são frequentes no mesmo quadro, e cada um adiciona uma medicação contínua à conta. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/).
+**As condições que costumam vir junto.** Depois dos 45, hipertensão raramente vem sozinha. Diabetes, [colesterol alto](/sucupira-e-colesterol/) e uso de anticoagulante são frequentes no mesmo quadro, e cada um adiciona uma medicação contínua à conta. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/).
 
 ## A forma de preparo muda mais do que a planta
 

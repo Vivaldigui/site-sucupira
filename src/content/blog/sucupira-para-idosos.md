@@ -22,7 +22,7 @@ Não existe dado mostrando que isso represente risco específico com a sucupira.
 
 ## Polifarmácia: o fator que mais pesa
 
-Depois dos 70, é comum uma pessoa tomar cinco, oito, às vezes mais de dez medicamentos contínuos somando pressão, coração, diabetes, colesterol e outras condições. Cada medicamento novo, incluindo um produto natural, entra numa equação que já é complexa.
+Depois dos 70, é comum uma pessoa tomar cinco, oito, às vezes mais de dez medicamentos contínuos somando pressão, coração, diabetes, [colesterol](/sucupira-e-colesterol/) e outras condições. Cada medicamento novo, incluindo um produto natural, entra numa equação que já é complexa.
 
 Não existem estudos de interação entre a sucupira e as classes mais usadas nessa faixa etária — anti-hipertensivos, anticoagulantes, hipoglicemiantes, estatinas. A resposta é desconhecida, não seguramente livre de risco. Quanto mais remédios na rotina, mais vale a conversa prévia com quem acompanha o tratamento. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/) e [sucupira faz mal para quem toma anticoagulante](/sucupira-faz-mal-para-quem-toma-anticoagulante/).
 

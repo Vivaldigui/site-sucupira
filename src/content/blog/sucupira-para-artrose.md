@@ -23,7 +23,7 @@ Neste guia você entende por que a sucupira é associada ao alívio das juntas, 
 
 ## A sucupira ajuda na artrose no joelho, quadril e mãos?
 
-No uso tradicional, a sucupira é buscada justamente para os pontos mais afetados pela artrose: **joelho, quadril, coluna e mãos**. A lógica é a ação anti-inflamatória descrita para seus extratos, que pode contribuir para reduzir o desconforto e a sensação de rigidez matinal.
+No uso tradicional, a sucupira é buscada justamente para os pontos mais afetados pela artrose: **joelho, [quadril](/sucupira-para-dor-no-quadril/), coluna e mãos**. A lógica é a ação anti-inflamatória descrita para seus extratos, que pode contribuir para reduzir o desconforto e a sensação de rigidez matinal.
 
 É importante separar apoio de tratamento: a sucupira pode ajudar a lidar melhor com o dia a dia, mas a artrose também pede fortalecimento muscular, controle de peso e orientação de um profissional. Usada assim, dentro de um conjunto de cuidados, ela tende a fazer mais sentido.
 

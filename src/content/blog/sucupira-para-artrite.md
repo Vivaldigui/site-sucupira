@@ -17,7 +17,7 @@ ogImage: "/assets/blog/sucupira-para-artrite.webp"
 
 O nome descreve inflamação articular, e as causas são bem diferentes entre si:
 
-- **Artrite reumatoide** — autoimune, o próprio sistema imunológico ataca a articulação. Costuma ser simétrica, atinge mãos e punhos, e vem com rigidez matinal prolongada.
+- **Artrite reumatoide** — autoimune, o próprio sistema imunológico ataca a articulação. Costuma ser simétrica, atinge mãos e [punhos](/sucupira-para-cotovelo-e-punho/), e vem com rigidez matinal prolongada.
 - **Artrite psoriática** — autoimune, associada à psoríase, pode afetar dedos inteiros e unhas.
 - **Artrite gotosa** — por acúmulo de ácido úrico, com crises agudas intensas, clássicas no dedão do pé. Ver [sucupira para gota e ácido úrico](/sucupira-para-gota-e-acido-urico/).
 - **Artrite séptica** — infecciosa. É urgência médica.

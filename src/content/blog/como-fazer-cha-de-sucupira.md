@@ -64,7 +64,7 @@ O que muda o risco não é a planta isolada, é o preparo e quem está tomando. 
 
 ## Quais cuidados e contraindicações considerar?
 
-Gestantes, lactantes, crianças, idosos frágeis, pessoas com doenças crônicas e pessoas em uso de medicamentos devem buscar orientação profissional antes de usar sucupira, inclusive na forma de chá. Essa recomendação vale mesmo sendo um produto natural.
+Gestantes, lactantes, crianças, [idosos frágeis](/sucupira-para-idosos/), pessoas com doenças crônicas e pessoas em uso de medicamentos devem buscar orientação profissional antes de usar sucupira, inclusive na forma de chá. Essa recomendação vale mesmo sendo um produto natural.
 
 Pessoas com problemas nos rins ou no fígado, pressão alta, diabetes, uso de anticoagulantes ou uso frequente de anti-inflamatórios precisam de atenção redobrada. Não interrompa nem substitua medicamentos por conta própria.
 

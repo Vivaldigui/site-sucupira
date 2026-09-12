@@ -12,7 +12,7 @@ ogImage: "/assets/blog/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.webp"
 
 ![Sucupira pode ajudar no manejo de dores crônicas? Ilustração sobre evidências, benefícios potenciais e cuidados](/assets/sucupira-alivia-dores-cronicas.webp)
 
-A sucupira realmente alivia dores crônicas? Essa pergunta circula há gerações na medicina popular brasileira, e a planta aparece em receitas passadas de avó para neto, em feiras de plantas medicinais e, mais recentemente, em prateleiras virtuais de suplementos. O uso popular para artrite, reumatismo e dores crônicas é antigo e difundido. O que a ciência diz sobre isso, porém, ainda surpreende muita gente, inclusive quem já usa o produto há anos.
+A sucupira realmente alivia dores crônicas? Essa pergunta circula há gerações na medicina popular brasileira, e a planta aparece em receitas passadas de avó para neto, em feiras de plantas medicinais e, mais recentemente, em prateleiras virtuais de suplementos. O uso popular para artrite, [reumatismo](/sucupira-para-reumatismo/) e dores crônicas é antigo e difundido. O que a ciência diz sobre isso, porém, ainda surpreende muita gente, inclusive quem já usa o produto há anos.
 
 Há uma tensão central que vale colocar na mesa desde o início: os relatos de uso da sucupira para dores crônicas são numerosos e, na medicina popular, bastante repetidos. Ao mesmo tempo, nenhum ensaio clínico em humanos publicou resultados até agora. Existe um estudo brasileiro registrado, ainda sem dados divulgados (voltamos a ele adiante); todo o resto da evidência formal é pré-clínico, feito em laboratório ou em modelos animais. Essas duas realidades convivem, e ignorar qualquer uma delas não ajuda ninguém.
 

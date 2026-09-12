@@ -24,7 +24,7 @@ Quem procura "sucupira baixa o açúcar" ou "sucupira sobe a glicemia" está faz
 
 Não é pela planta. É pelo que costuma vir junto do diagnóstico.
 
-**Polifarmácia.** Depois dos 45, diabetes raramente aparece sozinho. Pressão alta, colesterol e uso de anticoagulante são frequentes no mesmo quadro, e cada condição soma uma medicação contínua. Quanto mais remédio na rotina, mais relevante é saber que não existem estudos de interação da sucupira com nenhuma dessas classes. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/) e [sucupira e pressão alta](/sucupira-e-pressao-alta/).
+**Polifarmácia.** Depois dos 45, diabetes raramente aparece sozinho. Pressão alta, [colesterol](/sucupira-e-colesterol/) e uso de anticoagulante são frequentes no mesmo quadro, e cada condição soma uma medicação contínua. Quanto mais remédio na rotina, mais relevante é saber que não existem estudos de interação da sucupira com nenhuma dessas classes. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/) e [sucupira e pressão alta](/sucupira-e-pressao-alta/).
 
 **Rins e fígado sob mais carga.** O diabetes mal controlado, ao longo dos anos, pode afetar a função renal e hepática — os mesmos órgãos que processam a sucupira. Isso não significa risco documentado; significa que é uma população que já monitora esses órgãos por outro motivo, e vale que esse acompanhamento continue de olho aberto ao introduzir qualquer produto novo. Ver [sucupira faz mal para os rins ou fígado](/sucupira-faz-mal-para-os-rins-ou-figado/).
 
