@@ -4,6 +4,7 @@ import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import ReadingTracking from '../components/ReadingTracking.astro';
 import LinkTracking from '../components/LinkTracking.astro';
+import FirstPartyTracking from '../components/FirstPartyTracking.astro';
 import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import InfoBox from '../components/InfoBox.astro';
 import MobileStickyCTA from '../components/MobileStickyCTA.astro';
@@ -244,6 +245,7 @@ const schema = JSON.stringify({
     <AdSense />
     <GoogleAnalytics contentGroup="artigo" pageParams={articleAnalytics} />
     <LinkTracking />
+    <FirstPartyTracking />
     <WebVitalsTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>

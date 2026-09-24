@@ -5,6 +5,7 @@ import BlogHero from '../components/BlogHero.astro';
 import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import LinkTracking from '../components/LinkTracking.astro';
+import FirstPartyTracking from '../components/FirstPartyTracking.astro';
 import SearchTracking from '../components/SearchTracking.astro';
 import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import Pagination from '../components/Pagination.astro';
@@ -130,6 +131,7 @@ const schema = JSON.stringify({
     <AdSense />
     <GoogleAnalytics contentGroup="listagem" />
     <LinkTracking />
+    <FirstPartyTracking />
     <WebVitalsTracking />
     <script type="application/ld+json" set:html={schema}></script>
   </head>

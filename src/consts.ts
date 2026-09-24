@@ -7,6 +7,8 @@ export const DEFAULT_OG_IMAGE = `${BLOG_SITE_URL}/assets/sucupira-natural-banner
 export const SALES_CTA_URL = `${SALES_SITE_URL}/combos`;
 export const GOOGLE_ANALYTICS_ID = 'G-L27DL7MMTY';
 export const STORE_ANALYTICS_ID = 'G-LZDYVCN9FV';
+// Coleta first-party do CRM (docs/tracking no repositório crm-sucupira-naturale).
+export const FIRST_PARTY_TRACKING_ENDPOINT = 'https://sucupira-naturale-crmapi.kip816.easypanel.host/t/v1/s';
 
 export const ORGANIZATION_ID = `${SALES_SITE_URL}/#organization`;
 export const WEBSITE_ID = `${BLOG_SITE_URL}/#website`;
