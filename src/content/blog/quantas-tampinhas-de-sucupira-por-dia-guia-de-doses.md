@@ -2,7 +2,7 @@
 title: "Quantas tampinhas de sucupira por dia? Medidas e rendimento"
 description: "Entenda as quantidades publicadas pela Naturale, a medida de 7 ml por tampa e como calcular o rendimento do frasco de 400 ml e dos kits."
 publishDate: "2026-06-20T13:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dosagem", "Como Tomar"]
@@ -45,7 +45,7 @@ Para calcular o rendimento em dias depois de definir essa orientação, use:
 
 **Volume total disponível em ml ÷ quantidade diária orientada em ml = rendimento estimado em dias.**
 
-Esse cálculo serve para planejar a compra. Ele não determina por quanto tempo você deve usar o produto.
+Esse cálculo serve para planejar a compra. Por quanto tempo usar é outra pergunta, respondida em [quanto tempo leva para a sucupira fazer efeito](/quanto-tempo-a-sucupira-leva-para-fazer-efeito/).
 
 ## Como comparar frasco avulso e kits
 

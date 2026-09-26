@@ -3,7 +3,7 @@ title: "Sucupira faz mal ao fígado ou aos rins? O que os estudos mostram"
 seoTitle: "Sucupira faz mal ao fígado ou aos rins? O que se sabe"
 description: "Sucupira faz mal ao fígado? O que o estudo de 110 dias da Unicamp encontrou, de onde vem o boato dos bovinos e como usar a planta com tranquilidade."
 publishDate: "2026-08-25T08:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Rins e Fígado", "Contraindicações", "Segurança no Uso", "Saúde 45+"]
@@ -65,7 +65,7 @@ Quem tem gordura no fígado, o que é comum e muitas vezes silencioso, tem na be
 
 Quem já faz exames periódicos de fígado ou rins tem neles uma boa referência para acompanhar qualquer mudança. Amarelamento da pele ou dos olhos, urina muito escura ou dor persistente do lado direito da barriga pedem avaliação, venha de onde vier.
 
-Mais em [contraindicações](/sucupira-contraindicacoes/), [sucupira e pressão alta](/sucupira-e-pressao-alta/) e [sucupira e medicamentos](/sucupira-e-medicamentos/).
+Mais em [contraindicações da sucupira](/sucupira-contraindicacoes/), [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/), [sucupira e pressão alta](/sucupira-e-pressao-alta/) e [sucupira e medicamentos](/sucupira-e-medicamentos/).
 
 ## Perguntas frequentes
 

@@ -2,7 +2,7 @@
 title: "Sucupira alivia dores crônicas? O que a ciência diz"
 description: "Os estudos sobre sucupira e dor, um por um: o que foi testado, em quê e com que resultado, o que se sabe sobre segurança e o que ainda falta medir em pessoas."
 publishDate: "2026-06-20T12:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dores crônicas", "Ciência da Sucupira"]
@@ -46,7 +46,7 @@ Estudo em animal mostra que a planta tem atividade real. Ele não diz quanto ali
 - **A dose.** Dose calculada por quilo de camundongo não se converte diretamente para gente.
 - **A espécie.** "Sucupira" pode ser *P. pubescens* ou *P. emarginatus*, e o perfil químico varia com a espécie, a região e a colheita.
 
-O passo seguinte está em andamento. Há um [ensaio clínico registrado para osteoartrite de joelho](https://ensaiosclinicos.gov.br/rg/RBR-7yk5zmx), com extrato em cápsulas, e uma [tese de 2025 com pacientes](https://repositorio.bc.ufg.br/tede/items/503ed061-dc55-4569-b904-573f916a71aa), que estava sob embargo na nossa consulta de setembro de 2026. Há também um relato de caso de 2026 com uma formulação de sucupira aplicada na pele, para outra indicação. Quando os resultados do ensaio forem publicados, esta página será atualizada.
+O passo seguinte está em andamento, e ele também dá a melhor referência de [quanto tempo a sucupira leva para fazer efeito](/quanto-tempo-a-sucupira-leva-para-fazer-efeito/): 8 semanas. Há um [ensaio clínico registrado para osteoartrite de joelho](https://ensaiosclinicos.gov.br/rg/RBR-7yk5zmx), com extrato em cápsulas, e uma [tese de 2025 com pacientes](https://repositorio.bc.ufg.br/tede/items/503ed061-dc55-4569-b904-573f916a71aa), que estava sob embargo na nossa consulta de setembro de 2026. Há também um relato de caso de 2026 com uma formulação de sucupira aplicada na pele, para outra indicação. Quando os resultados do ensaio forem publicados, esta página será atualizada.
 
 ## E a segurança?
 

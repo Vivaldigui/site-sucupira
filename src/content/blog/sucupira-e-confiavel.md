@@ -2,7 +2,7 @@
 title: "Sucupira é confiável? Como verificar antes de comprar"
 description: "Sucupira é confiável? Separe a planta, o mercado, o produto e a empresa — e veja como verificar cada um antes de gastar dinheiro."
 publishDate: 2026-08-31T15:00:00-03:00
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Segurança no Uso", "Ciência da Sucupira", "Extrato de Sucupira"]
@@ -137,7 +137,7 @@ Segurança é uma quarta pergunta, e merece resposta própria.
 
 Há ainda um caso antigo de intoxicação de bovinos que comeram folhas e frutos da árvore no pasto, com lesão no fígado e nos rins. É gado comendo outra parte da planta em quantidade de pastagem, não uso humano da semente.
 
-A lista de efeitos colaterais que circula na internet — náusea, diarreia, tontura, sonolência — é repetida de página em página sem fonte primária. Não a reproduzimos por isso.
+A lista de efeitos colaterais que circula na internet — náusea, diarreia, tontura, sonolência — é repetida de página em página sem fonte primária. Não a reproduzimos por isso; o que os estudos mostram de fato está em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/).
 
 As situações que pedem cautela documentada são gravidez, amamentação, crianças, doenças hepáticas ou renais, gastrite ativa e úlcera. Também há hipótese de interação com sedativos, anticoagulantes e alguns antidepressivos — **hipótese baseada em mecanismo, não em medição em humanos**, porque estudos de interação com pessoas não existem.
 

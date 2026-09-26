@@ -2,7 +2,7 @@
 title: "Como tomar sucupira líquida: sabor, misturas e horário"
 description: "Como tomar a sucupira líquida: qual é o gosto, como misturar com suco, mel ou água para suavizar o amargor, a melhor hora e como guardar o frasco."
 publishDate: 2026-06-20
-updatedDate: "2026-09-26T20:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Como Tomar", "Extrato de Sucupira"]
@@ -40,6 +40,8 @@ A [página oficial da Sucupira Naturale](https://www.sucupiranaturale.com.br/suc
 
 Use a tampa do próprio frasco e mantenha a quantidade constante. O uso tradicional da sucupira é contínuo, em pequenas quantidades, e não em doses grandes de vez em quando. Os estudos com animais mostram que a planta tem atividade real e que a dose faz diferença (explicamos em [o que a ciência diz](/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/)), então reforçar a quantidade por conta própria não é o caminho.
 
+Dê tempo: uma avaliação justa leva algumas semanas de uso regular. O prazo que a pesquisa usa está em [quanto tempo a sucupira leva para fazer efeito](/quanto-tempo-a-sucupira-leva-para-fazer-efeito/).
+
 Se outra pessoa ajuda nos seus cuidados, deixe anotado a quantidade e o horário que você escolheu.
 
 ## Qual é o gosto da sucupira líquida?
@@ -61,7 +63,7 @@ Três cuidados valem para qualquer mistura:
 
 - **Meça antes de misturar.** A medida é a tampinha de 7 ml. Suco, mel ou água não mudam quanto extrato você tomou.
 - **Tome a mistura inteira.** Se sobrar meio copo, sobrou meia dose.
-- **Conte o açúcar.** A tampinha de sucupira tem cerca de 0,4 kcal, segundo a tabela nutricional do produto. O açúcar vem do mel ou do suco. Quem tem diabetes tem na água, ou num suco sem açúcar, a opção mais simples.
+- **Conte o açúcar.** A tampinha de sucupira tem cerca de 0,4 kcal, segundo a tabela nutricional do produto. O açúcar vem do mel ou do suco. Quem tem diabetes tem na água, ou num suco sem açúcar, a opção mais simples. As contas de cada preparo estão em [sucupira emagrece ou engorda](/sucupira-engorda-ou-emagrece/).
 
 ## Existe um melhor horário para tomar?
 

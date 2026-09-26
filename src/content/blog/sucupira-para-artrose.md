@@ -2,7 +2,7 @@
 title: "Sucupira para artrose: ajuda mesmo?"
 description: "Entenda a sucupira para artrose com expectativas realistas, uso tradicional e cuidados antes de usar."
 publishDate: "2026-07-03T08:00:00-03:00"
-updatedDate: "2026-09-26T18:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Artrose", "Dor no Joelho", "Mobilidade", "Ciência da Sucupira"]
@@ -72,7 +72,7 @@ Continue a leitura dentro do Centro de Conhecimento da Sucupira:
 
 **Quanto tempo a sucupira leva para fazer efeito na artrose?**
 
-Não há prazo fixo. Por ser natural, os bioativos da semente agem gradualmente e cada corpo responde de um jeito. Muitos relatos falam em semanas de uso contínuo. Constância costuma importar mais que dose alta.
+Não é imediato. A tradição usa a sucupira todos os dias por semanas, e o ensaio clínico brasileiro para artrose de joelho avalia 8 semanas de uso. Constância importa mais que dose alta. Os detalhes estão em [quanto tempo a sucupira leva para fazer efeito](/quanto-tempo-a-sucupira-leva-para-fazer-efeito/).
 
 **A sucupira substitui o anti-inflamatório do médico?**
 

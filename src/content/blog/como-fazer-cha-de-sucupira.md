@@ -2,7 +2,7 @@
 title: "Como fazer chá de sucupira em casa: passo a passo"
 description: "Receita tradicional do chá de sucupira: 4 sementes quebradas, 1 litro de água e 10 a 15 minutos de fervura. Por que quebrar a semente e quem deve evitar."
 publishDate: "2026-07-01T15:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Como Tomar", "Uso Tradicional", "Segurança no Uso"]
@@ -46,7 +46,7 @@ O chá tem uma limitação que vale conhecer: cada preparo sai um pouco diferent
 
 Nas quantidades tradicionais, não há relato publicado de problema em pessoas. Os testes de segurança são em animais: doses baixas e moderadas foram bem toleradas, e no estudo mais longo, de 110 dias, só uma dose alta de extrato concentrado levou a acúmulo de gordura no fígado dos ratos ([Souza e colegas, 2022](https://pubmed.ncbi.nlm.nih.gov/32962444/)). O chá caseiro é bem mais diluído do que esse extrato, mas a lição vale para ele também: nada de reforçar a quantidade achando que vai funcionar mais rápido.
 
-Gestantes, lactantes e crianças não devem tomar. Quem tem [doença nos rins ou no fígado](/sucupira-faz-mal-para-os-rins-ou-figado/), [pressão alta](/sucupira-e-pressao-alta/) tratada com remédio, ou usa anticoagulante, combina o uso com o médico. A lista completa está em [contraindicações da sucupira](/sucupira-contraindicacoes/).
+Gestantes, lactantes e crianças não devem tomar. Quem tem [doença nos rins ou no fígado](/sucupira-faz-mal-para-os-rins-ou-figado/), [pressão alta](/sucupira-e-pressao-alta/) tratada com remédio, ou usa anticoagulante, combina o uso com o médico. A lista completa está em [contraindicações da sucupira](/sucupira-contraindicacoes/), e o que se sabe sobre reações, em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/).
 
 ## Perguntas frequentes
 
