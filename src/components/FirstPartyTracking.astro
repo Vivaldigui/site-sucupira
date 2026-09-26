@@ -2,7 +2,7 @@
 import { BLOG_SITE_URL, FIRST_PARTY_TRACKING_ENDPOINT } from '../consts';
 import snSource from '../scripts/sn-tracking.js?raw';
 
-// Registra o início de cada sessão no CRM (visitante, canal, gclid/UTMs). Os cookies sn_vid e sn_s
+// Registra sessões, visualizações do blog e cliques para a loja no CRM. Os cookies sn_vid e sn_s
 // ficam em .sucupiranaturale.com.br e são os mesmos da loja, então blog e loja formam uma visita só.
 // Fora do domínio de produção o script fica desligado, como o GA4.
 const productionHost = new URL(BLOG_SITE_URL).hostname;
