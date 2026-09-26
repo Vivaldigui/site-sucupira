@@ -1,8 +1,8 @@
 ---
-title: "Quantas tampinhas de sucupira por dia? Guia de doses"
-description: "Veja quantas tampinhas de Sucupira Naturale tomar em cada fase, como usar o extrato corretamente, quais cuidados observar e como escolher o kit adequado."
+title: "Quantas tampinhas de sucupira por dia? Medidas e rendimento"
+description: "Entenda as quantidades publicadas pela Naturale, a medida de 7 ml por tampa e como calcular o rendimento do frasco de 400 ml e dos kits."
 publishDate: "2026-06-20T13:00:00-03:00"
-updatedDate: "2026-08-31T12:00:00-03:00"
+updatedDate: "2026-09-26T16:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dosagem", "Como Tomar"]
@@ -10,125 +10,96 @@ featured: true
 ogImage: "/assets/blog/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses.webp"
 ---
 
-Você recebeu o frasco, leu a embalagem, pesquisou na internet e ainda ficou sem uma resposta clara. A pergunta parece simples, mas a resposta que a maioria das pessoas encontra é vaga: "siga as orientações do fabricante" ou "consulte um profissional de saúde". Essas respostas não são erradas, mas também não resolvem o problema de quem está com o frasco na mão e dor no joelho.
+**A loja da Sucupira Naturale publica três quantidades diárias para o extrato líquido: 3, 5 e 10 tampinhas.** Cada tampa tem 7 ml, então isso equivale a 21, 35 e 70 ml por dia. Os números valem para este produto; outras marcas têm outra concentração e outra medida.
 
-A verdade é que saber **quantas tampinhas de sucupira tomar por dia** depende do produto e da fase de uso. Dor aguda ou crônica, dor mediana e manutenção são situações diferentes na orientação da Sucupira Naturale. Também é importante não transferir essa dosagem para extratos de outras marcas, porque o tamanho da tampa e a concentração podem variar.
+Abaixo estão a conversão em mililitros e quanto rende cada frasco.
 
-Este guia explica a dose indicada para cada fase, o que uma tampinha representa, quando tomar, o que evitar e quem precisa conversar com um profissional antes de usar. Ao final, você verá como a Sucupira Naturale estrutura seus kits para alinhar a quantidade de garrafas à fase de uso desde o início.
+## O que significam as quantidades publicadas pela Naturale?
 
-> **Resumo da orientação da Sucupira Naturale**
->
-> | Fase de uso | Quantidade diária |
-> |---|---|
-> | Dor aguda ou crônica | 10 tampinhas |
-> | Dor mediana | 5 tampinhas |
-> | Prevenção e manutenção | 3 tampinhas |
->
-> Tome a quantidade diária **pura, de uma vez e em qualquer horário**, sem diluir. Essa é a orientação específica da Sucupira Naturale e não deve ser aplicada automaticamente a produtos de outras marcas.
+A referência deste artigo é a [Sucupira Naturale Líquida de 400 ml](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida), pronta para consumo. As três quantidades estão descritas na página do produto e no rótulo, que é a instrução que vale para o seu frasco.
 
-## O que é uma tampinha e quanto ela representa de fato
+São a orientação do fabricante, não uma dose definida por estudo clínico publicado. Se o rótulo e a página da loja mostrarem instruções diferentes, siga o rótulo; o atendimento confirma a versão pelo número do lote.
 
-A "tampinha" virou uma medida popular, mas ela não é padronizada entre fabricantes. Cada produto pode usar uma embalagem diferente, com tampa de outro volume e uma concentração própria. Por isso, a medida só faz sentido quando usada com a tampa do frasco correspondente.
+## Uma tampinha da Naturale tem quantos ml?
 
-No caso da Sucupira Naturale, a própria tampa da garrafa funciona como medidor. O extrato é vendido em frasco de **400 ml**, já pronto para beber, e a quantidade diária é contada com essa tampinha. Não é necessário transferir o líquido para seringa, colher ou copo dosador. Para orientações práticas de rotina, veja também o guia [Como tomar o extrato de sucupira e ter resultado real](/blog/como-tomar-extrato-de-sucupira/).
+Na tabela nutricional publicada pela marca, uma tampa corresponde a **7 ml**. Essa equivalência pertence à tampa informada para o produto e não deve ser aplicada a uma tampa de outra embalagem.
 
-### Equivalência prática: tampinha, ml e cápsula
+| Quantidade de tampinhas | Volume calculado com a referência de 7 ml |
+|---|---|
+| 1 | 7 ml |
+| 3 | 21 ml |
+| 5 | 35 ml |
+| 10 | 70 ml |
 
-Não existe uma conversão universal entre tampinhas, mililitros e cápsulas. Cápsulas informam a massa do conteúdo em miligramas; extratos líquidos são medidos por volume e ainda podem ter concentrações diferentes. Portanto, uma tampinha da Sucupira Naturale não pode ser convertida diretamente em determinada quantidade de cápsulas de outra marca.
+Se você perdeu a tampa, um copinho medidor de remédio em mililitros resolve. Colher de cozinha não serve, porque o volume varia muito.
 
-O ponto de partida seguro é seguir a medida fornecida pelo fabricante do produto específico. Misturar referências de marcas diferentes pode levar a uso insuficiente ou excessivo. Para informações gerais sobre a planta e suas propriedades, consulte o artigo [Sucupira: para que serve? Benefícios, usos e contraindicações](/blog/sucupira-para-que-serve/).
+## Quanto rende um frasco de 400 ml?
 
-## Quantas tampinhas de sucupira tomar por dia na fase aguda
+Dividindo o conteúdo do frasco pela medida declarada, temos:
 
-Na orientação da Sucupira Naturale, a categoria de **dor aguda ou crônica corresponde a 10 tampinhas por dia**. A quantidade é tomada pura, de uma vez e em qualquer horário. Não é necessário diluir em água ou dividir em várias tomadas ao longo do dia.
+**400 ml ÷ 7 ml = aproximadamente 57 medidas de uma tampa.**
 
-Essa quantidade pertence ao modo de uso deste produto, considerando sua formulação e sua própria tampa. Ela não é um padrão regulatório nem uma prescrição aplicável a qualquer extrato de sucupira. Também não se deve ultrapassar as 10 tampinhas buscando um resultado mais rápido.
+É uma conta nominal: pequenas perdas no manuseio e diferenças no enchimento podem mudar o rendimento real. “57 medidas” não significa 57 dias, porque o número de medidas consumidas por dia depende da orientação de uso.
 
-### Por quanto tempo manter essa dose elevada
+Para calcular o rendimento em dias depois de definir essa orientação, use:
 
-O kit de 6 garrafas da Sucupira Naturale foi organizado para aproximadamente **um mês de uso intensivo**, considerando as 10 tampinhas diárias. Ao fim desse período, a fase e a continuidade do uso precisam ser reavaliadas conforme a evolução individual e, quando necessário, com orientação profissional.
+**Volume total disponível em ml ÷ quantidade diária orientada em ml = rendimento estimado em dias.**
 
-O uso prolongado e indiscriminado de doses elevadas merece cautela. Estudos em modelos animais relataram alterações hepáticas e renais com uso contínuo em doses altas. Um [comunicado da Unicamp sobre os riscos da ingestão de sucupira](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira) reforça por que produtos vegetais também precisam ser usados com critério.
+Esse cálculo serve para planejar a compra. Ele não determina por quanto tempo você deve usar o produto.
 
-## Quantas tampinhas de sucupira tomar por dia na fase de dor moderada e manutenção
+## Como comparar frasco avulso e kits
 
-Para a fase de **dor mediana**, a orientação da Sucupira Naturale é de **5 tampinhas por dia**. O kit correspondente contém 3 garrafas de 400 ml e foi planejado para cerca de um mês nesse ritmo de uso.
+Compare primeiro o volume total, o preço atual e o frete. Assim, fica mais fácil escolher a quantidade de compra sem confundir tamanho do kit com duração obrigatória de uso.
 
-Se a intensidade da dor mudar, não é recomendável improvisar uma combinação de doses. Use a faixa indicada para a fase correspondente e procure orientação profissional se houver dúvida, piora, dor persistente ou necessidade de conciliar o extrato com medicamentos.
+| Quantidade de frascos de 400 ml | Volume total | Medidas de 7 ml, aproximadamente |
+|---|---|---|
+| 1 | 400 ml | 57 |
+| 2 | 800 ml | 114 |
+| 3 | 1.200 ml | 171 |
+| 6 | 2.400 ml | 343 |
 
-### Manutenção e prevenção: menos é suficiente
+As medidas foram arredondadas para o inteiro mais próximo; os volumes totais são a referência para o cálculo. Os preços, as opções disponíveis e o frete devem ser conferidos no momento da compra.
 
-Na fase de **prevenção e manutenção**, a orientação específica do produto é de **3 tampinhas por dia**, tomadas juntas. O kit de 4 garrafas foi estruturado para aproximadamente dois meses de uso nessa quantidade.
+A vantagem prática da Naturale é receber o extrato líquido pronto, com composição declarada, sem preparar sementes em casa. **[Compare os kits na loja oficial](https://www.sucupiranaturale.com.br/combos)** e escolha a quantidade de compra conforme a orientação de consumo que já foi definida para você.
 
-Manutenção não significa uso indefinido sem reavaliação. Quem tem histórico de dor crônica deve manter acompanhamento para entender a causa do sintoma e integrar o suplemento, quando apropriado, a outros cuidados como atividade física orientada, fisioterapia e tratamento médico.
+## Tampinhas, gotas e cápsulas são equivalentes?
 
-## Horário e modo de uso para absorção mais consistente
+Não há uma conversão direta entre essas apresentações. Mililitros medem volume; miligramas medem massa. Para comparar preparações, também seria necessário conhecer sua composição e concentração.
 
-O Extrato de Sucupira Naturale pode ser tomado **puro, de uma vez e a qualquer hora do dia**. Não precisa diluir em água ou suco. Também não precisa refrigerar: o frasco pode ser armazenado em temperatura ambiente, inclusive depois de aberto.
+A tampinha da Naturale não corresponde a um número universal de gotas ou cápsulas. O guia de [chá, cápsula, óleo e extrato](/cha-de-sucupira-capsula-ou-extrato/) explica as diferenças práticas entre os formatos.
 
-Pessoas com estômago sensível podem preferir associar o uso a um horário após uma refeição para observar a própria tolerância. Se houver náusea, dor de estômago, diarreia ou outro desconforto persistente, suspenda o uso e converse com um profissional de saúde.
+## Onde consultar preparo, horário e conservação?
 
-### Dica de horário para manter o efeito ao longo do dia
+Essas orientações estão reunidas no [manual de como tomar o extrato de sucupira](/como-tomar-extrato-de-sucupira/). Lá você encontra as informações sobre consumo puro ou com mel ou suco, armazenamento e dúvidas para levar ao atendimento.
 
-Como o produto pode ser tomado em qualquer horário, escolha um momento fácil de repetir diariamente: depois do café da manhã, por exemplo, ou junto de outro hábito fixo. O objetivo é reduzir esquecimentos, não encontrar uma "hora perfeita".
-
-Não é necessário fracionar a quantidade entre manhã e noite segundo a orientação atual da Sucupira Naturale. Tome de uma vez o total correspondente à sua fase: 10, 5 ou 3 tampinhas.
-
-## Contraindicações e sinais de que a dose está errada
-
-Gestantes, lactantes, crianças menores de 14 anos, pessoas com doenças renais ou hepáticas crônicas e quem usa anticoagulantes devem conversar com um médico antes de tomar o produto. Quem utiliza outros medicamentos também deve informar o profissional responsável antes de começar.
-
-Produtos de procedência duvidosa representam um risco adicional. Pesquisadores da Unicamp já relataram adulteração de amostras comercializadas como sucupira com a presença de diclofenaco, um anti-inflamatório farmacêutico que altera completamente o perfil de risco. Por isso, origem rastreável e compra por um canal oficial são relevantes.
-
-### Efeitos que indicam que a dose está alta demais
-
-Náusea persistente, dor de estômago, diarreia, coceira, inchaço ou erupções na pele são sinais para **suspender o uso e procurar orientação profissional**, em vez de continuar testando quantidades menores por conta própria.
-
-Sinais como amarelamento da pele ou dos olhos, urina escura, falta de ar ou inchaço importante exigem avaliação médica imediata. Mesmo sendo um produto de origem vegetal, o extrato deve ser usado com atenção às reações do organismo.
-
-## Como os kits da Sucupira Naturale simplificam a escolha da dose certa
-
-A linha da Sucupira Naturale organiza a compra por fase para facilitar o planejamento:
-
-- **1 garrafa de 400 ml:** opção para experimentar;
-- **3 garrafas:** dor mediana, com 5 tampinhas ao dia por cerca de um mês;
-- **4 garrafas:** prevenção e manutenção, com 3 tampinhas ao dia por cerca de dois meses;
-- **6 garrafas:** dor aguda ou crônica, com 10 tampinhas ao dia por cerca de um mês.
-
-O extrato é produzido com semente graúda de sucupira branca em conserva, vem pronto para beber e é vendido diretamente pela Sucupira Naturale, empresa que atua desde 2016. Essa compra direta ajuda a evitar produtos sem origem verificável.
-
-Se você ainda tem dúvida sobre quantas tampinhas de sucupira tomar por dia, escolha a opção correspondente à sua fase e siga a orientação do próprio produto. Consulte os [kits disponíveis na página oficial](/#comprar) e, se necessário, converse com um profissional de saúde para ajustar o uso ao seu contexto. Com informação correta, a dose deixa de ser um chute e passa a ser uma escolha consciente.
+A marca orienta consulta médica antes do uso para gestantes, lactantes, menores de 13 anos, pessoas com doenças preexistentes ou em uso de medicamentos contínuos. Os detalhes estão em [contraindicações](/sucupira-contraindicacoes/).
 
 ## Perguntas frequentes
 
 **Quantas tampinhas de sucupira devo tomar por dia?**
 
-Na orientação da Sucupira Naturale, a quantidade varia conforme a fase de uso: 10 tampinhas por dia para dor aguda ou crônica, 5 tampinhas para dor mediana e 3 tampinhas para prevenção e manutenção. Essa orientação é específica deste produto e não deve ser aplicada automaticamente a extratos de outras marcas.
+A Sucupira Naturale publica quantidades de 3, 5 e 10 tampinhas por dia, com 7 ml cada tampa. A instrução que vale é a do rótulo do seu frasco.
 
-**Preciso diluir o extrato em água ou suco?**
+**Uma tampa da Sucupira Naturale corresponde a quantos ml?**
 
-Não. A quantidade diária pode ser tomada pura, de uma vez e em qualquer horário, sem diluição. Pessoas com estômago sensível podem preferir associar o uso a um horário após uma refeição para observar a própria tolerância.
+A tabela nutricional da loja informa 7 ml por tampa. Essa referência não vale automaticamente para tampas de outras embalagens.
 
-**Uma tampinha equivale a quantos mililitros ou a quantas cápsulas?**
+**Um frasco de 400 ml rende quantas tampinhas?**
 
-Não existe conversão universal. Cápsulas informam a massa do conteúdo em miligramas, enquanto extratos líquidos são medidos por volume e podem ter concentrações diferentes. A tampinha só faz sentido como medida quando usada com a tampa do frasco correspondente àquele produto.
+Aproximadamente 57 medidas de 7 ml, pela divisão do volume do frasco pelo volume declarado da tampa. O rendimento real pode variar com a medição e as perdas no manuseio.
 
-**Preciso guardar o extrato de sucupira na geladeira?**
+**Um frasco dura um mês?**
 
-Não. O frasco pode ser armazenado em temperatura ambiente, inclusive depois de aberto.
+Depende da quantidade diária orientada. Divida os 400 ml por essa quantidade em mililitros para estimar os dias. O rendimento da embalagem não define a duração recomendada de uso.
 
-**Preciso dividir a dose entre manhã e noite?**
+**Posso usar a tampa de outro produto?**
 
-Não é necessário fracionar segundo a orientação atual da Sucupira Naturale. Tome de uma vez o total correspondente à sua fase — 10, 5 ou 3 tampinhas. Escolha um momento fácil de repetir diariamente para reduzir esquecimentos.
+Ela pode ter outro volume. Sem a tampa original, use um copinho medidor em mililitros: uma tampa equivale a 7 ml.
 
-**Quanto tempo dura cada kit?**
+**Mais tampinhas fazem o produto agir mais rápido?**
 
-Os kits foram organizados por fase de uso: 6 garrafas correspondem a cerca de um mês a 10 tampinhas diárias; 3 garrafas, a cerca de um mês a 5 tampinhas; e 4 garrafas, a aproximadamente dois meses a 3 tampinhas diárias.
+Não há estudo mostrando isso, e a pesquisa em animais indica que a dose importa também para a segurança. O mais sensato é ficar na faixa publicada. Se a dor mudar de padrão ou piorar, vale investigar a causa.
 
-**Quais sinais indicam que a dose está errada?**
+## Fonte e atualização
 
-Náusea persistente, dor de estômago, diarreia, coceira, inchaço ou erupções na pele são sinais para suspender o uso e procurar orientação profissional, em vez de continuar testando quantidades por conta própria. Amarelamento da pele ou dos olhos, urina escura, falta de ar ou inchaço importante exigem avaliação médica imediata.
-
-**Quem deve conversar com um médico antes de tomar?**
-
-Gestantes, lactantes, crianças menores de 14 anos, pessoas com doenças renais ou hepáticas crônicas e quem usa anticoagulantes devem conversar com um médico antes de começar. Quem utiliza outros medicamentos também deve informar o profissional responsável.
+Dados do frasco, da tampa e das quantidades publicadas conferidos na página oficial da Sucupira Naturale em 20 de setembro de 2026. As tabelas de volume e rendimento são cálculos editoriais com base em 400 ml por frasco e 7 ml por tampa; não são medição física do frasco nem validação de dose clínica.

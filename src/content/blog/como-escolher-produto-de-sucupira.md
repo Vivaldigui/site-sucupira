@@ -1,9 +1,9 @@
 ---
 title: "Como escolher um produto de sucupira com segurança?"
 seoTitle: "Como escolher um produto de sucupira"
-description: "O checklist para ler o rótulo de um produto de sucupira antes de comprar, e o que a adulteração documentada pela Unicamp ensina sobre procedência."
+description: "Checklist para comparar produtos de sucupira antes de comprar: composição, fabricante, lote, validade, apresentação, regularização informada e atendimento."
 publishDate: "2026-08-28T11:00:00-03:00"
-updatedDate: "2026-09-10T09:00:00-03:00"
+updatedDate: "2026-09-26T16:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Extrato de Sucupira", "Segurança no Uso"]
@@ -11,98 +11,87 @@ featured: false
 ogImage: "/assets/blog/como-escolher-produto-de-sucupira.webp"
 ---
 
-**Resposta rápida:** o que separa um produto de sucupira de outro é verificável antes da compra — espécie no rótulo, parte da planta, composição declarada, lote, validade, CNPJ e responsável técnico. O conselho mais repetido na internet, "confira o registro na ANVISA", está errado para várias categorias: elas são notificadas na ANVISA ou comunicadas à vigilância sanitária local, e não registradas, então o número de registro que você procura não deveria existir.
+**Resposta rápida:** antes de comprar um produto de sucupira, confira oito coisas: composição declarada, identificação da planta, fabricante com CNPJ, responsável técnico, lote e validade, apresentação (forma e volume), forma de regularização informada e canal de atendimento. Um produto que responde a esses itens permite comparar com outros e tirar dúvidas antes de pagar. Nenhum deles, isolado, prova qualidade, e nenhum indica efeito.
 
-Esta é a página do checklist prático. Para a pergunta mais ampla — se a planta tem base, se o mercado é sério, se a empresa existe — veja [sucupira é confiável](/sucupira-e-confiavel/).
+Esta é a página do checklist. Para a pergunta mais ampla, se a planta e o mercado são confiáveis, veja [sucupira é confiável](/sucupira-e-confiavel/).
 
-## Por que o conselho do registro na ANVISA não serve
+## O checklist de compra
 
-Desde setembro de 2024, a RDC 843/2024 da ANVISA, que revogou a RDC 27/2010, e a IN 281/2024 definem como cada categoria de alimento é regularizada: **registro** ou **notificação** na ANVISA, **comunicado de início de fabricação** à vigilância sanitária local ou, para algumas categorias, dispensa. Número de registro só existe no primeiro caso. O alimento notificado traz no rótulo "Alimento notificado na Anvisa:" com o número do processo, e o produto comunicado não tem número na ANVISA.
+Use a tabela com o rótulo ou a página do produto abertos.
 
-Procurar um número que não deveria existir e concluir que o produto é irregular é um erro. E o oposto também: **nenhuma dessas formas é aprovação**. A notificação é automática, sem avaliação prévia, e a própria norma diz que o comunicado de início de fabricação não torna o produto aprovado. Nenhum produto pode se anunciar como "aprovado pela ANVISA" — a própria agência classifica esse argumento como enganoso.
+| Verificar | O que procurar | Por que ajuda |
+|---|---|---|
+| **Composição** | Ingredientes com a **proporção** de cada um (por exemplo, percentual), e não só a lista | Permite comparar um frasco com outro e saber o que você está levando. Composição declarada mostra ingredientes, e concentração de compostos é outra informação |
+| **Planta** | Nome científico (*Pterodon emarginatus* ou *Pterodon pubescens* para a sucupira-branca) e parte usada (semente, casca, folha) | "Sucupira" é nome popular de espécies diferentes. Saber qual entrou no produto evita comparar coisas distintas |
+| **Fabricante** | Razão social, CNPJ e endereço | Uma empresa que existe fora do anúncio pode ser consultada e cobrada |
+| **Responsável técnico** | Nome e número no conselho profissional | Indica quem responde tecnicamente pela produção |
+| **Lote e validade** | Número do lote e data de validade impressos | Identificam a unidade que você recebeu e por quanto tempo usar |
+| **Apresentação** | Forma (líquido, cápsula, óleo), volume ou quantidade e o que cada medida contém | Evita comparar preço de frascos e cápsulas sem saber quanto há em cada um |
+| **Regularização informada** | Como a empresa diz que o produto está enquadrado, e o número, quando houver | Veja a seção seguinte |
+| **Atendimento** | Telefone, WhatsApp ou e-mail que respondam antes da compra | Quem responde perguntas antes da venda tende a responder depois |
 
-Nenhuma delas desobriga a empresa de cumprir os regulamentos de fabricação, rotulagem e controle: quem regulariza o produto responde pela composição, pela qualidade, pela segurança e pela rotulagem.
+Se um item não aparece, pergunte. A resposta da empresa também informa: fabricantes que conhecem o próprio produto respondem sem dificuldade, e vale pedir, por exemplo, a espécie usada e o documento de análise do lote, caso a empresa o forneça. Rótulo vago em vários itens ao mesmo tempo é mais informativo do que um item isolado.
 
-## O checklist do rótulo
+## Como ler a "regularização" do produto
 
-Como o número de registro nem sempre existe, o que se avalia é a coerência do conjunto:
+O conselho mais repetido, "confira o registro na Anvisa", só serve para algumas categorias. Desde setembro de 2024, a RDC 843/2024 e a IN 281/2024 definem como cada categoria de alimento é regularizada:
 
-| Verificar | Por que importa |
-|---|---|
-| Nome científico da espécie | *Pterodon emarginatus* ou *Pterodon pubescens*. "Sucupira" sozinho é nome popular, e espécies diferentes têm composição diferente |
-| Parte da planta usada | Semente, casca e folha têm perfis distintos. A maioria dos estudos usou semente ou fruto |
-| Composição declarada | Proporção dos ingredientes, não só a lista. Percentual é melhor que enumeração |
-| Enquadramento legal explícito | A empresa diz sob qual norma opera e em qual categoria |
-| CNPJ e endereço | Empresa rastreável, que existe fora da internet |
-| Responsável técnico | Profissional identificável, com registro de conselho |
-| Lote e validade | Rastreabilidade básica de fabricação |
-| Certificado de análise do lote | Fabricante sério fornece quando solicitado |
+- **Registro** na Anvisa: é o caminho que gera número de registro.
+- **Notificação** na Anvisa: o rótulo traz a frase "Alimento notificado na Anvisa:" e o número do processo.
+- **Comunicado de início de fabricação** à vigilância sanitária do estado ou do município: não gera número na Anvisa.
+- **Dispensa** de regularização, para algumas categorias.
 
-Rótulo vago em vários desses itens ao mesmo tempo é o sinal que mais importa. Um item faltando pode ser omissão; cinco faltando é um padrão.
+Por isso, a falta de um número de registro não significa, sozinha, que o produto seja irregular. O que se avalia é o conjunto: empresa identificada, CNPJ, responsável técnico, composição declarada e o enquadramento informado. Quando existir número de registro ou de notificação no rótulo, ele pode ser conferido no [portal de consulta da Anvisa](https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/como-saber-se-um-suplemento-alimentar-e-autorizado).
 
-## A adulteração já foi documentada
+O outro lado importa igual: **nenhuma dessas formas é "aprovação da Anvisa"**. A notificação é automática, e a própria norma diz que o comunicado não torna o produto aprovado. Um produto que se anuncia como "aprovado pela Anvisa" usa uma expressão que a agência trata como enganosa. E regularização, qualquer que seja, diz respeito à fabricação e à rotulagem. Ela não prova que o produto funciona.
 
-Em uma [tese de doutorado defendida na Faculdade de Odontologia de Piracicaba da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira), a pesquisadora Vanessa Helena da Silva Souza, sob orientação da professora Mary Ann Foglio, analisou produtos comerciais vendidos como sucupira. Vários continham **diclofenaco** — anti-inflamatório farmacêutico — em vez do extrato vegetal anunciado.
+## Confira a empresa em poucos minutos
 
-O achado se refere às amostras daquele trabalho, não a todo o mercado. Mas ele mostra que esse tipo de adulteração não é hipótese.
+- **CNPJ:** consulte no site da Receita Federal a razão social, a situação cadastral e a atividade econômica.
+- **Site próprio:** procure uma página oficial com dados da empresa, e não só anúncio em marketplace ou perfil em rede social.
+- **Atendimento humano:** mande uma pergunta antes de comprar e veja se e como respondem.
+- **Uma pergunta técnica:** qual espécie e qual parte da planta foram usadas, e como conservar depois de aberto.
 
-O que torna o caso especialmente perverso: o produto adulterado **funciona melhor** no curto prazo, porque diclofenaco é anti-inflamatório de verdade. O alívio sentido reforça a confiança justamente no produto que está enganando quem o toma. E ninguém detecta isso pelo sabor, pela aparência ou pelo efeito.
+## Sinais para pensar duas vezes
 
-Contra isso, a única proteção é a procedência.
+- Promessas de cura, de eliminar a dor ou de "resultado garantido".
+- "Aprovado pela Anvisa", "100% seguro" ou "sem efeitos colaterais".
+- Rótulo sem CNPJ, sem lote ou sem validade.
+- Venda apenas por mensagem direta, sem site e sem nota fiscal.
+- Preço muito abaixo do praticado, sem explicação.
 
-## O que a ANVISA proibiu em 2026
+Produtos de origem desconhecida já foram alvo de ação da Anvisa em 2026, e uma pesquisa da Unicamp encontrou diclofenaco em produtos vendidos como sucupira. As duas fontes estão explicadas em [sucupira é confiável](/sucupira-e-confiavel/).
 
-Em abril de 2026, [a ANVISA determinou apreensão e proibiu a comercialização](https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-diversos-medicamentos-sem-registro-produzidos-a-base-de-plantas) de diversos produtos à base de plantas vendidos pela internet. Entre eles havia itens com sucupira no nome, vários em combinação com canela de velho.
+## Depois do checklist
 
-O motivo não foi a planta: eram produtos de fabricante desconhecido, sem registro, notificação ou cadastro — ou seja, nenhum órgão verificou se o conteúdo corresponde ao rótulo.
+- **Compare as formas:** chá, cápsula, líquido e óleo têm rotinas diferentes. O [guia de formatos](/cha-de-sucupira-capsula-ou-extrato/) ajuda a escolher a que cabe na sua.
+- **Confira como usar:** o [manual de uso do extrato](/como-tomar-extrato-de-sucupira/) e as [medidas por tampinha](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/) mostram o que observar depois da compra.
+- **Veja o checklist aplicado a uma marca:** em [sucupira é confiável](/sucupira-e-confiavel/), os mesmos critérios são aplicados à Sucupira Naturale, incluindo o que a marca ainda não publica.
 
-O perfil de risco é identificável: fabricante que ninguém conhece, venda por marketplace ou rede social, ausência de informação sobre a empresa.
-
-## Como verificar a empresa em poucos minutos
-
-- **Consulte o CNPJ** no site da Receita Federal. Confira razão social, situação cadastral e atividade econômica.
-- **Procure atendimento humano** — telefone ou WhatsApp que responda antes da compra. Quem não responde antes dificilmente responde depois.
-- **Verifique se existe site oficial próprio**, não só anúncio em marketplace ou perfil em rede social.
-- **Faça uma pergunta técnica antes de comprar**: qual espécie, qual parte da planta, se há certificado de análise do lote. A qualidade da resposta diz muito, porque fabricante sério tem a informação documentada.
-
-## Os sinais que devem fazer recuar
-
-- "Cura artrose", "elimina a dor", "benefícios comprovados" — não há comprovação clínica em humanos
-- "Aprovado pela ANVISA" — uso enganoso, segundo a própria agência
-- "100% seguro", "sem efeitos colaterais" — nenhuma substância ativa é isenta
-- "Substitui o anti-inflamatório" — perigoso e incorreto
-- Rótulo sem nome científico, sem CNPJ, sem lote
-- Venda só por mensagem direta, sem site e sem nota fiscal
-- Preço muito abaixo de todo o mercado
-
-A maior parte desses sinais não exige conhecimento técnico. Exige notar quando alguém está prometendo demais.
-
-Se você usa medicamento contínuo, está grávida ou amamentando, ou tem doença crônica, converse com um profissional de saúde antes de incluir a sucupira na rotina. Ver [contraindicações](/sucupira-contraindicacoes/).
-
-Vale também comparar formatos antes de decidir: [chá, cápsula ou extrato](/cha-de-sucupira-capsula-ou-extrato/).
+Se você usa medicamento contínuo, está grávida ou amamentando, ou tem doença crônica, converse com um profissional de saúde antes de incluir a sucupira na rotina. Veja [cuidados antes de consumir](/sucupira-contraindicacoes/).
 
 ## Perguntas frequentes
 
 **O que verificar antes de comprar sucupira?**
 
-Nome científico da espécie, parte da planta usada, composição declarada em proporção, lote, validade e os dados completos do fabricante com CNPJ e responsável técnico. Rótulo vago em vários desses itens ao mesmo tempo é o sinal mais relevante.
+Composição com proporções, planta e parte usada, fabricante com CNPJ, responsável técnico, lote e validade, apresentação, forma de regularização informada e canal de atendimento.
 
-**Preciso conferir o registro na ANVISA?**
+**Preciso conferir o registro na Anvisa?**
 
-Depende da categoria. Pelas regras em vigor desde setembro de 2024, várias categorias de alimento são notificadas na ANVISA ou comunicadas à vigilância sanitária local, e não registradas; nesses casos, não existe número de registro para consultar. Nenhuma dessas formas significa aprovação — nenhum produto pode se anunciar como "aprovado pela ANVISA".
+Só quando o produto tiver número de registro ou de notificação no rótulo. Várias categorias de alimento são comunicadas à vigilância sanitária local ou dispensadas, e não têm número na Anvisa. Nenhuma forma de regularização é aprovação.
 
-**Existe risco de adulteração em produtos de sucupira?**
+**Composição em percentual quer dizer que o produto é mais concentrado?**
 
-Sim, e está documentado. Uma tese da Unicamp analisou produtos comerciais vendidos como sucupira e encontrou vários com diclofenaco no lugar do extrato vegetal. Não dá para detectar pelo sabor nem pela aparência, o que torna a procedência a principal proteção.
+Não. O percentual mostra a proporção dos ingredientes na fórmula, o que ajuda a comparar rótulos. Concentração de compostos da planta é outra informação, que só aparece quando o fabricante a declara.
 
-**Como saber se uma marca de sucupira é confiável?**
+**Como saber se uma empresa de sucupira existe de verdade?**
 
-CNPJ verificável na Receita Federal, site oficial próprio, atendimento humano que responde antes da compra, responsável técnico identificado e disposição para responder perguntas técnicas sobre espécie, parte da planta e certificado de análise.
+Consulte o CNPJ na Receita Federal, procure um site próprio e mande uma pergunta ao atendimento antes de comprar.
 
 **Comprar em marketplace é arriscado?**
 
-O risco é maior. Boa parte dos produtos proibidos pela ANVISA em 2026 era vendida pela internet por empresas desconhecidas, e em marketplace qualquer revendedor cadastra um produto sem que a plataforma verifique a procedência.
+Depende do vendedor. Em marketplace, confira quem é o fabricante, o CNPJ e se há canal de atendimento. A página oficial do fabricante costuma trazer mais informações do que o anúncio.
 
 **O que é certificado de análise de lote?**
 
-É o documento com os testes feitos naquele lote específico. Fabricantes sérios fornecem quando solicitado, e pedir é uma forma simples de testar quão documentada é a operação de quem vende.
+É o documento com os testes feitos em um lote específico. Nem toda empresa o disponibiliza, e perguntar por ele é uma forma de saber quanto o fabricante documenta.
