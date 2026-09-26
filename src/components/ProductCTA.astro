@@ -33,6 +33,6 @@ const {
     {variant === 'panel' && <p class="cta-eyebrow">Produto oficial</p>}
     <h2>{title}</h2>
     <p>{text}</p>
-    <a href={SALES_CTA_URL} class="btn-cta-buy">{label}</a>
+    <a href={SALES_CTA_URL} class="btn-cta-buy" data-sn-cta={`cta-${variant}`}>{label}</a>
   </div>
 </aside>

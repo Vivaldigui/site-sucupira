@@ -41,6 +41,21 @@
       (w.location.protocol === "https:" ? "; Secure" : "");
   }
 
+  function stampLiCampaign(sid) {
+    if (!cfg.stamp || w.location.hostname !== "www." + ROOT) return;
+    function writeStamp() {
+      try {
+        // O tema da LI grava utm_campaign no DOMContentLoaded. Este timer roda depois dele.
+        var base = (getCookie("utm_campaign") || "").replace(/~s[a-z2-7]{16}$/, "") || "sn";
+        var value = base.slice(0, 8) + "~s" + sid;
+        d.cookie = "utm_campaign=" + encodeURIComponent(value) + "; path=/; max-age=604800; SameSite=Lax" +
+          (w.location.protocol === "https:" ? "; Secure" : "");
+      } catch (e) { /* não interfere na página */ }
+    }
+    if (d.readyState === "loading") d.addEventListener("DOMContentLoaded", function () { w.setTimeout(writeStamp, 0); });
+    else w.setTimeout(writeStamp, 0);
+  }
+
   function newId() {
     var alphabet = "abcdefghijklmnopqrstuvwxyz234567";
     var bytes = new Uint8Array(16);
@@ -81,17 +96,50 @@
     return m ? m[1].toLowerCase() : null;
   }
 
-  function send(payload) {
+  function send(payload, endpoint) {
+    endpoint = endpoint || cfg.endpoint;
     var body = JSON.stringify(payload);
     try {
-      if (w.navigator.sendBeacon && w.navigator.sendBeacon(cfg.endpoint, new Blob([body], { type: "text/plain" }))) return;
+      if (w.navigator.sendBeacon && w.navigator.sendBeacon(endpoint, new Blob([body], { type: "text/plain" }))) return;
     } catch (e) { /* cai no fetch */ }
     try {
-      w.fetch(cfg.endpoint, {
+      w.fetch(endpoint, {
         method: "POST", body: body, keepalive: true, mode: "cors", credentials: "omit",
         headers: { "Content-Type": "text/plain" }
       })["catch"](function () {});
     } catch (e) { /* sem rede ou navegador antigo: a sessão fica sem registro */ }
+  }
+
+  function blogTracking(vid, sid) {
+    if (w.location.hostname !== "blog." + ROOT) return;
+    var article = w.location.pathname;
+    if (!/^\/(?:[a-z0-9-]+\/)*[a-z0-9-]*$/.test(article) || article.length > 250) return;
+    var endpoint = cfg.endpoint.replace(/\/s$/, "/b");
+    if (endpoint === cfg.endpoint) return;
+    function event(kind, extra) {
+      var payload = { v: 1, event_id: newId(), vid: vid, sid: sid, kind: kind, article_path: article };
+      for (var key in extra) if (Object.prototype.hasOwnProperty.call(extra, key)) payload[key] = extra[key];
+      send(payload, endpoint);
+    }
+    event("page_view", {});
+    function click(e) {
+      try {
+        if ((e.type === "auxclick" && e.button !== 1) || (e.type === "click" && e.button !== 0)) return;
+        var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+        if (!a) return;
+        var url = new w.URL(a.href, w.location.href);
+        if (url.protocol !== "https:" || url.username || url.password || (url.hostname !== ROOT && url.hostname !== "www." + ROOT)) return;
+        var path = url.pathname;
+        if (path.length > 200 || !/^\/(?:[a-z0-9][a-z0-9-]*\/?)?$/.test(path) || /^\/(checkout|carrinho|conta|minha-conta)(\/|$)/.test(path)) return;
+        var button = a.getAttribute("data-sn-cta") || (a.closest(".mobile-sticky-cta") ? "barra-fixa" : a.closest(".product-cta") ? "bloco-cta" : a.closest(".blog-header") ? "cabecalho" : a.closest(".blog-footer") ? "rodape" : "link-artigo");
+        if (!/^[a-z0-9_-]{1,60}$/.test(button)) button = "link-artigo";
+        var links = d.querySelectorAll("a[href]");
+        var index = 0; for (var i = 0; i < links.length; i++) if (links[i] === a) { index = i + 1; break; }
+        event("shop_click", { button_id: button + "-" + index, destination_path: path });
+      } catch (error) { /* nunca impede a navegação */ }
+    }
+    d.addEventListener("click", click, true);
+    d.addEventListener("auxclick", click, true);
   }
 
   try {
@@ -113,6 +161,7 @@
     setCookie("sn_s", sid + "." + (campaignHash || storedHash), SESSION_MAX_AGE);
 
     w.SN_TRACK_IDS = { vid: vid, sid: sid };
+    stampLiCampaign(sid);
 
     if (isNew) {
       var qs = [];
@@ -135,5 +184,6 @@
       }
       send(payload);
     }
+    blogTracking(vid, sid);
   } catch (e) { /* o tracking nunca pode quebrar a página */ }
 })(window, document);
