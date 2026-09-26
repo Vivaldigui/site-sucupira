@@ -26,7 +26,7 @@ Elas também aparecem juntas com frequência, porque a causa costuma ser a mesma
 ## Onde isso costuma acontecer
 
 - **Ombro** — o mais comum, e frequentemente ligado a trabalho com os braços acima da cabeça ou a dormir sempre do mesmo lado
-- **[Cotovelo](/sucupira-para-cotovelo-e-punho/)** — os quadros conhecidos como cotovelo de tenista e de golfista, quase sempre por movimento repetitivo de punho e antebraço
+- **[Cotovelo](/sucupira-para-dor-no-ombro/#cotovelo-e-punho)** — os quadros conhecidos como cotovelo de tenista e de golfista, quase sempre por movimento repetitivo de punho e antebraço
 - **[Quadril](/sucupira-para-dor-no-quadril/)** — bursite trocantérica, que dói ao deitar de lado e ao subir escada
 - **Joelho** — bursite anserina e tendinite patelar, comuns em quem agacha muito ou aumentou carga de treino rápido
 
