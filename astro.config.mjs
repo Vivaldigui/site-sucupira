@@ -32,6 +32,10 @@ const currentPublicationDate = Number.isNaN(requestedPublicationDate.getTime())
   : requestedPublicationDate;
 const currentPublicationDateKey = publicationDateFormatter.format(currentPublicationDate);
 const sitemapLastmodByPath = new Map();
+const publishedArticleSlugs = new Set();
+const scheduledArticleSlugs = new Set();
+// Rotas fora da coleção de artigos; o resto de `/slug/` precisa ser artigo publicado.
+const STATIC_PAGE_SLUGS = new Set(['sobre', 'contato', 'politica-de-privacidade', 'pagina']);
 let latestPublishedArticle;
 
 for (const fileName of readdirSync(BLOG_CONTENT_DIRECTORY).filter((name) => name.endsWith('.md'))) {
@@ -50,6 +54,12 @@ for (const fileName of readdirSync(BLOG_CONTENT_DIRECTORY).filter((name) => name
 
   const publishTime = Date.parse(publishDate);
   const publishDateKey = publishDate.slice(0, 10);
+
+  if (publishDateKey <= currentPublicationDateKey) {
+    publishedArticleSlugs.add(slug);
+  } else {
+    scheduledArticleSlugs.add(slug);
+  }
 
   if (
     publishDateKey <= currentPublicationDateKey &&
@@ -80,6 +90,21 @@ function improveBlogMarkdownOutput() {
           node.properties.href = SALES_CTA_URL;
         } else if (typeof href === 'string' && href.startsWith('/blog/')) {
           node.properties.href = href.replace(/^\/blog\//, '/');
+        }
+
+        // Link interno para artigo agendado ou inexistente vira texto simples em vez de 404.
+        // O build é diário: no dia em que o artigo agendado sai, o link volta sozinho.
+        const internalSlug = String(node.properties.href ?? '').match(/^\/([a-z0-9-]+)\/?(?:#.*)?$/)?.[1];
+
+        if (
+          internalSlug &&
+          !publishedArticleSlugs.has(internalSlug) &&
+          !STATIC_PAGE_SLUGS.has(internalSlug)
+        ) {
+          const reason = scheduledArticleSlugs.has(internalSlug) ? 'agendado' : 'inexistente';
+          console.warn(`[links] /${internalSlug}/ (${reason}) renderizado sem link`);
+          node.tagName = 'span';
+          node.properties = {};
         }
       }
 
