@@ -1,8 +1,8 @@
 ---
-title: "Sucupira no vinho: como preparar e o cuidado com o álcool"
-description: "A receita tradicional da sucupira no vinho passo a passo, para que o uso popular associa a bebida e por que o álcool do preparo é o principal ponto de atenção."
+title: "Sucupira no vinho: receita tradicional e para que serve"
+description: "Como fazer sucupira no vinho, passo a passo, para que o uso popular associa a bebida e quem deve preferir um formato sem álcool."
 publishDate: "2026-07-06T18:00:00-03:00"
-updatedDate: "2026-09-12T09:00:00-03:00"
+updatedDate: "2026-09-26T16:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Segurança no Uso"]

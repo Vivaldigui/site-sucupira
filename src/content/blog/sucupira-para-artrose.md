@@ -2,7 +2,7 @@
 title: "Sucupira para artrose: ajuda mesmo?"
 description: "Entenda a sucupira para artrose com expectativas realistas, uso tradicional e cuidados antes de usar."
 publishDate: "2026-07-03T08:00:00-03:00"
-updatedDate: "2026-09-12T09:00:00-03:00"
+updatedDate: "2026-09-26T18:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Artrose", "Dor no Joelho", "Mobilidade", "Ciência da Sucupira"]
@@ -50,7 +50,7 @@ A parte mais aproveitada é a **semente**, de onde saem as diferentes apresenta�
 - **Óleo de sucupira** — em geral de uso externo, em massagens;
 - **Chá e garrafada** — preparos caseiros da tradição popular.
 
-No caso do **Extrato Sucupira Naturale**, a orientação é tomar **puro, sem diluir em água ou suco**, seguindo as faixas que o fabricante declara no rótulo: 3 tampinhas por dia para manutenção, 5 para dor mediana e 10 para dor aguda ou crônica. São faixas declaradas pelo fabricante, não dose calibrada pela intensidade da dor. Pode ser tomado a qualquer hora do dia e não precisa de geladeira.
+No caso da **Sucupira Naturale**, o extrato líquido pode ser tomado puro ou misturado com mel ou suco, a qualquer hora do dia, e não precisa de geladeira. A quantidade é a do rótulo; o [manual do extrato](/como-tomar-extrato-de-sucupira/) e as [medidas por tampinha](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/) explicam o uso.
 
 ## Cuidados e contraindicações
 
