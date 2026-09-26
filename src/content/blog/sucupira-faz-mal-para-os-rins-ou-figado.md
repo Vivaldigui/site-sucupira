@@ -1,9 +1,9 @@
 ---
-title: "Sucupira faz mal para os rins ou fígado?"
-seoTitle: "Sucupira faz mal para os rins ou fígado?"
-description: "Sucupira faz mal ao fígado? O que os estudos de toxicidade mostram, de onde vem o boato, e quem realmente precisa de cautela."
+title: "Sucupira faz mal ao fígado ou aos rins? O que os estudos mostram"
+seoTitle: "Sucupira faz mal ao fígado ou aos rins? O que se sabe"
+description: "Sucupira faz mal ao fígado? O que o estudo de 110 dias da Unicamp encontrou, de onde vem o boato dos bovinos e como usar a planta com tranquilidade."
 publishDate: "2026-08-25T08:00:00-03:00"
-updatedDate: "2026-09-04T09:00:00-03:00"
+updatedDate: "2026-09-26T16:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Rins e Fígado", "Contraindicações", "Segurança no Uso", "Saúde 45+"]
@@ -11,7 +11,7 @@ featured: false
 ogImage: "/assets/blog/sucupira-faz-mal-para-os-rins-ou-figado.webp"
 ---
 
-**Resposta rápida:** os estudos de toxicidade disponíveis são em animais e não encontraram sinal de dano hepático ou renal nas doses testadas — inclusive em dose muito acima da usada por pessoas. Não existe dado humano, nem a favor nem contra. A cautela se justifica por quem usa, não pela planta: quem já tem doença renal ou hepática, toma vários medicamentos, ou usa preparações com álcool tem motivo concreto para conversar com um profissional antes.
+**Resposta rápida:** não há relato publicado de dano ao fígado ou aos rins em pessoas que usam sucupira nas quantidades tradicionais. Em animais, os estudos mostram dois lados: doses baixas e moderadas não causaram alteração, e uma dose alta de extrato concentrado, dada todo dia por quase quatro meses, levou a acúmulo de gordura no fígado de ratos. A lição prática é simples: seguir a medida do rótulo e não reforçar a dose por conta própria. Quem já trata doença no fígado ou nos rins combina o uso com o médico que acompanha.
 
 A pergunta é razoável. Rins e fígado processam praticamente tudo o que entra, e quem já tem alguma alteração neles aprende a perguntar antes de acrescentar qualquer coisa à rotina.
 
@@ -22,87 +22,73 @@ A pergunta é razoável. Rins e fígado processam praticamente tudo o que entra,
 
 ## O que os estudos de toxicidade mostram
 
-A [revisão publicada em 2015 na revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) reuniu a literatura sobre o gênero *Pterodon*, e a seção de segurança dela traz dois números:
+Há dois conjuntos de dados, e eles se completam.
 
-- A fração oleosa das sementes **não** induziu efeito tóxico agudo, mutagenicidade ou citotoxicidade a **8 g/kg de peso corporal** — dose muito acima de qualquer uso humano.
-- Em camundongos com artrite induzida, extrato hidroetanólico a **5 mg/kg por dia durante 28 dias** não produziu alteração anatômica, histológica, bioquímica nem hematológica.
+**Os testes mais antigos**, reunidos na [revisão de 2015 da revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/), olharam doses únicas ou períodos curtos:
 
-Ou seja, nos modelos testados o resultado aponta no sentido contrário do alarme.
+- a fração oleosa das sementes não causou efeito tóxico agudo, mesmo em dose única muito alta (8 g/kg);
+- extrato da semente dado por 28 dias a camundongos não alterou órgãos, tecidos nem exames de sangue.
 
-E o limite: **nenhum ensaio clínico em humanos foi incluído**. Não há dado de função renal ou hepática de pessoas usando sucupira. Ausência de dano documentado não é prova de segurança — é ausência de estudo.
+**O estudo mais completo** veio depois, da Unicamp. [Souza e colegas (2022)](https://pubmed.ncbi.nlm.nih.gov/32962444/) deram extrato concentrado do fruto a ratos todos os dias, por 110 dias, e examinaram sangue, bioquímica e tecidos:
+
+- nas doses menores, **nenhum sinal de toxicidade**;
+- na dose mais alta, 500 mg por quilo de peso por dia, apareceu **esteatose**, que é acúmulo de gordura dentro das células do fígado;
+- numa mistura purificada de vouacapanos, um dos compostos da semente, a dose mais alta causou lesão no fígado de um dos camundongos testados.
+
+Os próprios autores concluem que os dados **sustentam o uso seguro em doses menores** e abrem caminho para estudos clínicos. Ou seja: a planta tem atividade de verdade, e é justamente por isso que a quantidade importa.
+
+Sobre os rins, o resumo do estudo de 110 dias não descreve alteração. A [divulgação da Unicamp](https://www2.unicamp.br/unicamp/ju/noticias/2017/02/20/estudo-revela-riscos-da-ingestao-de-sucupira) sobre a mesma linha de pesquisa pede atenção a fígado e rins no uso prolongado, e é esse o cuidado que faz sentido: medida constante, sem exagero.
 
 ## De onde vem o boato do fígado
 
-Há um único evento adverso registrado nessa literatura, e ele explica boa parte do que circula na internet.
+Boa parte do que circula na internet vem de um caso antigo: uma intoxicação de **bovinos** que comeram folhas e frutos da árvore de *Pterodon* no pasto. 84 animais adoeceram e 7 morreram, com lesão no fígado e nos rins.
 
-Foi uma intoxicação de **bovinos** que consumiram folhas e frutos da árvore de *Pterodon*: 84 animais adoeceram, 7 morreram, com enzimas hepáticas elevadas e degeneração hepática e renal.
+Era gado, comendo folha e fruto em quantidade de pastagem, não uma pessoa tomando extrato da semente na medida do rótulo. O caso mostra que a planta, em quantidade muito grande, pesa no fígado, o que combina com o estudo da Unicamp. Não mostra que o uso tradicional faça mal.
 
-Três coisas separam esse caso do uso humano: era **gado**, comendo **folha e fruto** em vez da semente, em **quantidade de pastagem**. Usar esse episódio para dizer que "sucupira faz mal ao fígado" de quem toma extrato é esticar o dado muito além do que ele suporta.
+## Por que a medida do rótulo importa
 
-Vale registrar o que ele de fato mostra: em quantidade suficiente, compostos da planta têm potencial hepatotóxico. Isso é motivo para respeitar dose, não para pânico.
-
-## Por que a dose importa, sem exagero
-
-Seguir a quantidade indicada pelo fabricante continua sendo o certo — mas pelo motivo correto.
-
-Não é porque exista dano documentado ao ultrapassá-la. É porque **não existe estudo nenhum sobre o que acontece acima dela**. Aumentar a dose troca uma quantidade sobre a qual há alguma referência por uma situação sobre a qual não há informação alguma, e sem benefício documentado em troca.
+Seguir a quantidade indicada pelo fabricante é o que coloca o uso na faixa em que os estudos não encontraram problema. Tomar mais esperando resultado mais rápido leva o consumo na direção da dose em que o fígado dos animais reagiu, sem benefício conhecido em troca.
 
 Ver [quantas tampinhas por dia](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/) e [como tomar extrato de sucupira](/como-tomar-extrato-de-sucupira/).
 
-## O risco que é documentado: álcool
+## O álcool das receitas caseiras
 
-Para fígado, há um fator com evidência sólida que não tem nada a ver com a planta.
+Garrafada, sucupira no vinho e tinturas artesanais usam álcool como base, em quantidade que ninguém mede, tomadas todo dia por meses. O efeito do álcool sobre o fígado é conhecido e não depende do que está macerado nele.
 
-Garrafada, sucupira no vinho e tinturas artesanais usam álcool como veículo, em quantidade que ninguém mede, tomadas diariamente por meses. O efeito do álcool sobre o fígado é conhecido e não depende do que está macerado nele.
+Quem tem gordura no fígado, o que é comum e muitas vezes silencioso, tem na bebida um motivo concreto para preferir outro formato. A Sucupira Naturale, por exemplo, declara 0,5% de álcool de cereais na composição, bem abaixo de uma bebida alcoólica. Ver [sucupira no vinho](/sucupira-no-vinho-para-que-serve-e-cuidados-importantes/) e [garrafada de sucupira](/garrafada-de-sucupira-o-que-e/).
 
-Quem tem alteração hepática — inclusive gordura no fígado, que é comum e frequentemente silenciosa — e quer usar sucupira tem, nessas preparações, um risco conhecido somado a um desconhecido. Formatos sem álcool relevante removem a parte conhecida da conta. Ver [sucupira no vinho](/sucupira-no-vinho-para-que-serve-e-cuidados-importantes/) e [garrafada de sucupira](/garrafada-de-sucupira-o-que-e/).
+## Quem combina o uso com o médico
 
-## Quem tem motivo concreto para conversar antes
+- Quem trata **doença renal ou hepática**, inclusive gordura no fígado
+- Quem toma **vários medicamentos contínuos**, porque o fígado processa todos eles
+- **Gestantes, lactantes e crianças menores de 13 anos**, que não devem usar
 
-- **Doença renal ou hepática diagnosticada**, incluindo gordura no fígado
-- **Uso de vários medicamentos contínuos** — quanto mais coisas o fígado processa, mais faz sentido avisar quem prescreve
-- **Intenção de uso prolongado**, que é justamente o que ninguém estudou
-- **Histórico de reação a produtos naturais**
-- Gestantes, lactantes e crianças menores de 13 anos, que não devem usar
+Quem já faz exames periódicos de fígado ou rins tem neles uma boa referência para acompanhar qualquer mudança. Amarelamento da pele ou dos olhos, urina muito escura ou dor persistente do lado direito da barriga pedem avaliação, venha de onde vier.
 
-Ver [contraindicações](/sucupira-contraindicacoes/), [sucupira e pressão alta](/sucupira-e-pressao-alta/) e [sucupira e medicamentos](/sucupira-e-medicamentos/).
-
-## Sinais que pedem avaliação
-
-Independentemente da causa, procure atendimento se aparecer:
-
-- Amarelamento da pele ou dos olhos
-- Urina muito escura ou queda importante do volume
-- Inchaço em pernas, pés ou rosto
-- Dor persistente no lado direito do abdome
-- Cansaço intenso e sem explicação, com náusea ou perda de apetite
-
-Nenhum desses sintomas aponta automaticamente para a sucupira. Introduzir uma coisa de cada vez é o que permite saber a que atribuir.
-
-Se você usa medicamento contínuo, está grávida ou amamentando, ou tem doença crônica, converse com um profissional de saúde antes de incluir a sucupira na rotina.
+Mais em [contraindicações](/sucupira-contraindicacoes/), [sucupira e pressão alta](/sucupira-e-pressao-alta/) e [sucupira e medicamentos](/sucupira-e-medicamentos/).
 
 ## Perguntas frequentes
 
 **Sucupira faz mal ao fígado?**
 
-Os estudos de toxicidade em animais não encontraram dano hepático nas doses testadas, inclusive muito acima do uso humano. Não há dado em pessoas. O caso de dano hepático que circula é de bovinos que comeram folhas e frutos em quantidade de pastagem, o que é bem diferente do uso humano da semente.
+Nas quantidades tradicionais, não há relato publicado de dano em pessoas. Em ratos, doses menores de extrato concentrado não causaram alteração em 110 dias, e a dose mais alta levou a acúmulo de gordura no fígado. Seguir a medida do rótulo mantém o uso na faixa sem problema observado.
 
 **Sucupira sobrecarrega os rins?**
 
-Não há estudo em pessoas mostrando isso, e os modelos animais testados não apresentaram alteração renal nas doses avaliadas. Quem já tem doença renal deve conversar com quem acompanha o tratamento antes, porque são os rins que eliminam os compostos.
+Não há relato publicado em pessoas, e o estudo de 110 dias em ratos não descreveu alteração nos rins. A pesquisa da Unicamp recomenda atenção a rins e fígado em uso prolongado e em doses altas. Quem já trata doença renal combina o uso com o nefrologista, porque são os rins que eliminam os compostos.
 
 **Quem tem gordura no fígado pode tomar sucupira?**
 
-É uma situação para conversar com o médico antes. Não pela planta, sobre a qual não há dado humano, mas porque quem tem alteração hepática tem motivo extra para evitar preparações com álcool, como garrafada e sucupira no vinho.
+Vale conversar com o médico antes e evitar as preparações com álcool, como garrafada e sucupira no vinho. O álcool pesa no fígado por si só.
 
 **Sucupira em uso prolongado faz mal?**
 
-Não se sabe. É justamente o cenário sem estudo: não há dado sobre uso prolongado em pessoas, em nenhuma direção. Por isso a orientação de respeitar a dose do fabricante e conversar com um profissional se pretende usar por muito tempo.
+O estudo mais longo, de 110 dias em ratos, não encontrou problema nas doses menores. Em pessoas, o uso prolongado ainda não foi estudado. Por isso a recomendação é manter a medida do rótulo, sem aumentar com o tempo.
 
-**Como reduzir o risco?**
+**Como usar com tranquilidade?**
 
-Respeite a dose indicada, prefira produto com composição declarada em vez de preparo caseiro com concentração imprevisível, evite formatos com álcool se tem alteração hepática, e avise quem prescreve sua medicação.
+Respeite a medida do rótulo, prefira produto com composição declarada a preparo caseiro de concentração imprevisível, evite formatos com álcool se tem alteração no fígado e avise o médico se toma remédio contínuo.
 
 **Preciso fazer exame antes de tomar sucupira?**
 
-Não há recomendação formal nesse sentido. Mas quem já faz acompanhamento de função renal ou hepática tem, nos exames que já realiza, uma referência útil para perceber qualquer mudança fora do padrão.
+Não há recomendação formal nesse sentido. Quem já acompanha a função do fígado ou dos rins pode usar os exames de rotina como referência.

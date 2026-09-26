@@ -2,7 +2,7 @@
 title: "Sucupira é confiável? Como verificar antes de comprar"
 description: "Sucupira é confiável? Separe a planta, o mercado, o produto e a empresa — e veja como verificar cada um antes de gastar dinheiro."
 publishDate: 2026-08-31T15:00:00-03:00
-updatedDate: "2026-09-10T09:00:00-03:00"
+updatedDate: "2026-09-26T16:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Segurança no Uso", "Ciência da Sucupira", "Extrato de Sucupira"]
@@ -133,15 +133,15 @@ Repare que a maior parte desses sinais **não exige conhecimento técnico**. Exi
 
 Segurança é uma quarta pergunta, e merece resposta própria.
 
-**Não existe perfil de efeito adverso da sucupira em pessoas documentado na literatura**. A [revisão de 2015 na *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) não reporta nenhum dado humano de segurança. Os estudos disponíveis são de toxicidade em animais, e nas doses testadas não encontraram sinal de toxicidade: a fração oleosa das sementes não induziu efeito tóxico agudo, mutagenicidade ou citotoxicidade a 8 g/kg, e o extrato hidroetanólico a 5 mg/kg/dia por 28 dias não produziu alteração anatômica, histológica, bioquímica ou hematológica.
+**Não há relato publicado de efeito adverso da sucupira em pessoas nas quantidades tradicionais.** Os estudos de segurança são em animais e contam uma história coerente. A [revisão de 2015 na *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/) registra que a fração oleosa das sementes não causou efeito tóxico agudo mesmo em dose única muito alta, e que extrato da semente dado por 28 dias não alterou órgãos nem exames de camundongos. O estudo mais longo, da Unicamp, deu extrato concentrado do fruto a ratos por 110 dias: nas doses menores, nenhum sinal de toxicidade; na dose mais alta, acúmulo de gordura no fígado ([Souza e colegas, 2022](https://pubmed.ncbi.nlm.nih.gov/32962444/)). Os autores concluem que os dados sustentam o uso seguro em doses menores.
 
-O único evento adverso registrado nessa revisão é uma intoxicação de bovinos que consumiram folhas e frutos da árvore — 84 animais adoeceram e 7 morreram, com enzimas hepáticas elevadas e degeneração hepática e renal. É exposição acidental de gado a outra parte da planta, não uso humano da semente.
+Há ainda um caso antigo de intoxicação de bovinos que comeram folhas e frutos da árvore no pasto, com lesão no fígado e nos rins. É gado comendo outra parte da planta em quantidade de pastagem, não uso humano da semente.
 
 A lista de efeitos colaterais que circula na internet — náusea, diarreia, tontura, sonolência — é repetida de página em página sem fonte primária. Não a reproduzimos por isso.
 
 As situações que pedem cautela documentada são gravidez, amamentação, crianças, doenças hepáticas ou renais, gastrite ativa e úlcera. Também há hipótese de interação com sedativos, anticoagulantes e alguns antidepressivos — **hipótese baseada em mecanismo, não em medição em humanos**, porque estudos de interação com pessoas não existem.
 
-A ausência de estudo é ausência de informação, não prova de segurança. Diante disso, o comportamento prudente é conversar com um profissional de saúde antes de começar, especialmente se você usa medicamento contínuo.
+Na prática: seguir a medida do rótulo, sem reforçar a dose, e combinar com o médico se você usa medicamento contínuo ou trata doença crônica.
 
 Vale ler [quem não deve usar](/sucupira-contraindicacoes/) e [o que se sabe sobre uso junto com medicamentos](/sucupira-e-medicamentos/).
 
@@ -181,7 +181,7 @@ Depende da categoria do produto. Pelas regras em vigor desde setembro de 2024 (R
 
 **Existe estudo comprovando que a sucupira funciona?**
 
-Não em humanos. A pesquisa disponível é pré-clínica: laboratório e modelos animais. Existe um ensaio clínico brasileiro registrado para osteoartrite de joelho, mas ele ainda está recrutando e não publicou resultados.
+Em animais, sim: há mais de vinte anos, estudos brasileiros mostram extratos e compostos da semente reduzindo dor e inflamação, inclusive em artrite experimental. Em pessoas, existe um ensaio clínico brasileiro registrado para osteoartrite de joelho, cujos resultados não estavam publicados na nossa consulta de setembro de 2026. O quadro completo está em [o que a ciência diz](/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/).
 
 **Como saber se um produto de sucupira é original?**
 
@@ -189,7 +189,7 @@ Verifique se o rótulo traz o nome científico da espécie, a parte da planta us
 
 **Sucupira faz mal?**
 
-Não há perfil de efeito adverso em pessoas documentado na literatura — a revisão de 2015 sobre o gênero *Pterodon* não reporta dado humano de segurança, e os estudos de toxicidade em animais não acharam sinal de toxicidade nas doses testadas. Isso é ausência de estudo, não prova de segurança. Gravidez, amamentação, crianças, doença hepática ou renal, gastrite e úlcera pedem cautela, e quem usa medicamento contínuo deve conversar com um profissional antes.
+Nas quantidades tradicionais, não há relato publicado de problema em pessoas. Em animais, doses baixas e moderadas foram bem toleradas, e uma dose alta de extrato concentrado por 110 dias levou a acúmulo de gordura no fígado, por isso vale seguir a medida do rótulo. Gestantes, lactantes e crianças não devem usar; quem tem doença do fígado ou dos rins, gastrite, úlcera ou usa remédio contínuo combina com o médico.
 
 **Qual a melhor marca de sucupira?**
 
