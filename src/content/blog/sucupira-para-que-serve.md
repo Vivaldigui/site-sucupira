@@ -3,7 +3,7 @@ title: "Sucupira: para que serve? Benefícios, usos e contraindicações"
 seoTitle: "Sucupira: para que serve? Benefícios e contraindicações"
 description: "Para que a sucupira é usada na tradição brasileira, o que a pesquisa já encontrou sobre dor e inflamação, em quais formas ela existe e quem deve evitar."
 publishDate: 2025-06-01
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Uso Tradicional"]
@@ -54,9 +54,7 @@ A [comparação completa entre chá, cápsula, óleo e extrato](/cha-de-sucupira
 
 ## Quem deve evitar
 
-Gestantes, lactantes e crianças menores de 13 anos não devem usar, porque ninguém estudou a planta nessas fases. Quem trata doença do fígado ou dos rins, ou toma remédio de uso contínuo, combina o uso com o médico que acompanha. Nas quantidades tradicionais não há relato publicado de problema em pessoas; em ratos, uma dose alta de extrato concentrado, dada todo dia por quase quatro meses, alterou o fígado ([Souza e colegas, 2022](https://pubmed.ncbi.nlm.nih.gov/32962444/)). Por isso vale seguir a medida do rótulo, sem reforçar a dose por conta própria.
-
-Os detalhes estão em [contraindicações](/sucupira-contraindicacoes/), com páginas sobre [medicamentos](/sucupira-e-medicamentos/), [pressão alta](/sucupira-e-pressao-alta/) e [rins e fígado](/sucupira-faz-mal-para-os-rins-ou-figado/).
+Gestantes, lactantes e crianças menores de 13 anos não devem usar. Quem trata doença crônica ou toma remédio contínuo combina com o médico. A lista completa, com o motivo de cada item, está em [contraindicações da sucupira](/sucupira-contraindicacoes/); o que os estudos de segurança mostram está em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/).
 
 ## Por onde continuar
 
@@ -66,11 +64,9 @@ Os detalhes estão em [contraindicações](/sucupira-contraindicacoes/), com pá
 
 **Quero saber como usar e quanto tempo leva.** O [manual do extrato](/como-tomar-extrato-de-sucupira/), as [medidas por tampinha](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/) e o artigo [quanto tempo a sucupira leva para fazer efeito](/quanto-tempo-a-sucupira-leva-para-fazer-efeito/) respondem a isso.
 
+**Quero saber se engorda ou emagrece.** A resposta, com as calorias de cada preparo, está em [sucupira emagrece ou engorda](/sucupira-engorda-ou-emagrece/).
+
 **Quero conhecer a Sucupira Naturale.** A história da empresa está em [quem somos](/sobre/).
-
-## Uma dúvida que aparece muito: engorda ou emagrece?
-
-Nenhuma das duas coisas é atribuída à sucupira pela tradição nem pelas pesquisas que consultamos. Se o peso mudou durante o uso, a causa costuma estar em outros fatores da rotina, e nas receitas com vinho ou melado, nas calorias da bebida. Mais em [sucupira engorda ou emagrece](/sucupira-engorda-ou-emagrece/).
 
 ## Sucupira Naturale para quem prefere o líquido pronto
 
@@ -98,7 +94,7 @@ Depende da sua rotina. O chá mantém o costume caseiro, a cápsula é fácil de
 
 **Quem não deve tomar sucupira?**
 
-Gestantes, lactantes e crianças menores de 13 anos não devem usar. Quem trata doença crônica ou usa medicamento contínuo combina o uso com o médico. Os detalhes estão em [contraindicações](/sucupira-contraindicacoes/).
+Gestantes, lactantes e crianças menores de 13 anos. A lista completa está em [contraindicações da sucupira](/sucupira-contraindicacoes/).
 
 **A sucupira substitui o remédio do médico?**
 
@@ -107,7 +103,3 @@ Não. Ela pode fazer parte da rotina ao lado do tratamento, sem substituir medic
 **A sucupira é medicamento?**
 
 Não. Produtos de sucupira como a Sucupira Naturale são vendidos como alimento e não se destinam a diagnosticar, tratar ou curar doenças. Nenhuma forma de regularização de alimento significa aprovação da Anvisa.
-
-**Sucupira engorda ou emagrece?**
-
-Não há relação estabelecida com o peso, nem na tradição nem nas pesquisas consultadas. Mudanças de peso costumam vir de outros fatores da rotina.

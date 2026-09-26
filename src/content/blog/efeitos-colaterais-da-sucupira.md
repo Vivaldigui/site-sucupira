@@ -3,7 +3,7 @@ title: "Efeitos colaterais da sucupira: o que se sabe"
 seoTitle: "Efeitos colaterais da sucupira"
 description: "Quais são os efeitos colaterais da sucupira? A lista que circula na internet não tem fonte. Veja o que os estudos de segurança mostram e como usar bem."
 publishDate: "2026-08-24T08:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Efeitos Colaterais", "Contraindicações", "Segurança no Uso"]
@@ -11,7 +11,7 @@ featured: false
 ogImage: "/assets/blog/efeitos-colaterais-da-sucupira.webp"
 ---
 
-**Resposta rápida:** não há relato publicado de efeito colateral da sucupira em pessoas que a usam nas quantidades tradicionais. A lista que se repete na internet (náusea, diarreia, tontura, sonolência) não tem fonte que a sustente. Os estudos de segurança em animais mostram que doses baixas e moderadas foram bem toleradas, e que uma dose alta de extrato concentrado, dada todo dia por meses, pesou no fígado. Por isso a regra de uso é seguir a medida do rótulo.
+**Resposta rápida:** os efeitos colaterais da sucupira não aparecem em relatos publicados de pessoas que a usam nas quantidades tradicionais. A lista que se repete na internet (náusea, diarreia, tontura, sonolência) não tem fonte que a sustente. Os estudos de segurança em animais mostram que doses baixas e moderadas foram bem toleradas, e que uma dose alta de extrato concentrado, dada todo dia por meses, pesou no fígado. Por isso a regra de uso é seguir a medida do rótulo.
 
 Fomos procurar a fonte da lista que todo mundo publica. Ela não existe.
 
@@ -47,7 +47,7 @@ Uma boa prática é começar a sucupira sem introduzir outro produto novo na mes
 
 Seguir a quantidade indicada pelo fabricante mantém o uso na faixa em que os estudos não encontraram problema. Aumentar a dose esperando resultado mais rápido leva o consumo na direção da dose em que o fígado dos animais reagiu, sem benefício conhecido em troca. Ver [quantas tampinhas por dia](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/).
 
-## O formato muda a conta
+## Efeitos colaterais do chá, da cápsula e do extrato
 
 - **Garrafada e sucupira no vinho** carregam álcool em quantidade não medida, tomado todo dia. O efeito do álcool é conhecido e independe da planta.
 - **Chá caseiro** varia com a semente, o tempo de fervura e o lote, então dois preparos podem render quantidades bem diferentes.

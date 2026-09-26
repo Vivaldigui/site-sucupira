@@ -3,7 +3,7 @@ title: "Sucupira: contraindicações e quem deve ter cuidado"
 seoTitle: "Sucupira: contraindicações"
 description: "Quem não pode tomar sucupira, quem precisa conversar com um profissional antes, e o motivo concreto de cada item — sem alarmismo e sem promessa."
 publishDate: "2026-08-22T08:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T21:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Contraindicações", "Medicamentos Contínuos", "Segurança no Uso", "Saúde 45+"]
@@ -11,14 +11,14 @@ featured: false
 ogImage: "/assets/blog/sucupira-contraindicacoes.webp"
 ---
 
-**Resposta rápida:** gestantes, lactantes e crianças menores de 13 anos não devem usar sucupira. Quem trata doença do fígado ou dos rins, tem gastrite ou úlcera, ou toma remédio contínuo pode usar combinando antes com o médico. Para os demais adultos, o uso tradicional em pequenas quantidades não tem relato publicado de problema, e a regra é seguir a medida do rótulo.
+**Resposta rápida:** as contraindicações da sucupira são poucas e claras: gestantes, lactantes e crianças menores de 13 anos não devem usar. Quem trata doença do fígado ou dos rins, tem gastrite ou úlcera, ou toma remédio contínuo pode usar combinando antes com o médico. Para os demais adultos, o uso tradicional em pequenas quantidades não tem relato publicado de problema, e a regra é seguir a medida do rótulo. As mesmas contraindicações valem para o chá, a garrafada, a cápsula e o extrato líquido.
 
 <figure>
   <img src="/assets/blog/sucupira-contraindicacoes.webp" alt="Sucupira: contraindicações e quem deve ter cuidado" width="1200" height="675" />
   <figcaption>Imagem editorial para contextualizar o tema, sem substituir orientação profissional.</figcaption>
 </figure>
 
-## Quem não deve usar
+## Quem não pode tomar sucupira
 
 Estes grupos aparecem como restrição na advertência declarada do produto:
 
@@ -28,7 +28,7 @@ Estes grupos aparecem como restrição na advertência declarada do produto:
 
 O motivo é o mesmo nos três casos: **ninguém estudou a sucupira nessas fases**. Gravidez, amamentação e infância são os momentos em que nenhuma planta com atividade real entra sem dado, porque o custo de errar é alto demais.
 
-## Quem precisa conversar antes, e por quê
+## Quem pode usar combinando com o médico
 
 **Doença renal ou hepática.** Rins e fígado processam e eliminam os compostos. Quando já existe alteração nesses órgãos, qualquer coisa nova soma carga a um sistema que já trabalha com margem menor. Detalhe em [sucupira faz mal para os rins ou fígado](/sucupira-faz-mal-para-os-rins-ou-figado/).
 
@@ -82,6 +82,10 @@ A sucupira não é medicamento e entra na rotina ao lado do tratamento, sem subs
 **Quem não pode tomar sucupira?**
 
 Gestantes, lactantes e crianças menores de 13 anos, como declara a advertência do produto. Quem trata doença do fígado ou dos rins, tem gastrite ou úlcera, ou toma remédio contínuo pode usar combinando antes com o médico.
+
+**Chá de sucupira tem contraindicação?**
+
+Tem as mesmas do extrato e da garrafada: gestantes, lactantes e crianças não devem tomar, e quem trata doença crônica ou usa remédio contínuo combina com o médico. A forma de preparo não muda quem deve evitar.
 
 **Quem tem pressão alta pode tomar sucupira?**
 
