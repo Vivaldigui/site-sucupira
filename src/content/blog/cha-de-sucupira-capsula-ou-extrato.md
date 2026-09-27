@@ -3,7 +3,7 @@ title: "Chá de sucupira, cápsula ou extrato: qual a diferença?"
 seoTitle: "Chá, cápsula ou extrato de sucupira?"
 description: "Chá, cápsula, extrato líquido, óleo e garrafada de sucupira comparados por preparo, praticidade, ingredientes e rótulo: veja qual combina com a sua rotina."
 publishDate: "2026-08-27T14:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Cápsulas de Sucupira", "Extrato de Sucupira", "Como Tomar", "Dores crônicas"]
@@ -72,6 +72,10 @@ A Sucupira Naturale Líquida é um **extrato líquido pronto para consumo**, em 
 **[Ver a Sucupira Naturale Líquida 400 ml na loja oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
 
 ## Perguntas frequentes
+
+**Sucupira 200 mg ou 500 mg: qual a diferença?**
+
+O número indica quanto cabe em cada cápsula, não quanto de composto ativo ela tem. Uma cápsula de 200 mg de extrato e uma de 500 mg de semente moída podem ter concentrações bem diferentes. Para comparar, confira no rótulo se é pó ou extrato e quantas cápsulas a marca indica por dia. O uso é o mesmo da sucupira em geral: dores nas articulações, na tradição.
 
 **Qual a melhor forma de tomar sucupira?**
 

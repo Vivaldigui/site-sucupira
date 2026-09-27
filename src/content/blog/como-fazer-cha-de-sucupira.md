@@ -2,7 +2,7 @@
 title: "Como fazer chá de sucupira em casa: passo a passo"
 description: "Receita tradicional do chá de sucupira: 4 sementes quebradas, 1 litro de água e 10 a 15 minutos de fervura. Por que quebrar a semente e quem deve evitar."
 publishDate: "2026-07-01T15:00:00-03:00"
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Como Tomar", "Uso Tradicional", "Segurança no Uso"]
@@ -49,6 +49,10 @@ Nas quantidades tradicionais, não há relato publicado de problema em pessoas. 
 Gestantes, lactantes e crianças não devem tomar. Quem tem [doença nos rins ou no fígado](/sucupira-faz-mal-para-os-rins-ou-figado/), [pressão alta](/sucupira-e-pressao-alta/) tratada com remédio, ou usa anticoagulante, combina o uso com o médico. A lista completa está em [contraindicações da sucupira](/sucupira-contraindicacoes/), e o que se sabe sobre reações, em [efeitos colaterais da sucupira](/efeitos-colaterais-da-sucupira/).
 
 ## Perguntas frequentes
+
+**Qual o melhor horário para tomar o chá de sucupira?**
+
+Não há horário certo na tradição: o chá é tomado aos poucos, ao longo do dia. Quem tem estômago sensível ao amargor costuma se dar melhor tomando junto das refeições. O que mais importa é a regularidade, todos os dias.
 
 **Posso tomar chá de sucupira todos os dias?**
 

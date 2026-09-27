@@ -3,7 +3,7 @@ title: "Efeitos colaterais da sucupira: o que se sabe"
 seoTitle: "Efeitos colaterais da sucupira"
 description: "Quais são os efeitos colaterais da sucupira? A lista que circula na internet não tem fonte. Veja o que os estudos de segurança mostram e como usar bem."
 publishDate: "2026-08-24T08:00:00-03:00"
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Efeitos Colaterais", "Contraindicações", "Segurança no Uso"]
@@ -73,9 +73,9 @@ Não há relato publicado de efeito colateral em pessoas nas quantidades tradici
 
 Nas doses menores do estudo de 110 dias, não houve alteração. Na dose mais alta, o fígado dos ratos acumulou gordura. Seguir a medida do rótulo mantém o uso na faixa sem problema observado. O caso de dano hepático que costuma circular é de bovinos que comeram folhas e frutos no pasto.
 
-**Sucupira dá dor de estômago?**
+**Sucupira faz mal para o estômago?**
 
-Pode incomodar em jejum, como qualquer coisa amarga e adstringente. Tomar junto de uma refeição costuma resolver.
+Pode incomodar em jejum, como qualquer coisa amarga e adstringente. Tomar junto de uma refeição costuma resolver. Quem tem gastrite ou úlcera combina o uso com o médico.
 
 **Sucupira em cápsula tem efeitos colaterais diferentes?**
 

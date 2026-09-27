@@ -2,7 +2,7 @@
 title: "Quantas tampinhas de sucupira por dia? Medidas e rendimento"
 description: "Entenda as quantidades publicadas pela Naturale, a medida de 7 ml por tampa e como calcular o rendimento do frasco de 400 ml e dos kits."
 publishDate: "2026-06-20T13:00:00-03:00"
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dosagem", "Como Tomar"]
@@ -75,6 +75,10 @@ Essas orientações estão reunidas no [manual de como tomar o extrato de sucupi
 A marca orienta consulta médica antes do uso para gestantes, lactantes, menores de 13 anos, pessoas com doenças preexistentes ou em uso de medicamentos contínuos. Os detalhes estão em [contraindicações](/sucupira-contraindicacoes/).
 
 ## Perguntas frequentes
+
+**Qual é a dosagem usual de sucupira?**
+
+Depende da forma. No extrato líquido, vale a quantidade do rótulo, medida na tampinha de 7 ml. No chá, a receita popular mais comum usa 4 sementes quebradas para 1 litro de água, tomado ao longo do dia. Nas cápsulas, a quantidade vem do rótulo da marca. Nenhuma dessas medidas foi definida em estudo clínico, e uma não se converte na outra.
 
 **Quantas tampinhas de sucupira devo tomar por dia?**
 

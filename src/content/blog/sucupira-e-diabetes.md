@@ -55,6 +55,10 @@ Se você usa medicamento contínuo, está grávida ou amamentando, ou tem doenç
 
 ## Perguntas frequentes
 
+**Sucupira é bom para diabetes?**
+
+Há relatos de uso popular para baixar a glicose, e uma fração do extrato reduziu a glicemia em ratos, segundo a [revisão de 2015 da revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/). Em pessoas isso não foi estudado, e a sucupira não substitui o remédio para diabetes. Quem trata diabetes pode usar combinando com o médico, e deve evitar as versões com açúcar, como garrafada, vinho e suco de uva.
+
 **Sucupira pode ser usada por quem tem diabetes?**
 
 Pode ser considerada como apoio complementar ao desconforto articular, com conversa prévia com quem acompanha o tratamento — principalmente por causa da medicação em uso, não pela planta em si. Não há estudo mostrando efeito na glicemia em nenhuma direção.

@@ -2,12 +2,12 @@
 title: "Sucupira é confiável? Como verificar antes de comprar"
 description: "Sucupira é confiável? Separe a planta, o mercado, o produto e a empresa — e veja como verificar cada um antes de gastar dinheiro."
 publishDate: 2026-08-31T15:00:00-03:00
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Segurança no Uso", "Ciência da Sucupira", "Extrato de Sucupira"]
 featured: false
-ogImage: "/assets/blog/sucupira-funciona-mesmo.webp"
+ogImage: "/assets/blog/sucupira-e-confiavel.webp"
 ---
 
 **Resposta rápida:** depende do que você está tentando confiar. A sucupira é uma planta com uso tradicional consolidado no Brasil e compostos estudados em laboratório, mas sem eficácia comprovada em pessoas. Já os produtos vendidos com o nome "sucupira" variam muito: a ANVISA proibiu vários deles em 2026 por irregularidade. O que separa um caso do outro é o critério na hora de escolher.

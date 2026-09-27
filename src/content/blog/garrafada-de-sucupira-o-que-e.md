@@ -2,7 +2,7 @@
 title: "Garrafada de sucupira: para que serve e como fazer"
 description: "As receitas populares de garrafada de sucupira, no vinho, na cachaça e no suco de uva: como cada uma é feita, para que o povo usa e o que observar."
 publishDate: "2026-07-04T15:00:00-03:00"
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Plantas Medicinais"]
@@ -53,6 +53,10 @@ Gestantes e lactantes não devem usar sucupira em nenhuma forma. Os demais cuida
 A garrafada tem o valor da receita de família. O produto pronto tem outro valor: a mesma medida em todo frasco, sem esperar dias de maceração. A Sucupira Naturale, por exemplo, é um extrato líquido com 49,75% de semente de sucupira, 49,75% de água mineral e 0,5% de álcool de cereais, bem menos álcool do que um vinho. A comparação completa está em [chá, cápsula ou extrato](/cha-de-sucupira-capsula-ou-extrato/).
 
 ## Perguntas frequentes
+
+**Sucupira no suco de uva serve para quê?**
+
+É a versão sem álcool da garrafada, com o mesmo uso popular: dores nas juntas e reumatismo. A receita mais repetida deixa de 5 a 7 sementes quebradas em 1 litro de suco de uva integral, por 24 horas na geladeira. Estraga rápido e tem o açúcar do suco.
 
 **Como fazer garrafada de sucupira?**
 

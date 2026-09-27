@@ -3,7 +3,7 @@ title: "Sucupira: para que serve? Benefícios, usos e contraindicações"
 seoTitle: "Sucupira: para que serve? Benefícios e contraindicações"
 description: "Para que a sucupira é usada na tradição brasileira, o que a pesquisa já encontrou sobre dor e inflamação, em quais formas ela existe e quem deve evitar."
 publishDate: 2025-06-01
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-09-26T22:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Uso Tradicional"]
@@ -75,6 +75,14 @@ A Sucupira Naturale Líquida é um extrato de sucupira em frasco de 400 ml, pron
 **[Conhecer a Sucupira Naturale Líquida 400 ml](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
 
 ## Perguntas frequentes
+
+**Para que serve a Sucupira Naturale?**
+
+É um extrato líquido da semente de sucupira, pronto para tomar, usado da mesma forma que a sucupira tradicional: como apoio para quem convive com dores nas articulações. É vendido como alimento, não como medicamento. Como tomar está no [manual do extrato](/como-tomar-extrato-de-sucupira/).
+
+**Casca e folha de sucupira servem para quê?**
+
+Quase todo o uso tradicional e toda a pesquisa sobre dor usam a semente, onde ficam os vouacapanos e o geranilgeraniol. Casca e folha aparecem em relatos populares, mas não são o que se estuda para dores nas articulações. A "sucupira-preta", outra árvore, é mais conhecida pela madeira.
 
 **Para que serve a sucupira?**
 
