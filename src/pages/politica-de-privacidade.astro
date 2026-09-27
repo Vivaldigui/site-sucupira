@@ -213,6 +213,7 @@ const schema = JSON.stringify({
           <ul>
             <li>Entender quais artigos são lidos, para decidir o que escrever e o que corrigir.</li>
             <li>Medir se o site funciona bem em cada tipo de aparelho e conexão.</li>
+            <li>Medir a participação do blog nas vendas da loja oficial, ligando visitas e cliques a pedidos pelo identificador do navegador.</li>
             <li>Exibir anúncios, que são o que custeia a manutenção do blog.</li>
             <li>Responder às mensagens que você nos manda.</li>
             <li>Cumprir obrigações legais e defender direitos, se for necessário.</li>
@@ -247,6 +248,16 @@ const schema = JSON.stringify({
                 <td>
                   Registra, por 30 dias, que a visita à loja oficial saiu do blog e de qual artigo. Guarda só o
                   endereço do artigo.
+                </td>
+                <td>Sucupira Naturale</td>
+              </tr>
+              <tr>
+                <td>Tracking próprio: <code>sn_vid</code> e <code>sn_s</code></td>
+                <td>
+                  Identificadores aleatórios compartilhados entre blog e loja. O visitante permanece por até 400 dias;
+                  a sessão dura 30 minutos e é renovada durante a navegação. Registramos o caminho da página,
+                  o identificador do botão e o destino do clique, sem texto do botão nem parâmetros do endereço.
+                  Esses eventos ficam no CRM por até 13 meses; a janela para participação em uma compra é de 90 dias.
                 </td>
                 <td>Sucupira Naturale</td>
               </tr>
