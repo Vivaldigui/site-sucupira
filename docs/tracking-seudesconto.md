@@ -44,6 +44,9 @@ do blog (`firebase.json`, projeto `blog-sucupira`) permanece separado. O build
 verifica que, retirando a injeção, o template é idêntico ao original e preserva
 `robots.txt` e `sitemap.xml`.
 
+Também preserva os arquivos de `landing-seudesconto/assets`, incluindo a imagem
+do kit de 2 garrafas e os ícones adicionados na atualização da landing.
+
 Versão anterior do Firebase: `8b89eeca82fa2462`, release
 `1790897149402000`. Pode ser restaurada pelo histórico de releases do Hosting.
 
@@ -59,3 +62,19 @@ aceitou a origem da landing e recebeu uma sessão direta. No navegador, o
 parâmetro de teste `utm_content=sn_tracking_check` apareceu nos botões e chegou
 à página do produto na loja. Nenhum identificador de anúncio falso ou pedido
 de teste foi enviado ao Google. Não houve erro no console da landing.
+
+### Reinstalação após publicação externa
+
+Às 20h42, uma publicação substituiu a versão instrumentada e removeu os scripts.
+Às 20h47 foi publicada a versão `385968e8d2e92abb`, com o novo kit de 2 garrafas
+e três arquivos em `/assets`. Essa versão foi importada como nova base, sem
+reverter o conteúdo. O tracking foi reinstalado às **20h49** na versão
+`61c89a7292e664ad`.
+
+HTML, scripts, imagem do kit de 2 e ícones foram conferidos na URL pública contra
+o build. No navegador, os scripts carregaram sem erro; o botão do kit de 2 levou
+à loja preservando `utm_content=sn_tracking_recheck`. Os sete testes passaram.
+
+Próximas alterações da landing devem usar `npm run build:seudesconto` e
+`firebase.seudesconto.json`. Publicar um export isolado sem essa etapa retira
+novamente o tracking. Ao importar um novo export, preservar também seus assets.

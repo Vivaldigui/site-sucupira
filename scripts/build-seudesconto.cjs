@@ -1,5 +1,5 @@
 // Mantém o export publicado e injeta os scripts no documento efetivamente renderizado.
-const { readFileSync, writeFileSync, mkdirSync, copyFileSync } = require('node:fs');
+const { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, cpSync } = require('node:fs');
 const { join } = require('node:path');
 const { Script } = require('node:vm');
 const root = join(__dirname, '..');
@@ -23,5 +23,6 @@ for (const name of ['sn-tracking', 'seudesconto-links']) {
   writeFileSync(join(out, name + '.js'), script);
 }
 for (const name of ['robots.txt', 'sitemap.xml']) copyFileSync(join(source, name), join(out, name));
+if (existsSync(join(source, 'assets'))) cpSync(join(source, 'assets'), join(out, 'assets'), { recursive: true });
 if (updated.replace(injection, '') !== template) throw new Error('O conteúdo original foi alterado');
 console.log('Landing gerada: conteúdo original preservado; tracking e links adicionados.');
