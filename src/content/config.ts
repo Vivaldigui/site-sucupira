@@ -13,6 +13,8 @@ const blog = defineCollection({
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     ogImage: z.string().optional(),
+    // false = artigo sem publicidade de terceiros (conteúdo de intenção comercial).
+    ads: z.boolean().default(true),
   }),
 });
 

@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { BLOG_SITE_URL, SALES_CTA_URL } from './src/consts.ts';
+import { rehypeNativeAd } from './src/utils/rehype-native-ad.ts';
 
 const BLOG_CONTENT_DIRECTORY = new URL('./src/content/blog/', import.meta.url);
 const publicationDateFormatter = new Intl.DateTimeFormat('en-CA', {
@@ -139,6 +140,6 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    rehypePlugins: [improveBlogMarkdownOutput],
+    rehypePlugins: [improveBlogMarkdownOutput, rehypeNativeAd],
   },
 });
