@@ -1,6 +1,10 @@
 ---
 import ArticleHeader from '../components/ArticleHeader.astro';
 import AdSense from '../components/AdSense.astro';
+import AdLoader from '../components/ads/AdLoader.astro';
+import DesktopBannerAd from '../components/ads/DesktopBannerAd.astro';
+import MobileBannerAd from '../components/ads/MobileBannerAd.astro';
+import RectangleAd from '../components/ads/RectangleAd.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import ReadingTracking from '../components/ReadingTracking.astro';
 import LinkTracking from '../components/LinkTracking.astro';
@@ -27,6 +31,7 @@ import {
   blogAssetUrl,
   blogUrl,
 } from '../consts';
+import { planArticleAds } from '../config/ads';
 import type { FaqItem } from '../utils/faq';
 import '../styles/blog.css';
 
@@ -57,6 +62,8 @@ interface Props {
   relatedPosts?: RelatedPost[];
   faqItems?: FaqItem[];
   wordCount?: number;
+  // `ads: false` no frontmatter: artigo comercial, sem publicidade de terceiros.
+  ads?: boolean;
 }
 
 const {
@@ -73,7 +80,12 @@ const {
   relatedPosts = [],
   faqItems = [],
   wordCount,
+  ads = true,
 } = Astro.props;
+
+// O Native do meio do texto é decidido em build por src/utils/rehype-native-ad.ts.
+const adPlan = planArticleAds({ ads, wordCount });
+const hasAds = adPlan.native || adPlan.rectangle || adPlan.endBanner;
 
 const canonicalUrl = blogUrl(`/${slug}/`);
 
@@ -304,6 +316,9 @@ const schema = JSON.stringify({
           label="Ver Sucupira Naturale"
         />
 
+        {/* Sempre depois do CTA do produto: a venda vem antes da publicidade. */}
+        {adPlan.rectangle && <RectangleAd />}
+
         <RelatedArticles posts={relatedPosts} />
 
         <InfoBox variant="transparency" title="Transparência editorial" labelledBy="transparency-title">
@@ -339,6 +354,15 @@ const schema = JSON.stringify({
           </div>
         </aside>
 
+        {
+          adPlan.endBanner && (
+            <>
+              <MobileBannerAd />
+              <DesktopBannerAd />
+            </>
+          )
+        }
+
         <footer class="article-footer-note">
           <strong>Aviso:</strong> Conteúdo exclusivamente informativo. Não substitui consulta, diagnóstico ou
           tratamento médico.
@@ -362,5 +386,6 @@ const schema = JSON.stringify({
 
     <MobileStickyCTA />
     <ReadingTracking />
+    {hasAds && <AdLoader />}
   </body>
 </html>

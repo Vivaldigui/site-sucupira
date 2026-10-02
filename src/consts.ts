@@ -49,8 +49,9 @@ export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
 // for true — e essa mesma constante liga, na política de privacidade, a
 // divulgação de cookies de publicidade que o Google exige do publisher.
 // Desligar os anúncios é virar esta flag para false: script e divulgação saem juntos.
+// As unidades de anúncio dentro dos artigos têm flag própria: ADS_ENABLED, em config/ads.ts.
 export const ADSENSE_CLIENT = 'ca-pub-5232696023072099';
 export const SERVES_THIRD_PARTY_ADS = true;
 
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-09-10';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-10-02';
