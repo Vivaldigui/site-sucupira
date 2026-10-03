@@ -37,6 +37,25 @@
     var prefix = "sn_q_v1:" + fingerprint(base) + ":", entries = {}, busy = false, timer = null;
     var storage;
     try { storage = w.localStorage; } catch (e) { /* memória se armazenamento bloqueado */ }
+    var contextKey = "sn_context_v1:" + fingerprint(base);
+    function context(sid) {
+      var values = [cookie("sn_context")];
+      try { if (storage) values.push(storage.getItem(contextKey)); } catch (e) { /* cookie */ }
+      for (var i = 0; i < values.length; i++) try {
+        var p = JSON.parse(values[i] || "null");
+        if (p && p.sid === sid && p.vid === cookie("sn_vid") &&
+            valid({ route: "s", payload: p, created: Date.parse(p.occurred_at) })) return p;
+      } catch (e) { /* contexto inválido */ }
+      return null;
+    }
+    function remember(payload) {
+      if (cookie("sn_s").split(".")[0] !== payload.sid) return;
+      if (context(payload.sid)) return;
+      var raw = JSON.stringify(payload);
+      try { if (storage) storage.setItem(contextKey, raw); } catch (e) { /* cookie */ }
+      // O contexto confirmado conserva só a entrada filtrada, nunca identidade de checkout.
+      writeCookie("sn_context", encodeURIComponent(raw).length <= 3000 ? raw : "", encodeURIComponent(raw).length <= 3000 ? 86400 : 0);
+    }
     function valid(entry) {
       return entry && /^[sebf]$/.test(entry.route) && entry.payload && entry.payload.v === 1 &&
         /^[a-z2-7]{16}$/.test(entry.payload.sid) && /^[a-z2-7]{16}$/.test(entry.payload.vid) &&
@@ -127,20 +146,39 @@
       var key = route + ":" + (payload.event_id || (payload.sid + ":" + (payload.kind || "session") + ":" + (payload.order_number || payload.email_sha256 || "")));
       var entry = { route: route, payload: payload, created: payload.occurred_at ? Date.parse(payload.occurred_at) : Date.now(), next: 0, attempt: 0 };
       if (!valid(entry)) return;
+      if (route === "s") remember(payload);
       load();
       if (!entries[key]) { entries[key] = entry; persist(key, entry); }
       if (route === "s" && cookie("sn_s").split(".")[0] === payload.sid && encodeURIComponent(JSON.stringify(payload)).length <= 3000) writeCookie("sn_pending", JSON.stringify(payload), 86400);
       load(); flush();
+    }, context: context, check: function (sid, vid, done) {
+      var finished = false, timer;
+      function finish(exists) { if (finished) return; finished = true; if (timer && w.clearTimeout) w.clearTimeout(timer); done(exists); }
+      if (!w.fetch) { finish(null); return; }
+      if (w.setTimeout) timer = w.setTimeout(function () { finish(null); }, 3000);
+      try {
+        w.fetch(base + "/c", { method: "POST", body: JSON.stringify({ v: 1, sid: sid, vid: vid }),
+          mode: "cors", credentials: "omit", keepalive: true, headers: { "Content-Type": "text/plain" }
+        }).then(function (res) {
+          if (res.status !== 200) { finish(null); return; }
+          return res.json().then(function (body) { finish(body && typeof body.exists === "boolean" ? body.exists : null); });
+        })["catch"](function () { finish(null); });
+      } catch (e) { finish(null); }
     }, acknowledged: function (sid) { return cookie("sn_a") === sid; }, pending: function (sid) {
       try { var p = JSON.parse(cookie("sn_pending") || "null"); return p && p.sid === sid ? p : null; } catch (e) { return null; }
     }, flush: flush };
     clients[base] = client;
     // A loja e o checkout podem recuperar a primeira chegada que falhou no blog.
     var pending = client.pending(cookie("sn_s").split(".")[0]);
-    if (pending && pending.vid === cookie("sn_vid") && !client.acknowledged(pending.sid)) client.send("s", pending);
+    var original = context(cookie("sn_s").split(".")[0]);
+    if (original) client.send("s", original);
+    else if (pending && pending.vid === cookie("sn_vid") && !client.acknowledged(pending.sid)) client.send("s", pending);
     if (w.addEventListener) {
       w.addEventListener("online", function () { for (var k in entries) entries[k].next = 0; flush(); });
-      w.addEventListener("pageshow", flush);
+      w.addEventListener("pageshow", function (event) {
+        if (event && event.persisted) { var p = context(cookie("sn_s").split(".")[0]); if (p) client.send("s", p); }
+        flush();
+      });
       w.addEventListener("pagehide", function () {
         load(); Object.keys(entries).slice(0, 10).forEach(function (key) {
           var e = entries[key];
@@ -317,10 +355,16 @@
     if (isNew) sid = newId();
     setCookie("sn_s", sid + "." + (campaignHash || storedHash), SESSION_MAX_AGE);
 
+    function start(exists) {
+    if (exists === false) {
+      // Sem a entrada original, abre uma chegada observada agora; não reescreve a origem apagada.
+      sid = newId(); isNew = true;
+      setCookie("sn_s", sid + "." + (campaignHash || storedHash), SESSION_MAX_AGE);
+    }
     w.SN_TRACK_IDS = { vid: vid, sid: sid };
     stampLiCampaign(sid);
 
-    if (isNew || (!delivery.acknowledged(sid) && !delivery.pending(sid))) {
+    if (isNew) {
       var qs = [];
       for (var k in params) if (Object.prototype.hasOwnProperty.call(params, k)) qs.push(encodeURIComponent(k) + "=" + encodeURIComponent(params[k]));
       var payload = {
@@ -343,5 +387,8 @@
     }
     blogTracking(vid, sid);
     funnelTracking(vid, sid);
+    }
+    if (!isNew && !delivery.context(sid) && !delivery.pending(sid)) delivery.check(sid, vid, start);
+    else start(true);
   } catch (e) { /* o tracking nunca pode quebrar a página */ }
 })(window, document);

@@ -80,7 +80,23 @@ test('landing e loja compartilham visitante e sessão; a LI recebe o carimbo des
   const store = browser(a.href, [], b.jar); store.run(tracking); store.flush();
   assert.deepEqual(JSON.parse(JSON.stringify(store.window.SN_TRACK_IDS)), JSON.parse(JSON.stringify(b.window.SN_TRACK_IDS)));
   assert.ok(decodeURIComponent(store.jar.get('utm_campaign')).endsWith('~s' + b.window.SN_TRACK_IDS.sid));
-  assert.equal(store.events.length, 0);
+  assert.equal(store.events.length, 1);
+  assert.deepEqual(store.events[0], b.events[0]);
+});
+test('blog e seudesconto revalidam a entrada confirmada após restauração sem alterar origem ou horário', async () => {
+  for (const entry of [landing, 'https://blog.sucupiranaturale.com.br/artigo']) {
+    const first = browser(entry + '?gclid=REAL_IN_LOCAL_TEST&email=private@example.com'); first.run(tracking);
+    for (let i = 0; i < 40; i++) await Promise.resolve();
+    const original = first.events[0];
+    assert.equal(first.jar.get('sn_a'), original.sid);
+    assert.ok(first.jar.get('sn_context'));
+    const next = browser('https://www.sucupiranaturale.com.br/combos', [], first.jar); next.run(tracking);
+    for (let i = 0; i < 40; i++) await Promise.resolve();
+    assert.deepEqual(next.events[0], original);
+    assert.equal(next.window.SN_TRACK_IDS.sid, original.sid);
+    assert.equal(next.events.filter(e => !e.kind).length, 1);
+    assert.equal(JSON.stringify(next.events).includes('private@example.com'), false);
+  }
 });
 test('um novo clique de campanha abre nova sessão para o mesmo visitante', async () => {
   const first = browser(landing + '?gclid=FIRST'); first.run(tracking);
