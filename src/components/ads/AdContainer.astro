@@ -1,0 +1,21 @@
+---
+// Moldura de uma unidade de anúncio: rótulo "Publicidade" e o espaço reservado.
+// Não carrega nada sozinha — o AdLoader preenche `.ad-frame` quando a unidade
+// chega perto da tela. O Native do meio do texto usa esta mesma marcação, gerada
+// em build por src/utils/rehype-native-ad.ts.
+import { AD_LABEL, AD_UNITS, AD_UNIT_CLASS, type AdUnitName } from '../../config/ads';
+
+interface Props {
+  unit: AdUnitName;
+}
+
+const { unit: unitName } = Astro.props;
+const unit = AD_UNITS[unitName];
+// Tamanho fixo reservado antes do carregamento: o texto não se desloca depois.
+const frameStyle = unit.kind === 'banner' ? `width:${unit.width}px;height:${unit.height}px` : undefined;
+---
+
+<aside class={`ad-container ad-container--${AD_UNIT_CLASS[unitName]}`} data-ad-unit={unitName} aria-label={AD_LABEL}>
+  <div class="ad-label" aria-hidden="true">{AD_LABEL}</div>
+  <div class="ad-frame" style={frameStyle}></div>
+</aside>

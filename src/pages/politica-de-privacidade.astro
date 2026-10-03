@@ -28,6 +28,7 @@ import {
   WEBSITE_ID,
   blogUrl,
 } from '../consts';
+import { ADS_ENABLED, AD_NETWORK_NAME, AD_NETWORK_PRIVACY_URL } from '../config/ads';
 import '../styles/blog.css';
 
 const canonicalUrl = blogUrl(PRIVACY_PAGE_PATH);
@@ -259,6 +260,18 @@ const schema = JSON.stringify({
                   </tr>
                 )
               }
+              {
+                ADS_ENABLED && (
+                  <tr>
+                    <td>{AD_NETWORK_NAME}</td>
+                    <td>
+                      Exibição de anúncios dentro dos artigos. Cada anúncio fica num quadro isolado do
+                      restante da página.
+                    </td>
+                    <td>{AD_NETWORK_NAME} e parceiros de publicidade</td>
+                  </tr>
+                )
+              }
             </tbody>
           </table>
 
@@ -312,13 +325,29 @@ const schema = JSON.stringify({
                   .
                 </p>
 
+                {
+                  ADS_ENABLED && (
+                    <p>
+                      Parte dos anúncios dos artigos vem de uma segunda rede, a {AD_NETWORK_NAME}. Ela recebe
+                      os dados técnicos de qualquer requisição — endereço IP, navegador, tipo de aparelho e
+                      o endereço da página visitada — e os usa para escolher o anúncio, contar exibições e
+                      evitar fraude. O tratamento que ela faz está na
+                      <a href={AD_NETWORK_PRIVACY_URL} rel="nofollow noopener" target="_blank">
+                        política de privacidade da {AD_NETWORK_NAME}
+                      </a>
+                      .
+                    </p>
+                  )
+                }
+
                 <InfoBox
                   variant="transparency"
                   title="Anúncio não é recomendação nossa"
                   labelledBy="privacy-ads-title"
                 >
                   <p>
-                    Os anúncios exibidos aqui são escolhidos automaticamente pelo Google, não por nós.
+                    Os anúncios exibidos aqui são escolhidos automaticamente
+                    {ADS_ENABLED ? ` pelo Google e pela ${AD_NETWORK_NAME}` : ' pelo Google'}, não por nós.
                     <strong>
                       A presença de um anúncio neste site não significa que a Sucupira Naturale indica,
                       aprova ou se responsabiliza pelo produto ou serviço anunciado
@@ -354,6 +383,11 @@ const schema = JSON.stringify({
 
           <ul>
             <li><strong>Google LLC</strong> — análise de audiência e publicidade, conforme a seção 4.</li>
+            {
+              ADS_ENABLED && (
+                <li><strong>{AD_NETWORK_NAME}</strong> — publicidade nos artigos, conforme a seção 4.1.</li>
+              )
+            }
             <li>
               <strong>Google Firebase Hosting</strong> — hospedagem do site, que registra requisições em logs
               de servidor.
@@ -362,9 +396,9 @@ const schema = JSON.stringify({
           </ul>
 
           <p>
-            <strong>Transferência internacional:</strong> esses serviços são operados por empresa sediada nos
-            Estados Unidos, com processamento em servidores fora do Brasil. A transferência se apoia nas
-            cláusulas contratuais e nas garantias oferecidas pelo fornecedor, nos termos do art. 33 da LGPD.
+            <strong>Transferência internacional:</strong> esses serviços são operados por empresas sediadas
+            fora do Brasil, com processamento em servidores no exterior. A transferência se apoia nas
+            cláusulas contratuais e nas garantias oferecidas por cada fornecedor, nos termos do art. 33 da LGPD.
           </p>
 
           <h2 id="retencao">7. Por quanto tempo guardamos</h2>

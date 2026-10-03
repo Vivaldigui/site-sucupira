@@ -87,6 +87,11 @@ content:
         label: Post em destaque
         type: boolean
         default: false
+      - name: ads
+        label: Exibir publicidade
+        type: boolean
+        default: true
+        description: Desmarque em artigo comercial, em que o objetivo é levar o leitor à loja. Sem anúncio de terceiros nele.
       - name: ogImage
         label: Imagem de capa (opcional)
         type: image
