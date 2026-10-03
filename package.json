@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "build:seudesconto": "node scripts/build-seudesconto.cjs",
+    "test:seudesconto": "node --test scripts/seudesconto.test.cjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.2.1",
