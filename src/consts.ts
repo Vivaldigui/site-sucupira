@@ -54,7 +54,7 @@ export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
 // divulgação de cookies de publicidade que o Google exige do publisher.
 // Desligar os anúncios é virar esta flag para false: script e divulgação saem juntos.
 // As unidades de anúncio dentro dos artigos têm flag própria: ADS_ENABLED, em config/ads.ts.
-export const ADSENSE_CLIENT = 'ca-pub-5232696023072099';
+export const ADSENSE_CLIENT = 'ca-pub-3373220519802577';
 export const SERVES_THIRD_PARTY_ADS = true;
 
 // Revisão do AdSense em andamento (pedido refeito em out/2026). Enquanto true, o
