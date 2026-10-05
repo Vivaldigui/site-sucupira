@@ -1,4 +1,5 @@
-export const BLOG_SITE_URL = 'https://blog.sucupiranaturale.com.br';
+// Até 10/2026 o blog ficou em blog.sucupiranaturale.com.br; o Firebase redireciona o endereço antigo.
+export const BLOG_SITE_URL = 'https://guiadasucupira.com.br';
 export const SALES_SITE_URL = 'https://www.sucupiranaturale.com.br';
 
 export const SITE_NAME = 'Sucupira Naturale';
@@ -61,4 +62,4 @@ export const SERVES_THIRD_PARTY_ADS = true;
 export const ADSENSE_REVIEW_MODE = true;
 
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-10-02';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-10-05';
