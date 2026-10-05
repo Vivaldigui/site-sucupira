@@ -62,7 +62,7 @@ Para situar esse uso entre as demais aplicações tradicionais da planta, consul
 
 ## O que ler em seguida?
 
-Continue a leitura dentro do Centro de Conhecimento da Sucupira:
+Continue a leitura dentro do Guia da Sucupira:
 
 - [Sucupira para dor no joelho](/sucupira-para-dor-no-joelho/)
 - [Artrose no joelho: como aliviar a dor](/artrose-no-joelho-como-aliviar-a-dor-naturalmente/)
