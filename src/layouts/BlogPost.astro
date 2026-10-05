@@ -1,4 +1,5 @@
 ---
+import { existsSync } from 'node:fs';
 import ArticleHeader from '../components/ArticleHeader.astro';
 import AdSense from '../components/AdSense.astro';
 import AdLoader from '../components/ads/AdLoader.astro';
@@ -118,7 +119,14 @@ const titleBase = seoTitle ?? title;
 const titleWithBrand = `${titleBase} | ${BLOG_NAME}`;
 const pageTitle = titleWithBrand.length <= 60 ? titleWithBrand : titleBase;
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
-const heroImage = ogImagePath || '/assets/sucupira-natural-banner.webp';
+// A capa traz o título desenhado; no topo do artigo vai só a foto (`-topo.webp`,
+// gerada por scripts/capas/gerar_capas.py), senão o texto aparece atrás do H1.
+const heroStripPath = ogImagePath?.replace(/\.webp$/, '-topo.webp');
+const hasHeroStrip =
+  heroStripPath !== undefined &&
+  heroStripPath !== ogImagePath &&
+  existsSync(new URL(`../../public${heroStripPath}`, import.meta.url));
+const heroImage = hasHeroStrip ? heroStripPath : ogImagePath || '/assets/sucupira-natural-banner.webp';
 const authorInitials = author
   .split(/\s+/)
   .map((word) => word[0])
@@ -281,6 +289,7 @@ const schema = JSON.stringify({
       author={author}
       tags={tags}
       heroImage={heroImage}
+      heroStrip={hasHeroStrip}
     />
 
     <main class="blog-container">

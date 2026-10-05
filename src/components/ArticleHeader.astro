@@ -7,9 +7,11 @@ interface Props {
   author: string;
   tags: string[];
   heroImage: string;
+  // Só a foto, sem o texto da capa: ocupa o lado direito no desktop.
+  heroStrip?: boolean;
 }
 
-const { title, description, publishDate, updatedDate, author, tags, heroImage } = Astro.props;
+const { title, description, publishDate, updatedDate, author, tags, heroImage, heroStrip = false } = Astro.props;
 
 const dateStr = (date: Date) =>
   date.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
@@ -17,11 +19,11 @@ const dateStr = (date: Date) =>
 
 <header class="article-hero">
   <img
-    class="article-hero-media"
+    class:list={['article-hero-media', { 'article-hero-media--faixa': heroStrip }]}
     src={heroImage}
     alt={`Foto de sucupira relacionada ao artigo: ${title}`}
-    width="1200"
-    height="788"
+    width={heroStrip ? 430 : 1200}
+    height={heroStrip ? 675 : 788}
     loading="eager"
     decoding="async"
     fetchpriority="high"
