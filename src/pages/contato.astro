@@ -33,7 +33,7 @@ import {
 import '../styles/blog.css';
 
 const canonicalUrl = blogUrl(CONTACT_PAGE_PATH);
-const title = `Contato | ${SITE_NAME}`;
+const title = `Contato | ${BLOG_NAME}`;
 const description =
   'Fale com a Sucupira Naturale: telefone e WhatsApp (35) 99169-6906, e-mail atendimento@sucupiranaturale.com.br. Empresa familiar de Itanhandu (MG), CNPJ 10.230.957/0001-88.';
 
@@ -118,7 +118,7 @@ const schema = JSON.stringify({
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:site_name" content={BLOG_NAME} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
@@ -137,7 +137,7 @@ const schema = JSON.stringify({
 
     <nav class="breadcrumb" aria-label="Navegação estrutural">
       <ol>
-        <li><a href="/">Centro de Conhecimento</a></li>
+        <li><a href="/">{BLOG_NAME}</a></li>
         <li aria-hidden="true">›</li>
         <li aria-current="page">Contato</li>
       </ol>
@@ -252,7 +252,7 @@ const schema = JSON.stringify({
     <footer class="blog-footer">
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
-        <a href="/">Centro de Conhecimento</a> · <a href={AUTHOR_PAGE_PATH}>Quem somos</a> ·
+        <a href="/">{BLOG_NAME}</a> · <a href={AUTHOR_PAGE_PATH}>Quem somos</a> ·
         <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
         <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
       </p>

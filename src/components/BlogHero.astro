@@ -1,5 +1,5 @@
 ---
-import { SALES_CTA_URL } from '../consts';
+import { ADSENSE_REVIEW_MODE, BLOG_NAME, SALES_CTA_URL } from '../consts';
 ---
 
 <section class="blog-hero" aria-labelledby="page-title">
@@ -16,13 +16,13 @@ import { SALES_CTA_URL } from '../consts';
   <div class="blog-hero-shade" aria-hidden="true"></div>
   <div class="blog-hero-content">
     <p class="eyebrow">Conteúdo informativo</p>
-    <h1 id="page-title">Centro de Conhecimento da Sucupira</h1>
+    <h1 id="page-title">{BLOG_NAME}</h1>
     <p>
       Guias educativos sobre sucupira, uso responsável, evidências disponíveis e cuidados para escolher com mais
       segurança.
     </p>
     <div class="hero-actions">
-      <a href={SALES_CTA_URL} class="hero-cta">Conhecer o produto</a>
+      {!ADSENSE_REVIEW_MODE && <a href={SALES_CTA_URL} class="hero-cta">Conhecer o produto</a>}
       <span>Conteúdo educativo, sem substituir orientação profissional.</span>
     </div>
   </div>

@@ -115,7 +115,7 @@ const ogImage = blogAssetUrl(ogImagePath);
 // Keep the browser/search title under ~60 characters. Use the optional
 // `seoTitle` override when set, and only append the site name while it still fits.
 const titleBase = seoTitle ?? title;
-const titleWithBrand = `${titleBase} | ${SITE_NAME}`;
+const titleWithBrand = `${titleBase} | ${BLOG_NAME}`;
 const pageTitle = titleWithBrand.length <= 60 ? titleWithBrand : titleBase;
 const tocHeadings = headings.filter((heading) => heading.depth === 2 || heading.depth === 3);
 const heroImage = ogImagePath || '/assets/sucupira-natural-banner.webp';
@@ -242,7 +242,7 @@ const schema = JSON.stringify({
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:alt" content={title} />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:site_name" content={BLOG_NAME} />
     <meta property="article:published_time" content={publishDate.toISOString()} />
     <meta property="article:modified_time" content={(updatedDate ?? publishDate).toISOString()} />
     {tags.map((tag) => <meta property="article:tag" content={tag} />)}
@@ -267,7 +267,7 @@ const schema = JSON.stringify({
 
     <nav class="breadcrumb" aria-label="Navegação estrutural">
       <ol>
-        <li><a href="/">Centro de Conhecimento</a></li>
+        <li><a href="/">{BLOG_NAME}</a></li>
         <li aria-hidden="true">›</li>
         <li aria-current="page">{title}</li>
       </ol>
@@ -370,7 +370,7 @@ const schema = JSON.stringify({
           <strong>Aviso:</strong> Conteúdo exclusivamente informativo. Não substitui consulta, diagnóstico ou
           tratamento médico.
           <nav aria-label="Links finais do artigo">
-            <a href="/">← Voltar ao Centro de Conhecimento</a>
+            <a href="/">← Voltar ao {BLOG_NAME}</a>
             {!ADSENSE_REVIEW_MODE && (
               <>
                 <span aria-hidden="true">·</span>
