@@ -16,6 +16,7 @@ import ProductCTA from '../components/ProductCTA.astro';
 import RelatedArticles from '../components/RelatedArticles.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import {
+  ADSENSE_REVIEW_MODE,
   AUTHOR_ID,
   AUTHOR_JOB_TITLE,
   AUTHOR_NAME,
@@ -329,11 +330,13 @@ const schema = JSON.stringify({
           </p>
         </InfoBox>
 
-        <ProductCTA
-          title="Quer conhecer a Sucupira Naturale?"
-          text="Consulte opções, condições e informações do produto na página oficial de venda. O conteúdo deste artigo permanece exclusivamente informativo."
-          label="Acessar página oficial"
-        />
+        {!ADSENSE_REVIEW_MODE && (
+          <ProductCTA
+            title="Quer conhecer a Sucupira Naturale?"
+            text="Consulte opções, condições e informações do produto na página oficial de venda. O conteúdo deste artigo permanece exclusivamente informativo."
+            label="Acessar página oficial"
+          />
+        )}
 
         <aside class="author-box" aria-label="Sobre a autoria">
           <div class="author-avatar" aria-hidden="true">
@@ -368,8 +371,12 @@ const schema = JSON.stringify({
           tratamento médico.
           <nav aria-label="Links finais do artigo">
             <a href="/">← Voltar ao Centro de Conhecimento</a>
-            <span aria-hidden="true">·</span>
-            <a href={SALES_CTA_URL}>Página oficial do produto</a>
+            {!ADSENSE_REVIEW_MODE && (
+              <>
+                <span aria-hidden="true">·</span>
+                <a href={SALES_CTA_URL}>Página oficial do produto</a>
+              </>
+            )}
           </nav>
         </footer>
       </article>
@@ -384,7 +391,7 @@ const schema = JSON.stringify({
       </p>
     </footer>
 
-    <MobileStickyCTA />
+    {!ADSENSE_REVIEW_MODE && <MobileStickyCTA />}
     <ReadingTracking />
     {hasAds && <AdLoader />}
   </body>

@@ -53,5 +53,12 @@ export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
 export const ADSENSE_CLIENT = 'ca-pub-5232696023072099';
 export const SERVES_THIRD_PARTY_ADS = true;
 
+// Revisão do AdSense em andamento (pedido refeito em out/2026). Enquanto true, o
+// blog fica com uma chamada para a loja por artigo: some o botão do cabeçalho, a
+// barra fixa do celular e o segundo bloco do produto. A recusa de 09/2026 foi por
+// "conteúdo de baixo valor", e seis chamadas por post fazem o blog parecer funil da loja.
+// Voltar para false depois da aprovação restaura tudo.
+export const ADSENSE_REVIEW_MODE = true;
+
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
 export const PRIVACY_POLICY_UPDATED_AT = '2026-10-02';

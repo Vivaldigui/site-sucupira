@@ -119,8 +119,9 @@ input {
   text-decoration: underline;
 }
 
+/* No celular só cabe um item; com o botão da loja fora, "Quem somos" fica. */
 @media (max-width: 560px) {
-  .header-link {
+  .header-links:has(.header-cta) .header-link {
     display: none;
   }
 }
@@ -1157,11 +1158,12 @@ input {
     display: none;
   }
 
-  .blog-container {
+  /* Espaço para a barra fixa, só quando ela está na página. */
+  body:has(.mobile-sticky-cta) .blog-container {
     padding-bottom: calc(4.5rem + 74px);
   }
 
-  .blog-footer {
+  body:has(.mobile-sticky-cta) .blog-footer {
     padding-bottom: calc(2.4rem + 62px);
   }
 }

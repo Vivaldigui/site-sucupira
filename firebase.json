@@ -24,6 +24,21 @@
         "type": 301
       },
       {
+        "regex": "^/o-que-tomar-para-dor-na-lombar/?$",
+        "destination": "/dor-lombar-o-que-fazer/",
+        "type": 301
+      },
+      {
+        "regex": "^/nervo-ciatico-inflamado-o-que-fazer/?$",
+        "destination": "/sucupira-para-nervo-ciatico/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-funciona-mesmo/?$",
+        "destination": "/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/",
+        "type": 301
+      },
+      {
         "regex": "^/blog/sucupira-para-articulacoes-dor-nas-juntas/?$",
         "destination": "/sucupira-para-articulacoes/",
         "type": 301

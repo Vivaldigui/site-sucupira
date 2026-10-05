@@ -22,7 +22,7 @@ A dor que incomoda para deitar de um lado, aperta na virilha ou desce pela coxa 
 
 **Dor que vem da coluna.** O nervo ciático e as raízes nervosas da região lombar passam perto do quadril. Uma hérnia de disco ou compressão lombar pode doer no quadril e na nádega sem que exista problema nenhum na articulação do quadril propriamente dita.
 
-A localização costuma apontar a causa: dor na lateral puxa para bursite, dor na virilha puxa para a articulação, dor na nádega e atrás da coxa puxa para a coluna. Quando a origem parece ser lombar, vale ver [dor na coluna](/sucupira-para-dor-na-coluna/) e [nervo ciático inflamado](/nervo-ciatico-inflamado-o-que-fazer/).
+A localização costuma apontar a causa: dor na lateral puxa para bursite, dor na virilha puxa para a articulação, dor na nádega e atrás da coxa puxa para a coluna. Quando a origem parece ser lombar, vale ver [dor na coluna](/sucupira-para-dor-na-coluna/) e [nervo ciático](/sucupira-para-nervo-ciatico/).
 
 ## Onde a sucupira entra
 
