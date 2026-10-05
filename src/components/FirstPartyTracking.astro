@@ -2,11 +2,12 @@
 import { BLOG_SITE_URL, FIRST_PARTY_TRACKING_ENDPOINT } from '../consts';
 import snSource from '../scripts/sn-tracking.js?raw';
 
-// Registra o início de cada sessão no CRM (visitante, canal, gclid/UTMs). Os cookies sn_vid e sn_s
-// ficam em .sucupiranaturale.com.br e são os mesmos da loja, então blog e loja formam uma visita só.
-// Fora do domínio de produção o script fica desligado, como o GA4.
+// Registra o início de cada sessão no CRM (visitante, canal, gclid/UTMs). Com o blog em domínio
+// próprio, os cookies sn_vid e sn_s ficam só no host do blog: blog e loja viram visitantes distintos
+// no CRM. O CRM também precisa aceitar a origem do blog (TRACKING_ALLOWED_ORIGINS e a checagem de
+// origem em tracking.controller.ts), senão recusa os eventos. Fora de produção o script fica desligado.
 const productionHost = new URL(BLOG_SITE_URL).hostname;
-const config = `window.SN_TRACK = { endpoint: ${JSON.stringify(FIRST_PARTY_TRACKING_ENDPOINT)}, disabled: window.location.hostname !== ${JSON.stringify(productionHost)} };`;
+const config = `window.SN_TRACK = { endpoint: ${JSON.stringify(FIRST_PARTY_TRACKING_ENDPOINT)}, disabled: window.location.hostname !== ${JSON.stringify(productionHost)}, blogHost: ${JSON.stringify(productionHost)} };`;
 ---
 
 <script is:inline set:html={`${config}

@@ -85,7 +85,7 @@ O objetivo não é aguentar a dor, mas entender o corpo, ajustar a rotina e prot
 
 ## O que ler em seguida?
 
-Para continuar a leitura dentro do Centro de Conhecimento da Sucupira, estes temas se conectam com este artigo:
+Para continuar a leitura dentro do Guia da Sucupira, estes temas se conectam com este artigo:
 
 - [entender a relação entre sucupira e artrose](/sucupira-para-artrose/)
 - [ver a diferença entre artrite e artrose](/sucupira-para-artrite/)

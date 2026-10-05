@@ -2,7 +2,7 @@
 title: "Sucupira alivia dores crônicas? O que a ciência diz"
 description: "Os estudos sobre sucupira e dor, um por um: o que foi testado, em quê e com que resultado, o que se sabe sobre segurança e o que ainda falta medir em pessoas."
 publishDate: "2026-06-20T12:00:00-03:00"
-updatedDate: "2026-09-26T21:00:00-03:00"
+updatedDate: "2026-10-05T09:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Dores crônicas", "Ciência da Sucupira"]
@@ -75,6 +75,14 @@ A empresa, a responsável técnica e os canais de atendimento estão informados 
 **Prefere a praticidade do líquido pronto? [Conheça a Sucupira Naturale 400 ml na loja oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
 
 ## Perguntas frequentes
+
+**Sucupira funciona mesmo?**
+
+Depende do que "funcionar" quer dizer. Como uso tradicional para desconforto articular, a sucupira tem décadas de reputação no Brasil e base em estudos de laboratório e em animais. Como tratamento com eficácia medida em pessoas, ainda não: nenhum ensaio clínico em humanos foi publicado. As duas coisas são verdadeiras ao mesmo tempo, e nenhum produto deveria prometer mais do que isso.
+
+**Vale a pena experimentar sucupira sem comprovação clínica?**
+
+É uma decisão pessoal. Como apoio complementar ao desconforto articular, dentro do uso tradicional, muita gente considera razoável, desde que não substitua o diagnóstico e o tratamento da causa da dor. Antes, confira as [contraindicações](/sucupira-contraindicacoes/) e [como verificar se um produto é confiável](/sucupira-e-confiavel/).
 
 **Existe estudo comprovando que a sucupira alivia a dor?**
 

@@ -24,7 +24,7 @@ import {
 import '../styles/blog.css';
 
 const canonicalUrl = blogUrl('/sobre/');
-const title = `Quem somos | ${SITE_NAME}`;
+const title = `Quem somos | ${BLOG_NAME}`;
 const description =
   'Conheça Priscila Petrucelli, engenheira agrônoma, e a história da Sucupira Naturale, empresa familiar de Itanhandu (MG) nascida do cuidado com a família.';
 
@@ -54,7 +54,7 @@ const schema = JSON.stringify({
       name: AUTHOR_NAME,
       jobTitle: AUTHOR_JOB_TITLE,
       description:
-        'Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar de Itanhandu (MG). Escreve os conteúdos educativos do Centro de Conhecimento da Sucupira.',
+        'Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar de Itanhandu (MG). Escreve os conteúdos educativos do Guia da Sucupira.',
       image: blogUrl('/assets/priscila-petrucelli.webp'),
       url: canonicalUrl,
       worksFor: { '@id': ORGANIZATION_ID },
@@ -107,7 +107,7 @@ const schema = JSON.stringify({
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:site_name" content={BLOG_NAME} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={blogUrl('/assets/priscila-petrucelli.webp')} />
@@ -127,7 +127,7 @@ const schema = JSON.stringify({
 
     <nav class="breadcrumb" aria-label="Navegação estrutural">
       <ol>
-        <li><a href="/">Centro de Conhecimento</a></li>
+        <li><a href="/">{BLOG_NAME}</a></li>
         <li aria-hidden="true">›</li>
         <li aria-current="page">Quem somos</li>
       </ol>
@@ -175,7 +175,7 @@ const schema = JSON.stringify({
           <p>
             Oi! Eu sou a Priscila. Sou engenheira agrônoma, casada com o Carlos e tutora da Bell, minha
             shih-tzu. Junto com o meu pai, Leonardo, cuido da Sucupira Naturale — e sou eu quem escreve os
-            artigos que você lê aqui no Centro de Conhecimento.
+            artigos que você lê aqui no Guia da Sucupira.
           </p>
 
           <p>
@@ -255,7 +255,7 @@ const schema = JSON.stringify({
     <footer class="blog-footer">
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
-        <a href="/">Centro de Conhecimento</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href="/">{BLOG_NAME}</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
         <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
         <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
       </p>

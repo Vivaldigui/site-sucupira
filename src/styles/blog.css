@@ -119,8 +119,9 @@ input {
   text-decoration: underline;
 }
 
+/* No celular só cabe um item; com o botão da loja fora, "Quem somos" fica. */
 @media (max-width: 560px) {
-  .header-link {
+  .header-links:has(.header-cta) .header-link {
     display: none;
   }
 }
@@ -540,6 +541,23 @@ input {
 
 .article-hero-media {
   object-position: center;
+}
+
+/* Só a foto da capa, à direita; à esquerda fica o fundo marrom do topo. */
+.article-hero-media--faixa {
+  left: auto;
+  width: min(46%, 620px);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 40%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 40%);
+}
+
+@media (max-width: 768px) {
+  .article-hero-media--faixa {
+    left: 0;
+    width: 100%;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
 }
 
 .article-hero-content {
@@ -1157,11 +1175,12 @@ input {
     display: none;
   }
 
-  .blog-container {
+  /* Espaço para a barra fixa, só quando ela está na página. */
+  body:has(.mobile-sticky-cta) .blog-container {
     padding-bottom: calc(4.5rem + 74px);
   }
 
-  .blog-footer {
+  body:has(.mobile-sticky-cta) .blog-footer {
     padding-bottom: calc(2.4rem + 62px);
   }
 }

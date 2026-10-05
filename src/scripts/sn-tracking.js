@@ -281,7 +281,8 @@
   }
 
   function blogTracking(vid, sid) {
-    if (w.location.hostname !== "blog." + ROOT) return;
+    // O blog saiu de blog.sucupiranaturale.com.br em 10/2026; o host vem da config da página.
+    if (w.location.hostname !== (cfg.blogHost || "blog." + ROOT)) return;
     var article = w.location.pathname;
     if (!/^\/(?:[a-z0-9-]+\/)*[a-z0-9-]*$/.test(article) || article.length > 250) return;
     var endpoint = cfg.endpoint.replace(/\/s$/, "/b");

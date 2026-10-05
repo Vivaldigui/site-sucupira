@@ -1,8 +1,12 @@
-export const BLOG_SITE_URL = 'https://blog.sucupiranaturale.com.br';
+// Até 10/2026 o blog ficou em blog.sucupiranaturale.com.br; o Firebase redireciona o endereço antigo.
+export const BLOG_SITE_URL = 'https://guiadasucupira.com.br';
 export const SALES_SITE_URL = 'https://www.sucupiranaturale.com.br';
 
+// SITE_NAME é a empresa (Organization no schema, controladora na política de privacidade).
+// BLOG_NAME é o site: título das páginas, og:site_name, cabeçalho. Até 10/2026 o blog se
+// chamava "Centro de Conhecimento da Sucupira".
 export const SITE_NAME = 'Sucupira Naturale';
-export const BLOG_NAME = 'Centro de Conhecimento da Sucupira';
+export const BLOG_NAME = 'Guia da Sucupira';
 export const DEFAULT_OG_IMAGE = `${BLOG_SITE_URL}/assets/sucupira-natural-banner.webp`;
 export const SALES_CTA_URL = `${SALES_SITE_URL}/combos`;
 export const GOOGLE_ANALYTICS_ID = 'G-L27DL7MMTY';
@@ -53,5 +57,12 @@ export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
 export const ADSENSE_CLIENT = 'ca-pub-5232696023072099';
 export const SERVES_THIRD_PARTY_ADS = true;
 
+// Revisão do AdSense em andamento (pedido refeito em out/2026). Enquanto true, o
+// blog fica com uma chamada para a loja por artigo: some o botão do cabeçalho, a
+// barra fixa do celular e o segundo bloco do produto. A recusa de 09/2026 foi por
+// "conteúdo de baixo valor", e seis chamadas por post fazem o blog parecer funil da loja.
+// Voltar para false depois da aprovação restaura tudo.
+export const ADSENSE_REVIEW_MODE = true;
+
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-10-02';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-10-05';

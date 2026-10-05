@@ -16,7 +16,6 @@ import {
   DEFAULT_OG_IMAGE,
   PRIVACY_PAGE_PATH,
   SALES_CTA_URL,
-  SITE_NAME,
   blogUrl,
 } from '../../consts';
 import '../../styles/blog.css';
@@ -40,8 +39,8 @@ const { items: pagePosts, currentPage, totalPages } = paginatePosts(posts, reque
 const searchIndex = posts.map((post) => toSearchIndexEntry(post, defaultCardImage));
 
 const canonicalUrl = blogUrl(`/pagina/${currentPage}/`);
-const title = `${BLOG_NAME} — página ${currentPage} | ${SITE_NAME}`;
-const description = `Artigos do Centro de Conhecimento da Sucupira, página ${currentPage} de ${totalPages}.`;
+const title = `${BLOG_NAME} — página ${currentPage}`;
+const description = `Artigos do ${BLOG_NAME}, página ${currentPage} de ${totalPages}.`;
 ---
 
 <!doctype html>
@@ -58,7 +57,7 @@ const description = `Artigos do Centro de Conhecimento da Sucupira, página ${cu
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:site_name" content={BLOG_NAME} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={DEFAULT_OG_IMAGE} />
@@ -84,7 +83,7 @@ const description = `Artigos do Centro de Conhecimento da Sucupira, página ${cu
 
     <nav class="breadcrumb" aria-label="Navegação estrutural">
       <ol>
-        <li><a href="/">Centro de Conhecimento</a></li>
+        <li><a href="/">{BLOG_NAME}</a></li>
         <li aria-hidden="true">›</li>
         <li aria-current="page">Página {currentPage}</li>
       </ol>
@@ -92,7 +91,7 @@ const description = `Artigos do Centro de Conhecimento da Sucupira, página ${cu
 
     <header class="pagination-header">
       <p class="eyebrow">Conteúdo informativo</p>
-      <h1>Centro de Conhecimento da Sucupira</h1>
+      <h1>{BLOG_NAME}</h1>
       <p>Página {currentPage} de {totalPages}.</p>
     </header>
 

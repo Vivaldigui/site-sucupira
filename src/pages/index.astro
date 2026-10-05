@@ -41,7 +41,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
   .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'pt-BR'));
 
 const canonicalUrl = blogUrl('/');
-const title = `${BLOG_NAME} | ${SITE_NAME}`;
+const title = `${BLOG_NAME}: usos, evidências e cuidados`;
 const description =
   'Conteúdo educativo sobre sucupira: formas de uso, evidências disponíveis e cuidados, por Priscila Petrucelli, cofundadora da Sucupira Naturale.';
 
@@ -113,7 +113,7 @@ const schema = JSON.stringify({
 
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:site_name" content={BLOG_NAME} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={DEFAULT_OG_IMAGE} />

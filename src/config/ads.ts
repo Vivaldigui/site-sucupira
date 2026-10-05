@@ -4,7 +4,7 @@
 // Desligar tudo: ADS_ENABLED = false. Nenhum container é renderizado, o loader
 // não entra na página e a política de privacidade deixa de citar a rede.
 // Desligar num artigo só: `ads: false` no frontmatter dele.
-export const ADS_ENABLED = true;
+export const ADS_ENABLED = false;
 
 // Rede que serve as quatro unidades abaixo. Aparece na política de privacidade.
 export const AD_NETWORK_NAME = 'Adsterra';
