@@ -10,7 +10,6 @@ import {
   AUTHOR_NAME,
   AUTHOR_PAGE_PATH,
   BLOG_NAME,
-  BLOG_SITE_URL,
   COMPANY_CITY,
   COMPANY_CNPJ,
   COMPANY_LEGAL_NAME,
@@ -172,7 +171,7 @@ const schema = JSON.stringify({
 
           <p>
             Esta política vale para o <strong>{BLOG_NAME}</strong>, publicado em
-            <code>{new URL(BLOG_SITE_URL).hostname}</code>. A loja oficial fica em outro endereço e tem política
+            <code>blog.sucupiranaturale.com.br</code>. A loja oficial fica em outro endereço e tem política
             própria — se você comprou ou vai comprar, consulte a política de lá também.
           </p>
 
@@ -245,10 +244,10 @@ const schema = JSON.stringify({
                 <td>Google LLC</td>
               </tr>
               <tr>
-                <td>Parâmetro <code>_gl</code> nos links para a loja</td>
+                <td>Cookie <code>sn_blog_origem</code></td>
                 <td>
-                  Código temporário que o Google Analytics acrescenta ao endereço quando você segue do blog para a
-                  loja oficial, para que as duas visitas sejam contadas como uma só. Não identifica quem você é.
+                  Registra, por 30 dias, que a visita à loja oficial saiu do blog e de qual artigo. Guarda só o
+                  endereço do artigo.
                 </td>
                 <td>Sucupira Naturale</td>
               </tr>
