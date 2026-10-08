@@ -1,0 +1,24 @@
+---
+// Card patrocinado na grade de artigos (home e páginas da listagem). Ocupa uma
+// célula da grade, com o formato dos cards de artigo e o rótulo da loja.
+// Não usa `data-post-card`: a busca e o rastreamento não o contam como artigo.
+import { STORE_AD_LABEL, STORE_LISTING_CARD as card } from '../config/store-ads';
+---
+
+<a
+  class="store-listing-card"
+  href={card.url}
+  data-posicao="anuncio-listagem"
+  data-criativo={card.id}
+  aria-label={`${STORE_AD_LABEL}: ${card.title}`}
+>
+  <img class="post-card-img" src={card.image} alt={card.alt} width={card.width} height={card.height} loading="lazy" decoding="async" />
+  <div class="post-card-body">
+    <div class="post-card-tags"><span class="tag tag--store">{STORE_AD_LABEL}</span></div>
+    <h2>{card.title}</h2>
+    <p>{card.text}</p>
+  </div>
+  <div class="post-card-footer">
+    <span class="read-more">{card.cta}</span>
+  </div>
+</a>

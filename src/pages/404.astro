@@ -1,0 +1,66 @@
+---
+// O Firebase Hosting serve dist/404.html para qualquer endereço que não existe.
+// Leva para os artigos mais procurados no Google e para a loja.
+import { getCollection } from 'astro:content';
+import GoogleAnalytics from '../components/GoogleAnalytics.astro';
+import LinkTracking from '../components/LinkTracking.astro';
+import FirstPartyTracking from '../components/FirstPartyTracking.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import StoreAdCard from '../components/StoreAdCard.astro';
+import { BLOG_NAME, CONTACT_PAGE_PATH, PRIVACY_PAGE_PATH, SALES_CTA_URL } from '../consts';
+import { getPublishedPosts } from '../utils/posts';
+import '../styles/blog.css';
+
+// Os de mais impressões no Search Console (jul–out/2026).
+const POPULAR = [
+  'quanto-tempo-a-sucupira-leva-para-fazer-efeito',
+  'sucupira-para-que-serve',
+  'como-tomar-extrato-de-sucupira',
+  'sucupira-e-confiavel',
+];
+const posts = getPublishedPosts(await getCollection('blog'));
+const popular = POPULAR.map((slug) => posts.find((post) => post.slug === slug)).filter((post) => post !== undefined);
+const title = `Página não encontrada | ${BLOG_NAME}`;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="robots" content="noindex,follow" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <GoogleAnalytics contentGroup="institucional" />
+    <LinkTracking />
+    <FirstPartyTracking />
+  </head>
+  <body>
+    <SiteHeader />
+
+    <main class="blog-container">
+      <article class="not-found">
+        <h1>Esta página não existe</h1>
+        <p>O endereço pode ter mudado ou estar digitado errado. Estes são os artigos mais procurados do blog:</p>
+        <ul>
+          {popular.map((post) => (
+            <li><a href={`/${post.slug}/`}>{post.data.title}</a></li>
+          ))}
+        </ul>
+        <p><a href="/">Ver todos os artigos do {BLOG_NAME} →</a></p>
+
+        <StoreAdCard posicao="anuncio-404" />
+      </article>
+    </main>
+
+    <footer class="blog-footer">
+      <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+      <p>
+        <a href="/">{BLOG_NAME}</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
+        <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
+      </p>
+    </footer>
+  </body>
+</html>

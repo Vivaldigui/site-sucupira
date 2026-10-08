@@ -1,8 +1,9 @@
 ---
 // Rastreia, com um listener só, os cliques que servem a decisões futuras:
 //
-// - `clique_para_loja` { destino_path, posicao_link, texto_link }: link para a
-//   loja oficial. Grava também o cookie `sn_blog_origem` (30 dias, domínio raiz)
+// - `clique_para_loja` { destino_path, posicao_link, texto_link, criativo? }: link para a
+//   loja oficial. `criativo` vem do `data-criativo` dos anúncios da loja
+//   (src/config/store-ads.ts) e só vai quando existe. Grava também o cookie `sn_blog_origem` (30 dias, domínio raiz)
 //   com o caminho do artigo, para a loja poder ligar uma compra ao blog. O nome é
 //   próprio de propósito: o GTM da loja já usa `sn_origem` para outra coisa.
 // - `clique_interno` { destino_path, posicao_link, texto_link }: navegação entre
@@ -31,6 +32,9 @@ const trackingScript = `
   }
 
   function linkPosition(anchor) {
+    // Anúncios da loja declaram a posição: anuncio-topo, anuncio-meio, anuncio-fim...
+    var tagged = anchor.closest('[data-posicao]');
+    if (tagged) return tagged.getAttribute('data-posicao');
     if (anchor.closest('.article-toc')) return 'indice';
     if (anchor.closest('.blog-header')) return 'cabecalho';
     if (anchor.closest('.blog-footer')) return 'rodape';
@@ -47,7 +51,7 @@ const trackingScript = `
   // Card inteiro clicável (listagem, "Leia também") junta tag, título e descrição
   // sem espaço entre eles. Quando o link tem título dentro, usa só o título.
   function linkText(anchor) {
-    var heading = anchor.querySelector ? anchor.querySelector('h2, h3, h4') : null;
+    var heading = anchor.querySelector ? anchor.querySelector('h2, h3, h4, .store-ad-title') : null;
     var source = heading || anchor;
     return (source.textContent || '').replace(/\\s+/g, ' ').trim().slice(0, 100);
   }
@@ -90,7 +94,10 @@ const trackingScript = `
 
     if (host === STORE_ROOT_HOST) {
       rememberBlogOrigin();
-      send('clique_para_loja', { destino_path: url.pathname, posicao_link: position, texto_link: linkText(anchor) });
+      var params = { destino_path: url.pathname, posicao_link: position, texto_link: linkText(anchor) };
+      var creative = anchor.closest('[data-criativo]');
+      if (creative) params.criativo = creative.getAttribute('data-criativo').slice(0, 100);
+      send('clique_para_loja', params);
       return;
     }
 
