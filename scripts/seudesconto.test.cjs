@@ -104,3 +104,31 @@ test('um novo clique de campanha abre nova sessão para o mesmo visitante', asyn
   assert.equal(first.window.SN_TRACK_IDS.vid, second.window.SN_TRACK_IDS.vid);
   assert.notEqual(first.window.SN_TRACK_IDS.sid, second.window.SN_TRACK_IDS.sid);
 });
+function pixelPage(href) {
+  const inserted = [];
+  const first = { parentNode: { insertBefore: node => inserted.push(node) } };
+  const document = { createElement: tag => ({ tag }), getElementsByTagName: () => [first] };
+  const window = { location: new URL(href) };
+  runInNewContext(readFileSync(join(root, 'src/scripts/meta-pixel.js'), 'utf8'), { window, document });
+  return { window, inserted };
+}
+test('pixel da Meta usa o pixel da loja e envia só PageView na landing', () => {
+  const page = pixelPage(landing + '?fbclid=TEST_FB');
+  assert.equal(page.inserted.length, 1);
+  assert.equal(page.inserted[0].src, 'https://connect.facebook.net/en_US/fbevents.js');
+  const calls = JSON.parse(JSON.stringify(page.window.fbq.queue.map(args => Array.from(args))));
+  assert.deepEqual(calls, [['init', '1431254330835872'], ['track', 'PageView']]);
+});
+test('pixel da Meta fica desligado fora do domínio da landing', () => {
+  for (const href of ['http://localhost:4321/', 'https://sucupira-seudesconto.web.app/']) {
+    const page = pixelPage(href);
+    assert.equal(page.inserted.length, 0);
+    assert.equal(page.window.fbq, undefined);
+  }
+});
+test('build injeta o pixel depois do tracking first-party', () => {
+  const build = readFileSync(join(root, 'scripts/build-seudesconto.cjs'), 'utf8');
+  const order = ['/sn-tracking.js', '/seudesconto-links.js', '/meta-pixel.js'].map(src => build.indexOf(src));
+  assert.ok(order.every(i => i > 0));
+  assert.deepEqual([...order].sort((a, b) => a - b), order);
+});

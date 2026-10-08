@@ -78,3 +78,23 @@ o build. No navegador, os scripts carregaram sem erro; o botão do kit de 2 levo
 Próximas alterações da landing devem usar `npm run build:seudesconto` e
 `firebase.seudesconto.json`. Publicar um export isolado sem essa etapa retira
 novamente o tracking. Ao importar um novo export, preservar também seus assets.
+
+## Pixel da Meta (07/10/2026)
+
+`src/scripts/meta-pixel.js` carrega o pixel `1431254330835872`, o mesmo que a
+integração nativa da Loja Integrada usa na loja, e envia somente `PageView`.
+ViewContent, carrinho e compra continuam vindo da loja, que já deduplica
+navegador e API de Conversões. Os cookies `_fbp`/`_fbc` ficam em
+`.sucupiranaturale.com.br`; quem chega por anúncio da Meta na landing e compra
+na loja mantém o vínculo com o clique, e o `fbclid` também segue nos links.
+
+O script só roda em `seudesconto.sucupiranaturale.com.br`. Não instalar outro
+pixel na loja (GTM ou bloco SN): duplicaria as compras.
+
+O blog (`guiadasucupira.com.br`) não recebe o pixel de propósito: os caminhos
+dos artigos citam doenças (artrite, pressão alta), e a Meta restringe dados de
+saúde. Enviar essas URLs ao mesmo pixel arriscaria restringir o conjunto de
+dados que otimiza as campanhas de compra.
+
+Conferência após publicar: Gerenciador de Eventos → pixel → Visão geral → PageView
+filtrado pelo host `seudesconto.sucupiranaturale.com.br`.
