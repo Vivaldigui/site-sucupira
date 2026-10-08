@@ -2,7 +2,6 @@
 import { getCollection } from 'astro:content';
 import ArticleCard from '../components/ArticleCard.astro';
 import BlogHero from '../components/BlogHero.astro';
-import AdSense from '../components/AdSense.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import LinkTracking from '../components/LinkTracking.astro';
 import FirstPartyTracking from '../components/FirstPartyTracking.astro';
@@ -11,6 +10,8 @@ import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import Pagination from '../components/Pagination.astro';
 import PostSearch from '../components/PostSearch.astro';
 import SiteHeader from '../components/SiteHeader.astro';
+import StoreListingCard from '../components/StoreListingCard.astro';
+import { STORE_LISTING_EVERY } from '../config/store-ads';
 import {
   BLOG_NAME,
   BLOG_SITE_URL,
@@ -128,7 +129,6 @@ const schema = JSON.stringify({
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-    <AdSense />
     <GoogleAnalytics contentGroup="listagem" />
     <LinkTracking />
     <FirstPartyTracking />
@@ -148,15 +148,18 @@ const schema = JSON.stringify({
           <p class="empty-state">Nenhum artigo publicado ainda.</p>
         ) : (
           <div class="posts-grid" id="posts-grid">
-            {pagePosts.map((post) => (
-              <ArticleCard
-                slug={post.slug}
-                title={post.data.title}
-                description={post.data.description}
-                tags={post.data.tags}
-                publishDate={post.data.publishDate}
-                image={post.data.ogImage || defaultCardImage}
-              />
+            {pagePosts.map((post, index) => (
+              <>
+                <ArticleCard
+                  slug={post.slug}
+                  title={post.data.title}
+                  description={post.data.description}
+                  tags={post.data.tags}
+                  publishDate={post.data.publishDate}
+                  image={post.data.ogImage || defaultCardImage}
+                />
+                {(index + 1) % STORE_LISTING_EVERY === 0 && index + 1 < pagePosts.length && <StoreListingCard />}
+              </>
             ))}
           </div>
         )}

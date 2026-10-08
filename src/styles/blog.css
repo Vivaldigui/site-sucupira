@@ -1043,10 +1043,28 @@ input {
 }
 
 .mobile-sticky-cta p {
+  flex: 1;
   margin: 0 0 0 0.65rem;
   color: #fff;
   font-size: 0.82rem;
   font-weight: 750;
+}
+
+.mobile-sticky-cta[hidden] {
+  display: none !important;
+}
+
+.mobile-sticky-close {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: rgb(255 255 255 / 75%);
+  font-size: 1.2rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .mobile-sticky-cta a {
@@ -1064,51 +1082,173 @@ input {
   white-space: nowrap;
 }
 
-/* Publicidade */
-.ad-container {
+/* Anúncios da própria loja (src/config/store-ads.ts). Sem anúncio de terceiros desde 08/10/2026. */
+.store-top-bar {
+  background: var(--brown-dark);
+  color: #fff;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.store-top-bar p {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 100%;
-  margin: 2rem auto;
-  overflow: hidden;
+  gap: 0.35rem 0.75rem;
+  width: min(100% - 2rem, var(--wide));
+  margin: 0 auto;
+  padding: 0.45rem 0;
+  text-align: center;
 }
 
-.ad-container[hidden] {
-  display: none;
-}
-
-.ad-label {
-  margin-bottom: 6px;
-  color: var(--muted);
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 1.2;
+.store-top-bar-label {
+  color: var(--gold-soft);
+  font-size: 0.68rem;
+  font-weight: 800;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-.ad-frame {
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.ad-frame iframe {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-/* Native: fluido. A altura reservada vale até o anúncio informar a real. */
-.ad-container--native .ad-frame {
-  width: 100%;
-  height: 216px;
-}
-
-.ad-container--mobile-banner {
+.store-top-bar-short {
   display: none;
+}
+
+.store-top-bar a {
+  color: var(--gold-soft);
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.store-ad {
+  margin: 2rem 0;
+  padding: 0.75rem;
+  border: 1px solid #dcc7aa;
+  border-radius: var(--radius);
+  background: #fffaf1;
+  box-shadow: var(--shadow-soft);
+}
+
+.store-ad-label {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.store-ad-link {
+  display: grid;
+  grid-template-columns: minmax(118px, 38%) 1fr;
+  gap: 1rem;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.store-ad-img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: var(--sand);
+}
+
+.store-ad-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.store-ad-title {
+  color: var(--brown-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.store-ad-text {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.store-ad-cta {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
+.store-ad-link:hover .store-ad-cta,
+.store-ad-link:focus-visible .store-ad-cta {
+  background: var(--green-dark);
+}
+
+.store-listing-card {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  grid-template-rows: 1fr auto;
+  overflow: hidden;
+  border: 1px solid #dcc7aa;
+  border-radius: var(--radius);
+  background: #fffaf1;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.store-listing-card:hover,
+.store-listing-card:focus-visible {
+  border-color: #ccb697;
+  box-shadow: var(--shadow-lift);
+}
+
+.store-listing-card .post-card-img {
+  grid-row: 1 / 3;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+.store-listing-card .post-card-body {
+  align-self: center;
+}
+
+.tag--store {
+  border-color: #c7d9c7;
+  background: var(--green-soft);
+  color: var(--green-dark);
+}
+
+.empty-state--store .store-ad {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.not-found h1 {
+  color: var(--brown-dark);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.not-found ul {
+  padding-left: 1.2rem;
+}
+
+.not-found li {
+  margin: 0.4rem 0;
 }
 
 /* Responsive */
@@ -1167,14 +1307,6 @@ input {
     display: flex;
   }
 
-  .ad-container--mobile-banner {
-    display: flex;
-  }
-
-  .ad-container--desktop-banner {
-    display: none;
-  }
-
   /* Espaço para a barra fixa, só quando ela está na página. */
   body:has(.mobile-sticky-cta) .blog-container {
     padding-bottom: calc(4.5rem + 74px);
@@ -1186,8 +1318,35 @@ input {
 }
 
 @media (max-width: 640px) {
-  .ad-container--native .ad-frame {
-    height: 310px;
+  .store-top-bar-label,
+  .store-top-bar-text {
+    display: none;
+  }
+
+  .store-top-bar-short {
+    display: inline;
+  }
+
+  .store-listing-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .store-listing-card .post-card-img {
+    grid-row: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .store-ad-link {
+    gap: 0.75rem;
+  }
+
+  .store-ad-title {
+    font-size: 1.08rem;
+  }
+
+  .store-ad-text {
+    font-size: 0.88rem;
   }
 
   .blog-header {

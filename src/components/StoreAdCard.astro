@@ -1,0 +1,20 @@
+---
+// Card da loja fora do corpo do Markdown (fim do artigo, busca sem resultado, 404).
+// O do meio do texto é o mesmo HTML, inserido em build por src/utils/rehype-store-ad.ts.
+import { storeAdCreative, storeAdHtml, type StoreAdCreative } from '../config/store-ads';
+
+interface Props {
+  // `posicao_link` no GA4: anuncio-fim, anuncio-busca, anuncio-404...
+  posicao: string;
+  // Com slug, o criativo é o do grupo do artigo; sem slug, vale `creative`.
+  slug?: string;
+  creative?: StoreAdCreative;
+  // 1 no fim do artigo: outro criativo do grupo, se houver, diferente do meio.
+  offset?: number;
+}
+
+const { posicao, slug, creative, offset = 0 } = Astro.props;
+const chosen = creative ?? storeAdCreative(slug ?? '', offset);
+---
+
+<Fragment set:html={storeAdHtml(chosen, posicao)} />

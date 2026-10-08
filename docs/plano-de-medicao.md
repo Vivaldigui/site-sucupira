@@ -1,6 +1,6 @@
 # Plano de medição do blog
 
-Atualizado em 2026-10-08. Referência para qualquer análise ou implementação futura com dados do GA4.
+Atualizado em 2026-10-08 (anúncios da loja e parâmetro `criativo`). Referência para qualquer análise ou implementação futura com dados do GA4.
 
 > De 05 a 08/10/2026 o blog ficou em `guiadasucupira.com.br`, sem cookie compartilhado com a loja. Nesses dias, na propriedade da loja, as visitas vindas do blog aparecem como `guiadasucupira.com.br / referral`, e `sn_blog_origem` não foi gravado. Em análises que cruzem esse período, somar os dois hosts.
 
@@ -30,7 +30,7 @@ E, de quebra: artigo de marca rende mais que artigo de condição? O que os leit
 | `page_view` (automático) | toda página | `content_group` + dados do artigo (abaixo) | `GoogleAnalytics.astro` |
 | `leitura_artigo` | passou de 25, 50, 75 e 100% do corpo do texto | `percentual` | `ReadingTracking.astro` |
 | `artigo_lido` | chegou em "Perguntas frequentes" (ou ao fim do texto) com ≥ 30 s de página visível | `chegou_em`, `segundos_visiveis` | `ReadingTracking.astro` |
-| `clique_para_loja` | clique em link da loja | `destino_path`, `posicao_link`, `texto_link` | `LinkTracking.astro` |
+| `clique_para_loja` | clique em link da loja | `destino_path`, `posicao_link`, `texto_link`, `criativo` (só nos anúncios da loja) | `LinkTracking.astro` |
 | `clique_interno` | clique para outra página do blog | `destino_path`, `posicao_link`, `texto_link` | `LinkTracking.astro` |
 | `clique_indice` | clique no índice "Neste artigo" | `secao` | `LinkTracking.astro` |
 | `clique_contato` | WhatsApp, telefone ou e-mail | `canal`, `posicao_link` | `LinkTracking.astro` |
@@ -60,6 +60,14 @@ O artigo de origem **não** vai como parâmetro em nenhum evento: todo evento j�
 
 `indice` · `cabecalho` · `rodape` · `breadcrumb` · `barra-fixa` · `bloco-cta` · `leia-tambem` · `paginacao` · `listagem` · `corpo-do-texto` · `outro`
 
+Desde 08/10/2026, anúncios da loja (sem anúncio de terceiros no blog): `anuncio-topo` (faixa em todas as páginas) · `anuncio-meio` (card no meio do texto) · `anuncio-fim` (card depois do texto) · `anuncio-listagem` (card na grade da home e das páginas) · `anuncio-busca` (busca sem resultado) · `anuncio-404`. A posição vem do `data-posicao` do bloco.
+
+### Valores de `criativo`
+
+Vem do `data-criativo` e identifica a peça. Os ids estão em `src/config/store-ads.ts`: `A-pronta-para-tomar`, `A-pronta-alivio`, `B-kit-tempo-de-uso`, `C-composicao`, `D-pronta-alivio`, `D-tres-beneficios`, `D-pronta-para-tomar`, `topo-kits`, `listagem-combos`, `link-primeira-mencao` e `barra-A` a `barra-D`. A letra é o grupo do post. Ao trocar uma peça, trocar o id, senão o relatório mistura as duas.
+
+Comparar criativos: `clique_para_loja` ÷ `page_view` dos artigos que mostram cada um, por `criativo` × `posicao_link`. Cada post mostra sempre o mesmo criativo (escolhido pelo slug), então a comparação é entre grupos de posts, não um teste A/B na mesma página. A cada quatro semanas, trocar o pior criativo de cada grupo.
+
 ### Cookie de origem para a loja
 
 No clique para a loja, `LinkTracking.astro` grava `sn_blog_origem` = caminho do artigo, no domínio `.sucupiranaturale.com.br`, por 30 dias. O nome é próprio porque o GTM da loja já usa `sn_origem` (valor `seudesconto`). **Hoje nada lê esse cookie** — ver "Pendência na loja".
@@ -70,7 +78,7 @@ Nada disto se faz pelo código. Dimensão personalizada **não é retroativa**: 
 
 **Dimensões personalizadas (escopo de evento)** — nas duas propriedades, exceto as de Web Vitals (só blog):
 
-`posicao_link` · `destino_path` · `texto_link` · `percentual` · `chegou_em` · `canal` · `secao` · `resultados` · `artigo_tipo` · `artigo_tag_principal` · `artigo_tags` · `artigo_publicado_em` · `artigo_atualizado` · `artigo_faq` · `artigo_palavras` · `metric_name` · `metric_rating`
+`posicao_link` · `destino_path` · `texto_link` · `criativo` · `percentual` · `chegou_em` · `canal` · `secao` · `resultados` · `artigo_tipo` · `artigo_tag_principal` · `artigo_tags` · `artigo_publicado_em` · `artigo_atualizado` · `artigo_faq` · `artigo_palavras` · `metric_name` · `metric_rating`
 
 **Métricas personalizadas:** `segundos_visiveis` (unidade: segundos) · `metric_value` (padrão; só blog)
 
@@ -91,6 +99,7 @@ Nada disto se faz pelo código. Dimensão personalizada **não é retroativa**: 
 |---|---|---|
 | Estão lendo? | blog | `leitura_artigo` por Caminho da página × `percentual`; taxa = `artigo_lido` ÷ `page_view` do artigo |
 | Vão para a loja? | blog | `clique_para_loja` por Caminho da página × `posicao_link` |
+| Qual anúncio da loja funciona | blog | `clique_para_loja` por `criativo` × `posicao_link` |
 | Está vendendo? | **loja** | Nome do host + Página de destino × Sessões, Transações, Receita, filtro host = `blog.sucupiranaturale.com.br` |
 | Marca × condição | blog | qualquer métrica acima por `artigo_tipo` |
 | O que buscam e não acham | blog | `search` por Termo de pesquisa, filtro `resultados` = 0 |
