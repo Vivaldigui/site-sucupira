@@ -12,12 +12,12 @@ if (!match) throw new Error('Export da landing sem template reconhecido');
 const template = JSON.parse(match[2]);
 if (!/<head[^>]*>/i.test(template)) throw new Error('Documento da landing sem head');
 const config = 'window.SN_TRACK = { endpoint: "https://sucupira-naturale-crmapi.kip816.easypanel.host/t/v1/s", disabled: window.location.hostname !== "seudesconto.sucupiranaturale.com.br" };';
-const injection = '\n<!-- SN - Tracking first-party seudesconto -->\n<script>' + config + '</script>\n<script src="/sn-tracking.js"></script>\n<script src="/seudesconto-links.js"></script>\n<script src="/seudesconto-events.js"></script>\n<!-- Pixel da Meta (mesmo da loja) -->\n<script src="/meta-pixel.js"></script>\n';
+const injection = '\n<!-- SN - Tracking first-party seudesconto -->\n<script>' + config + '</script>\n<script src="/sn-tracking.js"></script>\n<script src="/seudesconto-links.js"></script>\n<script src="/seudesconto-events.js"></script>\n<!-- GA4 da loja (mesma sessão da compra) -->\n<script src="/seudesconto-ga4.js"></script>\n<!-- Pixel da Meta (mesmo da loja) -->\n<script src="/meta-pixel.js"></script>\n';
 const updated = template.replace(/<head[^>]*>/i, (head) => head + injection);
 const output = html.replace(marker, (_, open, text, close) => open + '\n' + JSON.stringify(updated).replace(/</g, '\\u003c') + '\n' + close);
 mkdirSync(out, { recursive: true });
 writeFileSync(join(out, 'index.html'), output);
-for (const name of ['sn-tracking', 'seudesconto-links', 'seudesconto-events', 'meta-pixel']) {
+for (const name of ['sn-tracking', 'seudesconto-links', 'seudesconto-events', 'seudesconto-ga4', 'meta-pixel']) {
   const script = readFileSync(join(root, 'src', 'scripts', name + '.js'), 'utf8');
   new Script(script, { filename: name + '.js' });
   writeFileSync(join(out, name + '.js'), script);
