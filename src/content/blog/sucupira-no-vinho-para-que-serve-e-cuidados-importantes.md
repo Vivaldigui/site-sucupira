@@ -1,8 +1,9 @@
 ---
 title: "Sucupira no vinho: receita tradicional e para que serve"
-description: "Como fazer sucupira no vinho, passo a passo, para que o uso popular associa a bebida e quem deve preferir um formato sem álcool."
+seoTitle: "Sucupira no vinho branco ou tinto: para que serve e receita"
+description: "Sucupira no vinho, passo a passo: quantas sementes, quantos dias, vinho branco ou tinto, dose e horário, e para que o uso popular toma a bebida."
 publishDate: "2026-07-06T18:00:00-03:00"
-updatedDate: "2026-09-26T16:00:00-03:00"
+updatedDate: "2026-10-10T12:00:00-03:00"
 author: "Priscila Petrucelli"
 authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Segurança no Uso"]
@@ -10,77 +11,109 @@ featured: true
 ogImage: "/assets/blog/sucupira-no-vinho.webp"
 ---
 
-**Resposta rápida:** A sucupira no vinho é uma garrafada tradicionalmente utilizada há gerações no Brasil, feita macerando as sementes em vinho tinto ou branco por cerca de 7 dias. O uso popular associa a bebida ao alívio de dores articulares e [reumatismo](/sucupira-para-reumatismo/) — mas o álcool soma um risco à parte, principalmente para quem usa medicamentos. Existe uma forma com dose mais previsível, sem depender da maceração caseira.
+**Resposta rápida:** sucupira no vinho é uma garrafada tradicional: de 10 a 15 sementes quebradas ficam pelo menos 7 dias numa garrafa de vinho, tinto ou branco, e a bebida é tomada em cálices pequenos, de uns 30 ml, antes das refeições. O uso popular é para dores nas articulações e [reumatismo](/sucupira-para-reumatismo/). O vinho entra na receita porque o álcool dissolve a resina da semente melhor do que a água.
 
-Se você já ouviu falar dessa receita numa roda de conversa, num vídeo curto ou na casa de algum parente, não é surpresa. A sucupira no vinho é uma das formas mais antigas — e mais comentadas atualmente — de usar essa semente do Cerrado brasileiro. Antes de macerar a primeira garrafa, vale entender a receita, os riscos e uma alternativa mais previsível.
+É uma das receitas mais antigas com a semente do Cerrado, e cada família tem a sua versão. Abaixo está a forma mais repetida, a escolha entre vinho branco e tinto, como a bebida costuma ser tomada e o que considerar se você usa remédio ou tem pressão alta.
 
 ## Para que serve a sucupira no vinho?
 
-No uso tradicional, a garrafada de sucupira no vinho é preparada com a expectativa de apoiar o conforto em dores articulares, reumatismo e desconforto muscular. A lógica popular é a mesma da semente em outras formas: extrair, através do álcool, os compostos (diterpenos e flavonoides) tradicionalmente associados à ação anti-inflamatória e analgésica.
+No uso tradicional, a sucupira no vinho é tomada para dores nas juntas, reumatismo e dores musculares, um pouco todos os dias, por algumas semanas.
 
-É um costume popular consolidado, repetido de geração em geração — vale a honestidade de que é a tradição, e não um estudo clínico específico sobre a garrafada no vinho, que sustenta essa prática.
+A lógica da receita é a mesma das outras formas de usar a semente. Os compostos mais estudados da sucupira, os vouacapanos e o geranilgeraniol, ficam numa resina oleosa dentro da fava, e o álcool do vinho ajuda a tirá-los de lá. Há mais de vinte anos, estudos brasileiros mostram extratos e compostos da semente reduzindo dor e inflamação em laboratório e em animais ([revisão de 2015 da revista *Arthritis*](https://pmc.ncbi.nlm.nih.gov/articles/PMC4646998/)). Esses estudos usaram extratos preparados em laboratório, não a garrafada caseira, e em pessoas o ensaio registrado ainda não publicou resultados. O conjunto está em [o que a ciência diz sobre a sucupira](/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/).
 
 ## Como fazer sucupira no vinho: passo a passo
 
-A receita popular mais replicada segue, em geral, este caminho:
+A receita popular mais repetida segue este caminho:
 
-1. Lave bem de 10 a 15 sementes de sucupira e quebre levemente a casca, para facilitar a liberação dos compostos.
-2. Coloque as sementes dentro de uma garrafa de vinho tinto seco (ou branco, conforme a tradição regional).
-3. Deixe descansando em local fresco e escuro por pelo menos 7 dias, mexendo a garrafa levemente todos os dias.
-4. Coe, se preferir, e conserve em local fresco, consumindo dentro de cerca de 30 dias.
+1. **Separe de 10 a 15 sementes** e lave. Quebre cada uma: a casca é dura, e o que interessa está na resina de dentro. Um jeito simples é embrulhar as sementes num pano e bater com um martelo.
+2. **Coloque as sementes numa garrafa de vinho** de 750 ml, tinto seco ou branco (a escolha está na próxima seção).
+3. **Deixe descansar pelo menos 7 dias** em local fresco e escuro, chacoalhando a garrafa de leve uma vez por dia.
+4. **Coe, se preferir, e guarde** em local fresco. A tradição consome em cerca de 30 dias.
 
-O consumo popular costuma ser em doses pequenas — um cálice de aproximadamente 30 ml antes das refeições principais. Aqui mora o primeiro problema prático: essa medida não é padronizada, e a concentração dos compostos varia de garrafa para garrafa, conforme o tamanho das sementes, a temperatura do ambiente e o tempo exato de maceração.
+A quantidade de semente e o tempo de repouso variam de casa para casa. São medidas de tradição, não doses testadas em estudo, e duas garrafas feitas com a "mesma" receita não saem iguais.
 
-### Comparação rápida: garrafada no vinho x extrato pronto
+## Vinho branco ou tinto: qual usar?
+
+Os dois aparecem nas receitas de família, e ninguém comparou um com o outro. Para extrair a resina, o que conta é o álcool, e os vinhos comuns, brancos e tintos, têm graduação parecida, em geral entre 10% e 13%.
+
+A diferença prática está no sabor e no açúcar:
+
+- **Tinto seco** é a versão mais citada. O gosto mais encorpado esconde melhor o amargor da semente.
+- **Branco seco** é preferido por quem acha o tinto pesado. A sucupira no vinho branco tem o mesmo uso popular da versão com tinto.
+- **Vinho suave** tem bem mais açúcar que o seco. Quem controla glicose ou peso faz melhor com o seco. Mais em [sucupira e diabetes](/sucupira-e-diabetes/) e [sucupira emagrece ou engorda](/sucupira-engorda-ou-emagrece/).
+
+Não precisa ser vinho caro. Um vinho seco comum, que você beberia, serve.
+
+## Como tomar: dose e horário
+
+O costume é um cálice pequeno, de cerca de 30 ml, antes das refeições principais. Muita gente toma antes do almoço e antes do jantar. Não há horário melhor demonstrado; o que a tradição valoriza é tomar todos os dias, sempre na mesma medida, sem aumentar para "fazer efeito mais rápido".
+
+Para ter uma ideia do álcool envolvido: um cálice de 30 ml de vinho a 12% tem perto de 3 g de álcool. Dois cálices por dia somam cerca de 6 g.
+
+### Garrafada no vinho x extrato pronto
 
 | Critério | Garrafada no vinho | Extrato pronto |
 |---|---|---|
-| Controle da dose | Imprevisível, varia por preparo | Dose definida a cada uso |
-| Presença de álcool | Sim, em quantidade que muda a cada preparo | Declarada no rótulo: o extrato da Sucupira Naturale traz 0,5% de álcool de cereais |
+| Controle da dose | Varia a cada preparo | Mesma medida em todo frasco |
+| Álcool | O do vinho, em geral de 10% a 13% | Declarado no rótulo: o extrato da Sucupira Naturale traz 0,5% de álcool de cereais |
 | Tempo até poder usar | Cerca de 7 dias de maceração | Uso imediato |
-| Validade | Curta, cerca de 30 dias | Maior, sem depender de conservação caseira |
-| Praticidade no dia a dia | Exige preparo e conservação | Pronto para tomar |
+| Validade | Curta, cerca de 30 dias | Indicada no rótulo |
+| Preparo | Quebrar, macerar e guardar | Pronto para tomar |
 
-## Os cuidados que o preparo caseiro exige
+## Quem tem pressão alta pode tomar sucupira no vinho?
 
-Antes de preparar (ou continuar tomando) a garrafada, alguns pontos merecem atenção real.
+A sucupira não tem ação conhecida sobre a pressão; o que muda a conta para quem é hipertenso é o vinho. A [Diretriz Brasileira de Hipertensão Arterial de 2025](http://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt) associa o consumo de álcool ao aumento da pressão e aponta risco de desenvolver hipertensão acima de 15 g de álcool por dia para mulheres e 30 g para homens.
 
-**O álcool não é neutro, e este é o cuidado com número.** Um cálice diário antes das refeições principais, como manda o costume, significa consumo alcoólico todos os dias, com as calorias do álcool e do açúcar do vinho (as contas estão em [sucupira emagrece ou engorda](/sucupira-engorda-ou-emagrece/)). A [Diretriz Brasileira de Hipertensão Arterial de 2025](http://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt), da Sociedade Brasileira de Cardiologia com a Sociedade Brasileira de Nefrologia e a Sociedade Brasileira de Hipertensão, registra "forte associação positiva, contínua e não linear entre consumo de álcool e PA", e aponta risco de desenvolver hipertensão acima de 15 g/dia de álcool em mulheres e 30 g/dia em homens.
+Os cerca de 6 g de dois cálices diários ficam abaixo desses números. Para quem já trata a pressão, porém, a mesma diretriz recomenda reduzir o álcool, e aí faz sentido combinar com o médico ou preferir uma forma sem álcool, como o [chá de sucupira](/como-fazer-cha-de-sucupira/). Os detalhes estão em [sucupira e pressão alta](/sucupira-e-pressao-alta/).
 
-Repare na assimetria: o efeito da sucupira sobre a pressão não tem estudo em pessoas, em nenhuma direção. O efeito do álcool tem diretriz nacional com número. Para quem tem pressão alta, o risco previsível desta receita vem do vinho. Mais sobre isso em [sucupira e pressão alta](/sucupira-e-pressao-alta/).
+## Para quem a receita com vinho não serve
 
-Para quem tem problema no fígado, está gestante ou prefere evitar álcool na rotina, a garrafada também não é uma boa escolha — independentemente do que se diz sobre a sucupira.
+Por causa do álcool, a sucupira no vinho não é para gestantes, lactantes, crianças, pessoas com doença no fígado ou quem evita álcool por qualquer motivo. O suco de uva integral e o chá são as versões sem álcool, explicadas em [garrafada de sucupira](/garrafada-de-sucupira-o-que-e/).
 
-**Interação com medicamentos.** A possibilidade de a sucupira interferir em anticoagulantes, anti-inflamatórios e analgésicos é hipótese baseada em mecanismo: não existem estudos de interação em humanos, então a resposta é desconhecida, não medida. Já a interação do álcool com diversos remédios é documentada. Somando as duas coisas, quem usa medicação contínua tem motivo concreto para cautela com esta preparação especificamente. Ver [sucupira e medicamentos](/sucupira-e-medicamentos/).
+Quem usa remédio contínuo também precisa pensar no álcool, que interage com vários medicamentos. Com a sucupira em si, não há interação conhecida, e nenhum estudo em pessoas testou essas combinações. Se você usa medicamento contínuo ou tem doença crônica, converse com um profissional de saúde antes de incluir a sucupira na rotina. Mais em [sucupira e medicamentos](/sucupira-e-medicamentos/).
 
-**Dose imprevisível.** Diferente de um extrato com composição declarada, a garrafada caseira não tem controle de concentração. Duas pessoas podem seguir a "mesma" receita e obter líquidos com quantidades bem diferentes de compostos ativos.
+## Garrafada caseira ou extrato pronto?
 
-**Validade e conservação.** Preparos caseiros com plantas maceradas têm vida útil curta e podem se deteriorar sem sinais visíveis óbvios, o que é outro ponto de atenção para quem guarda a garrafa por muito tempo.
-
-Quem usa medicamentos contínuos, tem doença renal ou hepática, está gestante ou lactante, deve buscar orientação profissional antes de qualquer garrafada — regra que vale para a sucupira e para qualquer planta macerada em álcool.
-
-## Existe uma forma mais prática, com dose conhecida?
-
-Sim. É por causa dessa imprevisibilidade que muita gente tem optado pelo extrato pronto, como o **Sucupira Naturale**, que traz composição declarada em percentual e dose definida a cada uso, sem depender do tempo de maceração caseira.
-
-Para quem tem o hábito da garrafada e quer manter alguma continuidade, o ponto que muda é a previsibilidade: o extrato dispensa a maceração e a dose sai definida na fabricação, em vez de variar com o tamanho da semente e o tempo de repouso.
-
-O que não muda é o resto. A atenção a interações medicamentosas continua valendo, e trocar o formato não é motivo para relaxar com nada disso.
+A garrafada tem o valor da receita de família. O extrato pronto, como o **Sucupira Naturale**, troca a maceração por uma composição declarada no rótulo: 49,75% de semente de sucupira, 49,75% de água mineral e 0,5% de álcool de cereais, bem menos álcool do que um vinho. A medida é a mesma em todo frasco. A comparação entre os formatos está em [chá, cápsula ou extrato](/cha-de-sucupira-capsula-ou-extrato/).
 
 ## Perguntas frequentes
 
+**Sucupira no vinho serve para quê?**
+
+No uso popular, para dores nas articulações, reumatismo e dores musculares, tomada em pequenas doses todos os dias por algumas semanas. Em laboratório e em animais, extratos da semente reduziram dor e inflamação; em pessoas, o ensaio registrado ainda não publicou resultados.
+
 **Sucupira no vinho funciona mesmo?**
 
-É uma prática de uso tradicional consolidado no Brasil, associada ao alívio de dores articulares e reumatismo. A garrafada em si não tem estudo clínico específico — o que existe são estudos de laboratório e em animais sobre os compostos da semente em outras formas, onde se observou atividade anti-inflamatória. Nenhum ensaio clínico em pessoas foi publicado.
+É um uso tradicional antigo no Brasil. A garrafada em si nunca foi estudada; o que existe são estudos de laboratório e em animais com extratos da semente, que mostraram atividade contra dor e inflamação. Em pessoas, o ensaio registrado ainda não publicou resultados.
+
+**Sucupira no vinho branco serve para quê?**
+
+Para o mesmo que a versão com vinho tinto. A tradição usa os dois, e a graduação alcoólica, que é o que extrai a resina da semente, é parecida. A escolha costuma ser pelo sabor.
+
+**Qual o melhor vinho para fazer garrafada de sucupira?**
+
+Um vinho seco comum, tinto ou branco. Não precisa ser caro. O vinho suave tem mais açúcar, o que pesa para quem controla glicose ou peso.
+
+**Quantas sementes de sucupira vão no vinho?**
+
+A receita mais repetida usa de 10 a 15 sementes quebradas numa garrafa de 750 ml. É a medida da tradição, não uma dose testada em estudo.
 
 **Quantos dias a sucupira precisa ficar no vinho?**
 
-A prática popular costuma indicar um mínimo de 7 dias de maceração em local fresco e escuro, mas o tempo não garante uma concentração previsível dos compostos ativos.
+A prática popular indica pelo menos 7 dias em local fresco e escuro, chacoalhando a garrafa uma vez por dia. Depois disso, a tradição consome a bebida em cerca de 30 dias.
+
+**Qual a dose diária do vinho de sucupira?**
+
+O costume é um cálice pequeno, de cerca de 30 ml, antes das refeições principais. Não existe dose estudada para a garrafada; a tradição mantém a mesma medida todos os dias, sem aumentar.
+
+**Qual o melhor horário para tomar sucupira no vinho?**
+
+A tradição toma antes do almoço e do jantar. Não há horário melhor demonstrado; o que conta é a regularidade.
+
+**Quem tem pressão alta pode tomar sucupira no vinho?**
+
+A sucupira não tem ação conhecida sobre a pressão, mas o vinho tem álcool, e a diretriz brasileira de hipertensão recomenda reduzir o álcool a quem já trata a pressão. Quem é hipertenso deve combinar com o médico ou preferir o chá, que não tem álcool.
 
 **Sucupira no vinho pode misturar com remédio?**
 
-A possibilidade de interação da sucupira com anticoagulantes, anti-inflamatórios e analgésicos é hipótese de mecanismo, sem estudo em pessoas. A interação do álcool com diversos remédios, essa é documentada. Quem usa medicação contínua deve ter atenção redobrada com este preparo especificamente, e conversar com quem acompanha o tratamento.
-
-**Existe uma forma mais segura de tomar sucupira?**
-
-Mais previsível, sim. Extratos e cápsulas prontos trazem dose definida e composição declarada no rótulo, enquanto a garrafada caseira muda a cada preparo. Previsibilidade não é o mesmo que segurança comprovada, e o álcool não desaparece: o que muda é que a quantidade passa a ser declarada.
+Com a sucupira, não há interação conhecida, mas nenhum estudo em pessoas testou as combinações. O álcool interage com vários medicamentos. Quem usa remédio contínuo deve conversar com o médico antes.
