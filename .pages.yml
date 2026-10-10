@@ -88,10 +88,10 @@ content:
         type: boolean
         default: false
       - name: ads
-        label: Exibir publicidade
+        label: Exibir anúncios da loja
         type: boolean
         default: true
-        description: Desmarque em artigo comercial, em que o objetivo é levar o leitor à loja. Sem anúncio de terceiros nele.
+        description: Card da loja no meio e no fim do texto, e link na primeira menção à marca. Desmarque só se o artigo pedir outro tratamento; fica o bloco simples do produto.
       - name: ogImage
         label: Imagem de capa (opcional)
         type: image

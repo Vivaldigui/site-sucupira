@@ -1,11 +1,7 @@
 ---
+import StoreFooterBanner from "../components/StoreFooterBanner.astro";
 import { existsSync } from 'node:fs';
 import ArticleHeader from '../components/ArticleHeader.astro';
-import AdSense from '../components/AdSense.astro';
-import AdLoader from '../components/ads/AdLoader.astro';
-import DesktopBannerAd from '../components/ads/DesktopBannerAd.astro';
-import MobileBannerAd from '../components/ads/MobileBannerAd.astro';
-import RectangleAd from '../components/ads/RectangleAd.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import ReadingTracking from '../components/ReadingTracking.astro';
 import LinkTracking from '../components/LinkTracking.astro';
@@ -15,9 +11,9 @@ import InfoBox from '../components/InfoBox.astro';
 import MobileStickyCTA from '../components/MobileStickyCTA.astro';
 import ProductCTA from '../components/ProductCTA.astro';
 import RelatedArticles from '../components/RelatedArticles.astro';
+import StoreAdCard from '../components/StoreAdCard.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import {
-  ADSENSE_REVIEW_MODE,
   AUTHOR_ID,
   AUTHOR_JOB_TITLE,
   AUTHOR_NAME,
@@ -33,7 +29,6 @@ import {
   blogAssetUrl,
   blogUrl,
 } from '../consts';
-import { planArticleAds } from '../config/ads';
 import type { FaqItem } from '../utils/faq';
 import '../styles/blog.css';
 
@@ -64,7 +59,8 @@ interface Props {
   relatedPosts?: RelatedPost[];
   faqItems?: FaqItem[];
   wordCount?: number;
-  // `ads: false` no frontmatter: artigo comercial, sem publicidade de terceiros.
+  // `ads: false` no frontmatter: sem os anúncios da loja (card do meio, link na primeira
+  // menção e card do fim); fica o bloco simples do produto.
   ads?: boolean;
 }
 
@@ -85,9 +81,7 @@ const {
   ads = true,
 } = Astro.props;
 
-// O Native do meio do texto é decidido em build por src/utils/rehype-native-ad.ts.
-const adPlan = planArticleAds({ ads, wordCount });
-const hasAds = adPlan.native || adPlan.rectangle || adPlan.endBanner;
+// O card da loja no meio do texto é decidido em build por src/utils/rehype-store-ad.ts.
 
 const canonicalUrl = blogUrl(`/${slug}/`);
 
@@ -263,7 +257,6 @@ const schema = JSON.stringify({
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-    <AdSense />
     <GoogleAnalytics contentGroup="artigo" pageParams={articleAnalytics} />
     <LinkTracking />
     <FirstPartyTracking />
@@ -319,15 +312,16 @@ const schema = JSON.stringify({
           <slot />
         </div>
 
-        <ProductCTA
-          variant="inline"
-          title="Quer ver a Sucupira Naturale?"
-          text="Conheça o produto na página oficial, com as informações comerciais separadas do conteúdo educativo."
-          label="Ver Sucupira Naturale"
-        />
-
-        {/* Sempre depois do CTA do produto: a venda vem antes da publicidade. */}
-        {adPlan.rectangle && <RectangleAd />}
+        {ads ? (
+          <StoreAdCard slug={slug} posicao="anuncio-fim" offset={1} />
+        ) : (
+          <ProductCTA
+            variant="inline"
+            title="Quer ver a Sucupira Naturale?"
+            text="Conheça o produto na página oficial, com as informações comerciais separadas do conteúdo educativo."
+            label="Ver Sucupira Naturale"
+          />
+        )}
 
         <RelatedArticles posts={relatedPosts} />
 
@@ -339,13 +333,7 @@ const schema = JSON.stringify({
           </p>
         </InfoBox>
 
-        {!ADSENSE_REVIEW_MODE && (
-          <ProductCTA
-            title="Quer conhecer a Sucupira Naturale?"
-            text="Consulte opções, condições e informações do produto na página oficial de venda. O conteúdo deste artigo permanece exclusivamente informativo."
-            label="Acessar página oficial"
-          />
-        )}
+
 
         <aside class="author-box" aria-label="Sobre a autoria">
           <div class="author-avatar" aria-hidden="true">
@@ -366,32 +354,20 @@ const schema = JSON.stringify({
           </div>
         </aside>
 
-        {
-          adPlan.endBanner && (
-            <>
-              <MobileBannerAd />
-              <DesktopBannerAd />
-            </>
-          )
-        }
-
         <footer class="article-footer-note">
           <strong>Aviso:</strong> Conteúdo exclusivamente informativo. Não substitui consulta, diagnóstico ou
           tratamento médico.
           <nav aria-label="Links finais do artigo">
             <a href="/">← Voltar ao {BLOG_NAME}</a>
-            {!ADSENSE_REVIEW_MODE && (
-              <>
-                <span aria-hidden="true">·</span>
-                <a href={SALES_CTA_URL}>Página oficial do produto</a>
-              </>
-            )}
+            <span aria-hidden="true">·</span>
+            <a href={SALES_CTA_URL}>Página oficial do produto</a>
           </nav>
         </footer>
       </article>
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href={AUTHOR_PAGE_PATH}>Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
@@ -400,8 +376,7 @@ const schema = JSON.stringify({
       </p>
     </footer>
 
-    {!ADSENSE_REVIEW_MODE && <MobileStickyCTA />}
+    <MobileStickyCTA slug={slug} />
     <ReadingTracking />
-    {hasAds && <AdLoader />}
   </body>
 </html>

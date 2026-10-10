@@ -1,6 +1,6 @@
 ---
+import StoreFooterBanner from "../../components/StoreFooterBanner.astro";
 import { getCollection } from 'astro:content';
-import AdSense from '../../components/AdSense.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import GoogleAnalytics from '../../components/GoogleAnalytics.astro';
 import LinkTracking from '../../components/LinkTracking.astro';
@@ -10,6 +10,8 @@ import WebVitalsTracking from '../../components/WebVitalsTracking.astro';
 import Pagination from '../../components/Pagination.astro';
 import PostSearch from '../../components/PostSearch.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
+import StoreListingCard from '../../components/StoreListingCard.astro';
+import { STORE_LISTING_EVERY } from '../../config/store-ads';
 import {
   BLOG_NAME,
   CONTACT_PAGE_PATH,
@@ -72,7 +74,6 @@ const description = `Artigos do ${BLOG_NAME}, página ${currentPage} de ${totalP
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-    <AdSense />
     <GoogleAnalytics contentGroup="listagem" />
     <LinkTracking />
     <FirstPartyTracking />
@@ -101,15 +102,18 @@ const description = `Artigos do ${BLOG_NAME}, página ${currentPage} de ${totalP
       <section aria-labelledby="articles-title">
         <h2 id="articles-title" class="visually-hidden">Artigos publicados</h2>
         <div class="posts-grid" id="posts-grid">
-          {pagePosts.map((post) => (
-            <ArticleCard
-              slug={post.slug}
-              title={post.data.title}
-              description={post.data.description}
-              tags={post.data.tags}
-              publishDate={post.data.publishDate}
-              image={post.data.ogImage || defaultCardImage}
-            />
+          {pagePosts.map((post, index) => (
+            <>
+              <ArticleCard
+                slug={post.slug}
+                title={post.data.title}
+                description={post.data.description}
+                tags={post.data.tags}
+                publishDate={post.data.publishDate}
+                image={post.data.ogImage || defaultCardImage}
+              />
+              {(index + 1) % STORE_LISTING_EVERY === 0 && index + 1 < pagePosts.length && <StoreListingCard />}
+            </>
           ))}
         </div>
         <Pagination currentPage={currentPage} totalPages={totalPages} />
@@ -117,6 +121,7 @@ const description = `Artigos do ${BLOG_NAME}, página ${currentPage} de ${totalP
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href="/sobre/">Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·

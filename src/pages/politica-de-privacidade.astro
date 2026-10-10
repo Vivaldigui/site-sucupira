@@ -1,5 +1,5 @@
 ---
-import AdSense from '../components/AdSense.astro';
+import StoreFooterBanner from "../components/StoreFooterBanner.astro";
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import LinkTracking from '../components/LinkTracking.astro';
 import FirstPartyTracking from '../components/FirstPartyTracking.astro';
@@ -10,7 +10,6 @@ import {
   AUTHOR_NAME,
   AUTHOR_PAGE_PATH,
   BLOG_NAME,
-  BLOG_SITE_URL,
   COMPANY_CITY,
   COMPANY_CNPJ,
   COMPANY_LEGAL_NAME,
@@ -23,19 +22,17 @@ import {
   PRIVACY_PAGE_PATH,
   PRIVACY_POLICY_UPDATED_AT,
   SALES_CTA_URL,
-  SERVES_THIRD_PARTY_ADS,
   SITE_NAME,
   STORE_ANALYTICS_ID,
   WEBSITE_ID,
   blogUrl,
 } from '../consts';
-import { ADS_ENABLED, AD_NETWORK_NAME, AD_NETWORK_PRIVACY_URL } from '../config/ads';
 import '../styles/blog.css';
 
 const canonicalUrl = blogUrl(PRIVACY_PAGE_PATH);
 const title = `Política de Privacidade | ${BLOG_NAME}`;
 const description =
-  'Como o Guia da Sucupira trata dados pessoais: cookies de análise e de publicidade, base legal, compartilhamento e como exercer seus direitos previstos na LGPD.';
+  'Como o Guia da Sucupira trata dados pessoais: cookies de análise, base legal, compartilhamento e como exercer seus direitos previstos na LGPD.';
 
 const updatedAtLabel = new Intl.DateTimeFormat('pt-BR', {
   day: '2-digit',
@@ -102,7 +99,6 @@ const schema = JSON.stringify({
 
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-    <AdSense />
     <GoogleAnalytics contentGroup="institucional" />
     <LinkTracking />
     <FirstPartyTracking />
@@ -130,8 +126,8 @@ const schema = JSON.stringify({
           <InfoBox variant="summary" title="Em resumo" labelledBy="privacy-summary-title">
             <p>
               Este blog não pede cadastro, não tem formulário e não vende dados de ninguém. O que existe são
-              <strong> cookies</strong>: uns para medir quantas pessoas leem cada artigo, outros para exibir os
-              anúncios que mantêm o site. Você pode desativar os dois, e explicamos como. Para pedir acesso ou
+              <strong> cookies</strong>: usados para medir quantas pessoas leem cada artigo e quantas seguem para a loja
+              oficial. Você pode desativá-los, e explicamos como. Para pedir acesso ou
               exclusão dos seus dados, escreva para <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
             </p>
           </InfoBox>
@@ -172,7 +168,7 @@ const schema = JSON.stringify({
 
           <p>
             Esta política vale para o <strong>{BLOG_NAME}</strong>, publicado em
-            <code>{new URL(BLOG_SITE_URL).hostname}</code>. A loja oficial fica em outro endereço e tem política
+            <code>blog.sucupiranaturale.com.br</code>. A loja oficial fica em outro endereço e tem política
             própria — se você comprou ou vai comprar, consulte a política de lá também.
           </p>
 
@@ -215,7 +211,7 @@ const schema = JSON.stringify({
           <ul>
             <li>Entender quais artigos são lidos, para decidir o que escrever e o que corrigir.</li>
             <li>Medir se o site funciona bem em cada tipo de aparelho e conexão.</li>
-            <li>Exibir anúncios, que são o que custeia a manutenção do blog.</li>
+            <li>Saber quantas visitas seguem do blog para a loja oficial e por qual caminho.</li>
             <li>Responder às mensagens que você nos manda.</li>
             <li>Cumprir obrigações legais e defender direitos, se for necessário.</li>
           </ul>
@@ -245,127 +241,39 @@ const schema = JSON.stringify({
                 <td>Google LLC</td>
               </tr>
               <tr>
-                <td>Parâmetro <code>_gl</code> nos links para a loja</td>
+                <td>Cookie <code>sn_blog_origem</code></td>
                 <td>
-                  Código temporário que o Google Analytics acrescenta ao endereço quando você segue do blog para a
-                  loja oficial, para que as duas visitas sejam contadas como uma só. Não identifica quem você é.
+                  Registra, por 30 dias, que a visita à loja oficial saiu do blog e de qual artigo. Guarda só o
+                  endereço do artigo.
                 </td>
                 <td>Sucupira Naturale</td>
               </tr>
-              {
-                SERVES_THIRD_PARTY_ADS && (
-                  <tr>
-                    <td>Google AdSense</td>
-                    <td>Exibição dos anúncios e medição de desempenho deles.</td>
-                    <td>Google LLC e parceiros de publicidade</td>
-                  </tr>
-                )
-              }
-              {
-                ADS_ENABLED && (
-                  <tr>
-                    <td>{AD_NETWORK_NAME}</td>
-                    <td>
-                      Exibição de anúncios dentro dos artigos. Cada anúncio fica num quadro isolado do
-                      restante da página.
-                    </td>
-                    <td>{AD_NETWORK_NAME} e parceiros de publicidade</td>
-                  </tr>
-                )
-              }
+              <tr>
+                <td>Armazenamento da sessão <code>sn_barra_fechada</code></td>
+                <td>
+                  Lembra que você fechou a barra da loja no rodapé do celular, para ela não voltar nas outras
+                  páginas. Some quando você fecha o navegador.
+                </td>
+                <td>Sucupira Naturale</td>
+              </tr>
             </tbody>
           </table>
 
-          {
-            SERVES_THIRD_PARTY_ADS && (
-              <>
-                <h3 id="publicidade">4.1. Publicidade</h3>
+          <h3 id="publicidade">4.1. Anúncios da própria loja</h3>
 
-                <p>
-                  Este site exibe anúncios e, por exigência do Google, precisamos dizer isto com todas as
-                  letras:
-                </p>
-
-                <ul>
-                  <li>
-                    Fornecedores terceirizados, incluindo o Google, usam cookies para veicular anúncios com
-                    base em visitas anteriores do usuário ao nosso site ou a outros sites.
-                  </li>
-                  <li>
-                    O uso de cookies de publicidade pelo Google permite que ele e seus parceiros veiculem
-                    anúncios para os nossos usuários com base na visita deles aos nossos sites e/ou a outros
-                    sites na Internet.
-                  </li>
-                  <li>
-                    Os usuários podem desativar a publicidade personalizada visitando as
-                    <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">
-                      Configurações de anúncios do Google
-                    </a>
-                    . Também é possível desativar cookies de publicidade de outros fornecedores em
-                    <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">
-                      optout.aboutads.info
-                    </a>
-                    .
-                  </li>
-                </ul>
-
-                <p>
-                  Desativar a personalização não faz os anúncios sumirem — eles passam a ser genéricos, sem
-                  relação com o seu histórico de navegação.
-                </p>
-
-                <p>
-                  Como o Google trata os dados de quem usa sites parceiros está descrito na
-                  <a
-                    href="https://policies.google.com/technologies/partner-sites"
-                    rel="nofollow noopener"
-                    target="_blank"
-                  >
-                    política de parceiros do Google
-                  </a>
-                  .
-                </p>
-
-                {
-                  ADS_ENABLED && (
-                    <p>
-                      Parte dos anúncios dos artigos vem de uma segunda rede, a {AD_NETWORK_NAME}. Ela recebe
-                      os dados técnicos de qualquer requisição — endereço IP, navegador, tipo de aparelho e
-                      o endereço da página visitada — e os usa para escolher o anúncio, contar exibições e
-                      evitar fraude. O tratamento que ela faz está na
-                      <a href={AD_NETWORK_PRIVACY_URL} rel="nofollow noopener" target="_blank">
-                        política de privacidade da {AD_NETWORK_NAME}
-                      </a>
-                      .
-                    </p>
-                  )
-                }
-
-                <InfoBox
-                  variant="transparency"
-                  title="Anúncio não é recomendação nossa"
-                  labelledBy="privacy-ads-title"
-                >
-                  <p>
-                    Os anúncios exibidos aqui são escolhidos automaticamente
-                    {ADS_ENABLED ? ` pelo Google e pela ${AD_NETWORK_NAME}` : ' pelo Google'}, não por nós.
-                    <strong>
-                      A presença de um anúncio neste site não significa que a Sucupira Naturale indica,
-                      aprova ou se responsabiliza pelo produto ou serviço anunciado
-                    </strong>
-                    — inclusive quando o anúncio for de saúde, suplemento ou tratamento. Desconfie de qualquer
-                    anúncio que prometa cura.
-                  </p>
-                </InfoBox>
-              </>
-            )
-          }
+          <p>
+            Este blog não exibe anúncios de terceiros. Os blocos marcados como
+            <strong>"Da loja Sucupira Naturale"</strong> divulgam os produtos da própria empresa e levam à loja
+            oficial. Eles fazem parte das páginas do blog, não carregam código de redes de publicidade e não
+            gravam cookies além dos descritos acima. O clique neles é contado pelo Google Analytics, como os
+            demais cliques para a loja.
+          </p>
 
           <h2 id="base-legal">5. Base legal</h2>
 
           <p>
             Tratamos dados de navegação com fundamento no <strong>legítimo interesse</strong> (art. 7º, IX, da
-            LGPD): manter o site no ar, entender a audiência e sustentar o blog com publicidade. Avaliamos que
+            LGPD): manter o site no ar, entender a audiência e divulgar os produtos da Sucupira Naturale. Avaliamos que
             esse tratamento não é excessivo — não coletamos dado sensível, não identificamos você pelo nome e
             você pode se opor a qualquer momento pelos caminhos da seção 8.
           </p>
@@ -383,12 +291,7 @@ const schema = JSON.stringify({
           </p>
 
           <ul>
-            <li><strong>Google LLC</strong> — análise de audiência e publicidade, conforme a seção 4.</li>
-            {
-              ADS_ENABLED && (
-                <li><strong>{AD_NETWORK_NAME}</strong> — publicidade nos artigos, conforme a seção 4.1.</li>
-              )
-            }
+            <li><strong>Google LLC</strong> — análise de audiência, conforme a seção 4.</li>
             <li>
               <strong>Google Firebase Hosting</strong> — hospedagem do site, que registra requisições em logs
               de servidor.
@@ -461,21 +364,6 @@ const schema = JSON.stringify({
               </a>
               .
             </li>
-            {
-              SERVES_THIRD_PARTY_ADS && (
-                <li>
-                  <strong>Anúncios personalizados:</strong>
-                  <a href="https://www.google.com/settings/ads" rel="nofollow noopener" target="_blank">
-                    Configurações de anúncios do Google
-                  </a>
-                  e
-                  <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">
-                    optout.aboutads.info
-                  </a>
-                  .
-                </li>
-              )
-            }
           </ul>
 
           <p>
@@ -505,7 +393,7 @@ const schema = JSON.stringify({
           <p>
             Nossos artigos citam fontes externas (Anvisa, artigos científicos, órgãos públicos) e apontam para
             a loja oficial. <strong>Não somos responsáveis pela privacidade desses sites</strong> — cada um tem
-            a política dele. O mesmo vale para os destinos dos anúncios.
+            a política dele.
           </p>
 
           <h2 id="alteracoes">12. Mudanças nesta política</h2>
@@ -523,10 +411,13 @@ const schema = JSON.stringify({
             apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD).
           </p>
         </div>
-      </article>
+      <section class="article-body"><h2>Preferências dos anúncios da própria loja</h2>
+<p>Guardamos no seu navegador a variante visual por até 30 dias, para manter a mesma experiência durante a comparação de peças. Se você fechar a barra móvel, lembramos essa escolha por 7 dias. Você pode apagar essas preferências ao limpar o armazenamento do site. Medimos visualizações visíveis e cliques dos anúncios para avaliar seu desempenho.</p></section>
+</article>
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href="/">{BLOG_NAME}</a> · <a href={AUTHOR_PAGE_PATH}>Quem somos</a> ·

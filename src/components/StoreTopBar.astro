@@ -1,0 +1,13 @@
+---
+// Faixa da loja no topo de todas as páginas do blog. Texto em src/config/store-ads.ts.
+import { STORE_AD_LABEL, STORE_TOP_BAR } from '../config/store-ads';
+---
+
+<aside class="store-top-bar" data-posicao="anuncio-topo" data-criativo={STORE_TOP_BAR.id} aria-label={STORE_AD_LABEL}>
+  <p>
+    <span class="store-top-bar-label">{STORE_AD_LABEL}</span>
+    <span class="store-top-bar-text">{STORE_TOP_BAR.text}</span>
+    <span class="store-top-bar-short">{STORE_TOP_BAR.shortText}</span>
+    <a data-sn-cta="anuncio-topo" href={STORE_TOP_BAR.url}>{STORE_TOP_BAR.cta}</a>
+  </p>
+</aside>
