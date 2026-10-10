@@ -96,7 +96,11 @@ const trackingScript = `
       rememberBlogOrigin();
       var params = { destino_path: url.pathname, posicao_link: position, texto_link: linkText(anchor) };
       var creative = anchor.closest('[data-criativo]');
-      if (creative) params.criativo = creative.getAttribute('data-criativo').slice(0, 100);
+      if (creative) {
+        params.criativo = creative.getAttribute('data-criativo').slice(0, 100);
+        params.experimento = creative.getAttribute('data-experimento') || 'fixo-v2';
+        params.variante = creative.getAttribute('data-variante') || 'fixa';
+      }
       send('clique_para_loja', params);
       return;
     }

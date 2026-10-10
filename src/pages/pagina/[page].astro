@@ -1,4 +1,5 @@
 ---
+import StoreFooterBanner from "../../components/StoreFooterBanner.astro";
 import { getCollection } from 'astro:content';
 import ArticleCard from '../../components/ArticleCard.astro';
 import GoogleAnalytics from '../../components/GoogleAnalytics.astro';
@@ -120,6 +121,7 @@ const description = `Artigos do ${BLOG_NAME}, página ${currentPage} de ${totalP
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href="/sobre/">Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·

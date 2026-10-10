@@ -1,4 +1,5 @@
 ---
+import StoreFooterBanner from "../components/StoreFooterBanner.astro";
 import { existsSync } from 'node:fs';
 import ArticleHeader from '../components/ArticleHeader.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
@@ -332,11 +333,7 @@ const schema = JSON.stringify({
           </p>
         </InfoBox>
 
-        <ProductCTA
-          title="Quer conhecer a Sucupira Naturale?"
-          text="Consulte opções, condições e informações do produto na página oficial de venda. O conteúdo deste artigo permanece exclusivamente informativo."
-          label="Acessar página oficial"
-        />
+
 
         <aside class="author-box" aria-label="Sobre a autoria">
           <div class="author-avatar" aria-hidden="true">
@@ -370,6 +367,7 @@ const schema = JSON.stringify({
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href={AUTHOR_PAGE_PATH}>Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·

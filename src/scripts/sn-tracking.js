@@ -305,6 +305,9 @@
         if (!/^[a-z0-9_-]{1,60}$/.test(button)) button = "link-artigo";
         var links = d.querySelectorAll("a[href]");
         var index = 0; for (var i = 0; i < links.length; i++) if (links[i] === a) { index = i + 1; break; }
+        var piece = a.closest("[data-criativo]");
+        var creative = piece && piece.getAttribute("data-criativo");
+        if (creative && /^[a-z0-9-]{1,35}$/.test(creative)) button = button.slice(0,25) + "__" + creative;
         event("shop_click", { button_id: button + "-" + index, destination_path: path });
       } catch (error) { /* nunca impede a navegação */ }
     }

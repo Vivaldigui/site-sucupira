@@ -10,154 +10,38 @@
 // Links sem UTM: blog e loja dividem o domínio raiz e o cookie do GA4, e UTM em
 // link interno abriria uma sessão nova (knowledge/links-comerciais.md).
 
-import { SALES_SITE_URL } from '../consts.ts';
-
+import { SALES_CTA_URL } from '../consts.ts';
 export const STORE_AD_LABEL = 'Da loja Sucupira Naturale';
-
-const PRODUCT_URL = `${SALES_SITE_URL}/sucupira-naturale-liquida`;
-const TREATMENTS_URL = `${SALES_SITE_URL}/tratamentos`;
-const COMBOS_URL = `${SALES_SITE_URL}/combos`;
-
+export const STORE_AD_EXPERIMENT = 'blog-combos-20261009-v2';
 export type StoreAdGroup = 'A' | 'B' | 'C' | 'D';
-
 export interface StoreAdCreative {
-  // Vai no evento `clique_para_loja` como `criativo`. Trocar o id ao trocar a peça,
-  // senão o relatório mistura o desempenho das duas.
-  id: string;
-  image: string;
-  width: number;
-  height: number;
-  alt: string;
-  title: string;
-  text: string;
-  cta: string;
-  url: string;
+  id:string; image:string; width:number; height:number; alt:string;
+  title:string; text:string; cta:string; url:string;
 }
-
-interface GroupConfig {
-  name: string;
-  // Mais de um criativo: cada post recebe um, fixo, escolhido pelo slug. Assim o
-  // mesmo post mostra sempre a mesma peça e os criativos se dividem entre os posts.
-  creatives: StoreAdCreative[];
-  sticky: { text: string; cta: string; url: string };
+interface GroupConfig {name:string;creatives:StoreAdCreative[];sticky:{text:string;cta:string;url:string}}
+function creative(id:string,image:string,alt:string,title:string,text:string):StoreAdCreative {
+  return {id,image:'/assets/loja/'+image+'-720.webp',width:720,height:720,alt,title,text,cta:'Ver combos',url:SALES_CTA_URL};
 }
-
-const PRONTA_PARA_TOMAR = {
-  image: '/assets/loja/sucupira-liquida-pronta-para-tomar.webp',
-  width: 720,
-  height: 720,
-  alt: 'Frasco de Sucupira Naturale Líquida 400 ml com o texto "Sucupira líquida pronta para tomar"',
-};
-const PRONTA_ALIVIO = {
-  image: '/assets/loja/sucupira-pronta-para-tomar-alivio.webp',
-  width: 720,
-  height: 900,
-  alt: 'Dois frascos de Sucupira Naturale Líquida 400 ml com o texto "Sucupira pronta para tomar"',
-};
-const TRES_BENEFICIOS = {
-  image: '/assets/loja/sucupira-liquida-3-beneficios.webp',
-  width: 720,
-  height: 720,
-  alt: 'Frascos de Sucupira Naturale Líquida 400 ml em quatro ambientes',
-};
-const KIT = {
-  image: '/assets/loja/kit-6-frascos.webp',
-  width: 600,
-  height: 751,
-  alt: 'Seis frascos de Sucupira Naturale Líquida 400 ml',
-};
-const FRASCO = {
-  image: '/assets/sucupira-frasco-vertical.webp',
-  width: 900,
-  height: 1349,
-  alt: 'Frasco da Sucupira Naturale sobre sementes de sucupira',
-};
-
-export const STORE_AD_GROUPS: Record<StoreAdGroup, GroupConfig> = {
-  // Já usa a semente em casa: chá, garrafada, vinho, óleo.
-  A: {
-    name: 'preparo caseiro',
-    creatives: [
-      {
-        id: 'A-pronta-para-tomar',
-        ...PRONTA_PARA_TOMAR,
-        title: 'Sucupira pronta para tomar',
-        text: 'Sem quebrar semente, ferver ou esperar a garrafada curtir: a Sucupira Naturale Líquida vem em frasco de 400 ml, pronta para o consumo.',
-        cta: 'Conhecer a Sucupira Líquida',
-        url: PRODUCT_URL,
-      },
-      {
-        id: 'A-pronta-alivio',
-        ...PRONTA_ALIVIO,
-        title: 'A sucupira de sempre, sem o preparo',
-        text: 'Extrato da semente branca graúda de sucupira, em frasco de 400 ml. É só tomar.',
-        cta: 'Ver a Sucupira Naturale Líquida',
-        url: PRODUCT_URL,
-      },
-    ],
-    sticky: { text: 'Sucupira pronta para tomar', cta: 'Ver produto', url: PRODUCT_URL },
-  },
-  // Já decidiu usar: como tomar, quanto, por quanto tempo.
-  B: {
-    name: 'já decidiu usar',
-    creatives: [
-      {
-        id: 'B-kit-tempo-de-uso',
-        ...KIT,
-        title: 'Escolha o kit pelo tempo de uso',
-        text: 'Kits de 2 a 12 frascos de 400 ml, com a conta de quantos frascos cada tratamento usa por mês.',
-        cta: 'Ver kits e rendimento',
-        url: TREATMENTS_URL,
-      },
-    ],
-    sticky: { text: 'Kits pelo tempo de uso', cta: 'Ver kits', url: TREATMENTS_URL },
-  },
-  // Confiança e segurança. Só fatos do produto: quem lê aqui está desconfiado.
-  C: {
-    name: 'confiança e segurança',
-    creatives: [
-      {
-        id: 'C-composicao',
-        ...FRASCO,
-        title: 'O que vem no frasco',
-        text: 'Sucupira Naturale Líquida: 49,75% semente de sucupira, 49,75% água mineral e 0,5% álcool de cereais. Empresa com CNPJ e responsável técnica identificada.',
-        cta: 'Ver composição e detalhes',
-        url: PRODUCT_URL,
-      },
-    ],
-    sticky: { text: 'Composição declarada', cta: 'Ver produto', url: PRODUCT_URL },
-  },
-  // Dor e condição: a persona principal.
-  D: {
-    name: 'dor e condição',
-    creatives: [
-      {
-        id: 'D-pronta-alivio',
-        ...PRONTA_ALIVIO,
-        title: 'Sucupira Naturale Líquida',
-        text: 'A tradição da sucupira em frasco de 400 ml, pronta para tomar. Empresa familiar de Itanhandu (MG), desde 2016.',
-        cta: 'Conhecer o produto',
-        url: PRODUCT_URL,
-      },
-      {
-        id: 'D-tres-beneficios',
-        ...TRES_BENEFICIOS,
-        title: 'Sucupira líquida, pronta para tomar',
-        text: 'Extrato da semente de sucupira em frasco de 400 ml, avulso ou em kits de 2 a 12 frascos.',
-        cta: 'Ver a Sucupira Naturale',
-        url: PRODUCT_URL,
-      },
-      {
-        id: 'D-pronta-para-tomar',
-        ...PRONTA_PARA_TOMAR,
-        title: 'Sucupira pronta para tomar',
-        text: 'Sucupira Naturale Líquida, frasco de 400 ml. Sem preparo em casa.',
-        cta: 'Conhecer o produto',
-        url: PRODUCT_URL,
-      },
-    ],
-    sticky: { text: 'Sucupira Naturale Líquida', cta: 'Ver produto', url: PRODUCT_URL },
-  },
+const family=(id:string,title:string,text:string)=>creative(id,'familia-instagram','Priscila com frasco e sementes de sucupira',title,text);
+const bottle=(id:string,title:string,text:string)=>creative(id,'frasco-v2','Frasco de Sucupira Naturale sobre sementes',title,text);
+const kit=(id:string,title:string,text:string)=>creative(id,'kit-v2','Kit com seis frascos de 400 ml',title,text);
+export const STORE_AD_GROUPS:Record<StoreAdGroup,GroupConfig> = {
+ A:{name:'preparo caseiro',creatives:[
+  creative('a-pronta-v2','pronta-v2','Frasco de sucupira líquida pronta para tomar','Sucupira pronta para tomar','Frasco de 400 ml, sem preparar chá ou garrafada em casa.'),
+  family('a-familia-v2','Do preparo da nossa família para a sua rotina','Conheça a Sucupira Naturale líquida e as opções de kits.')],
+  sticky:{text:'Sucupira pronta para tomar',cta:'Ver combos',url:SALES_CTA_URL}},
+ B:{name:'já decidiu usar',creatives:[
+  kit('b-kits-v2','Escolha seu combo','Opções de 2 a 12 frascos de Sucupira Naturale líquida, de 400 ml cada.'),
+  bottle('b-frasco-v2','Conheça as opções da loja','Sucupira líquida pronta para tomar, em frasco de 400 ml.')],
+  sticky:{text:'Conheça os kits de 400 ml',cta:'Ver combos',url:SALES_CTA_URL}},
+ C:{name:'confiança',creatives:[
+  family('c-familia-v2','Uma empresa familiar desde 2016','Conheça a Sucupira Naturale, de Itanhandu (MG).'),
+  bottle('c-composicao-v2','Composição declarada','49,75% semente de sucupira, 49,75% água mineral e 0,5% álcool de cereais.')],
+  sticky:{text:'Conheça a Sucupira Naturale',cta:'Ver combos',url:SALES_CTA_URL}},
+ D:{name:'dor e condição',creatives:[
+  bottle('d-frasco-v2','Sucupira Naturale Líquida','Conheça o frasco de 400 ml e as opções disponíveis na loja.'),
+  family('d-familia-v2','Conheça nossa empresa familiar','Sucupira líquida pronta para tomar, produzida em Itanhandu (MG).')],
+  sticky:{text:'Sucupira Naturale Líquida',cta:'Ver combos',url:SALES_CTA_URL}},
 };
 
 // Grupo de cada post, pelo slug. Post fora desta lista cai em D (dor e condição),
@@ -193,7 +77,7 @@ const SLUG_GROUP: Record<string, StoreAdGroup> = {
 
 // O texto destes posts diz para não usar ou para falar com o médico antes. Um
 // card de compra no meio do texto contradiria o artigo: só o bloco do fim.
-const SENSITIVE_SLUGS = new Set(['sucupira-na-gravidez', 'sucupira-faz-mal-para-quem-toma-anticoagulante']);
+export const SENSITIVE_SLUGS = new Set(['sucupira-na-gravidez', 'sucupira-faz-mal-para-quem-toma-anticoagulante']);
 
 export function storeAdGroup(slug: string): StoreAdGroup {
   return SLUG_GROUP[slug] ?? 'D';
@@ -232,31 +116,31 @@ export const STORE_AD_POLICY = {
 // Faixa no topo de todas as páginas do blog. Um destaque só, sem preço e sem
 // urgência (templates/bloco-comercial.md). Trocar aqui quando o destaque mudar.
 export const STORE_TOP_BAR = {
-  id: 'topo-kits',
+  id: 'topo-kits-v2',
   text: 'Sucupira Naturale Líquida, pronta para tomar. Kits de 2 a 12 frascos de 400 ml.',
   // Celular: uma linha só.
   shortText: 'Sucupira líquida pronta para tomar',
   cta: 'Ver kits',
-  url: COMBOS_URL,
+  url: SALES_CTA_URL,
 };
 
 // Card patrocinado na listagem do blog, depois de cada N cards de artigo.
 export const STORE_LISTING_EVERY = 6;
 export const STORE_LISTING_CARD: StoreAdCreative = {
-  id: 'listagem-combos',
-  image: '/assets/loja/combos-banner.webp',
-  width: 1200,
-  height: 675,
-  alt: 'Frasco de Sucupira Naturale Líquida com o texto "Conheça os combos da Sucupira Naturale"',
+  id: 'listagem-combos-v2',
+  image: '/assets/loja/kit-v2-720.webp',
+  width: 720,
+  height: 720,
+  alt: 'Kit com seis frascos de Sucupira Naturale Líquida',
   title: 'Conheça os combos da Sucupira Naturale',
   text: 'Sucupira líquida pronta para tomar, em kits de 2 a 12 frascos de 400 ml.',
   cta: 'Ver combos',
-  url: COMBOS_URL,
+  url: SALES_CTA_URL,
 };
 
 // Primeira menção a "Sucupira Naturale" no texto vira link para o produto, se o
 // artigo ainda não tiver link para a loja no corpo.
-export const STORE_FIRST_MENTION = { text: 'Sucupira Naturale', url: PRODUCT_URL, id: 'link-primeira-mencao' };
+export const STORE_FIRST_MENTION = { text: 'Sucupira Naturale', url: SALES_CTA_URL, id: 'primeira-mencao-v2' };
 
 const escapeHtml = (value: string) =>
   value.replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char] as string);
@@ -265,10 +149,14 @@ const escapeHtml = (value: string) =>
 // `posicao` vira `posicao_link` no GA4 (LinkTracking.astro lê `data-posicao`).
 export function storeAdHtml(creative: StoreAdCreative, posicao: string) {
   const e = escapeHtml;
+  const group = (Object.keys(STORE_AD_GROUPS) as StoreAdGroup[]).find(g => STORE_AD_GROUPS[g].creatives.some(c => c.id === creative.id));
+  const variants = group ? STORE_AD_GROUPS[group].creatives : [];
+  const rotate = variants.length ? ` data-variants="${e(JSON.stringify(variants))}"` : '';
+
   return (
-    `<aside class="store-ad store-ad--${e(posicao)}" data-posicao="${e(posicao)}" data-criativo="${e(creative.id)}" aria-label="${e(STORE_AD_LABEL)}">` +
+    `<aside class="store-ad store-ad--${e(posicao)}" data-posicao="${e(posicao)}" data-criativo="${e(creative.id)}"${rotate} aria-label="${e(STORE_AD_LABEL)}">` +
     `<p class="store-ad-label">${e(STORE_AD_LABEL)}</p>` +
-    `<a class="store-ad-link" href="${e(creative.url)}">` +
+    `<a class="store-ad-link" data-sn-cta="${e(posicao)}" href="${e(creative.url)}">` +
     `<img class="store-ad-img" src="${e(creative.image)}" alt="${e(creative.alt)}" width="${creative.width}" height="${creative.height}" loading="lazy" decoding="async" />` +
     `<span class="store-ad-body">` +
     `<span class="store-ad-title">${e(creative.title)}</span>` +
@@ -277,3 +165,5 @@ export function storeAdHtml(creative: StoreAdCreative, posicao: string) {
     `</span></a></aside>`
   );
 }
+
+export const STORE_FOOTER:StoreAdCreative={...family('rodape-familia-v2','Conheça os combos da Sucupira Naturale','Uma empresa familiar desde 2016. Frascos de 400 ml, prontos para tomar.'),image:'/assets/loja/familia-instagram-1200.webp',width:1200,height:1200};

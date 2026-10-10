@@ -1,0 +1,6 @@
+---
+import {STORE_FOOTER,storeAdHtml} from '../config/store-ads';
+import rotation from '../scripts/store-ad-rotation.js?raw';
+---
+<Fragment set:html={storeAdHtml(STORE_FOOTER,'anuncio-rodape')} />
+<script is:inline set:html={rotation}></script>
