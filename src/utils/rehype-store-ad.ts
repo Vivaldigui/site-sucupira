@@ -108,7 +108,7 @@ function linkFirstMention(tree: HastNode) {
         const link: HastNode = {
           type: 'element',
           tagName: 'a',
-          properties: { href: STORE_FIRST_MENTION.url, dataCriativo: STORE_FIRST_MENTION.id },
+          properties: { href: STORE_FIRST_MENTION.url, dataCriativo: STORE_FIRST_MENTION.id, dataPosicao: "primeira-mencao", dataSnCta: "primeira-mencao" },
           children: [{ type: 'text', value: needle }],
         };
         const replacement = [before && { type: 'text', value: before }, link, after && { type: 'text', value: after }].filter(

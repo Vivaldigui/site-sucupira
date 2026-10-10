@@ -66,7 +66,7 @@ Desde 08/10/2026, anúncios da loja (sem anúncio de terceiros no blog): `anunci
 
 Vem do `data-criativo` e identifica a peça. Os ids estão em `src/config/store-ads.ts`: `A-pronta-para-tomar`, `A-pronta-alivio`, `B-kit-tempo-de-uso`, `C-composicao`, `D-pronta-alivio`, `D-tres-beneficios`, `D-pronta-para-tomar`, `topo-kits`, `listagem-combos`, `link-primeira-mencao` e `barra-A` a `barra-D`. A letra é o grupo do post. Ao trocar uma peça, trocar o id, senão o relatório mistura as duas.
 
-Comparar criativos: `clique_para_loja` ÷ `page_view` dos artigos que mostram cada um, por `criativo` × `posicao_link`. Cada post mostra sempre o mesmo criativo (escolhido pelo slug), então a comparação é entre grupos de posts, não um teste A/B na mesma página. A cada quatro semanas, trocar o pior criativo de cada grupo.
+A seleção fixa por slug é o fallback sem JavaScript. A proposta de 09/10 abaixo adiciona distribuição estável por navegador: usar exposições visíveis, não page_view, como denominador dos anúncios. Não trocar peças automaticamente por poucos cliques.
 
 ### Cookie de origem para a loja
 
@@ -127,3 +127,40 @@ Na mesma visita, conferir no DebugView se o `purchase` sai com `transaction_id`,
 
 - **Local:** `npm run dev`, abrir um artigo e o console do navegador. Cada evento aparece como `[GA4 desligado fora de produção]` com nome e parâmetros. Nada é enviado.
 - **Produção:** Google Tag Assistant ou DebugView do GA4.
+
+
+## Proposta de 09/10/2026: combos e comparação de peças
+
+Todos os anúncios, banner do rodapé, ProductCTA e primeira menção levam diretamente a `/combos`,
+sem UTM. IDs novos `*-v2`; novas posições `anuncio-rodape` e `primeira-mencao`.
+O rodapé tem `data-sn-cta="anuncio-rodape"`, que tem precedência sobre a classificação genérica rodape.
+A barra móvel começa oculta, aparece após 35% de rolagem do corpo do artigo e some quando um
+card da loja/topo/final/rodapé entra na tela. Fechamento vale 7 dias em localStorage; não há barra
+nos dois slugs sensíveis. Sem IntersectionObserver ela fica oculta.
+
+Experimento `blog-combos-20261009-v2`: distribuição 50/50 entre duas variantes, persistida por
+30 dias no navegador (localStorage `sn_ads_blog-combos-20261009-v2`). Sem armazenamento,
+a variante dura só aquela página. A peça não muda durante a leitura; não é carrossel.
+Imagens quadradas, com dimensões e espaço reservado, impedem troca de proporção entre variantes.
+
+`anuncio_loja_visto` exige pelo menos 50% do anúncio por 1 segundo contínuo com a aba visível,
+no máximo uma vez por bloco e carregamento. Envia `criativo`, `posicao_link`, `experimento`, `variante`.
+`clique_para_loja` envia os mesmos identificadores da peça **efetivamente exibida**. Registrar
+`experimento` e `variante` como dimensões de evento nas duas propriedades GA4 após publicação.
+Não houve alteração da conta GA4 neste PR. Cliques rápidos antes da exposição podem existir.
+
+No CRM, o button_id passa a ser `posicao__criativo-indice`. O schema existente já aceita isso:
+relatório de participação do blog liga compras ao último clique do visitante na janela existente
+(90 dias). O painel mostra o ID no campo do botão, permitindo comparar compra e receita por peça.
+Não são conversões incrementais nem prova de causa; não se deve somar a assistência do blog ao
+canal de origem e tratar como duas vendas. Não há novo envio de conversão ao Google.
+
+Comparação em 4 semanas: CTR = cliques / exposições visíveis, segmentado por peça × posição ×
+artigo/aparelho; no CRM, compradores/pedidos e receita assistida por button_id (remover o sufixo
+numérico de posição do link para agregar). Não escolher vencedor por curtidas do Instagram.
+Linha de base informada: **23 cliques à loja/semana no CRM em 03–09/10/2026**. Comparar também
+`artigo_lido / page_view` dos mesmos artigos e aparelhos: sucesso é aumentar cliques a combos
+sem reduzir leitura. O valor numérico da taxa de leitura da linha de base ainda precisa ser
+extraído do GA4; não foi inventado aqui. Pouca amostra pede mais tempo, não rotação automática do vencedor.
+
+Seleção e fontes: [catálogo de criativos](criativos-blog-2026-10-09.md).

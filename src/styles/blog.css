@@ -1545,3 +1545,12 @@ input {
     transition: none !important;
   }
 }
+
+/* Reserva o mesmo espaço nas duas variantes, evitando deslocamento ao trocar a peça. */
+.store-ad-img { aspect-ratio: 1; object-fit: contain; background: #f7f5ec; }
+.blog-footer .store-ad--anuncio-rodape { max-width: 900px; margin: 0 auto 2rem; text-align: left; }
+.blog-footer .store-ad--anuncio-rodape .store-ad-img { width: 220px; height: 220px; }
+.blog-footer .store-ad--anuncio-rodape .store-ad-link { color: inherit; }
+@media(max-width:600px) {
+ .blog-footer .store-ad--anuncio-rodape .store-ad-img { width: 100%; height: auto; max-height: 300px; }
+}

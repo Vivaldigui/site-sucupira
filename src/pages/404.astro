@@ -1,4 +1,5 @@
 ---
+import StoreFooterBanner from "../components/StoreFooterBanner.astro";
 // O Firebase Hosting serve dist/404.html para qualquer endereço que não existe.
 // Leva para os artigos mais procurados no Google e para a loja.
 import { getCollection } from 'astro:content';
@@ -55,6 +56,7 @@ const title = `Página não encontrada | ${BLOG_NAME}`;
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href="/">{BLOG_NAME}</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
