@@ -1,6 +1,8 @@
 # Plano de medição do blog
 
-Atualizado em 2026-10-05 (blog mudou para `guiadasucupira.com.br`). Referência para qualquer análise ou implementação futura com dados do GA4.
+Atualizado em 2026-10-08 (anúncios da loja e parâmetro `criativo`). Referência para qualquer análise ou implementação futura com dados do GA4.
+
+> De 05 a 08/10/2026 o blog ficou em `guiadasucupira.com.br`, sem cookie compartilhado com a loja. Nesses dias, na propriedade da loja, as visitas vindas do blog aparecem como `guiadasucupira.com.br / referral`, e `sn_blog_origem` não foi gravado. Em análises que cruzem esse período, somar os dois hosts.
 
 ## As perguntas que a medição responde
 
@@ -17,8 +19,8 @@ E, de quebra: artigo de marca rende mais que artigo de condição? O que os leit
 | `blog-sucupira` (properties/543095152) | `G-L27DL7MMTY` | tudo do blog |
 | loja oficial | `G-LZDYVCN9FV` | tudo do blog (menos Web Vitals) **e** tudo da loja, incluindo `purchase` |
 
-- O GA4 só carrega no domínio do blog, `guiadasucupira.com.br` (até 10/2026, `blog.sucupiranaturale.com.br`) (`src/components/GoogleAnalytics.astro`). Em `localhost`, no preview e no domínio padrão do Firebase, `gtag` só escreve no console, com o prefixo `[GA4 desligado fora de produção]`.
-- Até 10/2026 blog e loja dividiam o cookie `_ga` em `.sucupiranaturale.com.br`. Em domínios diferentes, quem liga as duas visitas é o **linker** do GA4: o blog acrescenta `_gl` aos links para a loja. Para a loja aceitar, a propriedade `G-LZDYVCN9FV` precisa listar `guiadasucupira.com.br` e `sucupiranaturale.com.br` em Admin > Fluxos de dados > Configurações da tag > Configurar seus domínios. Sem isso, a visita à loja vira sessão nova com origem `guiadasucupira.com.br / referral`. Para separar blog e loja nos relatórios, filtrar por **Nome do host**.
+- O GA4 só carrega em `blog.sucupiranaturale.com.br` (`src/components/GoogleAnalytics.astro`). Em `localhost`, no preview e no domínio padrão do Firebase, `gtag` só escreve no console, com o prefixo `[GA4 desligado fora de produção]`.
+- Blog e loja dividem o cookie `_ga` no domínio `.sucupiranaturale.com.br`. Por isso a propriedade da loja enxerga a visita inteira — entrada no artigo, clique, compra — numa sessão só. Não é poluição: é o que liga artigo e venda. Para separar, filtrar por **Nome do host**.
 - O checkout fica no mesmo domínio da loja (`/carrinho`, `/checkout`). O `purchase` sai do GTM da loja (`GTM-P2NH5DR8`).
 
 ## Eventos
@@ -28,7 +30,7 @@ E, de quebra: artigo de marca rende mais que artigo de condição? O que os leit
 | `page_view` (automático) | toda página | `content_group` + dados do artigo (abaixo) | `GoogleAnalytics.astro` |
 | `leitura_artigo` | passou de 25, 50, 75 e 100% do corpo do texto | `percentual` | `ReadingTracking.astro` |
 | `artigo_lido` | chegou em "Perguntas frequentes" (ou ao fim do texto) com ≥ 30 s de página visível | `chegou_em`, `segundos_visiveis` | `ReadingTracking.astro` |
-| `clique_para_loja` | clique em link da loja | `destino_path`, `posicao_link`, `texto_link` | `LinkTracking.astro` |
+| `clique_para_loja` | clique em link da loja | `destino_path`, `posicao_link`, `texto_link`, `criativo` (só nos anúncios da loja) | `LinkTracking.astro` |
 | `clique_interno` | clique para outra página do blog | `destino_path`, `posicao_link`, `texto_link` | `LinkTracking.astro` |
 | `clique_indice` | clique no índice "Neste artigo" | `secao` | `LinkTracking.astro` |
 | `clique_contato` | WhatsApp, telefone ou e-mail | `canal`, `posicao_link` | `LinkTracking.astro` |
@@ -58,9 +60,17 @@ O artigo de origem **não** vai como parâmetro em nenhum evento: todo evento j�
 
 `indice` · `cabecalho` · `rodape` · `breadcrumb` · `barra-fixa` · `bloco-cta` · `leia-tambem` · `paginacao` · `listagem` · `corpo-do-texto` · `outro`
 
-### Cookie de origem para a loja (removido)
+Desde 08/10/2026, anúncios da loja (sem anúncio de terceiros no blog): `anuncio-topo` (faixa em todas as páginas) · `anuncio-meio` (card no meio do texto) · `anuncio-fim` (card depois do texto) · `anuncio-listagem` (card na grade da home e das páginas) · `anuncio-busca` (busca sem resultado) · `anuncio-404`. A posição vem do `data-posicao` do bloco.
 
-Até 10/2026, o clique para a loja gravava `sn_blog_origem` em `.sucupiranaturale.com.br`. Nada lia o cookie, e de outro domínio o navegador nem aceita gravá-lo; foi removido na mudança de domínio.
+### Valores de `criativo`
+
+Vem do `data-criativo` e identifica a peça. Os ids estão em `src/config/store-ads.ts`: `A-pronta-para-tomar`, `A-pronta-alivio`, `B-kit-tempo-de-uso`, `C-composicao`, `D-pronta-alivio`, `D-tres-beneficios`, `D-pronta-para-tomar`, `topo-kits`, `listagem-combos`, `link-primeira-mencao` e `barra-A` a `barra-D`. A letra é o grupo do post. Ao trocar uma peça, trocar o id, senão o relatório mistura as duas.
+
+Comparar criativos: `clique_para_loja` ÷ `page_view` dos artigos que mostram cada um, por `criativo` × `posicao_link`. Cada post mostra sempre o mesmo criativo (escolhido pelo slug), então a comparação é entre grupos de posts, não um teste A/B na mesma página. A cada quatro semanas, trocar o pior criativo de cada grupo.
+
+### Cookie de origem para a loja
+
+No clique para a loja, `LinkTracking.astro` grava `sn_blog_origem` = caminho do artigo, no domínio `.sucupiranaturale.com.br`, por 30 dias. O nome é próprio porque o GTM da loja já usa `sn_origem` (valor `seudesconto`). **Hoje nada lê esse cookie** — ver "Pendência na loja".
 
 ## Configuração manual no GA4
 
@@ -68,7 +78,7 @@ Nada disto se faz pelo código. Dimensão personalizada **não é retroativa**: 
 
 **Dimensões personalizadas (escopo de evento)** — nas duas propriedades, exceto as de Web Vitals (só blog):
 
-`posicao_link` · `destino_path` · `texto_link` · `percentual` · `chegou_em` · `canal` · `secao` · `resultados` · `artigo_tipo` · `artigo_tag_principal` · `artigo_tags` · `artigo_publicado_em` · `artigo_atualizado` · `artigo_faq` · `artigo_palavras` · `metric_name` · `metric_rating`
+`posicao_link` · `destino_path` · `texto_link` · `criativo` · `percentual` · `chegou_em` · `canal` · `secao` · `resultados` · `artigo_tipo` · `artigo_tag_principal` · `artigo_tags` · `artigo_publicado_em` · `artigo_atualizado` · `artigo_faq` · `artigo_palavras` · `metric_name` · `metric_rating`
 
 **Métricas personalizadas:** `segundos_visiveis` (unidade: segundos) · `metric_value` (padrão; só blog)
 
@@ -89,7 +99,8 @@ Nada disto se faz pelo código. Dimensão personalizada **não é retroativa**: 
 |---|---|---|
 | Estão lendo? | blog | `leitura_artigo` por Caminho da página × `percentual`; taxa = `artigo_lido` ÷ `page_view` do artigo |
 | Vão para a loja? | blog | `clique_para_loja` por Caminho da página × `posicao_link` |
-| Está vendendo? | **loja** | Nome do host + Página de destino × Sessões, Transações, Receita, filtro host = `guiadasucupira.com.br` (antes de 10/2026, `blog.sucupiranaturale.com.br`) |
+| Qual anúncio da loja funciona | blog | `clique_para_loja` por `criativo` × `posicao_link` |
+| Está vendendo? | **loja** | Nome do host + Página de destino × Sessões, Transações, Receita, filtro host = `blog.sucupiranaturale.com.br` |
 | Marca × condição | blog | qualquer métrica acima por `artigo_tipo` |
 | O que buscam e não acham | blog | `search` por Termo de pesquisa, filtro `resultados` = 0 |
 | Qual página está lenta | blog | `web_vitals` por Caminho da página × `metric_name`, filtro `metric_rating` = `poor` |
@@ -97,7 +108,11 @@ Nada disto se faz pelo código. Dimensão personalizada **não é retroativa**: 
 
 ## Pendência na loja (GTM)
 
-Para a venda ficar ligada ao artigo, a propriedade da loja precisa aceitar o linker do blog (ver "Onde os dados chegam"). O plano antigo, de ler um cookie `sn_blog_origem` no GTM, deixou de ser possível com o blog em outro domínio.
+Para a venda ficar ligada ao artigo mesmo quando a sessão se quebra (leitor volta dias depois), o GTM da loja precisa:
+
+1. criar uma variável de cookie `sn_blog_origem`;
+2. enviá-la como parâmetro `origem_blog` nos eventos `begin_checkout` e `purchase` para `G-LZDYVCN9FV`;
+3. registrar `origem_blog` como dimensão personalizada na propriedade da loja.
 
 Na mesma visita, conferir no DebugView se o `purchase` sai com `transaction_id`, `value` e `currency: BRL`. Sem `transaction_id`, o GA4 não conta transação.
 

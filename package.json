@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/check-blog-tracking.cjs",
     "preview": "astro preview",
     "build:seudesconto": "node scripts/build-seudesconto.cjs",
     "test:seudesconto": "node --test scripts/seudesconto.test.cjs"

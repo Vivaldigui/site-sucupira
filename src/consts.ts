@@ -1,5 +1,5 @@
-// Até 10/2026 o blog ficou em blog.sucupiranaturale.com.br; o Firebase redireciona o endereço antigo.
-export const BLOG_SITE_URL = 'https://guiadasucupira.com.br';
+// De 05 a 08/10/2026 o blog ficou em guiadasucupira.com.br; o Firebase redireciona aquele endereço para cá.
+export const BLOG_SITE_URL = 'https://blog.sucupiranaturale.com.br';
 export const SALES_SITE_URL = 'https://www.sucupiranaturale.com.br';
 
 // SITE_NAME é a empresa (Organization no schema, controladora na política de privacidade).
@@ -49,20 +49,5 @@ export const CONTACT_PHONE_DISPLAY = '(35) 99169-6906';
 export const CONTACT_PHONE_E164 = '+5535991696906';
 export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
 
-// Publisher ID do AdSense. O script só é injetado quando SERVES_THIRD_PARTY_ADS
-// for true — e essa mesma constante liga, na política de privacidade, a
-// divulgação de cookies de publicidade que o Google exige do publisher.
-// Desligar os anúncios é virar esta flag para false: script e divulgação saem juntos.
-// As unidades de anúncio dentro dos artigos têm flag própria: ADS_ENABLED, em config/ads.ts.
-export const ADSENSE_CLIENT = 'ca-pub-3373220519802577';
-export const SERVES_THIRD_PARTY_ADS = true;
-
-// Revisão do AdSense em andamento (pedido refeito em out/2026). Enquanto true, o
-// blog fica com uma chamada para a loja por artigo: some o botão do cabeçalho, a
-// barra fixa do celular e o segundo bloco do produto. A recusa de 09/2026 foi por
-// "conteúdo de baixo valor", e seis chamadas por post fazem o blog parecer funil da loja.
-// Voltar para false depois da aprovação restaura tudo.
-export const ADSENSE_REVIEW_MODE = true;
-
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-10-05';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-10-08';

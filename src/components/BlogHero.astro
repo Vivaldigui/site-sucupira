@@ -1,5 +1,5 @@
 ---
-import { ADSENSE_REVIEW_MODE, BLOG_NAME, SALES_CTA_URL } from '../consts';
+import { BLOG_NAME, SALES_CTA_URL } from '../consts';
 ---
 
 <section class="blog-hero" aria-labelledby="page-title">
@@ -22,7 +22,7 @@ import { ADSENSE_REVIEW_MODE, BLOG_NAME, SALES_CTA_URL } from '../consts';
       segurança.
     </p>
     <div class="hero-actions">
-      {!ADSENSE_REVIEW_MODE && <a href={SALES_CTA_URL} class="hero-cta">Conhecer o produto</a>}
+      <a href={SALES_CTA_URL} class="hero-cta">Conhecer o produto</a>
       <span>Conteúdo educativo, sem substituir orientação profissional.</span>
     </div>
   </div>

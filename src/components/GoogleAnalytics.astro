@@ -1,5 +1,5 @@
 ---
-import { BLOG_SITE_URL, GOOGLE_ANALYTICS_ID, SALES_SITE_URL, STORE_ANALYTICS_ID } from '../consts';
+import { BLOG_SITE_URL, GOOGLE_ANALYTICS_ID, STORE_ANALYTICS_ID } from '../consts';
 
 interface Props {
   // Vira a dimensão "Grupo de conteúdo" do GA4 (Páginas e telas, explorações).
@@ -11,7 +11,6 @@ interface Props {
 
 const { contentGroup = 'institucional', pageParams = {} } = Astro.props;
 const productionHost = new URL(BLOG_SITE_URL).hostname;
-const storeRootHost = new URL(SALES_SITE_URL).hostname.replace(/^www\./, '');
 
 // Limites de coleta do GA4: nome de parâmetro até 40 caracteres, valor até 100.
 const configParams = {
@@ -26,11 +25,8 @@ const configParams = {
 // testáveis e nenhum hit entra nos relatórios.
 //
 // As duas propriedades recebem tudo: a do blog e a da loja. A da loja precisa
-// das visitas ao blog para ligar o artigo de entrada à compra. Blog e loja
-// estão em domínios diferentes, então o cookie `_ga` não é compartilhado: o
-// linker acrescenta `_gl` aos links para a loja, e a loja mantém o mesmo
-// visitante se a propriedade dela listar o domínio do blog em "Configurar seus
-// domínios" (Admin > Fluxos de dados > Configurações da tag).
+// das visitas ao blog para ligar o artigo de entrada à compra — o cookie `_ga`
+// é o mesmo nos dois subdomínios.
 const gtagInline = `
 (function () {
   var TAG_IDS = ${JSON.stringify([GOOGLE_ANALYTICS_ID, STORE_ANALYTICS_ID])};
@@ -46,7 +42,6 @@ const gtagInline = `
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { window.dataLayer.push(arguments); };
   window.gtag('js', new Date());
-  window.gtag('set', 'linker', { domains: [${JSON.stringify(storeRootHost)}] });
   for (var i = 0; i < TAG_IDS.length; i++) {
     window.gtag('config', TAG_IDS[i], CONFIG_PARAMS);
   }
