@@ -127,3 +127,11 @@ Na mesma visita, conferir no DebugView se o `purchase` sai com `transaction_id`,
 
 - **Local:** `npm run dev`, abrir um artigo e o console do navegador. Cada evento aparece como `[GA4 desligado fora de produção]` com nome e parâmetros. Nada é enviado.
 - **Produção:** Google Tag Assistant ou DebugView do GA4.
+
+## Sinais de publicidade — 09/10/2026
+
+Antes dos dois `config`, o blog define `allow_google_signals: false` e `allow_ad_personalization_signals: false`. Mantém page_view, leitura, cliques e ligação com compras. A loja não recebe alteração de configuração. Os hits do blog deixam de contribuir com Google Signals e personalização; relatórios de demografia/interesses dependentes desses sinais perdem essa contribuição. Isso não apaga públicos ou dados históricos.
+
+O build verifica a presença e a ordem dos parâmetros e recusa tags AW, GTM e googleadservices no HTML do blog. Após merge, o dono abre um artigo, F12 → Rede, filtra collect e confere npa=1; também procura ga-audiences, que não deve aparecer. Extensões, configurações externas e hits antigos exigem inspeção no navegador após publicação. Não houve publicação nesta entrega.
+
+Reversão: reverter o commit do PR. Não muda GA4, GTM ou campanhas por API.

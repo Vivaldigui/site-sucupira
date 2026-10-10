@@ -22,6 +22,11 @@ function files(dir) {
 let checked = 0;
 for (const file of files(path.join(root, 'dist'))) {
   const html = fs.readFileSync(file, 'utf8');
+  if (!/<html\b/i.test(html)) continue; // Arquivo de verificação de domínio não é página do blog.
+  const analytics = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)].map(m => m[1]).find(s => s.includes('TAG_IDS'));
+  if (!analytics || !analytics.includes('allow_google_signals: false') || !analytics.includes('allow_ad_personalization_signals: false') ||
+    analytics.indexOf("gtag('set'") > analytics.indexOf("gtag('config'")) throw new Error('Proteção de publicidade ausente: ' + file);
+  if (/AW-\d+|googletagmanager\.com\/gtm\.js|googleadservices\.com/i.test(html)) throw new Error('Tag publicitária no blog: ' + file);
   const scripts = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)]
     .map(m => m[1]).filter(s => s.includes('window.SN_TRACK'));
   if (!scripts.length) continue;
