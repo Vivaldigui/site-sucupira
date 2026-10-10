@@ -132,3 +132,20 @@ test('build injeta o pixel depois do tracking first-party', () => {
   assert.ok(order.every(i => i > 0));
   assert.deepEqual([...order].sort((a, b) => a - b), order);
 });
+
+test('CRM registra visita e clique com cookie curto, sem impedir Ctrl ou botão do meio',()=>{
+  const source=readFileSync(join(root,'src/scripts/seudesconto-events.js'),'utf8');
+  for(const [type,button] of [['click',0],['auxclick',1]]) {
+    const a=link('https://www.sucupiranaturale.com.br/combos?gclid=PRIVATE');
+    a.getAttribute=name=>name==='data-cta'?'cta_kit_3':a.href;
+    const b=browser(landing,[a]);b.window.SN_TRACK_IDS={vid:'vvvvvvvvvvvvvvvv',sid:'ssssssssssssssss'};
+    const sent=[];b.window.navigator={sendBeacon:(url,body)=>{sent.push(body);return true;}};
+    const queued=[];b.window.SN_DELIVERY={create:()=>({send:(route,payload)=>queued.push(payload)})};
+    b.run(source);b.listeners[type]({type,button,ctrlKey:true,target:a,preventDefault:()=>assert.fail('não interceptar')});
+    assert.equal(queued.length,2);assert.equal(queued[1].destination_path,'/combos');
+    assert.equal(queued[1].button_id,'cta_kit_3');assert.equal(b.jar.get('sn_hop'),queued[1].event_id);
+    assert.match(b.writes[0],/Max-Age=600; SameSite=Lax; Secure/);
+    assert.equal(JSON.stringify(queued).includes('PRIVATE'),false);assert.equal(sent.length,2);
+  }
+  const outside=browser('http://localhost/');outside.run(source);assert.equal(outside.writes.length,0);
+});
