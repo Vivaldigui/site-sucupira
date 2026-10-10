@@ -1,4 +1,5 @@
 ---
+import StoreFooterBanner from "../components/StoreFooterBanner.astro";
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import LinkTracking from '../components/LinkTracking.astro';
 import FirstPartyTracking from '../components/FirstPartyTracking.astro';
@@ -410,10 +411,13 @@ const schema = JSON.stringify({
             apresentar reclamação à Autoridade Nacional de Proteção de Dados (ANPD).
           </p>
         </div>
-      </article>
+      <section class="article-body"><h2>Preferências dos anúncios da própria loja</h2>
+<p>Guardamos no seu navegador a variante visual por até 30 dias, para manter a mesma experiência durante a comparação de peças. Se você fechar a barra móvel, lembramos essa escolha por 7 dias. Você pode apagar essas preferências ao limpar o armazenamento do site. Medimos visualizações visíveis e cliques dos anúncios para avaliar seu desempenho.</p></section>
+</article>
     </main>
 
     <footer class="blog-footer">
+      <StoreFooterBanner />
       <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
         <a href="/">{BLOG_NAME}</a> · <a href={AUTHOR_PAGE_PATH}>Quem somos</a> ·

@@ -18,7 +18,7 @@ const {
 } = Astro.props;
 ---
 
-<aside class={`product-cta product-cta--${variant}`} aria-label="Página oficial do produto">
+<aside data-posicao="bloco-cta" data-criativo="produto-combos-v2" class={`product-cta product-cta--${variant}`} aria-label="Página oficial do produto">
   {variant === 'panel' && (
     <img
       src={image}
@@ -33,6 +33,6 @@ const {
     {variant === 'panel' && <p class="cta-eyebrow">Produto oficial</p>}
     <h2>{title}</h2>
     <p>{text}</p>
-    <a href={SALES_CTA_URL} class="btn-cta-buy">{label}</a>
+    <a data-sn-cta="bloco-cta" href={SALES_CTA_URL} class="btn-cta-buy">{label}</a>
   </div>
 </aside>

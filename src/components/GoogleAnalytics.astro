@@ -42,6 +42,7 @@ const gtagInline = `
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { window.dataLayer.push(arguments); };
   window.gtag('js', new Date());
+  window.gtag('set', { allow_google_signals: false, allow_ad_personalization_signals: false });
   for (var i = 0; i < TAG_IDS.length; i++) {
     window.gtag('config', TAG_IDS[i], CONFIG_PARAMS);
   }
