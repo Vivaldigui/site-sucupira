@@ -19,6 +19,8 @@ E, de quebra: artigo de marca rende mais que artigo de condição? O que os leit
 | `blog-sucupira` (properties/543095152) | `G-L27DL7MMTY` | tudo do blog |
 | loja oficial | `G-LZDYVCN9FV` | tudo do blog (menos Web Vitals) **e** tudo da loja, incluindo `purchase` |
 
+A landing `seudesconto.sucupiranaturale.com.br` também envia para a propriedade da loja desde 10/10/2026 (`secao_vista`, `clique_para_loja`, `clique_contato`): ver [tracking da landing](tracking-seudesconto.md#ga4-da-loja-10102026).
+
 - O GA4 só carrega em `blog.sucupiranaturale.com.br` (`src/components/GoogleAnalytics.astro`). Em `localhost`, no preview e no domínio padrão do Firebase, `gtag` só escreve no console, com o prefixo `[GA4 desligado fora de produção]`.
 - Blog e loja dividem o cookie `_ga` no domínio `.sucupiranaturale.com.br`. Por isso a propriedade da loja enxerga a visita inteira — entrada no artigo, clique, compra — numa sessão só. Não é poluição: é o que liga artigo e venda. Para separar, filtrar por **Nome do host**.
 - O checkout fica no mesmo domínio da loja (`/carrinho`, `/checkout`). O `purchase` sai do GTM da loja (`GTM-P2NH5DR8`).
@@ -78,7 +80,9 @@ Nada disto se faz pelo código. Dimensão personalizada **não é retroativa**: 
 
 **Dimensões personalizadas (escopo de evento)** — nas duas propriedades, exceto as de Web Vitals (só blog):
 
-`posicao_link` · `destino_path` · `texto_link` · `criativo` · `percentual` · `chegou_em` · `canal` · `secao` · `resultados` · `artigo_tipo` · `artigo_tag_principal` · `artigo_tags` · `artigo_publicado_em` · `artigo_atualizado` · `artigo_faq` · `artigo_palavras` · `metric_name` · `metric_rating`
+`posicao_link` (não `posicao`: a dimensão `posicao` registrada em 09/10 nunca recebe valor) · `destino_path` · `texto_link` · `criativo` · `percentual` · `chegou_em` · `canal` · `secao` · `resultados` · `artigo_tipo` · `artigo_tag_principal` · `artigo_tags` · `artigo_publicado_em` · `artigo_atualizado` · `artigo_faq` · `artigo_palavras` · `metric_name` · `metric_rating`
+
+Só na propriedade da loja, por causa da landing: `ordem` (a `secao` já está na lista).
 
 **Métricas personalizadas:** `segundos_visiveis` (unidade: segundos) · `metric_value` (padrão; só blog)
 

@@ -149,3 +149,69 @@ test('CRM registra visita e clique com cookie curto, sem impedir Ctrl ou botão 
   }
   const outside=browser('http://localhost/');outside.run(source);assert.equal(outside.writes.length,0);
 });
+
+function ga4Page(href, sections = []) {
+  const inserted = [], listeners = {}, logs = [];
+  const first = { parentNode: { insertBefore: node => inserted.push(node) } };
+  const document = {
+    documentElement: {},
+    createElement: tag => ({ tag }), getElementsByTagName: () => [first],
+    querySelectorAll: () => sections,
+    addEventListener: (name, fn) => { listeners[name] = fn; }
+  };
+  const window = {
+    location: new URL(href), URL, console: { log: (...args) => logs.push(args) },
+    addEventListener: () => {},
+    IntersectionObserver: class { constructor(fn) { window.io = { fn, watched: [] }; } observe(el) { window.io.watched.push(el); } unobserve() {} }
+  };
+  runInNewContext(readFileSync(join(root, 'src/scripts/seudesconto-ga4.js'), 'utf8'), { window, document, Date });
+  const calls = () => JSON.parse(JSON.stringify((window.snDataLayer || []).map(args => Array.from(args))));
+  return { window, inserted, listeners, logs, calls };
+}
+function section(id, heading) {
+  return { id, getAttribute: () => null, querySelector: () => heading ? { textContent: heading } : null };
+}
+test('GA4 da loja carrega com dataLayer próprio e conta o clique para a loja sem query', () => {
+  const page = ga4Page(landing + '?gclid=TEST_CLICK');
+  assert.equal(page.inserted.length, 1);
+  assert.equal(page.inserted[0].src, 'https://www.googletagmanager.com/gtag/js?id=G-LZDYVCN9FV&l=snDataLayer');
+  assert.equal(page.window.dataLayer, undefined);
+  const a = link('https://www.sucupiranaturale.com.br/combos?cupom=SEUDESCONTO&gclid=TEST_CLICK');
+  a.getAttribute = name => name === 'data-cta' ? 'cta_kit_2' : a.href;
+  page.listeners.click({ type: 'click', button: 0, target: a });
+  const whats = link('https://wa.me/5535991696906');
+  whats.getAttribute = name => name === 'data-cta' ? 'link_whatsapp' : whats.href;
+  page.listeners.auxclick({ type: 'auxclick', button: 1, target: whats });
+  page.listeners.click({ type: 'click', button: 2, target: a });
+  const calls = page.calls();
+  assert.deepEqual(calls[1], ['config', 'G-LZDYVCN9FV', { content_group: 'landing' }]);
+  assert.deepEqual(calls.slice(2), [
+    ['event', 'clique_para_loja', { posicao_link: 'cta_kit_2', destino_path: '/combos' }],
+    ['event', 'clique_contato', { canal: 'whatsapp', posicao_link: 'link_whatsapp' }]
+  ]);
+});
+test('GA4 da loja registra cada seção vista uma vez, com nome e ordem', () => {
+  const sections = [section('hero'), section('', '  Como   usar  '), section('')];
+  const page = ga4Page(landing, sections);
+  assert.equal(page.window.io.watched.length, 3);
+  page.window.io.fn(sections.map((target, i) => ({ target, isIntersecting: i !== 0 })));
+  const events = page.calls().filter(c => c[0] === 'event');
+  assert.deepEqual(events, [
+    ['event', 'secao_vista', { secao: 'Como usar', ordem: 2 }],
+    ['event', 'secao_vista', { secao: 'secao-3', ordem: 3 }]
+  ]);
+});
+test('GA4 da loja não envia nada fora do domínio da landing', () => {
+  for (const href of ['http://localhost:4321/', 'https://sucupira-seudesconto.web.app/']) {
+    const page = ga4Page(href);
+    assert.equal(page.inserted.length, 0);
+    assert.equal(page.window.snDataLayer.length, 0);
+    assert.ok(page.logs.length >= 2);
+  }
+});
+test('build injeta o GA4 da loja antes do pixel', () => {
+  const build = readFileSync(join(root, 'scripts/build-seudesconto.cjs'), 'utf8');
+  const order = ['/seudesconto-events.js', '/seudesconto-ga4.js', '/meta-pixel.js'].map(src => build.indexOf(src));
+  assert.ok(order.every(i => i > 0));
+  assert.deepEqual([...order].sort((a, b) => a - b), order);
+});

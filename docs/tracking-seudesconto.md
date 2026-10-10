@@ -98,3 +98,29 @@ dados que otimiza as campanhas de compra.
 
 Conferência após publicar: Gerenciador de Eventos → pixel → Visão geral → PageView
 filtrado pelo host `seudesconto.sucupiranaturale.com.br`.
+
+## GA4 da loja (10/10/2026)
+
+`src/scripts/seudesconto-ga4.js` carrega o GA4 da loja (`G-LZDYVCN9FV`) com
+dataLayer próprio (`snDataLayer`), para não colidir com o Firebase Analytics
+(`G-V74H9LPVJD`) que vem dentro do export. O cookie `_ga` fica em
+`.sucupiranaturale.com.br`, o mesmo da loja: entrada pelo anúncio, seções vistas,
+clique e compra caem na mesma sessão da propriedade da loja. A origem da sessão
+sai do `gclid`/UTMs da URL da landing.
+
+| Evento | Quando | Parâmetros |
+|---|---|---|
+| `page_view` | automático | `content_group` = `landing` |
+| `secao_vista` | topo da seção entra nos 60% de cima da tela, uma vez por seção | `secao` (id, `aria-label` ou título, até 60 caracteres), `ordem` (1 = hero) |
+| `clique_para_loja` | clique em link da loja | `posicao_link` (= `data-cta`, ex. `cta_kit_2`), `destino_path` (sem query) |
+| `clique_contato` | WhatsApp, e-mail ou telefone | `canal`, `posicao_link` |
+
+Os nomes seguem o [plano de medição do blog](plano-de-medicao.md); na propriedade
+da loja, separar landing e blog por **Nome do host**. Fora do host de produção o
+script só escreve no console, com o prefixo `[GA4 desligado fora de produção]`.
+Aba oculta não dispara `secao_vista` (o IntersectionObserver não roda).
+
+O Firebase Analytics do export continua enviando `cta_click` com `link_url`
+completo, que leva `gclid` e UTMs para `G-V74H9LPVJD`. Está dentro do template e
+o build não o altera; tirar no próximo export, junto com o próprio Firebase
+Analytics, que fica redundante.
