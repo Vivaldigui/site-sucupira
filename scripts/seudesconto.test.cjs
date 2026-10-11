@@ -238,3 +238,58 @@ test('build injeta o GA4 da loja antes do pixel', () => {
   assert.ok(order.every(i => i > 0));
   assert.deepEqual([...order].sort((a, b) => a - b), order);
 });
+
+test('botão de kit vai ao carrinho e o CRM recebe a página do produto como destino', () => {
+  const source = readFileSync(join(root, 'src/scripts/seudesconto-events.js'), 'utf8');
+  const cart = 'https://www.sucupiranaturale.com.br/carrinho/produto/adicionar?utm_source=seudesconto&cupom=SEUDESCONTO&substituir_itens=true&292186850=1';
+  for (const [destino, esperado] of [['/12-sucupiras-naturale-liquida', 1], [null, 0], ['/carrinho', 0]]) {
+    const a = link(cart);
+    a.getAttribute = name => name === 'data-cta' ? 'cta_kit_12' : name === 'data-destino' ? destino : a.href;
+    const b = browser(landing, [a]); b.window.SN_TRACK_IDS = {vid:'vvvvvvvvvvvvvvvv',sid:'ssssssssssssssss'};
+    b.window.navigator = {}; const queued = [];
+    b.window.SN_DELIVERY = {create:()=>({send:(_,payload)=>queued.push(payload)})};
+    b.run(source); b.listeners.click({type:'click',button:0,target:a});
+    const clicks = queued.filter(e => e.kind === 'shop_click');
+    assert.equal(clicks.length, esperado);
+    if (esperado) {
+      assert.equal(clicks[0].destination_path, destino); assert.equal(clicks[0].button_id, 'cta_kit_12');
+      assert.equal(b.jar.get('sn_hop'), clicks[0].event_id);
+    }
+  }
+});
+
+test('GA4 registra o clique no carrinho com a página do produto', () => {
+  const page = ga4Page(landing);
+  const a = link('https://www.sucupiranaturale.com.br/carrinho/produto/adicionar?cupom=SEUDESCONTO&219532524=1');
+  a.getAttribute = name => name === 'data-cta' ? 'cta_kit_3' : name === 'data-destino' ? '/combo-3-sucupiras-naturale-liquida' : a.href;
+  page.listeners.click({ type: 'click', button: 0, target: a });
+  assert.deepEqual(page.calls().slice(2), [['event', 'clique_para_loja', { posicao_link: 'cta_kit_3', destino_path: '/combo-3-sucupiras-naturale-liquida' }]]);
+});
+
+test('landing tem os 9 kits com carrinho, cupom SEUDESCONTO e UTM, nas duas cópias', () => {
+  const html = readFileSync(join(root, 'landing-seudesconto/source.html'), 'utf8');
+  const template = JSON.parse(html.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
+  const ids = { 1: '219531792', 2: '219532312', 3: '219532524', 4: '219532627', 5: '363854870', 6: '292177203', 9: '292183880', 10: '239029656', 12: '292186850' };
+  for (const [kit, id] of Object.entries(ids)) {
+    const re = new RegExp('<a class="btn kit-btn" href="([^"]+)" data-cta="cta_kit_' + kit + '" data-destino="(/[a-z0-9-]+)"', 'g');
+    const found = [...template.matchAll(re)];
+    assert.equal(found.length, 2, 'kit ' + kit);
+    for (const [, href] of found) {
+      const url = new URL(href.replace(/&amp;/g, '&'));
+      assert.equal(url.origin + url.pathname, 'https://www.sucupiranaturale.com.br/carrinho/produto/adicionar');
+      assert.equal(url.searchParams.get('cupom'), 'SEUDESCONTO');
+      assert.equal(url.searchParams.get(id), '1');
+      assert.equal(url.searchParams.get('utm_source'), 'seudesconto');
+      assert.match(url.searchParams.get('utm_campaign'), kit === '1' ? /^umaunidade$/ : new RegExp('^kitcom' + kit + 'unidades$'));
+    }
+  }
+  assert.equal(template.includes('cta_outras_quantidades'), false);
+  assert.equal(template.includes('Kits a partir de'), false);
+  assert.equal((template.match(/wa\.me\/5535998521010/g) || []).length, 2);
+});
+
+test('build injeta o carrossel depois dos eventos', () => {
+  const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  const order = ['/seudesconto-events.js', '/seudesconto-carrossel.js', '/seudesconto-ga4.js'].map(src => build.indexOf(src));
+  assert.ok(order.every(i => i > 0) && order[0] < order[1] && order[1] < order[2]);
+});
