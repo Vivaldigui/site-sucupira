@@ -33,7 +33,8 @@
     try {
       var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
       if (!a) return;
-      var url = new w.URL(a.href, w.location.href), button = a.getAttribute("data-cta");
+      // Logo e links institucionais para a loja também são saídas, mesmo sem data-cta.
+      var url = new w.URL(a.href, w.location.href), button = a.getAttribute("data-cta") || "link_loja";
       if (url.protocol !== "https:" || url.username || url.password || url.port ||
           ["sucupiranaturale.com.br", "www.sucupiranaturale.com.br"].indexOf(url.hostname) < 0 ||
           !/^[a-z0-9_-]{1,80}$/.test(button || "") || url.pathname.length > 200 ||
