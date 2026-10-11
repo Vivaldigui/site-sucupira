@@ -2,7 +2,7 @@
 (function (w, d) {
   "use strict";
   if (w.location.hostname !== "seudesconto.sucupiranaturale.com.br") return;
-  var endpoint = "https://sucupira-naturale-crmapi.kip816.easypanel.host/t/v1/b";
+  var endpoint = "https://api.sucupiranaturale.com.br/t/v1/b";
   var seen = false, tries = 0;
   function id() {
     var bytes = new Uint8Array(16), out = "", alphabet = "abcdefghijklmnopqrstuvwxyz234567";

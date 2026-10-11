@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Script } = require('node:vm');
 const root = path.resolve(__dirname, '..');
-const endpoint = 'https://sucupira-naturale-crmapi.kip816.easypanel.host/t/v1/s';
+const endpoint = 'https://api.sucupiranaturale.com.br/t/v1/s';
 // O host do blog vem de BLOG_SITE_URL em src/consts.ts, a mesma fonte do FirstPartyTracking.astro.
 const siteUrl = fs.readFileSync(path.join(root, 'src/consts.ts'), 'utf8').match(/BLOG_SITE_URL = '([^']+)'/);
 if (!siteUrl) throw new Error('BLOG_SITE_URL não encontrado em src/consts.ts');
