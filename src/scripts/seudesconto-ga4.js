@@ -36,7 +36,7 @@
       if (!a) return;
       var url = new w.URL(a.href, w.location.href);
       if (url.protocol === 'https:' && STORE.indexOf(url.hostname) >= 0) {
-        send('clique_para_loja', { posicao_link: cta(a), destino_path: url.pathname });
+        send('clique_para_loja', { posicao_link: cta(a), destino_path: url.pathname === '/carrinho/produto/adicionar' ? (a.getAttribute('data-destino') || url.pathname) : url.pathname });
       } else if (url.hostname === 'wa.me' || url.hostname === 'api.whatsapp.com') {
         send('clique_contato', { canal: 'whatsapp', posicao_link: cta(a) });
       } else if (url.protocol === 'mailto:' || url.protocol === 'tel:') {

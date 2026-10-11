@@ -35,12 +35,14 @@
       if (!a) return;
       // Logo e links institucionais para a loja também são saídas, mesmo sem data-cta.
       var url = new w.URL(a.href, w.location.href), button = a.getAttribute("data-cta") || "link_loja";
+      // Botão que adiciona ao carrinho: o CRM recebe a página do produto como destino (não aceita /carrinho).
+      var destino = url.pathname === "/carrinho/produto/adicionar" ? a.getAttribute("data-destino") || "" : url.pathname;
       if (url.protocol !== "https:" || url.username || url.password || url.port ||
           ["sucupiranaturale.com.br", "www.sucupiranaturale.com.br"].indexOf(url.hostname) < 0 ||
-          !/^[a-z0-9_-]{1,80}$/.test(button || "") || url.pathname.length > 200 ||
-          !/^\/(?:[a-z0-9][a-z0-9-]*\/?)?$/.test(url.pathname) || /^\/(checkout|carrinho|conta|minha-conta)(\/|$)/.test(url.pathname)) return;
+          !/^[a-z0-9_-]{1,80}$/.test(button || "") || destino.length > 200 ||
+          !/^\/(?:[a-z0-9][a-z0-9-]*\/?)?$/.test(destino) || /^\/(checkout|carrinho|conta|minha-conta)(\/|$)/.test(destino)) return;
       page();
-      var hop = send("shop_click", {button_id:button,destination_path:url.pathname});
+      var hop = send("shop_click", {button_id:button,destination_path:destino});
       if (hop) d.cookie = "sn_hop=" + hop + "; Domain=.sucupiranaturale.com.br; Path=/; Max-Age=600; SameSite=Lax; Secure";
     } catch (_) { /* nunca impede clique normal, Ctrl/Cmd ou botão do meio */ }
   }
