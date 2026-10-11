@@ -150,6 +150,29 @@ test('CRM registra visita e clique com cookie curto, sem impedir Ctrl ou botão 
   const outside=browser('http://localhost/');outside.run(source);assert.equal(outside.writes.length,0);
 });
 
+test('links à loja sem data-cta registram clique e chegada; destinos recusados continuam fora', () => {
+  const source = readFileSync(join(root, 'src/scripts/seudesconto-events.js'), 'utf8');
+  for (const type of ['click', 'auxclick']) {
+    for (const href of ['https://www.sucupiranaturale.com.br/', 'https://sucupiranaturale.com.br/combos']) {
+      const a = link(href); a.getAttribute = name => name === 'data-cta' ? null : a.href;
+      const b = browser(landing, [a]); b.window.SN_TRACK_IDS = {vid:'vvvvvvvvvvvvvvvv',sid:'ssssssssssssssss'};
+      b.window.navigator = {}; const queued = [];
+      b.window.SN_DELIVERY = {create:()=>({send:(_,payload)=>queued.push(payload)})};
+      b.run(source); b.listeners[type]({type,button:type==='click'?0:1,target:a,preventDefault:()=>assert.fail('navegação deve continuar')});
+      assert.equal(queued[1].kind, 'shop_click'); assert.equal(queued[1].button_id, 'link_loja');
+      assert.equal(b.jar.get('sn_hop'), queued[1].event_id);
+    }
+  }
+  for (const href of ['https://wa.me/123', 'http://www.sucupiranaturale.com.br/', 'https://www.sucupiranaturale.com.br.evil.test/', 'https://www.sucupiranaturale.com.br/checkout']) {
+    const a = link(href); a.getAttribute = name => name === 'data-cta' ? null : a.href;
+    const b = browser(landing, [a]); b.window.SN_TRACK_IDS = {vid:'vvvvvvvvvvvvvvvv',sid:'ssssssssssssssss'};
+    b.window.navigator = {}; const queued = [];
+    b.window.SN_DELIVERY = {create:()=>({send:(_,payload)=>queued.push(payload)})};
+    b.run(source); b.listeners.click({type:'click',button:0,target:a});
+    assert.equal(queued.length, 1); assert.equal(b.jar.has('sn_hop'), false);
+  }
+});
+
 function ga4Page(href, sections = []) {
   const inserted = [], listeners = {}, logs = [];
   const first = { parentNode: { insertBefore: node => inserted.push(node) } };
