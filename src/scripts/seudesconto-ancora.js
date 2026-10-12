@@ -14,7 +14,7 @@
 
   // A landing renderiza duas cópias (a dinâmica e a estática, escondida); vale a que está na tela.
   function alvo() {
-    var todos = d.querySelectorAll("[id]");
+    var todos = w.document.querySelectorAll("[id]");
     for (var i = 0; i < todos.length; i++) {
       if (todos[i].id === id && todos[i].getClientRects().length) return todos[i];
     }
@@ -28,6 +28,6 @@
     el.scrollIntoView({ block: "start" });
     w.setTimeout(function () { if (!mexeu) el.scrollIntoView({ block: "start" }); }, 600);
   }
-  if (d.readyState === "loading") d.addEventListener("DOMContentLoaded", tentar);
-  else tentar();
+  // Não espera DOMContentLoaded: o pacote da landing reescreve o documento e o listener se perde.
+  tentar();
 })(window, document);
