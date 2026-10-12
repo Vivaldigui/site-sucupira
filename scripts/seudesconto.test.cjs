@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
-const { readFileSync } = require('node:fs');
+const { readFileSync, existsSync } = require('node:fs');
 const { join } = require('node:path');
 const { runInNewContext } = require('node:vm');
 const { webcrypto } = require('node:crypto');
@@ -292,4 +292,10 @@ test('build injeta o carrossel depois dos eventos', () => {
   const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
   const order = ['/seudesconto-events.js', '/seudesconto-carrossel.js', '/seudesconto-ga4.js'].map(src => build.indexOf(src));
   assert.ok(order.every(i => i > 0) && order[0] < order[1] && order[1] < order[2]);
+});
+
+test('build injeta a âncora para links de fora (#kits)', () => {
+  const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  assert.ok(build.indexOf('/seudesconto-ancora.js') > 0);
+  assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-ancora.js')));
 });
