@@ -70,7 +70,7 @@ A cápsula é a forma mais fácil de levar e não tem sabor. Para quem já toma 
 
 A Sucupira Naturale trabalha só com a forma líquida. É um extrato da semente graúda branca de sucupira, em frasco de 400 ml, com a composição declarada pelo fabricante em percentual: 49,75% de semente triturada, 49,75% de água mineral e 0,5% de álcool de cereais. Pode ser tomado puro ou misturado com mel ou suco.
 
-**[Veja como funciona a Sucupira Naturale Líquida](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
+**[Veja como funciona a Sucupira Naturale Líquida](https://seudesconto.sucupiranaturale.com.br/)**
 
 ## Perguntas frequentes
 

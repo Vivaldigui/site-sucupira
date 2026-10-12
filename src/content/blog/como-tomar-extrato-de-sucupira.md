@@ -34,7 +34,7 @@ A quantidade diária publicada pela marca, a medida da tampa (7 ml) e quanto ren
 
 ### 2. Escolha como vai tomar
 
-A [página oficial da Sucupira Naturale](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida) diz que o produto "pode ser tomado puro" e que, para suavizar o gosto adstringente, dá para acrescentar mel ou suco. As opções estão em [como tomar sem sofrer com o gosto](#como-tomar-sem-sofrer-com-o-gosto). Não é preciso ferver nem preparar chá.
+A [página oficial da Sucupira Naturale](https://seudesconto.sucupiranaturale.com.br/) diz que o produto "pode ser tomado puro" e que, para suavizar o gosto adstringente, dá para acrescentar mel ou suco. As opções estão em [como tomar sem sofrer com o gosto](#como-tomar-sem-sofrer-com-o-gosto). Não é preciso ferver nem preparar chá.
 
 ### 3. Mantenha a mesma medida todos os dias
 
@@ -89,7 +89,7 @@ As dúvidas específicas estão no guia de [cuidados e contraindicações da suc
 
 O líquido pronto atende a quem procura sucupira e prefere evitar o preparo doméstico. Na compra, você pode conferir ingredientes, apresentação e condições de entrega, além de esclarecer dúvidas com a própria marca.
 
-**[Conheça a Sucupira Naturale Líquida de 400 ml na loja oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)** e veja as informações atuais do produto.
+**[Conheça a Sucupira Naturale Líquida de 400 ml na loja oficial](https://seudesconto.sucupiranaturale.com.br/)** e veja as informações atuais do produto.
 
 ## Perguntas frequentes
 

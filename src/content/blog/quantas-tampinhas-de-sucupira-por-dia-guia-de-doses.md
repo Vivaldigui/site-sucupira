@@ -16,7 +16,7 @@ Abaixo estão a conversão em mililitros e quanto rende cada frasco.
 
 ## O que significam as quantidades publicadas pela Naturale?
 
-A referência deste artigo é a [Sucupira Naturale Líquida de 400 ml](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida), pronta para consumo. As três quantidades estão descritas na página do produto e no rótulo, que é a instrução que vale para o seu frasco.
+A referência deste artigo é a [Sucupira Naturale Líquida de 400 ml](https://seudesconto.sucupiranaturale.com.br/), pronta para consumo. As três quantidades estão descritas na página do produto e no rótulo, que é a instrução que vale para o seu frasco.
 
 São a orientação do fabricante, não uma dose definida por estudo clínico publicado. Se o rótulo e a página da loja mostrarem instruções diferentes, siga o rótulo; o atendimento confirma a versão pelo número do lote.
 
@@ -60,7 +60,7 @@ Compare primeiro o volume total, o preço atual e o frete. Assim, fica mais fác
 
 As medidas foram arredondadas para o inteiro mais próximo; os volumes totais são a referência para o cálculo. Os preços, as opções disponíveis e o frete devem ser conferidos no momento da compra.
 
-A vantagem prática da Naturale é receber o extrato líquido pronto, com composição declarada, sem preparar sementes em casa. **[Compare os kits na loja oficial](https://www.sucupiranaturale.com.br/combos)** e escolha a quantidade de compra conforme a orientação de consumo que já foi definida para você.
+A vantagem prática da Naturale é receber o extrato líquido pronto, com composição declarada, sem preparar sementes em casa. **[Compare os kits na loja oficial](https://seudesconto.sucupiranaturale.com.br/)** e escolha a quantidade de compra conforme a orientação de consumo que já foi definida para você.
 
 ## Tampinhas, gotas e cápsulas são equivalentes?
 

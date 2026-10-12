@@ -8,7 +8,9 @@ export const SALES_SITE_URL = 'https://www.sucupiranaturale.com.br';
 export const SITE_NAME = 'Sucupira Naturale';
 export const BLOG_NAME = 'Guia da Sucupira';
 export const DEFAULT_OG_IMAGE = `${BLOG_SITE_URL}/assets/sucupira-natural-banner.webp`;
-export const SALES_CTA_URL = `${SALES_SITE_URL}/combos`;
+// Desde 12/10/2026 todo link do blog para comprar vai para a landing, não para a loja direto.
+export const STORE_LANDING_URL = 'https://seudesconto.sucupiranaturale.com.br/';
+export const SALES_CTA_URL = STORE_LANDING_URL;
 export const GOOGLE_ANALYTICS_ID = 'G-L27DL7MMTY';
 export const STORE_ANALYTICS_ID = 'G-LZDYVCN9FV';
 // Coleta first-party do CRM (docs/tracking no repositório crm-sucupira-naturale).

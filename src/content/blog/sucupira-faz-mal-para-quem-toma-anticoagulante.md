@@ -100,6 +100,6 @@ A pergunta “sucupira faz mal para quem toma anticoagulante?” não pode ser r
 
 Isso permite uma abordagem mais equilibrada: informação, moderação e atenção aos sinais do corpo, sem transformar a sucupira em vilã e sem atribuir a ela efeitos que a ciência ainda não comprovou.
 
-> **Interessou-se pela sucupira?** Se a sua intenção é conhecer uma opção líquida, pronta para tomar, veja as [opções no site oficial da Sucupira Naturale](https://www.sucupiranaturale.com.br/combos).
+> **Interessou-se pela sucupira?** Se a sua intenção é conhecer uma opção líquida, pronta para tomar, veja as [opções no site oficial da Sucupira Naturale](https://seudesconto.sucupiranaturale.com.br/).
 
 **Nota:** este conteúdo é informativo. A Sucupira Naturale não apresenta a sucupira como medicamento nem promete prevenção, tratamento ou cura de doenças.

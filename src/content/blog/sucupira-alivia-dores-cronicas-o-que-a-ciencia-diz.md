@@ -72,7 +72,7 @@ A **Sucupira Naturale Líquida** vem em frasco de **400 ml, pronta para consumo*
 
 A empresa, a responsável técnica e os canais de atendimento estão informados na loja.
 
-**Prefere a praticidade do líquido pronto? [Conheça a Sucupira Naturale 400 ml na loja oficial](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
+**Prefere a praticidade do líquido pronto? [Conheça a Sucupira Naturale 400 ml na loja oficial](https://seudesconto.sucupiranaturale.com.br/)**
 
 ## Perguntas frequentes
 
