@@ -1,4 +1,4 @@
-import { SALES_SITE_URL } from '../consts.ts';
+import { SALES_SITE_URL, STORE_LANDING_URL } from '../consts.ts';
 import {
   STORE_AD_POLICY,
   STORE_FIRST_MENTION,
@@ -39,7 +39,7 @@ interface VFileLike {
 
 const HEADING = /^h[1-6]$/;
 const VOID_TAGS = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr']);
-const STORE_HOST = new URL(SALES_SITE_URL).hostname.replace(/^www\./, '');
+const STORE_HOSTS = new Set([SALES_SITE_URL, STORE_LANDING_URL].map((url) => new URL(url).hostname.replace(/^www\./, '')));
 
 function textOf(node: HastNode): string {
   if (node.type === 'text') return node.value ?? '';
@@ -77,7 +77,7 @@ function slugOf(file: VFileLike) {
 function isStoreHref(href: unknown) {
   if (typeof href !== 'string') return false;
   try {
-    return new URL(href).hostname.replace(/^www\./, '') === STORE_HOST;
+    return STORE_HOSTS.has(new URL(href).hostname.replace(/^www\./, ''));
   } catch {
     return false;
   }
@@ -85,7 +85,7 @@ function isStoreHref(href: unknown) {
 
 function hasStoreLink(node: HastNode): boolean {
   if (node.type === 'element' && node.tagName === 'a' && isStoreHref(node.properties?.href)) return true;
-  if (node.type === 'raw' && /href="https?:\/\/(?:www\.)?sucupiranaturale\.com\.br/i.test(node.value ?? '')) return true;
+  if (node.type === 'raw' && /href="https?:\/\/(?:www\.|seudesconto\.)?sucupiranaturale\.com\.br/i.test(node.value ?? '')) return true;
   return (node.children ?? []).some(hasStoreLink);
 }
 

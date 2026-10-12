@@ -14,7 +14,7 @@ async function main(){
    counts[a['data-posicao']]=(counts[a['data-posicao']]||0)+1;
    const descendants=[];function below(n){descendants.push(n);for(const c of n.childNodes||[])below(c);}below(node);
    for(const anchor of descendants.filter(n=>n.tagName==='a')){
-    const link=attrs(anchor);assert.equal(link.href,'https://www.sucupiranaturale.com.br/combos',file+': destino fora de combos');
+    const link=attrs(anchor);assert.equal(link.href,'https://seudesconto.sucupiranaturale.com.br/',file+': destino fora da landing seudesconto');
     assert.ok(link['data-sn-cta'],file+': CTA sem ID CRM');
    }
    for(const img of descendants.filter(n=>n.tagName==='img'))assert.ok(attrs(img).width&&attrs(img).height,file+': imagem sem dimensões');

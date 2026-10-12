@@ -72,7 +72,7 @@ Gestantes, lactantes e crianças menores de 13 anos não devem usar. Quem trata 
 
 A Sucupira Naturale Líquida é um extrato de sucupira em frasco de 400 ml, pronto para consumo, com composição declarada de 49,75% de semente de sucupira triturada, 49,75% de água mineral e 0,5% de álcool de cereais. Quem prefere não quebrar semente nem preparar chá em casa encontra ali uma alternativa, com atendimento direto da empresa.
 
-**[Conhecer a Sucupira Naturale Líquida 400 ml](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
+**[Conhecer a Sucupira Naturale Líquida 400 ml](https://seudesconto.sucupiranaturale.com.br/)**
 
 ## Perguntas frequentes
 

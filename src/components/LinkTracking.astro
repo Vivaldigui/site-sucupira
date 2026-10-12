@@ -17,14 +17,17 @@
 //
 // A loja é reconhecida pelo host exato (sem "www."), nunca por sufixo: o blog
 // também termina em ".sucupiranaturale.com.br" e seria contado como loja.
-import { SALES_SITE_URL } from '../consts';
+import { SALES_SITE_URL, STORE_LANDING_URL } from '../consts';
 
 const storeRootHost = new URL(SALES_SITE_URL).hostname.replace(/^www\./, '');
+// A landing seudesconto conta como loja: é para lá que vão os links de compra.
+const storeLandingHost = new URL(STORE_LANDING_URL).hostname;
 const ORIGIN_COOKIE_MAX_AGE = 30 * 24 * 60 * 60;
 
 const trackingScript = `
 (function () {
   var STORE_ROOT_HOST = ${JSON.stringify(storeRootHost)};
+  var STORE_LANDING_HOST = ${JSON.stringify(storeLandingHost)};
   var ORIGIN_COOKIE_MAX_AGE = ${ORIGIN_COOKIE_MAX_AGE};
 
   function send(name, params) {
@@ -92,7 +95,7 @@ const trackingScript = `
       return;
     }
 
-    if (host === STORE_ROOT_HOST) {
+    if (host === STORE_ROOT_HOST || host === STORE_LANDING_HOST) {
       rememberBlogOrigin();
       var params = { destino_path: url.pathname, posicao_link: position, texto_link: linkText(anchor) };
       var creative = anchor.closest('[data-criativo]');

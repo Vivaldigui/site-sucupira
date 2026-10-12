@@ -155,7 +155,7 @@ Seria incoerente publicar uma lista de critérios e não aplicá-la ao próprio 
 
 A sucupira não é medicamento, e a Sucupira Naturale não é apresentada como tratamento, prevenção ou cura de doença.
 
-**[Conhecer a composição e os detalhes da Sucupira Naturale](https://www.sucupiranaturale.com.br/sucupira-naturale-liquida)**
+**[Conhecer a composição e os detalhes da Sucupira Naturale](https://seudesconto.sucupiranaturale.com.br/)**
 
 ## Então, afinal: sucupira é confiável?
 
