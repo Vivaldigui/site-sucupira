@@ -299,3 +299,8 @@ test('build injeta a âncora para links de fora (#kits)', () => {
   assert.ok(build.indexOf('/seudesconto-ancora.js') > 0);
   assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-ancora.js')));
 });
+test('build injeta o selo do Reclame AQUI no topo', () => {
+  const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  assert.ok(build.indexOf('/seudesconto-reclameaqui.js') > 0);
+  assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-reclameaqui.js')));
+});
