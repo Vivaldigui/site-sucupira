@@ -1,12 +1,14 @@
-/* Selo "Verificada" do Reclame AQUI no topo, ao lado de "para tomar" no título. Se a tela não
+/* Selo "Verificada por Reclame AQUI" no topo, ao lado de "para tomar" no título. Se a tela não
    tiver espaço nessa linha, vai para o canto de cima da foto e a caixa "Garrafa a partir de"
-   desce para o canto de baixo. O selo é o embed oficial do RA (modelo horizontal). */
+   desce para o canto de baixo.
+   O selo é desenhado aqui, igual ao modelo horizontal do embed do RA, com as imagens do RA
+   servidas pela landing (pré-carregadas no head). O embed oficial só aparecia ~1 s depois da
+   página: dependia do script, da API e do CSS do RA. */
 (function (w, d) {
   "use strict";
-  var RA_ID = "WGh5blpwdS14RGZ5M0xNMTpzdWN1cGlyYS1uYXR1cmFsZQ==";
-  var RA_BUNDLE = "https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js";
+  var LINK = "https://www.reclameaqui.com.br/empresa/sucupira-naturale/?utm_source=rav&utm_medium=embed&utm_campaign=horizontal";
   var LARGURA = 136, ALTURA = 48, ESCALA = 0.85, FOLGA = 8;
-  var selo = null, carregado = false, agendado = false, preso = 0, cargas = 0, script = null;
+  var selo = null, agendado = false;
 
   // A landing renderiza duas cópias (a dinâmica e a estática, escondida); vale a que está na tela.
   function visivel(seletor) {
@@ -43,34 +45,25 @@
     var base = "position:absolute;right:" + (lugar === "titulo" ? "0" : "14px") + ";z-index:1;width:" + LARGURA + "px;height:" + ALTURA + "px;transform:scale(" + ESCALA + ");transform-origin:right center;background:#FFFFFF;border-radius:10px";
     return base + ";top:" + topo + "px" + (lugar === "foto" ? ";box-shadow:0 4px 14px rgba(29,59,35,.12)" : "");
   }
-  // O script do RA procura o alvo pelo id uma vez só; se o topo estava sendo re-renderizado
-  // naquele instante, o widget não sai. Confere depois e carrega de novo (até 3 vezes).
-  function conferir() {
-    if (selo.firstChild || cargas >= 3) return;
-    carregado = false;
-    agendar();
+  function criarSelo() {
+    var el = d.createElement("div");
+    el.id = "ra-selo-hero";
+    el.innerHTML =
+      '<a href="' + LINK + '" target="_blank" rel="noopener noreferrer" title="Selo RA Verificada"' +
+      ' style="display:flex;align-items:center;justify-content:center;gap:6px;box-sizing:border-box;width:100%;height:100%;padding:6px;border:1px solid #1E40AF;border-radius:8px;background:#FFFFFF;text-decoration:none">' +
+      '<img src="/assets/ra/verified.svg" alt="Selo RA Verificada" width="36" height="36" style="width:36px;height:36px;display:block">' +
+      '<span style="display:flex;flex-direction:column;align-items:flex-start;gap:2px">' +
+      '<span style="font:400 12px/16px \'Open Sans\',Arial,sans-serif;color:#0F172B;white-space:nowrap">Verificada por</span>' +
+      '<img src="/assets/ra/ra-logo.svg" alt="Reclame AQUI" width="74" height="14" style="width:74px;height:14px;display:block">' +
+      '</span></a>';
+    return el;
   }
-  function carregarSelo() {
-    carregado = true;
-    cargas++;
-    if (script && script.parentNode) script.parentNode.removeChild(script);
-    var s = script = d.createElement("script");
-    s.onload = s.onerror = function () { w.setTimeout(conferir, 2000); };
-    s.id = "ra-embed-verified-seal";
-    s.src = RA_BUNDLE;
-    s.async = true;
-    s.setAttribute("data-id", RA_ID);
-    s.setAttribute("data-target", "ra-selo-hero");
-    s.setAttribute("data-model", "2");
-    d.body.appendChild(s);
-  }
-  // O runtime da landing re-renderiza o topo depois de montar; o mesmo nó do selo é recolocado,
-  // com o widget já desenhado dentro.
+  // O runtime da landing re-renderiza o topo depois de montar; o mesmo nó do selo é recolocado.
   function aplicar() {
     agendado = false;
     var p = visivel(".hero-panel"), h = visivel("h1.a-title");
     if (!p || !h) return;
-    if (!selo) { selo = d.createElement("div"); selo.id = "ra-selo-hero"; }
+    if (!selo) selo = criarSelo();
 
     var linha = ultimaLinha(h), caixa = h.getBoundingClientRect();
     var cabe = linha && caixa.right - linha.right >= LARGURA * ESCALA + FOLGA;
@@ -78,23 +71,18 @@
     if (cabe) {
       if (h.style.position !== "relative") h.style.position = "relative";
       css = estilo("titulo", Math.round(linha.top - caixa.top + (linha.height - ALTURA) / 2));
-      if (selo.parentNode !== h) { h.appendChild(selo); preso = Date.now(); }
+      if (selo.parentNode !== h) h.appendChild(selo);
     } else {
       css = estilo("foto", Math.round(14 - ALTURA * (1 - ESCALA) / 2));
-      if (selo.parentNode !== p) { p.appendChild(selo); preso = Date.now(); }
+      if (selo.parentNode !== p) p.appendChild(selo);
     }
     if (selo.style.cssText !== css) selo.style.cssText = css;
     moverPreco(p, !cabe);
-    // Só carrega o RA depois que o selo ficou no lugar por um tempo (o topo parou de re-renderizar).
-    if (!carregado) {
-      if (Date.now() - preso >= 800) carregarSelo();
-      else w.setTimeout(agendar, 850 - (Date.now() - preso));
-    }
   }
   function agendar() {
     if (agendado) return;
     agendado = true;
-    w.setTimeout(aplicar, 50);
+    w.setTimeout(aplicar, 0);
   }
   // Não espera DOMContentLoaded: o pacote da landing reescreve o documento e o listener se perde.
   aplicar();
