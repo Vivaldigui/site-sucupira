@@ -14,7 +14,15 @@ if (!/<head[^>]*>/i.test(template)) throw new Error('Documento da landing sem he
 const config = 'window.SN_TRACK = { endpoint: "https://api.sucupiranaturale.com.br/t/v1/s", disabled: window.location.hostname !== "seudesconto.sucupiranaturale.com.br" };';
 const injection = '\n<!-- SN - Tracking first-party seudesconto -->\n<script>' + config + '</script>\n<script src="/sn-tracking.js"></script>\n<script src="/seudesconto-links.js"></script>\n<script src="/seudesconto-events.js"></script>\n<script src="/seudesconto-carrossel.js" defer></script>\n<script src="/seudesconto-ancora.js" defer></script>\n<script src="/seudesconto-reclameaqui.js" defer></script>\n<!-- GA4 da loja (mesma sessão da compra) -->\n<script src="/seudesconto-ga4.js"></script>\n<!-- Pixel da Meta (mesmo da loja) -->\n<script src="/meta-pixel.js"></script>\n';
 const updated = template.replace(/<head[^>]*>/i, (head) => head + injection);
-const output = html.replace(marker, (_, open, text, close) => open + '\n' + JSON.stringify(updated).replace(/</g, '\\u003c') + '\n' + close);
+// O logo do export é um recorte quadrado que corta as bordas do círculo; usa o logo redondo inteiro.
+const LOGO = '3ee05f17-7774-441a-928c-ab90d7f38a81';
+const manifestMarker = /(<script type="__bundler\/manifest">)([\s\S]*?)(<\/script>)/;
+const manifest = JSON.parse(html.match(manifestMarker)[2]);
+if (!manifest[LOGO]) throw new Error('Logo não encontrado no manifesto do export');
+manifest[LOGO] = { mime: 'image/webp', compressed: false, data: readFileSync(join(source, 'assets', 'logo.webp')).toString('base64') };
+const output = html
+  .replace(manifestMarker, (_, open, text, close) => open + JSON.stringify(manifest) + close)
+  .replace(marker, (_, open, text, close) => open + '\n' + JSON.stringify(updated).replace(/</g, '\\u003c') + '\n' + close);
 mkdirSync(out, { recursive: true });
 writeFileSync(join(out, 'index.html'), output);
 for (const name of ['sn-tracking', 'seudesconto-links', 'seudesconto-events', 'seudesconto-carrossel', 'seudesconto-ancora', 'seudesconto-reclameaqui', 'seudesconto-ga4', 'meta-pixel']) {

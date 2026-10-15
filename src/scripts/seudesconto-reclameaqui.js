@@ -6,7 +6,7 @@
   var RA_ID = "WGh5blpwdS14RGZ5M0xNMTpzdWN1cGlyYS1uYXR1cmFsZQ==";
   var RA_BUNDLE = "https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js";
   var LARGURA = 136, ALTURA = 48, ESCALA = 0.85, FOLGA = 8;
-  var selo = null, carregado = false, agendado = false;
+  var selo = null, carregado = false, agendado = false, preso = 0, cargas = 0, script = null;
 
   // A landing renderiza duas cópias (a dinâmica e a estática, escondida); vale a que está na tela.
   function visivel(seletor) {
@@ -43,9 +43,19 @@
     var base = "position:absolute;right:" + (lugar === "titulo" ? "0" : "14px") + ";z-index:1;width:" + LARGURA + "px;height:" + ALTURA + "px;transform:scale(" + ESCALA + ");transform-origin:right center;background:#FFFFFF;border-radius:10px";
     return base + ";top:" + topo + "px" + (lugar === "foto" ? ";box-shadow:0 4px 14px rgba(29,59,35,.12)" : "");
   }
+  // O script do RA procura o alvo pelo id uma vez só; se o topo estava sendo re-renderizado
+  // naquele instante, o widget não sai. Confere depois e carrega de novo (até 3 vezes).
+  function conferir() {
+    if (selo.firstChild || cargas >= 3) return;
+    carregado = false;
+    agendar();
+  }
   function carregarSelo() {
     carregado = true;
-    var s = d.createElement("script");
+    cargas++;
+    if (script && script.parentNode) script.parentNode.removeChild(script);
+    var s = script = d.createElement("script");
+    s.onload = s.onerror = function () { w.setTimeout(conferir, 2000); };
     s.id = "ra-embed-verified-seal";
     s.src = RA_BUNDLE;
     s.async = true;
@@ -68,14 +78,18 @@
     if (cabe) {
       if (h.style.position !== "relative") h.style.position = "relative";
       css = estilo("titulo", Math.round(linha.top - caixa.top + (linha.height - ALTURA) / 2));
-      if (selo.parentNode !== h) h.appendChild(selo);
+      if (selo.parentNode !== h) { h.appendChild(selo); preso = Date.now(); }
     } else {
       css = estilo("foto", Math.round(14 - ALTURA * (1 - ESCALA) / 2));
-      if (selo.parentNode !== p) p.appendChild(selo);
+      if (selo.parentNode !== p) { p.appendChild(selo); preso = Date.now(); }
     }
     if (selo.style.cssText !== css) selo.style.cssText = css;
     moverPreco(p, !cabe);
-    if (!carregado) carregarSelo();
+    // Só carrega o RA depois que o selo ficou no lugar por um tempo (o topo parou de re-renderizar).
+    if (!carregado) {
+      if (Date.now() - preso >= 800) carregarSelo();
+      else w.setTimeout(agendar, 850 - (Date.now() - preso));
+    }
   }
   function agendar() {
     if (agendado) return;

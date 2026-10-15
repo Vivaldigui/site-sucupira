@@ -304,3 +304,9 @@ test('build injeta o selo do Reclame AQUI no topo', () => {
   assert.ok(build.indexOf('/seudesconto-reclameaqui.js') > 0);
   assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-reclameaqui.js')));
 });
+test('build troca o logo cortado do export pelo logo redondo inteiro', () => {
+  const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  const manifest = JSON.parse(build.match(/<script type="__bundler\/manifest">([\s\S]*?)<\/script>/)[1]);
+  const logo = readFileSync(join(root, 'landing-seudesconto/assets/logo.webp')).toString('base64');
+  assert.equal(manifest['3ee05f17-7774-441a-928c-ab90d7f38a81'].data, logo);
+});
