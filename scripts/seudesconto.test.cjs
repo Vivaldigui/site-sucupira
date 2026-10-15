@@ -266,8 +266,8 @@ test('GA4 registra o clique no carrinho com a página do produto', () => {
   assert.deepEqual(page.calls().slice(2), [['event', 'clique_para_loja', { posicao_link: 'cta_kit_3', destino_path: '/combo-3-sucupiras-naturale-liquida' }]]);
 });
 
-test('landing tem os 9 kits com carrinho, cupom SEUDESCONTO e UTM, nas duas cópias', () => {
-  const html = readFileSync(join(root, 'landing-seudesconto/source.html'), 'utf8');
+test('landing tem os 9 kits com carrinho e UTM, sem cupom aplicado no link, nas duas cópias', () => {
+  const html = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
   const template = JSON.parse(html.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
   const ids = { 1: '219531792', 2: '219532312', 3: '219532524', 4: '219532627', 5: '363854870', 6: '292177203', 9: '292183880', 10: '239029656', 12: '292186850' };
   for (const [kit, id] of Object.entries(ids)) {
@@ -277,7 +277,7 @@ test('landing tem os 9 kits com carrinho, cupom SEUDESCONTO e UTM, nas duas cóp
     for (const [, href] of found) {
       const url = new URL(href.replace(/&amp;/g, '&'));
       assert.equal(url.origin + url.pathname, 'https://www.sucupiranaturale.com.br/carrinho/produto/adicionar');
-      assert.equal(url.searchParams.get('cupom'), 'SEUDESCONTO');
+      assert.equal(url.searchParams.has('cupom'), false);
       assert.equal(url.searchParams.get(id), '1');
       assert.equal(url.searchParams.get('utm_source'), 'seudesconto');
       assert.match(url.searchParams.get('utm_campaign'), kit === '1' ? /^umaunidade$/ : new RegExp('^kitcom' + kit + 'unidades$'));
@@ -309,4 +309,12 @@ test('build troca o logo cortado do export pelo logo redondo inteiro', () => {
   const manifest = JSON.parse(build.match(/<script type="__bundler\/manifest">([\s\S]*?)<\/script>/)[1]);
   const logo = readFileSync(join(root, 'landing-seudesconto/assets/logo.webp')).toString('base64');
   assert.equal(manifest['3ee05f17-7774-441a-928c-ab90d7f38a81'].data, logo);
+});
+test('cupom SEUDESCONTO fica para copiar: dois botões por cópia, sem "já aplicado"', () => {
+  const html = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  const template = JSON.parse(html.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
+  assert.equal((template.match(/<button type="button" data-cupom="SEUDESCONTO"/g) || []).length, 4);
+  assert.equal(/já aplicado|[?&;]cupom=/i.test(template), false);
+  assert.ok(template.indexOf('/seudesconto-cupom.js') > 0);
+  assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-cupom.js')));
 });
