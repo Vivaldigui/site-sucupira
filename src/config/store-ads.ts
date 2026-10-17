@@ -55,6 +55,7 @@ const SLUG_GROUP: Record<string, StoreAdGroup> = {
   'o-que-e-sucupira-branca': 'A',
   'cha-de-sucupira-capsula-ou-extrato': 'A',
   'sucupira-em-capsulas': 'A',
+  'extrato-de-sucupira': 'A',
   'como-escolher-produto-de-sucupira': 'A',
   'quanto-tempo-a-sucupira-leva-para-fazer-efeito': 'B',
   'como-tomar-extrato-de-sucupira': 'B',

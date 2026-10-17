@@ -50,7 +50,7 @@ Duas coisas ajudam a ler a tabela. Cada estudo vale para a preparação testada,
 | Óleo | prensado da semente, em geral para uso externo | quem procura algo para massagem local |
 | Garrafada / vinho | maceração em bebida alcoólica | quem segue a receita da família |
 
-A [comparação completa entre chá, cápsula, óleo e extrato](/cha-de-sucupira-capsula-ou-extrato/) explica cada uma. O uso do extrato líquido tem [manual próprio](/como-tomar-extrato-de-sucupira/).
+A [comparação completa entre chá, cápsula, óleo e extrato](/cha-de-sucupira-capsula-ou-extrato/) explica cada uma, e a diferença entre tintura, extrato fluido e extrato pronto está em [extrato de sucupira](/extrato-de-sucupira/). O uso do extrato líquido tem [manual próprio](/como-tomar-extrato-de-sucupira/).
 
 ## Quem deve evitar
 

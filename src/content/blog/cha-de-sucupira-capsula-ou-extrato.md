@@ -42,7 +42,7 @@ Ao comparar marcas, olhe o que a cápsula contém. Pode ser pó da semente ou ex
 
 Semente em base líquida, pronta para tomar. Dispensa comprar e preparar semente, e o frasco traz o que o fabricante decidiu colocar nele, de forma igual a cada unidade.
 
-Dois pontos práticos: o sabor é adstringente (muita gente mistura com mel ou suco) e alguns extratos levam pequena quantidade de álcool de cereais como parte da composição. Como "extrato líquido" é só o nome da categoria, o que informa de verdade é a lista de ingredientes com as proporções. Uma composição declarada em percentual permite comparar um frasco com outro.
+Dois pontos práticos: o sabor é adstringente (muita gente mistura com mel ou suco) e alguns extratos levam pequena quantidade de álcool de cereais como parte da composição. Como "extrato líquido" é só o nome da categoria, o que informa de verdade é a lista de ingredientes com as proporções. Uma composição declarada em percentual permite comparar um frasco com outro. Tintura e extrato fluido, tomados em gotas, são outros tipos de extrato, explicados em [extrato de sucupira](/extrato-de-sucupira/).
 
 ## Óleo
 

@@ -51,7 +51,7 @@ SEMENTES = {
     "o-que-e-sucupira-branca", "como-fazer-cha-de-sucupira", "como-tomar-extrato-de-sucupira",
     "quantas-tampinhas-de-sucupira-por-dia-guia-de-doses", "sucupira-em-capsulas",
     "cha-de-sucupira-capsula-ou-extrato", "como-escolher-produto-de-sucupira", "sucupira-e-confiavel",
-    "sucupira-composta", "garrafada-de-sucupira-o-que-e", "sucupira-no-vinho-para-que-serve-e-cuidados-importantes",
+    "sucupira-composta", "extrato-de-sucupira", "garrafada-de-sucupira-o-que-e", "sucupira-no-vinho-para-que-serve-e-cuidados-importantes",
     "oleo-de-sucupira-para-que-serve", "sucupira-para-a-pele", "sucupira-para-que-serve",
     "sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz", "quanto-tempo-a-sucupira-leva-para-fazer-efeito",
     "sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes",

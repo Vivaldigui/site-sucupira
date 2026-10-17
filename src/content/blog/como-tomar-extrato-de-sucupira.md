@@ -22,7 +22,7 @@ Sucupira em sementes, cápsulas, óleo e extrato líquido são apresentações d
 
 Com ela, você dispensa quebrar sementes, ferver água e coar um preparo caseiro. Essa é uma vantagem prática para quem prefere uma apresentação pronta e quer consultar a composição antes de comprar.
 
-Se ainda está escolhendo, veja a [comparação entre chá, cápsula, óleo e extrato](/cha-de-sucupira-capsula-ou-extrato/). As instruções de uma apresentação não devem ser transferidas automaticamente para outra.
+Se ainda está escolhendo, veja a [comparação entre chá, cápsula, óleo e extrato](/cha-de-sucupira-capsula-ou-extrato/) e a diferença entre os [tipos de extrato de sucupira](/extrato-de-sucupira/), da tintura em gotas ao extrato pronto. As instruções de uma apresentação não devem ser transferidas automaticamente para outra.
 
 ## Como organizar o consumo em três passos
 
