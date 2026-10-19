@@ -318,3 +318,44 @@ test('cupom SEUDESCONTO fica para copiar: dois botões por cópia, sem "já apli
   assert.ok(template.indexOf('/seudesconto-cupom.js') > 0);
   assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-cupom.js')));
 });
+test('cupom do e-mail (?cupom=) aparece no lugar do SEUDESCONTO, com o desconto dele, e vale na visita', () => {
+  const script = readFileSync(join(root, 'src/scripts/seudesconto-cupom.js'), 'utf8');
+  const text = value => ({ nodeType: 3, nodeValue: value });
+  const el = (attrs, childNodes = []) => {
+    const node = { nodeType: 1, attrs: { ...attrs }, childNodes, getAttribute(k) { return k in this.attrs ? this.attrs[k] : null; }, setAttribute(k, v) { this.attrs[k] = String(v); } };
+    childNodes.forEach(child => { child.parentNode = node; });
+    return node;
+  };
+  const page = () => {
+    const inline = el({ 'data-cupom': 'SEUDESCONTO' }, [el({}, [text('SEUDESCONTO')]), el({ 'data-cupom-status': '' }, [text('copiar')])]);
+    const paragraph = el({}, [text('+5% OFF com o cupom '), inline]);
+    const box = el({ 'data-cupom': 'SEUDESCONTO' }, [text('Cupom '), el({}, [text('SEUDESCONTO')]), text(': 5% OFF'), el({ 'data-cupom-status': '' }, [text('toque para copiar')])]);
+    el({}, [box]);
+    return { inline, paragraph, box };
+  };
+  const visit = (href, store) => {
+    const nodes = page(), observers = [];
+    const document = { documentElement: {}, addEventListener() {},
+      querySelectorAll: sel => sel === '[data-cupom="SEUDESCONTO"]' ? [nodes.inline, nodes.box].filter(b => b.attrs['data-cupom'] === 'SEUDESCONTO') : [] };
+    const window = { location: new URL(href), URL, navigator: {}, setTimeout() {}, clearTimeout() {},
+      sessionStorage: { getItem: k => store.get(k) ?? null, setItem: (k, v) => store.set(k, v) },
+      MutationObserver: class { constructor(fn) { observers.push(fn); } observe() {} } };
+    runInNewContext(script, { window, document });
+    return { ...nodes, observers };
+  };
+  const store = new Map();
+  const email = visit(landing + '?cupom=volta10&utm_source=email', store);
+  assert.equal(email.inline.attrs['data-cupom'], 'VOLTA10'); assert.equal(email.inline.attrs['aria-label'], 'Copiar o cupom VOLTA10');
+  assert.equal(email.paragraph.childNodes[0].nodeValue, '+10% OFF com o cupom ');
+  assert.equal(email.inline.childNodes[0].childNodes[0].nodeValue, 'VOLTA10');
+  assert.deepEqual(email.box.childNodes.filter(n => n.nodeType === 3).map(n => n.nodeValue), ['Cupom ', ': 10% OFF']);
+  assert.equal(email.box.childNodes[1].childNodes[0].nodeValue, 'VOLTA10');
+  assert.equal(email.box.childNodes[3].childNodes[0].nodeValue, 'toque para copiar');
+  assert.equal(email.observers.length, 1);
+  // Sem o parâmetro, a mesma visita continua com o cupom do e-mail.
+  assert.equal(visit(landing + '#kits', store).box.attrs['data-cupom'], 'VOLTA10');
+  // Código fora da lista não troca nada: ninguém escreve o que quiser na página pelo link.
+  const other = visit(landing + '?cupom=GRATIS100', new Map());
+  assert.equal(other.box.attrs['data-cupom'], 'SEUDESCONTO'); assert.equal(other.paragraph.childNodes[0].nodeValue, '+5% OFF com o cupom ');
+  assert.equal(other.observers.length, 0);
+});

@@ -1,9 +1,50 @@
 /* Cupom para copiar: o link do kit não aplica mais o SEUDESCONTO no carrinho; quem quiser o
    desconto toca no cupom, copia e cola no carrinho. Escuta no document porque a landing
-   re-renderiza os botões depois de montar. */
+   re-renderiza os botões depois de montar.
+   Quem chega pelo e-mail ou pelo WhatsApp com ?cupom= vê esse cupom, com o desconto dele, no
+   lugar do SEUDESCONTO. Só códigos da lista; a escolha vale até o fim da visita. */
 (function (w, d) {
   "use strict";
   var TEMPO = 2500;
+  var PADRAO = "SEUDESCONTO", CHAVE = "sn_cupom";
+  var CUPONS = { VOLTA10: 10, FELIZANIVER: 10, BEMVINDO10: 10, RECOMPRA10: 10, SUCUPIRA10: 10 };
+
+  function valido(codigo) { return Object.prototype.hasOwnProperty.call(CUPONS, codigo); }
+  function cupomDaEntrada() {
+    var codigo = "";
+    try { codigo = (new w.URL(w.location.href).searchParams.get("cupom") || "").trim().toUpperCase(); } catch (e) {}
+    try {
+      if (valido(codigo)) w.sessionStorage.setItem(CHAVE, codigo);
+      else codigo = w.sessionStorage.getItem(CHAVE) || "";
+    } catch (e) {}
+    return valido(codigo) ? codigo : "";
+  }
+  /* Troca só texto: o código vem da lista, nunca vira marcação. */
+  function trocar(no, de, para, fundo) {
+    var filhos = no.childNodes || [];
+    for (var i = 0; i < filhos.length; i++) {
+      var filho = filhos[i];
+      if (filho.nodeType === 3) { if (filho.nodeValue.indexOf(de) >= 0) filho.nodeValue = filho.nodeValue.split(de).join(para); }
+      else if (fundo) trocar(filho, de, para, true);
+    }
+  }
+  var cupom = cupomDaEntrada();
+  function aplicar() {
+    var botoes = d.querySelectorAll('[data-cupom="' + PADRAO + '"]');
+    for (var i = 0; i < botoes.length; i++) {
+      var botao = botoes[i], desconto = CUPONS[cupom];
+      botao.setAttribute("data-cupom", cupom);
+      botao.setAttribute("aria-label", "Copiar o cupom " + cupom);
+      trocar(botao, PADRAO, cupom, true);
+      trocar(botao, "5% OFF", desconto + "% OFF", true);
+      // "+5% OFF com o cupom" fica no parágrafo em volta do botão.
+      if (botao.parentNode) trocar(botao.parentNode, "+5% OFF", "+" + desconto + "% OFF", false);
+    }
+  }
+  if (cupom) {
+    aplicar();
+    if (w.MutationObserver) new w.MutationObserver(aplicar).observe(d.documentElement, { childList: true, subtree: true });
+  }
 
   function copiarFallback(texto) {
     var t = d.createElement("textarea");
