@@ -358,4 +358,11 @@ test('cupom do e-mail (?cupom=) aparece no lugar do SEUDESCONTO, com o desconto 
   const other = visit(landing + '?cupom=GRATIS100', new Map());
   assert.equal(other.box.attrs['data-cupom'], 'SEUDESCONTO'); assert.equal(other.paragraph.childNodes[0].nodeValue, '+5% OFF com o cupom ');
   assert.equal(other.observers.length, 0);
+  // Cupom pessoal do e-mail do CRM: código da lista + 6 letras sem I nem O, com o desconto do código da lista.
+  const personal = visit(landing + '?cupom=volta10kqmxtz', new Map());
+  assert.equal(personal.box.attrs['data-cupom'], 'VOLTA10KQMXTZ'); assert.equal(personal.paragraph.childNodes[0].nodeValue, '+10% OFF com o cupom ');
+  assert.equal(personal.box.childNodes[1].childNodes[0].nodeValue, 'VOLTA10KQMXTZ');
+  assert.equal(visit(landing + '?cupom=FELIZANIVERABCDEF', new Map()).box.attrs['data-cupom'], 'FELIZANIVERABCDEF');
+  for (const code of ['VOLTA10KQMXTI', 'VOLTA10KQMXT1', 'VOLTA10KQMXT', 'GRATIS100ABCDEF', 'ABCDEF'])
+    assert.equal(visit(landing + '?cupom=' + code, new Map()).box.attrs['data-cupom'], 'SEUDESCONTO', code);
 });

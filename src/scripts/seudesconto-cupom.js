@@ -2,14 +2,21 @@
    desconto toca no cupom, copia e cola no carrinho. Escuta no document porque a landing
    re-renderiza os botões depois de montar.
    Quem chega pelo e-mail ou pelo WhatsApp com ?cupom= vê esse cupom, com o desconto dele, no
-   lugar do SEUDESCONTO. Só códigos da lista; a escolha vale até o fim da visita. */
+   lugar do SEUDESCONTO. Só códigos da lista; a escolha vale até o fim da visita.
+   Desde 19/10/2026 o e-mail do CRM manda um cupom pessoal: o código da lista seguido de 6 letras
+   sem I nem O (VOLTA10KQMXTZ), com o desconto do código da lista. */
 (function (w, d) {
   "use strict";
   var TEMPO = 2500;
   var PADRAO = "SEUDESCONTO", CHAVE = "sn_cupom";
   var CUPONS = { VOLTA10: 10, FELIZANIVER: 10, BEMVINDO10: 10, RECOMPRA10: 10, SUCUPIRA10: 10 };
 
-  function valido(codigo) { return Object.prototype.hasOwnProperty.call(CUPONS, codigo); }
+  function lista(codigo) { return Object.prototype.hasOwnProperty.call(CUPONS, codigo) ? CUPONS[codigo] : 0; }
+  function descontoDe(codigo) {
+    if (lista(codigo)) return lista(codigo);
+    return codigo.length > 6 && /^[A-HJ-NP-Z]{6}$/.test(codigo.slice(-6)) ? lista(codigo.slice(0, -6)) : 0;
+  }
+  function valido(codigo) { return descontoDe(codigo) > 0; }
   function cupomDaEntrada() {
     var codigo = "";
     try { codigo = (new w.URL(w.location.href).searchParams.get("cupom") || "").trim().toUpperCase(); } catch (e) {}
@@ -32,7 +39,7 @@
   function aplicar() {
     var botoes = d.querySelectorAll('[data-cupom="' + PADRAO + '"]');
     for (var i = 0; i < botoes.length; i++) {
-      var botao = botoes[i], desconto = CUPONS[cupom];
+      var botao = botoes[i], desconto = descontoDe(cupom);
       botao.setAttribute("data-cupom", cupom);
       botao.setAttribute("aria-label", "Copiar o cupom " + cupom);
       trocar(botao, PADRAO, cupom, true);
