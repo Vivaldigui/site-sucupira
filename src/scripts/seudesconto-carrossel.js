@@ -1,7 +1,7 @@
-/* Carrossel de kits: abre no kit de 3, passa sozinho a cada 5 s e para de vez quando a pessoa mexe. */
+/* Carrossel de kits: abre no kit de 4 (o mais vendido), passa sozinho a cada 5 s e para de vez quando a pessoa mexe. */
 (function (w, d) {
   "use strict";
-  var INTERVALO = 5000, KIT_INICIAL = "3";
+  var INTERVALO = 5000, KIT_INICIAL = "4";
   var parado = !!(w.matchMedia && w.matchMedia("(prefers-reduced-motion: reduce)").matches);
   var pausado = false, visivel = false, iniciado = null, observado = null, mexeu = false;
 
@@ -41,7 +41,7 @@
     if (iniciado === t) return;
     iniciado = t;
     var c = cartoes(t);
-    // A página pode trocar o trilho ao terminar de montar; enquanto ninguém mexeu, ele volta ao kit de 3.
+    // A página pode trocar o trilho ao terminar de montar; enquanto ninguém mexeu, ele volta ao kit de 4.
     if (!mexeu) {
       for (var i = 0; i < c.length; i++) if (c[i].getAttribute("data-kit") === KIT_INICIAL) { ir(t, i, false); break; }
     }
@@ -83,7 +83,7 @@
     ir(t, atual(t) + 1, true);
   }, INTERVALO);
 
-  // Posiciona no kit de 3 assim que a landing termina de montar (e de novo se ela trocar o trilho), sem esperar o giro.
+  // Posiciona no kit de 4 assim que a landing termina de montar (e de novo se ela trocar o trilho), sem esperar o giro.
   var tentativas = 0;
   (function esperar() {
     var t = trilho();

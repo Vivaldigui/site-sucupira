@@ -288,6 +288,18 @@ test('landing tem os 9 kits com carrinho e UTM, sem cupom aplicado no link, nas 
   assert.equal((template.match(/wa\.me\/5535998521010/g) || []).length, 2);
 });
 
+test('selo "Mais vendido" e borda de destaque ficam no kit de 4, nas duas cópias, e o carrossel abre nele', () => {
+  const html = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  const template = JSON.parse(html.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
+  const cards = [...template.matchAll(/<article class="kc-card" data-kit="(\d+)" style="([^"]*)">([\s\S]*?)<\/article>/g)];
+  assert.equal(cards.length, 18);
+  assert.deepEqual(cards.filter(([, , , body]) => body.includes('>Mais vendido<')).map(([, kit]) => kit), ['4', '4']);
+  for (const [, kit, style] of cards.filter(([, kit]) => kit === '3' || kit === '4')) {
+    assert.equal(style.includes('border:3px solid #2C6634;box-shadow:'), kit === '4', 'kit ' + kit);
+  }
+  assert.match(readFileSync(join(root, 'landing-seudesconto/dist/seudesconto-carrossel.js'), 'utf8'), /KIT_INICIAL = "4"/);
+});
+
 test('build injeta o carrossel depois dos eventos', () => {
   const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
   const order = ['/seudesconto-events.js', '/seudesconto-carrossel.js', '/seudesconto-ga4.js'].map(src => build.indexOf(src));

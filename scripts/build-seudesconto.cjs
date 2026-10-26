@@ -17,6 +17,10 @@ const injection = '\n<!-- SN - Tracking first-party seudesconto -->\n<script>' +
 // Cada troca confere quantas vezes casou (as duas cópias da página) para não passar em branco.
 const CUPOM_STATUS = '<span data-cupom-status style="font-size:.8em;font-weight:400;text-decoration:underline">copiar</span>';
 const cupomBotao = (style, conteudo) => '<button type="button" data-cupom="SEUDESCONTO" aria-label="Copiar o cupom SEUDESCONTO" style="font:inherit;color:#1D3B23;background:#FFFFFF;border:2px dashed #2C6634;cursor:pointer;' + style + '">' + conteudo + '</button>';
+// Selo "Mais vendido" e borda de destaque saem do kit de 3 e vão para o de 4 (pedido da loja em 26/10/2026).
+const cartaoKit = (kit, borda) => '<article class="kc-card" data-kit="' + kit + '" style="background:#FFFFFF;' + borda + ';border-radius:22px;padding:20px;padding-top:28px;position:relative">';
+const DESTAQUE = 'border:3px solid #2C6634;box-shadow:0 10px 28px rgba(29,59,35,.14)', COMUM = 'border:2px solid #D6E2D0';
+const SELO = '<span style="position:absolute;top:-17px;left:50%;transform:translateX(-50%);background:#2C6634;color:#FFFFFF;font-size:17px;font-weight:700;border-radius:999px;padding:6px 18px;white-space:nowrap">Mais vendido</span>';
 const edits = [
   ['&amp;cupom=SEUDESCONTO&amp;', '&amp;', 18],
   ['<p style="font-size:17px;font-weight:700;color:#1D3B23;text-align:center">+5% OFF com o cupom SEUDESCONTO, já aplicado no carrinho</p>',
@@ -26,11 +30,13 @@ const edits = [
   ['<p style="align-self:center;font-size:18px;font-weight:700;color:#1D3B23;background:#FFFFFF;border:2px dashed #2C6634;border-radius:12px;padding:8px 16px">Cupom <strong>SEUDESCONTO</strong>: 5% OFF, já aplicado no carrinho</p>',
    cupomBotao('align-self:center;font-size:18px;font-weight:700;border-radius:12px;padding:8px 16px;line-height:1.35;text-align:center', 'Cupom <strong>SEUDESCONTO</strong>: 5% OFF' + CUPOM_STATUS.replace('style="', 'style="display:block;').replace('>copiar<', '>toque para copiar<')) +
    '<p style="align-self:center;font-size:15px;color:#4A4E47;text-align:center">Cole o cupom no carrinho, antes de finalizar</p>', 2],
+  [cartaoKit(3, DESTAQUE) + SELO, cartaoKit(3, COMUM), 2],
+  [cartaoKit(4, COMUM), cartaoKit(4, DESTAQUE) + SELO, 2],
 ];
 let editado = template;
 for (const [de, para, vezes] of edits) {
   const n = editado.split(de).length - 1;
-  if (n !== vezes) throw new Error('Troca do cupom casou ' + n + ' vez(es), esperado ' + vezes + ': ' + de.slice(0, 60));
+  if (n !== vezes) throw new Error('Troca casou ' + n + ' vez(es), esperado ' + vezes + ': ' + de.slice(0, 60));
   editado = editado.split(de).join(para);
 }
 if (/[?&;]cupom=|já aplicado/i.test(editado)) throw new Error('Ainda há cupom aplicado automaticamente na landing');
@@ -54,4 +60,4 @@ for (const name of ['sn-tracking', 'seudesconto-links', 'seudesconto-events', 's
 for (const name of ['robots.txt', 'sitemap.xml']) copyFileSync(join(source, name), join(out, name));
 if (existsSync(join(source, 'assets'))) cpSync(join(source, 'assets'), join(out, 'assets'), { recursive: true });
 if (updated.replace(injection, '') !== editado) throw new Error('O conteúdo original foi alterado');
-console.log('Landing gerada: conteúdo original preservado (fora o cupom); tracking e links adicionados.');
+console.log('Landing gerada: conteúdo original preservado (fora o cupom e o selo de mais vendido); tracking e links adicionados.');
