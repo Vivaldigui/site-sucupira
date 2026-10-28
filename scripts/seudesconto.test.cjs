@@ -323,7 +323,7 @@ test('build tira os recursos do HTML: manifesto vazio e arquivos em /assets/b/',
   assert.ok(build.length < 250000, 'index.html com ' + build.length + ' bytes');
   const template = JSON.parse(build.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
   const usados = [...new Set(template.match(/\/assets\/b\/[\w.-]+/g))];
-  assert.equal(usados.length, 10);
+  assert.equal(usados.length, 16);
   for (const caminho of usados) assert.ok(existsSync(join(root, 'landing-seudesconto/dist', caminho)), caminho);
   assert.ok(template.includes('/assets/b/logo.072931cde9.webp'), 'logo redondo inteiro');
 });
