@@ -316,11 +316,16 @@ test('build injeta o selo do Reclame AQUI no topo', () => {
   assert.ok(build.indexOf('/seudesconto-reclameaqui.js') > 0);
   assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-reclameaqui.js')));
 });
-test('build troca o logo cortado do export pelo logo redondo inteiro', () => {
+test('build tira os recursos do HTML: manifesto vazio e arquivos em /assets/b/', () => {
   const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
   const manifest = JSON.parse(build.match(/<script type="__bundler\/manifest">([\s\S]*?)<\/script>/)[1]);
-  const logo = readFileSync(join(root, 'landing-seudesconto/assets/logo.webp')).toString('base64');
-  assert.equal(manifest['3ee05f17-7774-441a-928c-ab90d7f38a81'].data, logo);
+  assert.deepEqual(manifest, {});
+  assert.ok(build.length < 250000, 'index.html com ' + build.length + ' bytes');
+  const template = JSON.parse(build.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
+  const usados = [...new Set(template.match(/\/assets\/b\/[\w.-]+/g))];
+  assert.equal(usados.length, 10);
+  for (const caminho of usados) assert.ok(existsSync(join(root, 'landing-seudesconto/dist', caminho)), caminho);
+  assert.ok(template.includes('/assets/b/logo.072931cde9.webp'), 'logo redondo inteiro');
 });
 test('cupom SEUDESCONTO fica para copiar: dois botões por cópia, sem "já aplicado"', () => {
   const html = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');

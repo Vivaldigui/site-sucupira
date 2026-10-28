@@ -41,15 +41,41 @@ for (const [de, para, vezes] of edits) {
 }
 if (/[?&;]cupom=|já aplicado/i.test(editado)) throw new Error('Ainda há cupom aplicado automaticamente na landing');
 const updated = editado.replace(/<head[^>]*>/i, (head) => head + injection);
-// O logo do export é um recorte quadrado que corta as bordas do círculo; usa o logo redondo inteiro.
-const LOGO = '3ee05f17-7774-441a-928c-ab90d7f38a81';
+// Versão leve (28/10/2026): o export embute imagens, fontes e runtime em base64 no HTML (~925 KB por visita,
+// estourando os 10 GB do plano Spark). Cada recurso vira arquivo em /assets/b/ (nome com hash, cache longo),
+// as imagens pequenas na tela foram reduzidas e o logo é o redondo inteiro (o do export corta o círculo).
+// React e ReactDOM saem do manifesto: o runtime busca do jsDelivr com SRI. A d57b6d67 não é usada no template.
+const ARQUIVOS = {
+  'c2d95b11-ba9e-41a8-8ce8-5a02e33297d6': 'garrafas-hero.3d56714a5e.webp',
+  'fbbcc2bd-62f9-4100-a67a-28a6fc2d7e55': 'semente.f71a007fa2.webp',
+  '17ad6507-bd02-458e-93aa-836891945de3': 'garrafa-pequena.0fc122a6ec.webp',
+  'e719babb-3882-4d0a-9748-0430aeac8bc1': 'kit3.b11a9ebc4e.webp',
+  '431b1e19-cd5b-4758-bebf-dfc66349a531': 'kit4.0c545e3e90.webp',
+  'c2513760-1188-4b72-bf9c-3a942922a6f3': 'kit6.ec319fbb9d.webp',
+  '3ee05f17-7774-441a-928c-ab90d7f38a81': 'logo.072931cde9.webp',
+  '700e2fc6-a27e-441e-90fd-71a220d4fa0e': 'dc-runtime.ffb137b73e.js',
+  'f3a5db25-0c51-4df2-9cb1-69db8d91fed4': 'atkinson-400.d64ba838ef.woff2',
+  'f1f9f2e3-1c6a-45e0-9d6e-f1cae0e9afbd': 'atkinson-700.140e2bd25a.woff2',
+};
+const FORA = ['d57b6d67-c4c4-4291-ab4a-5f10d35f1340', 'cbe24360-68b4-4b28-8d61-3c2e0883db72', '00da66c3-651b-4dbb-85e5-103446cac56c'];
 const manifestMarker = /(<script type="__bundler\/manifest">)([\s\S]*?)(<\/script>)/;
 const manifest = JSON.parse(html.match(manifestMarker)[2]);
-if (!manifest[LOGO]) throw new Error('Logo não encontrado no manifesto do export');
-manifest[LOGO] = { mime: 'image/webp', compressed: false, data: readFileSync(join(source, 'assets', 'logo.webp')).toString('base64') };
+let leve = updated;
+for (const [uuid, arquivo] of Object.entries(ARQUIVOS)) {
+  if (!manifest[uuid]) throw new Error('Recurso ' + uuid + ' não está no manifesto do export');
+  if (!existsSync(join(source, 'assets', 'b', arquivo))) throw new Error('Falta landing-seudesconto/assets/b/' + arquivo);
+  if (!leve.includes(uuid)) throw new Error('Recurso ' + uuid + ' não aparece no template');
+  leve = leve.split(uuid).join('/assets/b/' + arquivo);
+  delete manifest[uuid];
+}
+for (const uuid of FORA) {
+  if (leve.includes(uuid)) throw new Error('Recurso ' + uuid + ' é usado no template');
+  delete manifest[uuid];
+}
+if (Object.keys(manifest).length) throw new Error('Sobrou recurso embutido: ' + Object.keys(manifest).join(', '));
 const output = html
   .replace(manifestMarker, (_, open, text, close) => open + JSON.stringify(manifest) + close)
-  .replace(marker, (_, open, text, close) => open + '\n' + JSON.stringify(updated).replace(/</g, '\\u003c') + '\n' + close);
+  .replace(marker, (_, open, text, close) => open + '\n' + JSON.stringify(leve).replace(/</g, '\\u003c') + '\n' + close);
 mkdirSync(out, { recursive: true });
 writeFileSync(join(out, 'index.html'), output);
 for (const name of ['sn-tracking', 'seudesconto-links', 'seudesconto-events', 'seudesconto-carrossel', 'seudesconto-ancora', 'seudesconto-reclameaqui', 'seudesconto-cupom', 'seudesconto-ga4', 'meta-pixel']) {
