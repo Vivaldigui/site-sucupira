@@ -49,9 +49,9 @@ const ARQUIVOS = {
   'c2d95b11-ba9e-41a8-8ce8-5a02e33297d6': 'garrafas-hero.3d56714a5e.webp',
   'fbbcc2bd-62f9-4100-a67a-28a6fc2d7e55': 'semente.f71a007fa2.webp',
   '17ad6507-bd02-458e-93aa-836891945de3': 'garrafa-pequena.0fc122a6ec.webp',
-  'e719babb-3882-4d0a-9748-0430aeac8bc1': 'kit3.7f28af7f56.webp',
-  '431b1e19-cd5b-4758-bebf-dfc66349a531': 'kit4.131ceed691.webp',
-  'c2513760-1188-4b72-bf9c-3a942922a6f3': 'kit6.d804181fe7.webp',
+  'e719babb-3882-4d0a-9748-0430aeac8bc1': 'kit3.7d400829af.webp',
+  '431b1e19-cd5b-4758-bebf-dfc66349a531': 'kit4.857046673c.webp',
+  'c2513760-1188-4b72-bf9c-3a942922a6f3': 'kit6.1ab731b6d7.webp',
   '3ee05f17-7774-441a-928c-ab90d7f38a81': 'logo.072931cde9.webp',
   '700e2fc6-a27e-441e-90fd-71a220d4fa0e': 'dc-runtime.ffb137b73e.js',
   'f3a5db25-0c51-4df2-9cb1-69db8d91fed4': 'atkinson-400.d64ba838ef.woff2',
@@ -69,7 +69,7 @@ for (const [uuid, arquivo] of Object.entries(ARQUIVOS)) {
   delete manifest[uuid];
 }
 // Fotos dos kits que o export já lia de /assets/: reduzidas para 480×300 (o dobro da caixa do carrossel).
-const KITS = { 1: '61a52cf052', 2: '46d797bb9d', 5: 'ea47ddf13c', 9: 'c04ab72eb2', 10: '7ab47f7a57', 12: '8813b488d2' };
+const KITS = { 1: '61a52cf052', 2: '21dc38f9ce', 5: '131a4eedf9', 9: 'bdf6466f63', 10: '7ab47f7a57', 12: '8813b488d2' };
 for (const [kit, hash] of Object.entries(KITS)) {
   const de = '/assets/kit' + kit + '.webp', arquivo = 'kit' + kit + '.' + hash + '.webp';
   const n = leve.split(de).length - 1;
