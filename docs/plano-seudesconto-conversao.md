@@ -124,3 +124,8 @@ IDs: 1 → 219531792 · 2 → 219532312 · 3 → 219532524 · 4 → 219532627 ·
 - Carrossel: `src/scripts/seudesconto-carrossel.js`, injetado pelo `build-seudesconto.cjs`.
 - Eventos: no clique para o carrinho, `seudesconto-events.js` e `seudesconto-ga4.js` registram a página do produto (`data-destino`), porque o CRM não aceita `/carrinho` como destino.
 - Testes: 4 novos em `scripts/seudesconto.test.cjs`. No navegador (Edge headless, 390 px e 1366 px): abre no kit de 3, gira 3 → 4 → 5 → 6, a seta avança e para o giro, "menos animação" fica parado, e o botão do kit de 3 abre o carrinho com o cupom aplicado (R$ 137,74).
+
+## Mudança de 26/10/2026
+
+- A pedido da loja, o selo "Mais vendido" e a borda verde de destaque passaram do kit de 3 para o de 4. Pela regra da D2 (abrir no mais vendido), o carrossel agora abre no kit de 4.
+- A troca é feita no `build-seudesconto.cjs`, como a do cupom; o `source.html` continua o export original.

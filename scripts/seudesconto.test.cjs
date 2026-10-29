@@ -288,6 +288,18 @@ test('landing tem os 9 kits com carrinho e UTM, sem cupom aplicado no link, nas 
   assert.equal((template.match(/wa\.me\/5535998521010/g) || []).length, 2);
 });
 
+test('selo "Mais vendido" e borda de destaque ficam no kit de 4, nas duas cópias, e o carrossel abre nele', () => {
+  const html = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
+  const template = JSON.parse(html.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
+  const cards = [...template.matchAll(/<article class="kc-card" data-kit="(\d+)" style="([^"]*)">([\s\S]*?)<\/article>/g)];
+  assert.equal(cards.length, 18);
+  assert.deepEqual(cards.filter(([, , , body]) => body.includes('>Mais vendido<')).map(([, kit]) => kit), ['4', '4']);
+  for (const [, kit, style] of cards.filter(([, kit]) => kit === '3' || kit === '4')) {
+    assert.equal(style.includes('border:3px solid #2C6634;box-shadow:'), kit === '4', 'kit ' + kit);
+  }
+  assert.match(readFileSync(join(root, 'landing-seudesconto/dist/seudesconto-carrossel.js'), 'utf8'), /KIT_INICIAL = "4"/);
+});
+
 test('build injeta o carrossel depois dos eventos', () => {
   const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
   const order = ['/seudesconto-events.js', '/seudesconto-carrossel.js', '/seudesconto-ga4.js'].map(src => build.indexOf(src));
@@ -304,11 +316,16 @@ test('build injeta o selo do Reclame AQUI no topo', () => {
   assert.ok(build.indexOf('/seudesconto-reclameaqui.js') > 0);
   assert.ok(existsSync(join(root, 'landing-seudesconto/dist/seudesconto-reclameaqui.js')));
 });
-test('build troca o logo cortado do export pelo logo redondo inteiro', () => {
+test('build tira os recursos do HTML: manifesto vazio e arquivos em /assets/b/', () => {
   const build = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
   const manifest = JSON.parse(build.match(/<script type="__bundler\/manifest">([\s\S]*?)<\/script>/)[1]);
-  const logo = readFileSync(join(root, 'landing-seudesconto/assets/logo.webp')).toString('base64');
-  assert.equal(manifest['3ee05f17-7774-441a-928c-ab90d7f38a81'].data, logo);
+  assert.deepEqual(manifest, {});
+  assert.ok(build.length < 250000, 'index.html com ' + build.length + ' bytes');
+  const template = JSON.parse(build.match(/<script type="__bundler\/template">([\s\S]*?)<\/script>/)[1]);
+  const usados = [...new Set(template.match(/\/assets\/b\/[\w.-]+/g))];
+  assert.equal(usados.length, 16);
+  for (const caminho of usados) assert.ok(existsSync(join(root, 'landing-seudesconto/dist', caminho)), caminho);
+  assert.ok(template.includes('/assets/b/logo.072931cde9.webp'), 'logo redondo inteiro');
 });
 test('cupom SEUDESCONTO fica para copiar: dois botões por cópia, sem "já aplicado"', () => {
   const html = readFileSync(join(root, 'landing-seudesconto/dist/index.html'), 'utf8');
