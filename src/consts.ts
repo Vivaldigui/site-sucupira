@@ -52,4 +52,4 @@ export const CONTACT_PHONE_E164 = '+5535991696906';
 export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
 
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-10-08';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-10-30';

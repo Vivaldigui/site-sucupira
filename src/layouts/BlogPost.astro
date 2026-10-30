@@ -287,11 +287,9 @@ const schema = JSON.stringify({
 
     <main class="blog-container">
       <article>
-        <InfoBox variant="disclaimer" title="Aviso de conteúdo informativo" labelledBy="health-disclaimer-title">
+        <InfoBox variant="disclaimer" title="O que é a Sucupira Naturale" labelledBy="health-disclaimer-title">
           <p>
-            <strong>Não substitui consulta, diagnóstico ou tratamento médico.</strong> Gestantes, lactantes,
-            crianças, pessoas com doenças ou em uso de medicamentos devem buscar orientação profissional antes de
-            usar produtos ou suplementos.
+            <strong>A Sucupira Naturale é um extrato vegetal, um produto tradicional brasileiro. Não é remédio, não é tratamento médico e não substitui tratamento médico.</strong> Grávida, lactante, menor de 13 anos, doença renal ou hepática crônica ou uso de anticoagulante: nesse caso, converse com seu médico antes de começar.
           </p>
         </InfoBox>
 
@@ -326,14 +324,8 @@ const schema = JSON.stringify({
         <RelatedArticles posts={relatedPosts} />
 
         <InfoBox variant="transparency" title="Transparência editorial" labelledBy="transparency-title">
-          <p>
-            Este conteúdo educativo é preparado por {author} a partir de literatura pública e fontes
-            informativas. Não declaramos revisão médica quando ela não ocorreu e o material não substitui
-            orientação individual de um profissional de saúde.
-          </p>
+          <p>Este conteúdo é preparado por {author} com as informações do produto.</p>
         </InfoBox>
-
-
 
         <aside class="author-box" aria-label="Sobre a autoria">
           <div class="author-avatar" aria-hidden="true">
@@ -345,18 +337,13 @@ const schema = JSON.stringify({
           </div>
           <div class="author-info">
             <h2>{author}</h2>
-            <p>
-              Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar de Itanhandu (MG).
-              Escreve os conteúdos educativos deste blog. Nenhuma credencial médica ou revisão clínica é
-              atribuída sem comprovação.
-            </p>
-            <p><a href={AUTHOR_PAGE_PATH}>Conheça a história da Priscila e da Sucupira Naturale →</a></p>
+            <p>Engenheira agrônoma e cofundadora da Sucupira Naturale, empresa familiar desde 2016.</p>
+            <p><a href={AUTHOR_PAGE_PATH}>Quem somos →</a></p>
           </div>
         </aside>
 
         <footer class="article-footer-note">
-          <strong>Aviso:</strong> Conteúdo exclusivamente informativo. Não substitui consulta, diagnóstico ou
-          tratamento médico.
+          A Sucupira Naturale é um extrato vegetal, um produto tradicional brasileiro. Não é remédio, não é tratamento médico e não substitui tratamento médico.
           <nav aria-label="Links finais do artigo">
             <a href="/">← Voltar ao {BLOG_NAME}</a>
             <span aria-hidden="true">·</span>

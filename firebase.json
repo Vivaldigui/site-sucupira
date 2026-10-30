@@ -10,51 +10,311 @@
     "redirects": [
       {
         "regex": "^/sucupira-para-articulacoes-dor-nas-juntas/?$",
-        "destination": "/sucupira-para-articulacoes/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/?$",
-        "destination": "/sucupira-e-pressao-alta/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/sucupira-liquida-e-melhor-que-capsula-para-dor/?$",
-        "destination": "/cha-de-sucupira-capsula-ou-extrato/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/o-que-tomar-para-dor-na-lombar/?$",
-        "destination": "/dor-lombar-o-que-fazer/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/nervo-ciatico-inflamado-o-que-fazer/?$",
-        "destination": "/sucupira-para-nervo-ciatico/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/sucupira-funciona-mesmo/?$",
-        "destination": "/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/blog/sucupira-para-articulacoes-dor-nas-juntas/?$",
-        "destination": "/sucupira-para-articulacoes/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/blog/sucupira-com-remedio-para-pressao-e-seguro-tomar-junto/?$",
-        "destination": "/sucupira-e-pressao-alta/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/blog/sucupira-liquida-e-melhor-que-capsula-para-dor/?$",
-        "destination": "/cha-de-sucupira-capsula-ou-extrato/",
+        "destination": "/",
         "type": 301
       },
       {
         "regex": "^/blog/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/anti-inflamatorios-naturais-para-articulacoes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/artrose-no-joelho-como-aliviar-a-dor-naturalmente/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/como-fazer-cha-de-sucupira/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/dor-lombar-o-que-fazer/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/efeitos-colaterais-da-sucupira/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/extrato-de-sucupira/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/garrafada-de-sucupira-o-que-e/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/oleo-de-sucupira-para-que-serve/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/pomada-de-sucupira/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/produto-natural-tambem-precisa-de-cuidado/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/quanto-tempo-a-sucupira-leva-para-fazer-efeito/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/rigidez-nas-articulacoes-pela-manha/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-composta/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-e-colesterol/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-e-confiavel/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-e-diabetes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-e-medicamentos/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-e-pressao-alta/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-em-capsulas/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-engorda-ou-emagrece/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-faz-mal-para-os-rins-ou-figado/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-faz-mal-para-quem-toma-anticoagulante/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-na-gravidez/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-na-menopausa/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-no-vinho-para-que-serve-e-cuidados-importantes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-a-pele/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-articulacoes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-artrite/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-artrose/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-bursite-e-tendinite/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-dor-na-coluna/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-dor-no-calcanhar/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-dor-no-joelho/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-dor-no-ombro/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-dor-no-quadril/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-dores-musculares/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-fibromialgia/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-gota-e-acido-urico/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-idosos/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-nervo-ciatico/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-que-serve/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-para-reumatismo/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/vitaminas-para-articulacoes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/sucupira-contraindicacoes/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/pagina/[0-9]+/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/como-tomar-extrato-de-sucupira/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/o-que-e-sucupira-branca/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/cha-de-sucupira-capsula-ou-extrato/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "regex": "^/como-escolher-produto-de-sucupira/?$",
         "destination": "/",
         "type": 301
       },

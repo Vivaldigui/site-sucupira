@@ -22,63 +22,31 @@ interface GroupConfig {name:string;creatives:StoreAdCreative[];sticky:{text:stri
 function creative(id:string,image:string,alt:string,title:string,text:string):StoreAdCreative {
   return {id,image:'/assets/loja/'+image+'-720.webp',width:720,height:720,alt,title,text,cta:'Ver combos',url:SALES_CTA_URL};
 }
-const family=(id:string,title:string,text:string)=>creative(id,'familia-instagram','Priscila com frasco e sementes de sucupira',title,text);
-const bottle=(id:string,title:string,text:string)=>creative(id,'frasco-v2','Frasco de Sucupira Naturale sobre sementes',title,text);
-const kit=(id:string,title:string,text:string)=>creative(id,'kit-v2','Kit com seis frascos de 400 ml',title,text);
+const bottle=(id:string,title:string,text:string)=>creative(id,'frasco-v2','Garrafa de Sucupira Naturale sobre sementes',title,text);
+const kit=(id:string,title:string,text:string)=>creative(id,'kit-v2','Kit com seis garrafas de 400 ml',title,text);
 export const STORE_AD_GROUPS:Record<StoreAdGroup,GroupConfig> = {
- A:{name:'preparo caseiro',creatives:[
-  creative('a-pronta-v2','pronta-v2','Frasco de sucupira líquida pronta para tomar','Sucupira pronta para tomar','Frasco de 400 ml, sem preparar chá ou garrafada em casa.'),
-  family('a-familia-v2','Do preparo da nossa família para a sua rotina','Conheça a Sucupira Naturale líquida e as opções de kits.')],
-  sticky:{text:'Sucupira pronta para tomar',cta:'Ver combos',url:SALES_CTA_URL}},
- B:{name:'já decidiu usar',creatives:[
-  kit('b-kits-v2','Escolha seu combo','Opções de 2 a 12 frascos de Sucupira Naturale líquida, de 400 ml cada.'),
-  bottle('b-frasco-v2','Conheça as opções da loja','Sucupira líquida pronta para tomar, em frasco de 400 ml.')],
+ A:{name:'formatos',creatives:[
+  bottle('a-frasco-v2','Sucupira Naturale','Garrafa de 400 ml, sem preparar chá ou garrafada em casa.'),
+  kit('a-kits-v2','Escolha seu combo','Kits de 2 a 12 garrafas de 400 ml.')],
+  sticky:{text:'Sucupira Naturale, 400 ml',cta:'Ver combos',url:SALES_CTA_URL}},
+ B:{name:'como tomar',creatives:[
+  kit('b-kits-v2','Escolha seu combo','Opções de 2 a 12 garrafas de Sucupira Naturale, de 400 ml cada.'),
+  bottle('b-frasco-v2','Conheça as opções da loja','Sucupira Naturale em garrafa de 400 ml.')],
   sticky:{text:'Conheça os kits de 400 ml',cta:'Ver combos',url:SALES_CTA_URL}},
- C:{name:'confiança',creatives:[
-  family('c-familia-v2','Uma empresa familiar desde 2016','Conheça a Sucupira Naturale, de Itanhandu (MG).'),
+ C:{name:'empresa',creatives:[
+  bottle('c-empresa-v2','Uma empresa familiar desde 2016','Conheça a Sucupira Naturale, empresa familiar desde 2016.'),
   bottle('c-composicao-v2','Composição declarada','49,75% semente de sucupira, 49,75% água mineral e 0,5% álcool de cereais.')],
   sticky:{text:'Conheça a Sucupira Naturale',cta:'Ver combos',url:SALES_CTA_URL}},
- D:{name:'dor e condição',creatives:[
-  bottle('d-frasco-v2','Sucupira Naturale Líquida','Conheça o frasco de 400 ml e as opções disponíveis na loja.'),
-  family('d-familia-v2','Conheça nossa empresa familiar','Sucupira líquida pronta para tomar, produzida em Itanhandu (MG).')],
-  sticky:{text:'Sucupira Naturale Líquida',cta:'Ver combos',url:SALES_CTA_URL}},
+ D:{name:'geral',creatives:[
+  bottle('d-frasco-v2','Sucupira Naturale','Conheça a garrafa de 400 ml e as opções disponíveis na loja.'),
+  kit('d-kits-v2','Escolha seu combo','Kits de 2 a 12 garrafas de 400 ml.')],
+  sticky:{text:'Sucupira Naturale',cta:'Ver combos',url:SALES_CTA_URL}},
 };
 
-// Grupo de cada post, pelo slug. Post fora desta lista cai em D (dor e condição),
-// o assunto da maioria do acervo. Post novo: incluir aqui se não for de D.
-const SLUG_GROUP: Record<string, StoreAdGroup> = {
-  'como-fazer-cha-de-sucupira': 'A',
-  'garrafada-de-sucupira-o-que-e': 'A',
-  'sucupira-no-vinho-para-que-serve-e-cuidados-importantes': 'A',
-  'oleo-de-sucupira-para-que-serve': 'A',
-  'sucupira-composta': 'A',
-  'o-que-e-sucupira-branca': 'A',
-  'cha-de-sucupira-capsula-ou-extrato': 'A',
-  'sucupira-em-capsulas': 'A',
-  'extrato-de-sucupira': 'A',
-  'como-escolher-produto-de-sucupira': 'A',
-  'quanto-tempo-a-sucupira-leva-para-fazer-efeito': 'B',
-  'como-tomar-extrato-de-sucupira': 'B',
-  'quantas-tampinhas-de-sucupira-por-dia-guia-de-doses': 'B',
-  'sucupira-e-confiavel': 'C',
-  'sucupira-contraindicacoes': 'C',
-  'efeitos-colaterais-da-sucupira': 'C',
-  'sucupira-faz-mal-para-os-rins-ou-figado': 'C',
-  'sucupira-e-medicamentos': 'C',
-  'sucupira-e-pressao-alta': 'C',
-  'sucupira-e-diabetes': 'C',
-  'sucupira-e-colesterol': 'C',
-  'sucupira-engorda-ou-emagrece': 'C',
-  'sucupira-para-idosos': 'C',
-  'sucupira-na-menopausa': 'C',
-  'produto-natural-tambem-precisa-de-cuidado': 'C',
-  'sucupira-na-gravidez': 'C',
-  'sucupira-faz-mal-para-quem-toma-anticoagulante': 'C',
-};
+// Grupo de cada post, pelo slug. Post fora desta lista cai em D (geral).
+const SLUG_GROUP: Record<string, StoreAdGroup> = {};
 
-// O texto destes posts diz para não usar ou para falar com o médico antes. Um
-// card de compra no meio do texto contradiria o artigo: só o bloco do fim.
-export const SENSITIVE_SLUGS = new Set(['sucupira-na-gravidez', 'sucupira-faz-mal-para-quem-toma-anticoagulante']);
+export const SENSITIVE_SLUGS = new Set<string>();
 
 export function storeAdGroup(slug: string): StoreAdGroup {
   return SLUG_GROUP[slug] ?? 'D';
@@ -118,9 +86,9 @@ export const STORE_AD_POLICY = {
 // urgência (templates/bloco-comercial.md). Trocar aqui quando o destaque mudar.
 export const STORE_TOP_BAR = {
   id: 'topo-kits-v2',
-  text: 'Sucupira Naturale Líquida, pronta para tomar. Kits de 2 a 12 frascos de 400 ml.',
+  text: 'Sucupira Naturale. Kits de 2 a 12 garrafas de 400 ml.',
   // Celular: uma linha só.
-  shortText: 'Sucupira líquida pronta para tomar',
+  shortText: 'Sucupira Naturale, 400 ml',
   cta: 'Ver kits',
   url: SALES_CTA_URL,
 };
@@ -132,9 +100,9 @@ export const STORE_LISTING_CARD: StoreAdCreative = {
   image: '/assets/loja/kit-v2-720.webp',
   width: 720,
   height: 720,
-  alt: 'Kit com seis frascos de Sucupira Naturale Líquida',
+  alt: 'Kit com seis garrafas de Sucupira Naturale',
   title: 'Conheça os combos da Sucupira Naturale',
-  text: 'Sucupira líquida pronta para tomar, em kits de 2 a 12 frascos de 400 ml.',
+  text: 'Sucupira Naturale, em kits de 2 a 12 garrafas de 400 ml.',
   cta: 'Ver combos',
   url: SALES_CTA_URL,
 };
@@ -167,4 +135,4 @@ export function storeAdHtml(creative: StoreAdCreative, posicao: string) {
   );
 }
 
-export const STORE_FOOTER:StoreAdCreative={...family('rodape-familia-v2','Conheça os combos da Sucupira Naturale','Uma empresa familiar desde 2016. Frascos de 400 ml, prontos para tomar.'),image:'/assets/loja/familia-instagram-1200.webp',width:1200,height:1200};
+export const STORE_FOOTER:StoreAdCreative={...bottle('rodape-frasco-v2','Conheça os combos da Sucupira Naturale','Uma empresa familiar desde 2016. Garrafas de 400 ml.'),image:'/assets/loja/frasco-v2-1200.webp',width:1200,height:1200};

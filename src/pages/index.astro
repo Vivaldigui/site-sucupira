@@ -1,18 +1,11 @@
 ---
 import StoreFooterBanner from "../components/StoreFooterBanner.astro";
-import { getCollection } from 'astro:content';
-import ArticleCard from '../components/ArticleCard.astro';
 import BlogHero from '../components/BlogHero.astro';
 import GoogleAnalytics from '../components/GoogleAnalytics.astro';
 import LinkTracking from '../components/LinkTracking.astro';
 import FirstPartyTracking from '../components/FirstPartyTracking.astro';
-import SearchTracking from '../components/SearchTracking.astro';
 import WebVitalsTracking from '../components/WebVitalsTracking.astro';
-import Pagination from '../components/Pagination.astro';
-import PostSearch from '../components/PostSearch.astro';
 import SiteHeader from '../components/SiteHeader.astro';
-import StoreListingCard from '../components/StoreListingCard.astro';
-import { STORE_LISTING_EVERY } from '../config/store-ads';
 import {
   BLOG_NAME,
   BLOG_SITE_URL,
@@ -27,25 +20,11 @@ import {
   blogUrl,
 } from '../consts';
 import '../styles/blog.css';
-import { getPublishedPosts, paginatePosts, toSearchIndexEntry } from '../utils/posts';
-
-const defaultCardImage = '/assets/sucupira-natural-banner.webp';
-
-const posts = getPublishedPosts(await getCollection('blog'));
-const { items: pagePosts, currentPage, totalPages } = paginatePosts(posts, 1);
-const searchIndex = posts.map((post) => toSearchIndexEntry(post, defaultCardImage));
-
-const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
-  .map((name) => ({
-    name,
-    count: posts.filter((post) => post.data.tags.includes(name)).length,
-  }))
-  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'pt-BR'));
 
 const canonicalUrl = blogUrl('/');
-const title = `${BLOG_NAME}: usos, evidências e cuidados`;
+const title = `${BLOG_NAME} | ${SITE_NAME}`;
 const description =
-  'Conteúdo educativo sobre sucupira: formas de uso, evidências disponíveis e cuidados, por Priscila Petrucelli, cofundadora da Sucupira Naturale.';
+  'A Sucupira Naturale é um extrato vegetal, um produto tradicional brasileiro. Não é remédio, não é tratamento médico e não substitui tratamento médico.';
 
 const schema = JSON.stringify({
   '@context': 'https://schema.org',
@@ -67,14 +46,6 @@ const schema = JSON.stringify({
       url: canonicalUrl,
       inLanguage: 'pt-BR',
       publisher: { '@id': ORGANIZATION_ID },
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: {
-          '@type': 'EntryPoint',
-          urlTemplate: `${BLOG_SITE_URL}/?q={search_term_string}`,
-        },
-        'query-input': 'required name=search_term_string',
-      },
     },
     {
       '@type': 'CollectionPage',
@@ -84,17 +55,6 @@ const schema = JSON.stringify({
       url: canonicalUrl,
       inLanguage: 'pt-BR',
       isPartOf: { '@id': WEBSITE_ID },
-      about: tags.map((tag) => tag.name),
-      mainEntity: {
-        '@type': 'ItemList',
-        numberOfItems: posts.length,
-        itemListElement: pagePosts.map((post, index) => ({
-          '@type': 'ListItem',
-          position: index + 1,
-          url: blogUrl(`/${post.slug}/`),
-          name: post.data.title,
-        })),
-      },
     },
   ],
 });
@@ -141,31 +101,8 @@ const schema = JSON.stringify({
     <BlogHero />
 
     <main class="knowledge-main">
-      <PostSearch posts={searchIndex} totalCount={posts.length} />
-
-      <section aria-labelledby="articles-title">
-        <h2 id="articles-title" class="visually-hidden">Artigos publicados</h2>
-        {posts.length === 0 ? (
-          <p class="empty-state">Nenhum artigo publicado ainda.</p>
-        ) : (
-          <div class="posts-grid" id="posts-grid">
-            {pagePosts.map((post, index) => (
-              <>
-                <ArticleCard
-                  slug={post.slug}
-                  title={post.data.title}
-                  description={post.data.description}
-                  tags={post.data.tags}
-                  publishDate={post.data.publishDate}
-                  image={post.data.ogImage || defaultCardImage}
-                />
-                {(index + 1) % STORE_LISTING_EVERY === 0 && index + 1 < pagePosts.length && <StoreListingCard />}
-              </>
-            ))}
-          </div>
-        )}
-        <Pagination currentPage={currentPage} totalPages={totalPages} />
-      </section>
+      <p>A Sucupira Naturale é um extrato vegetal, um produto tradicional brasileiro. Não é remédio, não é tratamento médico e não substitui tratamento médico.</p>
+      <p><a href={SALES_CTA_URL}>Conhecer a Sucupira Naturale na loja</a></p>
     </main>
 
     <footer class="blog-footer">
@@ -177,6 +114,5 @@ const schema = JSON.stringify({
         <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
       </p>
     </footer>
-    <SearchTracking />
   </body>
 </html>
