@@ -4,8 +4,7 @@ seoTitle: "Sucupira: para que serve? Benefícios e contraindicações"
 description: "Para que a sucupira é usada na tradição brasileira, o que a pesquisa já encontrou sobre dor e inflamação, em quais formas ela existe e quem deve evitar."
 publishDate: 2025-06-01
 updatedDate: "2026-09-26T22:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Fitoterapia", "Uso Tradicional"]
 featured: true
 ogImage: "/assets/blog/sucupira-para-que-serve.webp"
@@ -66,7 +65,7 @@ Gestantes, lactantes e crianças menores de 13 anos não devem usar. Quem trata 
 
 **Quero saber se engorda ou emagrece.** A resposta, com as calorias de cada preparo, está em [sucupira emagrece ou engorda](/sucupira-engorda-ou-emagrece/).
 
-**Quero conhecer a Sucupira Naturale.** A história da empresa está em [quem somos](/sobre/).
+**Quero conhecer a Sucupira Naturale.** Composição, apresentação e kits estão na [página do produto](https://seudesconto.sucupiranaturale.com.br/).
 
 ## Sucupira Naturale para quem prefere o líquido pronto
 

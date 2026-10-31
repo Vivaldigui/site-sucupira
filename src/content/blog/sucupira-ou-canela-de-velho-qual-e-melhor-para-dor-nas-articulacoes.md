@@ -4,8 +4,7 @@ seoTitle: "Sucupira ou canela de velho para dor nas articulações"
 description: "Sucupira ou canela de velho para dor nas articulações? Comparação de espécie, parte usada, tradição e pesquisa — e o que a evidência ainda não mostra."
 publishDate: 2026-07-04T23:42:00+00:00
 updatedDate: "2026-09-03T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Plantas Medicinais", "Articulações", "Artrose", "Dor no Joelho", "Inflamação"]
 featured: true
 ogImage: "/assets/blog/sucupira-ou-canela-de-velho-qual-e-melhor-para-dor-nas-articulacoes.webp"
@@ -126,7 +125,7 @@ O que dá para dizer com base no que existe:
 
 Sobre esse último ponto, vale ler [se a sucupira é confiável e como verificar](/sucupira-e-confiavel/) e [o que a ciência sabe sobre a planta](/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz/).
 
-Para quem prefere não preparar semente todo dia, existem apresentações prontas. A Sucupira Naturale é extrato líquido em frasco de 400 ml, com composição declarada em percentual — 49,75% de semente graúda branca de sucupira moída, 49,75% de água mineral e 0,5% de álcool de cereais — CNPJ 10.230.957/0001-88 e responsável técnica com registro no conselho de farmácia. Não é medicamento e não é apresentada como tratamento, prevenção ou cura de doença.
+Para quem prefere não preparar semente todo dia, existem apresentações prontas. A Sucupira Naturale é extrato líquido em frasco de 400 ml, com composição declarada em percentual — 49,75% de semente graúda branca de sucupira moída, 49,75% de água mineral e 0,5% de álcool de cereais — e responsável técnica com registro no conselho de farmácia. Não é medicamento e não é apresentada como tratamento, prevenção ou cura de doença.
 
 ## Perguntas frequentes
 

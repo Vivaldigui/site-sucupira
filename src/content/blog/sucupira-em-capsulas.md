@@ -3,8 +3,7 @@ title: "Sucupira em cápsulas: para que serve e o que vai dentro"
 seoTitle: "Sucupira em cápsulas: para que serve"
 description: "Para que serve a sucupira em cápsulas, o que pode estar dentro de cada uma (pó, extrato seco ou óleo), como ler o rótulo e como ela costuma ser tomada."
 publishDate: "2026-10-10T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Cápsulas de Sucupira", "Como Tomar", "Qualidade", "Articulações", "Sucupira"]
 featured: false
 ogImage: "/assets/blog/sucupira-em-capsulas.webp"

@@ -4,8 +4,7 @@ seoTitle: "Sucupira aumenta a pressão? Vinho, chá e remédio de pressão"
 description: "Sucupira aumenta a pressão? O que se sabe da planta, por que o vinho muda a conta e o chá não, e como fica com losartana, enalapril e outros remédios."
 publishDate: "2026-07-15T08:00:00-03:00"
 updatedDate: "2026-10-10T12:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Pressão Alta", "Medicamentos Contínuos", "Segurança no Uso", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-e-pressao-alta.webp"

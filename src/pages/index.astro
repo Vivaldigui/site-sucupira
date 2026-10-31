@@ -45,7 +45,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))]
 const canonicalUrl = blogUrl('/');
 const title = `${BLOG_NAME}: usos, evidências e cuidados`;
 const description =
-  'Conteúdo educativo sobre sucupira: formas de uso, evidências disponíveis e cuidados, por Priscila Petrucelli, cofundadora da Sucupira Naturale.';
+  'Conteúdo educativo sobre sucupira: formas de uso, evidências disponíveis e cuidados, pela Sucupira Naturale.';
 
 const schema = JSON.stringify({
   '@context': 'https://schema.org',
@@ -55,10 +55,6 @@ const schema = JSON.stringify({
       '@id': ORGANIZATION_ID,
       name: SITE_NAME,
       url: SALES_SITE_URL,
-      logo: {
-        '@type': 'ImageObject',
-        url: blogUrl('/assets/logo.png'),
-      },
     },
     {
       '@type': 'WebSite',
@@ -170,9 +166,9 @@ const schema = JSON.stringify({
 
     <footer class="blog-footer">
       <StoreFooterBanner />
-      <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+      <p>© {new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
-        <a href="/sobre/">Quem somos</a> · <a href={CONTACT_PAGE_PATH}>Contato</a> ·
+        <a href={CONTACT_PAGE_PATH}>Contato</a> ·
         <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
         <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
       </p>

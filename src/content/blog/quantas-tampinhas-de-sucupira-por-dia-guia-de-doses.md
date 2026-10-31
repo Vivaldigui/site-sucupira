@@ -3,8 +3,7 @@ title: "Quantas tampinhas de sucupira por dia? Medidas e rendimento"
 description: "Entenda as quantidades publicadas pela Naturale, a medida de 7 ml por tampa e como calcular o rendimento do frasco de 400 ml e dos kits."
 publishDate: "2026-06-20T13:00:00-03:00"
 updatedDate: "2026-09-26T22:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dosagem", "Como Tomar"]
 featured: true
 ogImage: "/assets/blog/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses.webp"

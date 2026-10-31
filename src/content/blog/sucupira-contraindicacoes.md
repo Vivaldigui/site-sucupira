@@ -4,8 +4,7 @@ seoTitle: "Sucupira: contraindicações"
 description: "Quem não pode tomar sucupira, quem precisa conversar com um profissional antes, e o motivo concreto de cada item — sem alarmismo e sem promessa."
 publishDate: "2026-08-22T08:00:00-03:00"
 updatedDate: "2026-09-26T21:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Contraindicações", "Medicamentos Contínuos", "Segurança no Uso", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-contraindicacoes.webp"

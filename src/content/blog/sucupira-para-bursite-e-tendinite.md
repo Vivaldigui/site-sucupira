@@ -4,8 +4,7 @@ seoTitle: "Sucupira para bursite e tendinite"
 description: "Sucupira para bursite ou tendinite: a diferença entre as duas, onde o uso tradicional entra e o que costuma resolver de verdade."
 publishDate: "2026-08-27T11:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Bursite e Tendinite", "Inflamação", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-bursite-e-tendinite.webp"

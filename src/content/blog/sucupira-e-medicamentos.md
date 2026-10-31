@@ -4,8 +4,7 @@ seoTitle: "Sucupira e medicamentos: pode usar junto?"
 description: "Sucupira interage com remédio? Não existem estudos de interação em humanos — o que muda a resposta, e o que fazer quando não há dado."
 publishDate: "2026-08-27T08:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Medicamentos Contínuos", "Contraindicações", "Segurança no Uso", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-e-medicamentos.webp"

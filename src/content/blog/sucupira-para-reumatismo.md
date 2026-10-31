@@ -3,8 +3,7 @@ title: "Sucupira para reumatismo: uso tradicional e cuidados"
 seoTitle: "Sucupira para reumatismo"
 description: "Sucupira serve para reumatismo? O termo cobre várias condições diferentes — saiba onde o uso tradicional cabe e quando cada uma pede um cuidado próprio."
 publishDate: "2026-09-09T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Reumatismo", "Articulações", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-reumatismo.webp"

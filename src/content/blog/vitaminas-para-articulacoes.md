@@ -4,8 +4,7 @@ seoTitle: "Vitaminas e suplementos para articulações: o que ajuda"
 description: "Vitaminas para articulações funcionam? Veja o que se sabe sobre colágeno, vitamina D, ômega-3, glucosamina e fitoterápicos — e o que esperar de cada um."
 publishDate: "2026-08-31T11:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Articulações", "Saúde 45+", "Plantas Medicinais", "Mobilidade", "Ciência da Sucupira", "Inflamação"]
 featured: false
 ogImage: "/assets/blog/vitaminas-para-articulacoes.webp"

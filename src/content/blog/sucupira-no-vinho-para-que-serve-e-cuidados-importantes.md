@@ -4,8 +4,7 @@ seoTitle: "Sucupira no vinho branco ou tinto: para que serve e receita"
 description: "Sucupira no vinho, passo a passo: quantas sementes, quantos dias, vinho branco ou tinto, dose e horário, e para que o uso popular toma a bebida."
 publishDate: "2026-07-06T18:00:00-03:00"
 updatedDate: "2026-10-10T12:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Segurança no Uso"]
 featured: true
 ogImage: "/assets/blog/sucupira-no-vinho.webp"

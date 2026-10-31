@@ -4,8 +4,7 @@ seoTitle: "Sucupira para dor no calcanhar e esporão"
 description: "Sucupira serve para esporão? Fascite plantar e esporão de calcâneo não são a mesma coisa — e a diferença muda o que adianta fazer."
 publishDate: "2026-08-28T08:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dor no Calcanhar", "Óleo de Sucupira", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dor-no-calcanhar.webp"

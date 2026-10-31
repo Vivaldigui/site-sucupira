@@ -3,8 +3,7 @@ title: "Garrafada de sucupira: para que serve e como fazer"
 description: "Como fazer garrafada de sucupira, passo a passo, no vinho, na cachaça ou no suco de uva: quantas sementes, quantos dias e para que o uso popular toma."
 publishDate: "2026-07-04T15:00:00-03:00"
 updatedDate: "2026-10-10T12:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Garrafada", "Uso Tradicional", "Plantas Medicinais"]
 featured: false
 ogImage: "/assets/blog/garrafada-de-sucupira-o-que-e.webp"

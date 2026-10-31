@@ -4,8 +4,7 @@ seoTitle: "Sucupira para artrite: entenda antes"
 description: "Artrite não é uma condição só, e em alguns tipos o atraso no tratamento causa dano irreversível. Onde a sucupira entra e onde ela não deve entrar."
 publishDate: "2026-08-26T11:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Artrite", "Inflamação", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-artrite.webp"

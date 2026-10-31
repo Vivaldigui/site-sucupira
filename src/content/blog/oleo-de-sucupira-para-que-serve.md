@@ -3,8 +3,7 @@ title: "Óleo de sucupira: para que serve e como usar"
 description: "Para que serve o óleo de sucupira: massagem nas juntas e músculos, uso na pele e o óleo em cápsula ou gotas. A diferença entre óleo, resina e extrato de tomar."
 publishDate: "2026-07-03T15:00:00-03:00"
 updatedDate: "2026-09-26T18:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Uso Tradicional", "Plantas Medicinais"]
 featured: false
 ogImage: "/assets/blog/oleo-de-sucupira-para-que-serve.webp"

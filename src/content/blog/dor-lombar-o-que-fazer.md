@@ -4,8 +4,7 @@ seoTitle: "Dor lombar: o que fazer e o que tomar"
 description: "Dor lombar: o que fazer nas primeiras horas, o que tomar e o que só mascara a dor, alongamentos simples e os sinais que pedem médico."
 publishDate: "2026-08-31T10:00:00-03:00"
 updatedDate: "2026-10-05T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Articulações", "Dor na Coluna", "Saúde 45+", "Mobilidade", "Dores crônicas", "Inflamação"]
 featured: false
 ogImage: "/assets/blog/dor-lombar-o-que-fazer.webp"

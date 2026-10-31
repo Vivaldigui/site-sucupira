@@ -36,11 +36,7 @@ content:
       - name: author
         label: Autor
         type: string
-        default: Priscila Petrucelli
-      - name: authorRole
-        label: Função do autor
-        type: string
-        default: Engenheira Agrônoma e cofundadora da Sucupira Naturale
+        default: Sucupira Naturale
       - name: tags
         label: Tags
         type: select

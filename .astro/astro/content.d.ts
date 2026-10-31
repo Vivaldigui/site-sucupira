@@ -197,16 +197,16 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"garrafada-de-sucupira-o-que-e.md": {
-	id: "garrafada-de-sucupira-o-que-e.md";
-  slug: "garrafada-de-sucupira-o-que-e";
+"extrato-de-sucupira.md": {
+	id: "extrato-de-sucupira.md";
+  slug: "extrato-de-sucupira";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"nervo-ciatico-inflamado-o-que-fazer.md": {
-	id: "nervo-ciatico-inflamado-o-que-fazer.md";
-  slug: "nervo-ciatico-inflamado-o-que-fazer";
+"garrafada-de-sucupira-o-que-e.md": {
+	id: "garrafada-de-sucupira-o-que-e.md";
+  slug: "garrafada-de-sucupira-o-que-e";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -218,16 +218,16 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"o-que-tomar-para-dor-na-lombar.md": {
-	id: "o-que-tomar-para-dor-na-lombar.md";
-  slug: "o-que-tomar-para-dor-na-lombar";
+"oleo-de-sucupira-para-que-serve.md": {
+	id: "oleo-de-sucupira-para-que-serve.md";
+  slug: "oleo-de-sucupira-para-que-serve";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"oleo-de-sucupira-para-que-serve.md": {
-	id: "oleo-de-sucupira-para-que-serve.md";
-  slug: "oleo-de-sucupira-para-que-serve";
+"pomada-de-sucupira.md": {
+	id: "pomada-de-sucupira.md";
+  slug: "pomada-de-sucupira";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -267,6 +267,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sucupira-composta.md": {
+	id: "sucupira-composta.md";
+  slug: "sucupira-composta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-contraindicacoes.md": {
 	id: "sucupira-contraindicacoes.md";
   slug: "sucupira-contraindicacoes";
@@ -274,9 +281,23 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sucupira-e-colesterol.md": {
+	id: "sucupira-e-colesterol.md";
+  slug: "sucupira-e-colesterol";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-e-confiavel.md": {
 	id: "sucupira-e-confiavel.md";
   slug: "sucupira-e-confiavel";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sucupira-e-diabetes.md": {
+	id: "sucupira-e-diabetes.md";
+  slug: "sucupira-e-diabetes";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -291,6 +312,13 @@ declare module 'astro:content' {
 "sucupira-e-pressao-alta.md": {
 	id: "sucupira-e-pressao-alta.md";
   slug: "sucupira-e-pressao-alta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sucupira-em-capsulas.md": {
+	id: "sucupira-em-capsulas.md";
+  slug: "sucupira-em-capsulas";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -312,6 +340,20 @@ declare module 'astro:content' {
 "sucupira-faz-mal-para-quem-toma-anticoagulante.md": {
 	id: "sucupira-faz-mal-para-quem-toma-anticoagulante.md";
   slug: "sucupira-faz-mal-para-quem-toma-anticoagulante";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sucupira-na-gravidez.md": {
+	id: "sucupira-na-gravidez.md";
+  slug: "sucupira-na-gravidez";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sucupira-na-menopausa.md": {
+	id: "sucupira-na-menopausa.md";
+  slug: "sucupira-na-menopausa";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -386,6 +428,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sucupira-para-dor-no-ombro.md": {
+	id: "sucupira-para-dor-no-ombro.md";
+  slug: "sucupira-para-dor-no-ombro";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sucupira-para-dor-no-quadril.md": {
+	id: "sucupira-para-dor-no-quadril.md";
+  slug: "sucupira-para-dor-no-quadril";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-para-dores-musculares.md": {
 	id: "sucupira-para-dores-musculares.md";
   slug: "sucupira-para-dores-musculares";
@@ -407,6 +463,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sucupira-para-idosos.md": {
+	id: "sucupira-para-idosos.md";
+  slug: "sucupira-para-idosos";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "sucupira-para-nervo-ciatico.md": {
 	id: "sucupira-para-nervo-ciatico.md";
   slug: "sucupira-para-nervo-ciatico";
@@ -417,6 +480,13 @@ declare module 'astro:content' {
 "sucupira-para-que-serve.md": {
 	id: "sucupira-para-que-serve.md";
   slug: "sucupira-para-que-serve";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sucupira-para-reumatismo.md": {
+	id: "sucupira-para-reumatismo.md";
+  slug: "sucupira-para-reumatismo";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

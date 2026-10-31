@@ -4,8 +4,7 @@ seoTitle: "Rigidez nas articulações pela manhã"
 description: "Quanto tempo dura a sua rigidez matinal? 5 a 10 minutos e mais de uma hora apontam para coisas diferentes — e a diferença muda a conduta."
 publishDate: "2026-08-24T11:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Articulações", "Artrite", "Artrose", "Mobilidade", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/rigidez-nas-articulacoes-pela-manha.webp"

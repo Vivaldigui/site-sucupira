@@ -4,8 +4,7 @@ seoTitle: "Sucupira emagrece ou engorda?"
 description: "Sucupira emagrece? Engorda? A planta não tem ação conhecida sobre o peso. O que muda a balança é o preparo, com açúcar ou álcool, e o quanto você volta a se mexer."
 publishDate: 2026-09-04T09:00:00-03:00
 updatedDate: "2026-09-26T21:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Uso Tradicional", "Peso"]
 featured: false
 ogImage: "/assets/blog/sucupira-emagrece.webp"

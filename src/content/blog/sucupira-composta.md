@@ -3,8 +3,7 @@ title: "O que é sucupira composta? Diferença para o extrato líquido"
 seoTitle: "O que é sucupira composta?"
 description: "Sucupira composta não é o mesmo que extrato de sucupira. A diferença para a fórmula manipulada, o que muda com cloreto de magnésio e o que perguntar antes."
 publishDate: "2026-10-06T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Extrato de Sucupira", "Como Tomar", "Uso Tradicional"]
 featured: false
 ogImage: "/assets/blog/sucupira-composta.webp"

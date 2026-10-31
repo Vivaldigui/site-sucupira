@@ -4,8 +4,7 @@ seoTitle: "Sucupira para dor no joelho"
 description: "Dor no joelho tem várias causas, e qual é a sua muda se a sucupira faz algum sentido. O mapa das causas e onde o uso tradicional se encaixa."
 publishDate: "2026-08-25T11:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dor no Joelho", "Articulações", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dor-no-joelho.webp"

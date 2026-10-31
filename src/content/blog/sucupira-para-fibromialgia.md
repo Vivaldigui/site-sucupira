@@ -4,8 +4,7 @@ seoTitle: "Sucupira para fibromialgia: o que considerar"
 description: "Sucupira para fibromialgia: por que o mecanismo da dor muda a expectativa, onde um apoio natural cabe, e o cuidado com os remédios do tratamento."
 publishDate: "2026-08-26T08:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Fibromialgia", "Dores crônicas", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-fibromialgia.webp"

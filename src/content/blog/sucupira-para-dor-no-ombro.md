@@ -3,8 +3,7 @@ title: "Sucupira para dor no ombro, pescoço e braço"
 description: "Tendinite no ombro, torcicolo, cotovelo de tenista e túnel do carpo: as dores mais comuns do pescoço até a mão, como diferenciar e onde entra a sucupira."
 publishDate: "2026-09-15T09:00:00-03:00"
 updatedDate: "2026-09-26T19:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dor no Ombro", "Dor no Pescoço", "Articulações", "Uso Tradicional", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dor-no-ombro.webp"

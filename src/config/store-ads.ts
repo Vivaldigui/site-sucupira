@@ -22,25 +22,24 @@ interface GroupConfig {name:string;creatives:StoreAdCreative[];sticky:{text:stri
 function creative(id:string,image:string,alt:string,title:string,text:string):StoreAdCreative {
   return {id,image:'/assets/loja/'+image+'-720.webp',width:720,height:720,alt,title,text,cta:'Ver combos',url:SALES_CTA_URL};
 }
-const family=(id:string,title:string,text:string)=>creative(id,'familia-instagram','Priscila com frasco e sementes de sucupira',title,text);
 const bottle=(id:string,title:string,text:string)=>creative(id,'frasco-v2','Frasco de Sucupira Naturale sobre sementes',title,text);
 const kit=(id:string,title:string,text:string)=>creative(id,'kit-v2','Kit com seis frascos de 400 ml',title,text);
 export const STORE_AD_GROUPS:Record<StoreAdGroup,GroupConfig> = {
  A:{name:'preparo caseiro',creatives:[
   creative('a-pronta-v2','pronta-v2','Frasco de sucupira líquida pronta para tomar','Sucupira pronta para tomar','Frasco de 400 ml, sem preparar chá ou garrafada em casa.'),
-  family('a-familia-v2','Do preparo da nossa família para a sua rotina','Conheça a Sucupira Naturale líquida e as opções de kits.')],
+  bottle('a-frasco-v3','Sucupira Naturale Líquida','Conheça a Sucupira Naturale líquida e as opções de kits.')],
   sticky:{text:'Sucupira pronta para tomar',cta:'Ver combos',url:SALES_CTA_URL}},
  B:{name:'já decidiu usar',creatives:[
   kit('b-kits-v2','Escolha seu combo','Opções de 2 a 12 frascos de Sucupira Naturale líquida, de 400 ml cada.'),
   bottle('b-frasco-v2','Conheça as opções da loja','Sucupira líquida pronta para tomar, em frasco de 400 ml.')],
   sticky:{text:'Conheça os kits de 400 ml',cta:'Ver combos',url:SALES_CTA_URL}},
  C:{name:'confiança',creatives:[
-  family('c-familia-v2','Uma empresa familiar desde 2016','Conheça a Sucupira Naturale, de Itanhandu (MG).'),
+  bottle('c-frasco-v3','Conheça a Sucupira Naturale','Sucupira líquida pronta para tomar, em frasco de 400 ml.'),
   bottle('c-composicao-v2','Composição declarada','49,75% semente de sucupira, 49,75% água mineral e 0,5% álcool de cereais.')],
   sticky:{text:'Conheça a Sucupira Naturale',cta:'Ver combos',url:SALES_CTA_URL}},
  D:{name:'dor e condição',creatives:[
   bottle('d-frasco-v2','Sucupira Naturale Líquida','Conheça o frasco de 400 ml e as opções disponíveis na loja.'),
-  family('d-familia-v2','Conheça nossa empresa familiar','Sucupira líquida pronta para tomar, produzida em Itanhandu (MG).')],
+  bottle('d-opcoes-v3','Conheça as opções da loja','Sucupira líquida pronta para tomar, em kits de 2 a 12 frascos.')],
   sticky:{text:'Sucupira Naturale Líquida',cta:'Ver combos',url:SALES_CTA_URL}},
 };
 
@@ -167,4 +166,4 @@ export function storeAdHtml(creative: StoreAdCreative, posicao: string) {
   );
 }
 
-export const STORE_FOOTER:StoreAdCreative={...family('rodape-familia-v2','Conheça os combos da Sucupira Naturale','Uma empresa familiar desde 2016. Frascos de 400 ml, prontos para tomar.'),image:'/assets/loja/familia-instagram-1200.webp',width:1200,height:1200};
+export const STORE_FOOTER:StoreAdCreative={...bottle('rodape-frasco-v3','Conheça os combos da Sucupira Naturale','Frascos de 400 ml, prontos para tomar.'),image:'/assets/loja/frasco-v2-1200.webp',width:1200,height:1200};

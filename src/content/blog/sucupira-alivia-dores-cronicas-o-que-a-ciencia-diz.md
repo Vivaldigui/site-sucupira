@@ -3,8 +3,7 @@ title: "Sucupira alivia dores crônicas? O que a ciência diz"
 description: "Os estudos sobre sucupira e dor, um por um: o que foi testado, em quê e com que resultado, o que se sabe sobre segurança e o que ainda falta medir em pessoas."
 publishDate: "2026-06-20T12:00:00-03:00"
 updatedDate: "2026-10-05T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dores crônicas", "Ciência da Sucupira"]
 featured: true
 ogImage: "/assets/blog/sucupira-alivia-dores-cronicas-o-que-a-ciencia-diz.webp"

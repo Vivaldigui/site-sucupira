@@ -4,8 +4,7 @@ seoTitle: "Efeitos colaterais da sucupira"
 description: "Quais são os efeitos colaterais da sucupira? A lista que circula na internet não tem fonte. Veja o que os estudos de segurança mostram e como usar bem."
 publishDate: "2026-08-24T08:00:00-03:00"
 updatedDate: "2026-09-26T22:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Efeitos Colaterais", "Contraindicações", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/efeitos-colaterais-da-sucupira.webp"

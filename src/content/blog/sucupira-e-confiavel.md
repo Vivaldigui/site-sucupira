@@ -3,8 +3,7 @@ title: "Sucupira é confiável? Como verificar antes de comprar"
 description: "Sucupira é confiável? Separe a planta, o mercado, o produto e a empresa — e veja como verificar cada um antes de gastar dinheiro."
 publishDate: 2026-08-31T15:00:00-03:00
 updatedDate: "2026-09-26T22:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Segurança no Uso", "Ciência da Sucupira", "Extrato de Sucupira"]
 featured: false
 ogImage: "/assets/blog/sucupira-e-confiavel.webp"
@@ -149,7 +148,7 @@ Vale ler [quem não deve usar](/sucupira-contraindicacoes/) e [o que se sabe sob
 
 Seria incoerente publicar uma lista de critérios e não aplicá-la ao próprio produto. Então, com a mesma régua:
 
-**O que está documentado:** a Sucupira Naturale é extrato líquido de sucupira em frasco de 400 ml, pronto para tomar. A composição declarada é 49,75% de semente graúda branca de sucupira moída, 49,75% de água mineral e 0,5% de álcool de cereais. A validade informada é de 2 anos a partir da fabricação. A empresa — Indústria e Comércio de Resina de Sementes de Sucupira em Conserva, CNPJ 10.230.957/0001-88, sediada em Itanhandu (MG) — declara responsável técnica com registro no conselho de farmácia e mantém atendimento por telefone e WhatsApp.
+**O que está documentado:** a Sucupira Naturale é extrato líquido de sucupira em frasco de 400 ml, pronto para tomar. A composição declarada é 49,75% de semente graúda branca de sucupira moída, 49,75% de água mineral e 0,5% de álcool de cereais. A validade informada é de 2 anos a partir da fabricação. A marca declara responsável técnica com registro no conselho de farmácia e mantém atendimento por telefone e WhatsApp.
 
 **O que a régua deste artigo cobra e ainda não está público:** a razão de extração, a identificação botânica da espécie no rótulo e a forma de regularização do produto pelas regras da ANVISA em vigor desde 2024 não estão informadas na página do produto. Se esses dados importam para a sua decisão — e, pelos critérios acima, eles importam — o caminho é perguntar antes de comprar. É exatamente o que este artigo recomenda fazer com qualquer marca, inclusive esta.
 

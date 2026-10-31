@@ -3,8 +3,7 @@ title: "Sucupira para dor na coluna: pode ajudar? Veja como usar"
 description: "Sucupira para dor na coluna: o que diz o uso tradicional, diferença entre dor muscular e hérnia de disco, e cuidados antes de usar."
 publishDate: "2026-07-07T10:00:00-03:00"
 updatedDate: "2026-09-12T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Dor na Coluna", "Mobilidade", "Saúde 45+", "Dores crônicas"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dor-na-coluna.webp"

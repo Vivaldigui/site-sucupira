@@ -119,7 +119,7 @@ input {
   text-decoration: underline;
 }
 
-/* No celular só cabe um item; com o botão da loja fora, "Quem somos" fica. */
+/* No celular só cabe um item. */
 @media (max-width: 560px) {
   .header-links:has(.header-cta) .header-link {
     display: none;

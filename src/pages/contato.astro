@@ -7,26 +7,17 @@ import WebVitalsTracking from '../components/WebVitalsTracking.astro';
 import InfoBox from '../components/InfoBox.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 import {
-  AUTHOR_ID,
   AUTHOR_NAME,
-  AUTHOR_PAGE_PATH,
   BLOG_NAME,
-  COMPANY_CITY,
-  COMPANY_CNPJ,
-  COMPANY_LEGAL_NAME,
-  COMPANY_STATE,
   CONTACT_EMAIL,
   CONTACT_PAGE_PATH,
   CONTACT_PHONE_DISPLAY,
-  CONTACT_PHONE_E164,
   CONTACT_WHATSAPP_URL,
   ORGANIZATION_ID,
   PRIVACY_PAGE_PATH,
   SALES_CTA_URL,
   SALES_SITE_URL,
   SITE_NAME,
-  TECHNICAL_MANAGER,
-  TECHNICAL_MANAGER_LICENSE,
   WEBSITE_ID,
   blogUrl,
 } from '../consts';
@@ -35,7 +26,7 @@ import '../styles/blog.css';
 const canonicalUrl = blogUrl(CONTACT_PAGE_PATH);
 const title = `Contato | ${BLOG_NAME}`;
 const description =
-  'Fale com a Sucupira Naturale: telefone e WhatsApp (35) 99169-6906, e-mail atendimento@sucupiranaturale.com.br. Empresa familiar de Itanhandu (MG), CNPJ 10.230.957/0001-88.';
+  'Fale com a Sucupira Naturale por WhatsApp ou e-mail.';
 
 const schema = JSON.stringify({
   '@context': 'https://schema.org',
@@ -44,32 +35,7 @@ const schema = JSON.stringify({
       '@type': 'Organization',
       '@id': ORGANIZATION_ID,
       name: SITE_NAME,
-      legalName: COMPANY_LEGAL_NAME,
-      taxID: COMPANY_CNPJ,
       url: SALES_SITE_URL,
-      logo: {
-        '@type': 'ImageObject',
-        url: blogUrl('/assets/logo.png'),
-      },
-      email: CONTACT_EMAIL,
-      telephone: CONTACT_PHONE_E164,
-      founder: { '@id': AUTHOR_ID },
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: COMPANY_CITY,
-        addressRegion: COMPANY_STATE,
-        addressCountry: 'BR',
-      },
-      contactPoint: [
-        {
-          '@type': 'ContactPoint',
-          contactType: 'customer service',
-          telephone: CONTACT_PHONE_E164,
-          email: CONTACT_EMAIL,
-          availableLanguage: ['Portuguese'],
-          areaServed: 'BR',
-        },
-      ],
     },
     {
       '@type': 'ContactPage',
@@ -148,8 +114,7 @@ const schema = JSON.stringify({
           <h1>Contato</h1>
 
           <p>
-            Somos uma empresa familiar de Itanhandu, em Minas Gerais, e o atendimento é feito por gente — não
-            por robô. Se você tem uma dúvida sobre o produto, sobre um pedido ou sobre algo que leu aqui no
+            Se você tem uma dúvida sobre o produto, sobre um pedido ou sobre algo que leu aqui no
             blog, fale com a gente por um dos canais abaixo.
           </p>
 
@@ -157,9 +122,8 @@ const schema = JSON.stringify({
 
           <ul>
             <li>
-              <strong>Telefone e WhatsApp:</strong>
-              <a href={`tel:${CONTACT_PHONE_E164}`}>{CONTACT_PHONE_DISPLAY}</a> ·
-              <a href={CONTACT_WHATSAPP_URL} rel="nofollow noopener">Abrir conversa no WhatsApp</a>
+              <strong>WhatsApp:</strong>
+              <a href={CONTACT_WHATSAPP_URL} rel="nofollow noopener">{CONTACT_PHONE_DISPLAY}</a>
             </li>
             <li>
               <strong>E-mail:</strong> <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
@@ -199,40 +163,6 @@ const schema = JSON.stringify({
             </li>
           </ul>
 
-          <h2 id="quem-responde">Quem responde</h2>
-
-          <table>
-            <tbody>
-              <tr>
-                <th scope="row">Marca</th>
-                <td>{SITE_NAME}</td>
-              </tr>
-              <tr>
-                <th scope="row">Razão social</th>
-                <td>{COMPANY_LEGAL_NAME}</td>
-              </tr>
-              <tr>
-                <th scope="row">CNPJ</th>
-                <td>{COMPANY_CNPJ}</td>
-              </tr>
-              <tr>
-                <th scope="row">Sede</th>
-                <td>{COMPANY_CITY} ({COMPANY_STATE}), Brasil</td>
-              </tr>
-              <tr>
-                <th scope="row">Responsável técnica</th>
-                <td>{TECHNICAL_MANAGER} — {TECHNICAL_MANAGER_LICENSE}</td>
-              </tr>
-              <tr>
-                <th scope="row">Autoria do blog</th>
-                <td>
-                  {AUTHOR_NAME}, engenheira agrônoma e cofundadora
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p><a href={AUTHOR_PAGE_PATH}>Conheça a autora do blog</a></p>
-
           <InfoBox
             variant="disclaimer"
             title="O atendimento não é consulta"
@@ -251,10 +181,9 @@ const schema = JSON.stringify({
 
     <footer class="blog-footer">
       <StoreFooterBanner />
-      <p>© 2016–{new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
+      <p>© {new Date().getFullYear()} Sucupira Naturale — Todos os direitos reservados.</p>
       <p>
-        <a href="/">{BLOG_NAME}</a> · <a href={AUTHOR_PAGE_PATH}>Quem somos</a> ·
-        <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
+        <a href="/">{BLOG_NAME}</a> · <a href={PRIVACY_PAGE_PATH}>Política de Privacidade</a> ·
         <a href={SALES_CTA_URL}>Acessar a página oficial do produto</a>
       </p>
     </footer>

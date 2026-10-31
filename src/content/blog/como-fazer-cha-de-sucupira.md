@@ -4,8 +4,7 @@ seoTitle: "Como fazer chá de sucupira: receita da semente e horário"
 description: "Como fazer o chá da semente de sucupira: 4 sementes quebradas, 1 litro de água, 10 a 15 minutos de fervura. Como tomar, melhor horário e quanto dura."
 publishDate: "2026-07-01T15:00:00-03:00"
 updatedDate: "2026-10-10T12:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Como Tomar", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/como-fazer-cha-de-sucupira.webp"

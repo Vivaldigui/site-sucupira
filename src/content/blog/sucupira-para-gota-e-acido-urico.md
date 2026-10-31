@@ -3,8 +3,7 @@ title: "Sucupira para gota: ajuda com o ácido úrico? O que saber"
 description: "Sucupira para gota: o que diz o uso tradicional sobre ácido úrico, cuidados importantes e quando ela pode até piorar a crise."
 publishDate: "2026-07-07T09:00:00-03:00"
 updatedDate: "2026-09-12T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Inflamação", "Gota", "Ácido Úrico", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-gota-e-acido-urico.webp"

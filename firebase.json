@@ -9,6 +9,11 @@
     ],
     "redirects": [
       {
+        "regex": "^/sobre/?$",
+        "destination": "/",
+        "type": 301
+      },
+      {
         "regex": "^/sucupira-para-articulacoes-dor-nas-juntas/?$",
         "destination": "/sucupira-para-articulacoes/",
         "type": 301

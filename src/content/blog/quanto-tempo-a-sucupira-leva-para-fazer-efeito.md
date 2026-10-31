@@ -4,8 +4,7 @@ seoTitle: "Quanto tempo a sucupira leva para fazer efeito?"
 description: "Quanto tempo leva para a sucupira fazer efeito e por quanto tempo tomar: o que a tradição faz, o prazo usado nos estudos e como acompanhar sem se enganar."
 publishDate: "2026-08-23T08:00:00-03:00"
 updatedDate: "2026-09-26T21:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Como Tomar", "Dosagem", "Uso Tradicional"]
 featured: false
 ogImage: "/assets/blog/quanto-tempo-a-sucupira-leva-para-fazer-efeito.webp"

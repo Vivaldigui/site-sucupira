@@ -4,8 +4,7 @@ seoTitle: "Como escolher um produto de sucupira"
 description: "Checklist para comparar produtos de sucupira antes de comprar: composição, fabricante, lote, validade, apresentação, regularização informada e atendimento."
 publishDate: "2026-08-28T11:00:00-03:00"
 updatedDate: "2026-09-26T16:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Qualidade", "Extrato de Sucupira", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/como-escolher-produto-de-sucupira.webp"

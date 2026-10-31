@@ -3,8 +3,7 @@ title: "Sucupira para idosos: cuidados antes de usar"
 seoTitle: "Sucupira para idosos"
 description: "Sucupira para idosos: o que muda com a idade? Polifarmácia, função renal e sensibilidade ao álcool pedem mais atenção do que a planta em si."
 publishDate: "2026-09-11T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Idosos", "Medicamentos Contínuos", "Segurança no Uso", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-idosos.webp"

@@ -3,8 +3,7 @@ title: "Sucupira para dor no quadril: causas e cuidados"
 seoTitle: "Sucupira para dor no quadril"
 description: "Sucupira serve para dor no quadril? Bursite trocantérica, coxartrose e dor que vem da coluna têm causas diferentes — e cada uma pede um cuidado diferente."
 publishDate: "2026-09-05T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dor no Quadril", "Articulações", "Uso Tradicional", "Saúde 45+"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dor-no-quadril.webp"

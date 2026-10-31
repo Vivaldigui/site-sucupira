@@ -3,8 +3,7 @@ title: "Artrose no joelho: como aliviar a dor naturalmente"
 description: "Entenda como aliviar a dor da artrose no joelho com hábitos naturais, cuidados seguros e o papel da sucupira como apoio complementar."
 publishDate: "2026-06-27T12:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Articulações", "Dores crônicas"]
 featured: false
 ogImage: "/assets/artrose-joelho-natural-cover.webp"

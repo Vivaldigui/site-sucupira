@@ -3,8 +3,7 @@ title: "Como tomar sucupira líquida: sabor, misturas e horário"
 description: "Como tomar a sucupira líquida: qual é o gosto, como misturar com suco, mel ou água para suavizar o amargor, a melhor hora e como guardar o frasco."
 publishDate: 2026-06-20
 updatedDate: "2026-09-26T21:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Como Tomar", "Extrato de Sucupira"]
 featured: true
 ogImage: "/assets/blog/como-tomar-extrato-de-sucupira.webp"

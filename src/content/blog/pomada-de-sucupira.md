@@ -2,8 +2,7 @@
 title: "Pomada de sucupira: para que serve e como usar"
 description: "Pomada de sucupira é usada em massagem nos músculos e nas juntas. O que vai na fórmula além da sucupira, como ler o rótulo, como usar e quem precisa de cuidado."
 publishDate: "2026-10-13T08:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Uso Tradicional", "Óleo de Sucupira", "Articulações", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/pomada-de-sucupira.webp"

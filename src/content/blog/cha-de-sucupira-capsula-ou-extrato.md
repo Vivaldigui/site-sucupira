@@ -4,8 +4,7 @@ seoTitle: "Chá, cápsula ou extrato de sucupira?"
 description: "Chá, cápsula, extrato líquido, óleo e garrafada de sucupira comparados por preparo, praticidade, ingredientes e rótulo: veja qual combina com a sua rotina."
 publishDate: "2026-08-27T14:00:00-03:00"
 updatedDate: "2026-09-26T22:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Chá de Sucupira", "Cápsulas de Sucupira", "Extrato de Sucupira", "Como Tomar", "Dores crônicas"]
 featured: false
 ogImage: "/assets/blog/cha-de-sucupira-capsula-ou-extrato.webp"
@@ -67,7 +66,7 @@ Antes de incluir a sucupira na rotina, quem usa medicamento contínuo, está gr�
 
 ## Onde entra a Sucupira Naturale
 
-A Sucupira Naturale Líquida é um **extrato líquido pronto para consumo**, em frasco de 400 ml. A composição declarada pelo fabricante é de 49,75% de semente de sucupira triturada, 49,75% de água mineral e 0,5% de álcool de cereais. Pode ser tomada pura ou misturada com mel ou suco, e a marca informa a empresa responsável, a responsável técnica e os canais de atendimento. Quem quiser saber como usar encontra o preparo, a conservação e o horário no [manual de uso do extrato](/como-tomar-extrato-de-sucupira/), e as medidas da tampa em [quantas tampinhas por dia](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/). A história da empresa está em [quem somos](/sobre/).
+A Sucupira Naturale Líquida é um **extrato líquido pronto para consumo**, em frasco de 400 ml. A composição declarada pelo fabricante é de 49,75% de semente de sucupira triturada, 49,75% de água mineral e 0,5% de álcool de cereais. Pode ser tomada pura ou misturada com mel ou suco, e a marca informa os canais de atendimento. Quem quiser saber como usar encontra o preparo, a conservação e o horário no [manual de uso do extrato](/como-tomar-extrato-de-sucupira/), e as medidas da tampa em [quantas tampinhas por dia](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/).
 
 **[Ver a Sucupira Naturale Líquida 400 ml na loja oficial](https://seudesconto.sucupiranaturale.com.br/)**
 

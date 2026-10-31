@@ -4,8 +4,7 @@ seoTitle: "Sucupira para dores musculares"
 description: "Dor muscular pós-treino, tensão e cãibra são coisas diferentes. Onde o uso tradicional da sucupira entra, e por que anti-inflamatório atrapalha o treino."
 publishDate: "2026-08-26T14:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Mobilidade", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-dores-musculares.webp"

@@ -4,8 +4,7 @@ seoTitle: "Sucupira para nervo ciático: alivia a dor ciática?"
 description: "Sucupira para nervo ciático: o que dizem a ciência e o uso tradicional, sinais de alerta, o que fazer na crise e alongamentos seguros."
 publishDate: "2026-07-12T09:00:00-03:00"
 updatedDate: "2026-10-05T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Dor na Coluna", "Segurança no Uso", "Uso Tradicional", "Dores crônicas"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-nervo-ciatico.webp"

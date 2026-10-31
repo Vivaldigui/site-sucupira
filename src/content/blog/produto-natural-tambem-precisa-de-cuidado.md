@@ -4,8 +4,7 @@ seoTitle: "Produto natural também precisa de cuidado?"
 description: "Natural não quer dizer inofensivo. O que muda entre um fitoterápico e um medicamento, e como avaliar um produto natural sem cair nos dois extremos."
 publishDate: "2026-08-25T14:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Fitoterapia", "Segurança no Uso", "Contraindicações", "Qualidade"]
 featured: false
 ogImage: "/assets/blog/produto-natural-tambem-precisa-de-cuidado.webp"

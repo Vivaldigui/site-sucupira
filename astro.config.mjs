@@ -36,7 +36,7 @@ const sitemapLastmodByPath = new Map();
 const publishedArticleSlugs = new Set();
 const scheduledArticleSlugs = new Set();
 // Rotas fora da coleção de artigos; o resto de `/slug/` precisa ser artigo publicado.
-const STATIC_PAGE_SLUGS = new Set(['sobre', 'contato', 'politica-de-privacidade', 'pagina']);
+const STATIC_PAGE_SLUGS = new Set(['contato', 'politica-de-privacidade', 'pagina']);
 let latestPublishedArticle;
 
 for (const fileName of readdirSync(BLOG_CONTENT_DIRECTORY).filter((name) => name.endsWith('.md'))) {

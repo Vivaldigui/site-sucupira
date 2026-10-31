@@ -2,8 +2,7 @@
 title: "Extrato de sucupira: para que serve e qual tipo escolher"
 description: "Para que serve o extrato de sucupira e como diferenciar tintura, extrato fluido, extrato seco e extrato líquido pronto: álcool, concentração, dose e rótulo."
 publishDate: "2026-10-20T08:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Extrato de Sucupira", "Qualidade", "Como Tomar", "Sucupira Branca", "Sucupira"]
 featured: false
 ogImage: "/assets/blog/extrato-de-sucupira.webp"
@@ -89,7 +88,7 @@ O teor de álcool pesa para quem precisa evitar bebida alcoólica por qualquer m
 
 A Sucupira Naturale trabalha só com o extrato líquido pronto. É um extrato da semente graúda branca de sucupira, em frasco de 400 ml, com a composição declarada pelo fabricante em percentual: 49,75% de semente triturada, 49,75% de água mineral e 0,5% de álcool de cereais. A espécie usada é a *Pterodon emarginatus*, segundo a responsável técnica da empresa.
 
-Não precisa diluir: pode ser tomado puro ou misturado com mel ou suco. A medida é a tampa, de 7 ml, e as quantidades publicadas pela marca estão em [quantas tampinhas de sucupira por dia](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/). A empresa informa CNPJ 10.230.957/0001-88 e responsável técnica com registro no conselho de farmácia.
+Não precisa diluir: pode ser tomado puro ou misturado com mel ou suco. A medida é a tampa, de 7 ml, e as quantidades publicadas pela marca estão em [quantas tampinhas de sucupira por dia](/quantas-tampinhas-de-sucupira-por-dia-guia-de-doses/). A marca informa responsável técnica com registro no conselho de farmácia.
 
 **[Veja como funciona a apresentação líquida da Sucupira Naturale](https://seudesconto.sucupiranaturale.com.br/)**
 

@@ -4,8 +4,7 @@ seoTitle: "Óleo de sucupira na pele: uso e cuidados"
 description: "Óleo de sucupira pode passar na pele? O que diz o uso tradicional, como testar antes, e a diferença entre o óleo e o extrato de tomar."
 publishDate: "2026-08-29T08:00:00-03:00"
 updatedDate: "2026-09-04T09:00:00-03:00"
-author: "Priscila Petrucelli"
-authorRole: "Engenheira Agrônoma e cofundadora da Sucupira Naturale"
+author: "Sucupira Naturale"
 tags: ["Sucupira", "Óleo de Sucupira", "Uso Tradicional", "Segurança no Uso"]
 featured: false
 ogImage: "/assets/blog/sucupira-para-a-pele.webp"
