@@ -40,9 +40,11 @@ export const COMPANY_LEGAL_NAME =
 export const COMPANY_CNPJ = '10.230.957/0001-88';
 
 export const CONTACT_EMAIL = 'atendimento@sucupiranaturale.com.br';
-export const CONTACT_PHONE_DISPLAY = '(35) 99169-6906';
-export const CONTACT_PHONE_E164 = '+5535991696906';
-export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535991696906';
+// Desde 08/11/2026 o contato é só o WhatsApp do robô, (35) 99852-1010: o (35) 99169-6906 saiu da loja, dos e-mails e
+// da seudesconto a pedido da dona. Esse número não atende ligação.
+export const CONTACT_PHONE_DISPLAY = '(35) 99852-1010';
+export const CONTACT_PHONE_E164 = '+5535998521010';
+export const CONTACT_WHATSAPP_URL = 'https://wa.me/5535998521010';
 
 // Data da última revisão da política de privacidade (AAAA-MM-DD).
-export const PRIVACY_POLICY_UPDATED_AT = '2026-10-31';
+export const PRIVACY_POLICY_UPDATED_AT = '2026-11-08';
